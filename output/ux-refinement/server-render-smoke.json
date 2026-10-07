@@ -1,0 +1,2443 @@
+{
+  "createdAt": "2026-10-05T21:15:32.491Z",
+  "method": "Existing Vite SSR transform and React renderToString; no browser or browser automation",
+  "limits": "Server rendering does not execute effects, scroll animations, pointer events, form submission or browser history interaction. Synthetic location hashes exercise only initial category selection.",
+  "pages": [
+    {
+      "scope": "/",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/products",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/atelier",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/about",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/estimate",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/enquire",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/retailers",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/retail",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/architects",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/interiors",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/export",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/stones",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 50,
+      "bodyImages": 14,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 57,
+      "bodyImages": 21,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 74,
+      "bodyImages": 38,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/tiles",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 37,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 41,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 3,
+      "internalLinks": 50,
+      "bodyImages": 14,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/oval-travertine-pedestal",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/oval-travertine-assemblage",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/noir-gold-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/portoro-slat-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/cream-gathering-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-round-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-organza",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-round-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/luminous-onyx-plinth",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/living-luminous-onyx-a.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/collection/onyx/emerald-cage-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-tulip-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/cream-companion-tables",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-cone-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/notched-joinery-tables",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-cross-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/rust-cage-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/stepped-travertine-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nested-nero-tables",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/hex-pedestal-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/monolith-coffee-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nero-gold-rim-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/amber-showroom-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/ochre-pedestal-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/vessel-sink",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/coral-canister",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-candlesticks",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/pedestal-bowl",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bookends",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-tray",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/desk-suite",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/nero-candles",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/scalloped-valet",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/curved-canisters",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/tapered-vessel",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/round-tray",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/bulbous-vessel",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/onyx-urns",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/onyx-sphere-bowl",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/oblong-tray",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/nero-cylinder",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/coaster-suite",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/nero-disc-tray",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/hemisphere-candle",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/hotel-reception",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/counter-glow",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/onyx-waterfall",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs/noir-gold-disc",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs/nero-marquina-slabs",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/surfaces-nero-slab-a.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/collection/limestone/pill-travertine-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nero-oval-wood-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/portoro-pedestal-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nero-chrome-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nero-xframe-dining",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-square-pedestal",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-disc-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-brass-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/cream-oval-plinth-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/linear-travertine-coffee",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-cube-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-tripod-coffee",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-block-side",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-walnut-coffee",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-drum-side",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-cone-pedestal",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-c-table",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/banded-onyx-vase",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-cylinder-cup",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/tall-noir-vase",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/copper-vein-basin",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-compote",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-pear-bowl",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-vanity-gold",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-ensemble",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bath-set",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-seven",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/scalloped-onyx-bowl",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-coasters",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-baluster-vase",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/terracotta-marble-urn",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/live-edge-onyx-vessel",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/pair-stone-pedestals",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/onyx-chess-casket",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/handicrafts/nero-chess-set",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/viola-marble-fireplace",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/nero-marble-fireplace",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/marble/portoro-workshop-mantel",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs/honey-quartzite-slab",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/onyx/celadon-onyx-slab",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs/nero-calcite-lot",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/st-werkz/nero-calcite-slab-a.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/collection/onyx/sage-rust-onyx-slab",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 2,
+      "internalLinks": 36,
+      "bodyImages": 4,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/collection/slabs/portoro-gold-lot",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 4,
+      "internalLinks": 36,
+      "bodyImages": 6,
+      "repeatedBodySources": [
+        {
+          "src": "/gallery/st-werkz/portoro-gold-slab.jpg",
+          "count": 2
+        }
+      ],
+      "allowedThumbnailRepeats": true
+    },
+    {
+      "scope": "/es",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/products",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/collection",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/about",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/atelier",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/enquire",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/estimate",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/architects",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/interiors",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/retailers",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/retail",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/export",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/stones",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/products",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/collection",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/about",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/atelier",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/enquire",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/estimate",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/architects",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/interiors",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/retailers",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/retail",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/export",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/stones",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/products",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/collection",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/about",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/atelier",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/enquire",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/estimate",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/architects",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/interiors",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/retailers",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/retail",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/export",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/stones",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/products",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/collection",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/about",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/atelier",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/enquire",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/estimate",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/architects",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/interiors",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/retailers",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/retail",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/export",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/stones",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/products",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/collection",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/about",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/atelier",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/enquire",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/estimate",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/architects",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/interiors",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/retailers",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/retail",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/export",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/stones",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 15,
+      "internalLinks": 49,
+      "bodyImages": 6,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/products",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/collection",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 12,
+      "internalLinks": 40,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/about",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 8,
+      "internalLinks": 40,
+      "bodyImages": 2,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/atelier",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 10,
+      "internalLinks": 41,
+      "bodyImages": 9,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/enquire",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 5,
+      "internalLinks": 28,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/estimate",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 2,
+      "internalLinks": 31,
+      "bodyImages": 0,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/architects",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/interiors",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/retailers",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 4,
+      "internalLinks": 26,
+      "bodyImages": 5,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/retail",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 7,
+      "internalLinks": 204,
+      "bodyImages": 87,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/export",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 10,
+      "internalLinks": 33,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/stones",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 48,
+      "internalLinks": 33,
+      "bodyImages": 43,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/products#kitchen",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/products#washroom",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/products#home-decor",
+      "status": "passed",
+      "locale": "en",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/products#washroom",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "status": "passed",
+      "locale": "es",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/products#washroom",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "status": "passed",
+      "locale": "it",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "status": "passed",
+      "locale": "fr",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "status": "passed",
+      "locale": "ar",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "status": "passed",
+      "locale": "ur",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 11,
+      "internalLinks": 40,
+      "bodyImages": 7,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "status": "passed",
+      "locale": "ru",
+      "uniqueIds": 11,
+      "internalLinks": 41,
+      "bodyImages": 8,
+      "repeatedBodySources": [],
+      "allowedThumbnailRepeats": false
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/projects",
+      "target": "/products",
+      "status": "passed"
+    },
+    {
+      "path": "/es/projects",
+      "target": "/es/products",
+      "status": "passed"
+    },
+    {
+      "path": "/it/projects",
+      "target": "/it/products",
+      "status": "passed"
+    },
+    {
+      "path": "/fr/projects",
+      "target": "/fr/products",
+      "status": "passed"
+    },
+    {
+      "path": "/ar/projects",
+      "target": "/ar/products",
+      "status": "passed"
+    },
+    {
+      "path": "/ur/projects",
+      "target": "/ur/products",
+      "status": "passed"
+    },
+    {
+      "path": "/ru/projects",
+      "target": "/ru/products",
+      "status": "passed"
+    }
+  ],
+  "metadata": {
+    "canonicalChecks": 777,
+    "sitemapEntries": 777,
+    "status": "passed"
+  },
+  "localeChecks": {
+    "locales": [
+      "en",
+      "es",
+      "it",
+      "fr",
+      "ar",
+      "ur",
+      "ru"
+    ],
+    "unprefixedDefault": "English",
+    "explicitRouteSelection": true,
+    "navigationChecked": true,
+    "status": "passed"
+  },
+  "productChecks": {
+    "reachableObjects": 22,
+    "unchangedCatalogMembership": true,
+    "categories": [
+      {
+        "id": "kitchen",
+        "objects": 7
+      },
+      {
+        "id": "washroom",
+        "objects": 7
+      },
+      {
+        "id": "home-decor",
+        "objects": 8
+      }
+    ],
+    "initialSelectionRenders": [
+      {
+        "scope": "/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/es/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/it/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/fr/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ar/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ur/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ru/products",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/es/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/es/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/es/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/it/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/it/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/it/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/fr/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/fr/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/fr/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/ar/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ar/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ar/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/ur/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ur/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ur/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      },
+      {
+        "scope": "/ru/products#kitchen",
+        "category": "kitchen",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ru/products#washroom",
+        "category": "washroom",
+        "objects": 7,
+        "status": "passed"
+      },
+      {
+        "scope": "/ru/products#home-decor",
+        "category": "home-decor",
+        "objects": 8,
+        "status": "passed"
+      }
+    ],
+    "aliases": [
+      {
+        "hash": "#kitchen",
+        "resolvesTo": "kitchen"
+      },
+      {
+        "hash": "#washroom",
+        "resolvesTo": "washroom"
+      },
+      {
+        "hash": "#home-decor",
+        "resolvesTo": "home-decor"
+      },
+      {
+        "hash": "#bathroom",
+        "resolvesTo": "washroom"
+      },
+      {
+        "hash": "#handicrafts",
+        "resolvesTo": "home-decor"
+      },
+      {
+        "hash": "#unknown",
+        "resolvesTo": null
+      }
+    ]
+  },
+  "homepageReference": {
+    "image": "/design/reference/vanity-1953.webp",
+    "dimensions": "1953 × 805",
+    "sha256": "f86c8cde9110f714acaa403e202f9aee950bdb335ccfe239844b2bb5bbf92f00",
+    "responsiveVariants": [
+      768,
+      1440,
+      1953
+    ],
+    "preservedByRenderedPathAndDimensions": true
+  },
+  "assets": {
+    "checkedUniquePaths": 150,
+    "missingAssets": [],
+    "nonOriginalBodyImages": [],
+    "unexpectedBodyRepeats": [],
+    "allowedExceptions": [
+      "Exact homepage reference hero",
+      "SVG brand/decorative assets",
+      "MarbleButton texture backgrounds",
+      "Current product photograph repeated in a functional image-selection thumbnail"
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "renderedPages": 210,
+    "passedPages": 210,
+    "failedPages": 0,
+    "redirects": 7,
+    "errors": 0,
+    "missingAssets": 0,
+    "nonOriginalBodyImagePaths": 0,
+    "unexpectedRepeatedPageVariants": 0
+  }
+}

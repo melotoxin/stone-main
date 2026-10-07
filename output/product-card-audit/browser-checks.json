@@ -1,0 +1,273 @@
+{
+  "createdAt": "2026-10-06T21:38:15.284Z",
+  "layouts": [
+    {
+      "accessoryColumns": "265px",
+      "accessoryUniform": true,
+      "cards": 10,
+      "category": "#kitchen",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "accessoryColumns": "265px",
+      "accessoryUniform": true,
+      "cards": 11,
+      "category": "#washroom",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "accessoryColumns": null,
+      "accessoryUniform": true,
+      "cards": 17,
+      "category": "#home-decor",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "accessoryColumns": "335px",
+      "accessoryUniform": true,
+      "cards": 10,
+      "category": "#kitchen",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "accessoryColumns": "335px",
+      "accessoryUniform": true,
+      "cards": 11,
+      "category": "#washroom",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "accessoryColumns": null,
+      "accessoryUniform": true,
+      "cards": 17,
+      "category": "#home-decor",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "accessoryColumns": "318.422px 318.422px",
+      "accessoryUniform": true,
+      "cards": 10,
+      "category": "#kitchen",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "accessoryColumns": "318.422px 318.422px",
+      "accessoryUniform": true,
+      "cards": 11,
+      "category": "#washroom",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "accessoryColumns": null,
+      "accessoryUniform": true,
+      "cards": 17,
+      "category": "#home-decor",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "accessoryColumns": "354.469px 354.469px 354.469px",
+      "accessoryUniform": true,
+      "cards": 10,
+      "category": "#kitchen",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "accessoryColumns": "259.844px 259.859px 259.844px 259.859px",
+      "accessoryUniform": true,
+      "cards": 11,
+      "category": "#washroom",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "accessoryColumns": null,
+      "accessoryUniform": true,
+      "cards": 17,
+      "category": "#home-decor",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "accessoryColumns": "457.328px 457.328px 457.344px",
+      "accessoryUniform": true,
+      "cards": 10,
+      "category": "#kitchen",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    },
+    {
+      "accessoryColumns": "337px 337px 337px 337px",
+      "accessoryUniform": true,
+      "cards": 11,
+      "category": "#washroom",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    },
+    {
+      "accessoryColumns": null,
+      "accessoryUniform": true,
+      "cards": 17,
+      "category": "#home-decor",
+      "clippedImages": 0,
+      "overflow": false,
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    }
+  ],
+  "search": [
+    {
+      "cards": [
+        "Copper-Vein Marble Basin"
+      ],
+      "count": "1 / 16 objects",
+      "query": "copper",
+      "width": 335
+    },
+    {
+      "cards": 11,
+      "cleared": true,
+      "focus": "product-search"
+    },
+    {
+      "cards": 0,
+      "count": "0 / 16 objects",
+      "empty": true
+    }
+  ],
+  "featuredSearch": {
+    "cards": 0,
+    "count": "1 / 16 objects",
+    "featured": "/collection/handicrafts/portoro-bath-set"
+  },
+  "kitchenSearch": {
+    "cards": [
+      "Travertine Coaster Suite",
+      "Sage Onyx Coaster Set"
+    ],
+    "count": "2 / 14 objects"
+  },
+  "back": {
+    "category": "#kitchen",
+    "count": "2 / 14 objects",
+    "query": "coaster"
+  },
+  "forward": {
+    "category": "#washroom",
+    "count": "16 objects",
+    "locales": [
+      "/products#washroom",
+      "/es/products#washroom",
+      "/it/products#washroom",
+      "/fr/products#washroom",
+      "/ar/products#washroom",
+      "/ur/products#washroom",
+      "/ru/products#washroom"
+    ],
+    "query": ""
+  },
+  "keyboard": [
+    {
+      "category": "#home-decor",
+      "focus": "tab-home-decor",
+      "selected": "tab-home-decor"
+    },
+    {
+      "category": "#kitchen",
+      "focus": "tab-kitchen"
+    },
+    {
+      "category": "#home-decor",
+      "focus": "tab-home-decor"
+    }
+  ],
+  "detail": {
+    "hero": "/gallery/st-werkz/copper-vein-basin.jpg",
+    "overflow": false,
+    "path": "/collection/handicrafts/copper-vein-basin",
+    "title": "Copper-Vein Marble Basin"
+  },
+  "detailBack": {
+    "category": "#washroom",
+    "path": "/products",
+    "query": "copper"
+  },
+  "rtl": {
+    "category": "#washroom",
+    "dir": "rtl",
+    "font": "16px",
+    "overflow": false,
+    "selected": "tab-washroom",
+    "tabs": [
+      {
+        "clipped": false,
+        "height": 81.875
+      },
+      {
+        "clipped": false,
+        "height": 81.875
+      },
+      {
+        "clipped": false,
+        "height": 81.875
+      }
+    ],
+    "width": 320
+  },
+  "rtlKeyboard": {
+    "category": "#home-decor",
+    "focus": "tab-home-decor"
+  }
+}

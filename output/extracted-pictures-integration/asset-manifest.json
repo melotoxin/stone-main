@@ -1,0 +1,54 @@
+[
+  {
+    "id": "portoro-soap-dispenser",
+    "path": "/gallery/accessories/extracted/portoro-soap-dispenser.png",
+    "source": "C:\\Users\\4star\\.codex\\generated_images\\01a105a9-a5cc-7392-896c-82aece99ae35\\exec-854fb522-f014-4972-856b-bb0dd30564c8.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 1212398,
+    "sha256": "f5595fe2cc5bf95b64ab9a8d33cbe8d007c649c0c781c53032a4b5d1a4edac44",
+    "sourceBytesPreserved": true,
+    "presentation": "retouched-detail"
+  },
+  {
+    "id": "travertine-soap-dish",
+    "path": "/gallery/accessories/extracted/travertine-soap-dish.png",
+    "source": "C:\\Users\\4star\\.codex\\generated_images\\01a105a9-a5cc-7392-896c-82aece99ae35\\exec-e6242672-fb53-4dd2-afee-a1f1dc8f4ef8.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 1966023,
+    "sha256": "c91828cf4f0a60690ba636ecb66300dd0db2d867f6ea79bcaff1882d7e8b231c",
+    "sourceBytesPreserved": true,
+    "presentation": "retouched-detail"
+  },
+  {
+    "id": "travertine-brush-holder",
+    "path": "/gallery/accessories/extracted/travertine-brush-holder.png",
+    "source": "C:\\Users\\4star\\.codex\\generated_images\\01a105a9-a5cc-7392-896c-82aece99ae35\\exec-7ec7e8d7-b163-4b7b-8316-ea0b63f3c167.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "bytes": 1471973,
+    "sha256": "7e4c45b44afea92f479059059f40d0e3f12a4d0de7701b0c3f53d67bdfa68ba2",
+    "sourceBytesPreserved": true,
+    "presentation": "retouched-detail"
+  },
+  {
+    "id": "travertine-cotton-jar",
+    "path": "/gallery/accessories/extracted/travertine-cotton-jar.png",
+    "source": "C:\\Users\\4star\\.codex\\generated_images\\01a105a9-a5cc-7392-896c-82aece99ae35\\exec-6444a6da-bf79-42cf-92f2-9fd1491a8f58.png",
+    "dimensions": [
+      1441,
+      1091
+    ],
+    "bytes": 1950468,
+    "sha256": "193c68e30ebc3cf14c3a0dfb4024555ed76943d1282834174a40965a1caa8b0e",
+    "sourceBytesPreserved": true,
+    "presentation": "retouched-detail"
+  }
+]

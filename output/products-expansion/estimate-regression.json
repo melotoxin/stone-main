@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "objectClassificationCases": 25,
+  "unchangedPiecePresets": 29,
+  "unchangedRateAndConversionCases": 84,
+  "completeLocales": [
+    "en",
+    "es",
+    "it",
+    "fr",
+    "ar",
+    "ur",
+    "ru"
+  ],
+  "note": "Estimates remain indicative; no numeric rates or dimensions were changed."
+}

@@ -1,0 +1,123 @@
+{
+  "photos": [
+    {
+      "id": "kitchen",
+      "photoId": 4800189,
+      "author": "Curtis Adams",
+      "sourceUrl": "https://www.pexels.com/photo/a-kitchen-with-an-island-4800189/",
+      "originalDimensions": [
+        5000,
+        3333
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/4800189/pexels-photo-4800189.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "Pexels License (free use, including commercial websites; not CC0)",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-05",
+      "purpose": "Room inspiration; not an ST WERKZ installation or product photograph",
+      "changes": "Resized and encoded as WebP; no generated edits",
+      "assets": [
+        {
+          "path": "/design/spaces/kitchen-900.webp",
+          "width": 900,
+          "height": 600,
+          "bytes": 71928,
+          "sha256": "7381866cb7b6484291546d6d179a88dcbdebc73090aefb941aa7ffcc6c0ed6e5"
+        },
+        {
+          "path": "/design/spaces/kitchen-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 148516,
+          "sha256": "7183b26cb681300c7cfad32467012f8c3425004902e24526c1501feb7aaf5cd5"
+        },
+        {
+          "path": "/design/spaces/kitchen-1800.webp",
+          "width": 1800,
+          "height": 1200,
+          "bytes": 224366,
+          "sha256": "e0b53f9fff293937b67cac53d3c4ff56d69491e47dc42a0323cbb8dca90e9b57"
+        }
+      ]
+    },
+    {
+      "id": "washroom",
+      "photoId": 7166641,
+      "author": "Max Vakhtbovych",
+      "sourceUrl": "https://www.pexels.com/photo/a-modern-bathroom-with-bathtub-7166641/",
+      "originalDimensions": [
+        7360,
+        4912
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/7166641/pexels-photo-7166641.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "Pexels License (free use, including commercial websites; not CC0)",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-05",
+      "purpose": "Room inspiration; not an ST WERKZ installation or product photograph",
+      "changes": "Resized and encoded as WebP; no generated edits",
+      "assets": [
+        {
+          "path": "/design/spaces/washroom-900.webp",
+          "width": 900,
+          "height": 601,
+          "bytes": 72094,
+          "sha256": "b25b3654a97cfe60421e1c2bd4a66e42a85a9324863557e7f61d23e3701ad5ce"
+        },
+        {
+          "path": "/design/spaces/washroom-1440.webp",
+          "width": 1440,
+          "height": 961,
+          "bytes": 152008,
+          "sha256": "c5ce08909476c463845cb1b4932989f31f1374ad7ffe4372c9118f0a98516973"
+        },
+        {
+          "path": "/design/spaces/washroom-1800.webp",
+          "width": 1800,
+          "height": 1201,
+          "bytes": 217152,
+          "sha256": "d5a8c9afae80c73e09c4d2aead56bbd8fa48c960339bdc31fb8b1291eabff3eb"
+        }
+      ]
+    },
+    {
+      "id": "home-decor",
+      "photoId": 20451394,
+      "author": "Ansar Muhammad",
+      "sourceUrl": "https://www.pexels.com/photo/interior-design-of-living-room-20451394/",
+      "originalDimensions": [
+        5966,
+        3977
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/20451394/pexels-photo-20451394.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "Pexels License (free use, including commercial websites; not CC0)",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-05",
+      "purpose": "Room inspiration; not an ST WERKZ installation or product photograph",
+      "changes": "Resized and encoded as WebP; no generated edits",
+      "assets": [
+        {
+          "path": "/design/spaces/home-decor-900.webp",
+          "width": 900,
+          "height": 600,
+          "bytes": 87800,
+          "sha256": "6dde1ab8cc5b993ba382a206c58e0a2b1a235c0f0bf7cfb6d037d23522e8a581"
+        },
+        {
+          "path": "/design/spaces/home-decor-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 176406,
+          "sha256": "f68b94d6620afd813fa10d39fd8752ad9af192af57a5051326bf37a703f33b33"
+        },
+        {
+          "path": "/design/spaces/home-decor-1800.webp",
+          "width": 1800,
+          "height": 1200,
+          "bytes": 247328,
+          "sha256": "210742225e337bd5e329da0f2243aeb698f3bd97d2290966d740f3b172fc035f"
+        }
+      ]
+    }
+  ],
+  "usage": "Inspiration imagery on Collections and Products; actual catalog photography remains ST WERKZ.",
+  "licenseVerifiedAt": "https://www.pexels.com/license/"
+}

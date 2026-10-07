@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Stoneworks"
+description = "A polished business website for Stoneworks, a Karachi-based stone and surfaces studio. Showcases its collection, craft approach, and enquiry contact details while leaving room for the full product catalog to be added."
+version = "1.0.0"
+id = "artifacts/stoneworks"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23434
+
+[services.development]
+run = "pnpm --filter @workspace/stoneworks run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/stoneworks", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/stoneworks/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23434"
+BASE_PATH = "/"

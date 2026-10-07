@@ -1,0 +1,212 @@
+/* Stone cabinets: real marble rims, truthful photo apertures, readable plaques. */
+.products-page .stone-cabinet {
+  --cabinet-texture: url('/design/reference/marble-light.webp');
+  --cabinet-paper: #f4eee3;
+  --cabinet-ink: #322d24;
+  --cabinet-muted: #6b6255;
+  --cabinet-line: #c7b89f;
+  --cabinet-accent: #74562e;
+  position: relative;
+  isolation: isolate;
+  border: 1px solid var(--cabinet-line);
+  border-radius: 64px 64px 18px 18px;
+  background: var(--cabinet-paper);
+  color: var(--cabinet-ink);
+  box-shadow: 0 3px 0 #c2b59e2e, 0 12px 28px #41321e0a;
+  transition: transform .35s cubic-bezier(.2,.7,.3,1), box-shadow .35s, border-color .35s;
+  transform-style: preserve-3d;
+  scroll-margin-block: calc(var(--product-header-height) + var(--product-tabs-height) + 16px) 20px;
+}
+.products-page .stone-cabinet a { scroll-margin-block: calc(var(--product-header-height) + var(--product-tabs-height) + 16px) 20px; }
+.products-page .stone-cabinet--dark {
+  --cabinet-texture: url('/design/reference/marble-dark.webp');
+  --cabinet-paper: #24231f;
+  --cabinet-ink: #f6edda;
+  --cabinet-muted: #c5bdad;
+  --cabinet-line: #756449;
+  --cabinet-accent: #e4c792;
+}
+.products-page .stone-cabinet :is(.product-object__image,.product-accessory__photo) {
+  width: 100%;
+  position: relative;
+  aspect-ratio: 1.02;
+  background-color: var(--cabinet-paper);
+  background-image: var(--cabinet-texture);
+  background-size: cover;
+  background-position: 50% 65%;
+  border: 0;
+  border-bottom: 1px solid var(--cabinet-line);
+  border-radius: 63px 63px 0 0;
+  box-shadow: inset 0 1px 0 #ffffff60;
+  overflow: hidden;
+}
+.products-page .stone-cabinet .product-object__aperture {
+  position: absolute;
+  inset: 34px 12px 28px;
+  background: #fff;
+  border: 1px solid #ffffffa6;
+  box-shadow: 0 2px 7px #30241126;
+  overflow: hidden;
+}
+.products-page .stone-cabinet .product-object__aperture img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: none;
+}
+.product-object__plaque {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  inset-inline: 45px;
+  text-align: center;
+  color: var(--cabinet-ink);
+  font: 500 10px/1.5 var(--app-font-sans);
+  letter-spacing: .16em;
+}
+.stone-cabinet__plinth {
+  position: absolute;
+  bottom: 10px;
+  inset-inline: 25px;
+  height: 9px;
+  border: 1px solid var(--cabinet-line);
+  border-radius: 2px;
+  background: var(--cabinet-texture) 50% 30% / cover;
+  box-shadow: inset 0 1px 0 #ffffff70, 0 3px 0 #39291322, 0 6px 8px #39291316;
+  pointer-events: none;
+}
+.products-page .stone-cabinet .product-object__text,
+.products-page .stone-cabinet .product-accessory__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 20px 16px;
+  min-width: 0;
+  flex: 1;
+}
+.products-page .stone-cabinet h3 {
+  color: var(--cabinet-ink);
+  font-size: clamp(24px,1.9vw,29px);
+  line-height: 1.14;
+  margin: 0 0 12px;
+  min-height: 2.28em;
+}
+.products-page .stone-cabinet :is(.product-object__text,.product-accessory__body) > p {
+  color: var(--cabinet-muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.products-page .stone-cabinet .product-object__form { margin-top: 6px; }
+.products-page .stone-cabinet .product-object__dimensions {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-block: 12px 0;
+  font-size: 11px;
+}
+.product-object__dimensions svg { flex-shrink: 0; margin-top: 3px; }
+.products-page .stone-cabinet .product-object__action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  border-top: 1px solid var(--cabinet-line);
+  margin-top: auto;
+  padding-top: 13px;
+  padding-bottom: 0;
+  color: var(--cabinet-accent);
+  min-height: 58px;
+  font-size: 11px;
+  letter-spacing: .08em;
+}
+.product-object__text > :is(.product-object__form,.product-object__dimensions):last-of-type { margin-bottom: 20px; }
+.products-page .stone-cabinet .product-object__discover {
+  position: static;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-color: #8f7248;
+  background: url('/design/reference/marble-dark.webp') center / cover;
+  color: #f4d9a8;
+  box-shadow: inset 0 1px 0 #f4d9a844, 0 3px 6px #3b2a1714;
+}
+.products-page .stone-cabinet--dark .product-object__discover {
+  background-image: url('/design/reference/marble-light.webp');
+  color: #49351d;
+  border-color: #e4c792;
+}
+.products-page .stone-cabinet.product-object--revealed {
+  animation: cabinet-arrive .7s ease both;
+  animation-delay: calc(var(--object-index) * 60ms);
+}
+@keyframes cabinet-arrive { from { opacity: .35; } to { opacity: 1; } }
+.products-page .stone-cabinet.product-accessory { align-items: stretch; }
+.products-page .stone-cabinet .product-accessory__arrow {
+  inset-inline-end: 11px;
+  bottom: 9px;
+  width: 44px;
+  height: 44px;
+  background: var(--cabinet-paper);
+  border: 1px solid var(--cabinet-line);
+  color: var(--cabinet-accent);
+  box-shadow: 0 2px 6px #271c1320;
+}
+.products-page .stone-cabinet .product-accessory__kind {
+  color: var(--cabinet-accent);
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--cabinet-line);
+  padding-bottom: 6px;
+  margin: 0 0 12px;
+}
+.products-page .stone-cabinet .product-accessory__set-context {
+  margin-block: 12px 20px;
+  font-size: 12px;
+}
+.products-page .stone-cabinet .product-accessory__set { color: var(--cabinet-ink); }
+.products-page .stone-cabinet .product-accessory__body > .product-text-link {
+  width: 100%;
+  color: var(--cabinet-accent);
+  border-color: var(--cabinet-line);
+  border-top: 1px solid var(--cabinet-line);
+  border-bottom: 0;
+  margin-top: auto;
+  padding-top: 14px;
+  font-size: 11px;
+}
+.product-accessory__body > .product-text-link svg { margin-inline-start: auto; }
+.products-page .stone-cabinet .product-accessory__credit { color: var(--cabinet-muted); }
+.products-page .stone-cabinet:focus-visible,
+.products-page .stone-cabinet:focus-within { outline: 2px solid #a57e43; outline-offset: 5px; }
+@media (hover:hover) and (pointer:fine) and (min-width:768px) {
+  .products-page .stone-cabinet:hover {
+    transform: perspective(1200px) translateY(-6px) rotateX(var(--card-rotate-x,0deg)) rotateY(var(--card-rotate-y,0deg));
+    box-shadow: 0 3px 0 #bbaa8f3b, 0 20px 34px #41321e24;
+    border-color: #a7854e;
+  }
+  .products-page .stone-cabinet:hover .product-object__discover { transform: translate(2px,-2px); }
+}
+@media (max-width:999px) {
+  .products-page .stone-cabinet .product-object__text,
+  .products-page .stone-cabinet .product-accessory__body { padding: 18px 15px 14px; }
+}
+@media (max-width:599px) {
+  .products-page .stone-cabinet { border-radius: 48px 48px 16px 16px; }
+  .products-page .stone-cabinet :is(.product-object__image,.product-accessory__photo) { border-radius: 47px 47px 0 0; }
+  .products-page .stone-cabinet .product-object__aperture { inset: 32px 10px 26px; }
+  .products-page .stone-cabinet h3 { min-height: 0; font-size: 29px; }
+  .products-page .stone-cabinet .product-object__text,
+  .products-page .stone-cabinet .product-accessory__body { padding: 21px 20px 16px; }
+  .products-page .stone-cabinet .product-object__action,
+  .products-page .stone-cabinet .product-accessory__body > .product-text-link { margin-top: 0; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .products-page .stone-cabinet,
+  .products-page .stone-cabinet * { animation: none !important; transition: none !important; transform: none !important; }
+}

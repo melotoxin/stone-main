@@ -1,0 +1,107 @@
+{
+  "usage": "Licensed reference photography; not ST WERKZ catalogue photos or verified product stock.",
+  "photos": [
+    {
+      "id": "onyx-mortar-pestle",
+      "title": "Onyx Mortar & Pestle",
+      "source": "https://www.pexels.com/photo/close-up-of-a-person-using-mortar-and-pestle-10821247/",
+      "author": "furkanfdemir",
+      "authorUrl": "https://www.pexels.com/@furkanfdemir/",
+      "url": "https://images.pexels.com/photos/10821247/pexels-photo-10821247.jpeg?cs=srgb&dl=pexels-furkanfdemir-10821247.jpg&fm=jpg",
+      "notes": "Actual cream and amber banded stone mortar with matching pestle; visible hands grinding. Source describes onyx. Design reference only, not a verified ST WERKZ catalogue item.",
+      "localPath": "D:\\St werks\\stone-main\\output\\kitchen-washroom-expansion\\research\\onyx-mortar-pestle.jpg",
+      "dimensions": [
+        2624,
+        3936
+      ],
+      "bytes": 1434665,
+      "sha256": "381847c945cfd6d41db9cf59b4333a0929d8982f9a21a99d57d268db750ab34c",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedAt": "2026-10-06",
+      "modified": false,
+      "visuallyVerified": true,
+      "publicPath": "/gallery/references/onyx-mortar-pestle.jpg",
+      "webPhoto": {
+        "servedUrl": "https://images.pexels.com/photos/10821247/pexels-photo-10821247.jpeg?auto=compress&cs=tinysrgb&w=1200&fit=max",
+        "localPath": "D:\\St werks\\stone-main\\artifacts\\stoneworks\\public\\gallery\\references\\onyx-mortar-pestle.jpg",
+        "dimensions": [
+          1200,
+          1800
+        ],
+        "bytes": 234904,
+        "sha256": "c8daf20c319d1b89d108988a28c723c131174f751bf3c4a4eb110cad7be3be22",
+        "processing": "Downloaded Pexels-served1200px compressed variant; original research file unchanged. No local image editing."
+      }
+    },
+    {
+      "id": "marble-serving-board",
+      "title": "Marble Serving Board",
+      "source": "https://www.pexels.com/photo/overhead-shot-of-croissants-on-a-marble-surface-4828312/",
+      "author": "Polina Tankilevitch",
+      "authorUrl": "https://www.pexels.com/@polina-tankilevitch/",
+      "url": "https://images.pexels.com/photos/4828312/pexels-photo-4828312.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4828312.jpg&fm=jpg",
+      "notes": "White and grey marble elongated serving board with rounded ends, carrying pastries. The board has no handle. Design reference only, not a verified ST WERKZ catalogue item.",
+      "localPath": "D:\\St werks\\stone-main\\output\\kitchen-washroom-expansion\\research\\marble-serving-board.jpg",
+      "dimensions": [
+        2000,
+        3000
+      ],
+      "bytes": 491100,
+      "sha256": "83a5a9ca8ddd9873aed3c0889b5c9775e9a13db9ee1d73d2c229cc8cab3af3b3",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedAt": "2026-10-06",
+      "modified": false,
+      "visuallyVerified": true,
+      "publicPath": "/gallery/references/marble-serving-board.jpg",
+      "webPhoto": {
+        "servedUrl": "https://images.pexels.com/photos/4828312/pexels-photo-4828312.jpeg?auto=compress&cs=tinysrgb&w=1200&fit=max",
+        "localPath": "D:\\St werks\\stone-main\\artifacts\\stoneworks\\public\\gallery\\references\\marble-serving-board.jpg",
+        "dimensions": [
+          1200,
+          1800
+        ],
+        "bytes": 202171,
+        "sha256": "c77828f6f6f185bdaf2cd5ef13b49adc5de90401524bee9382b4e2eb5f09c1fb",
+        "processing": "Downloaded Pexels-served1200px compressed variant; original research file unchanged. No local image editing."
+      }
+    },
+    {
+      "id": "slate-cheese-platter",
+      "title": "Slate Cheese Platter",
+      "source": "https://www.pexels.com/photo/gourmet-cheese-platter-on-slate-board-34644300/",
+      "author": "Novkov Visuals",
+      "authorUrl": "https://www.pexels.com/@novkov-visuals/",
+      "creditText": "Novkov Visuals - Videographer Budapest",
+      "creditUrl": "https://novkov.com",
+      "url": "https://images.pexels.com/photos/34644300/pexels-photo-34644300.jpeg?cs=srgb&dl=pexels-novkov-visuals-34644300.jpg&fm=jpg",
+      "notes": "Black natural cleft slate serving platter shown completely from above, with cheeses, food and parchment. Actual stone texture and edges visibly clear. Slate is stone, not marble. Design reference only, not a verified ST WERKZ catalogue item.",
+      "localPath": "D:\\St werks\\stone-main\\output\\kitchen-washroom-expansion\\research\\slate-platter-novkov.jpg",
+      "dimensions": [
+        3200,
+        2198
+      ],
+      "bytes": 812668,
+      "sha256": "de5b14ac86893f4a972f32c94fcf5976ac7ed83489855cf4b1096d178fc05ccd",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedAt": "2026-10-06",
+      "modified": false,
+      "visuallyVerified": true,
+      "publicPath": "/gallery/references/slate-cheese-platter.jpg",
+      "webPhoto": {
+        "servedUrl": "https://images.pexels.com/photos/34644300/pexels-photo-34644300.jpeg?auto=compress&cs=tinysrgb&w=1200&fit=max",
+        "localPath": "D:\\St werks\\stone-main\\artifacts\\stoneworks\\public\\gallery\\references\\slate-cheese-platter.jpg",
+        "dimensions": [
+          1200,
+          824
+        ],
+        "bytes": 142127,
+        "sha256": "48a9d7f431048d0abb8a342a0d9191e770e588e780aa4b40d4c3f011566ba672",
+        "processing": "Downloaded Pexels-served1200px compressed variant; original research file unchanged. No local image editing."
+      }
+    }
+  ],
+  "licenseSummary": "Pexels permits free commercial website usage and modification; attribution is appreciated but not required. Do not imply endorsement, resell unaltered images, use as trademarks or redistribute on stock-photo platforms. All 3 are reference photography, not photographs of ST WERKZ stock."
+}

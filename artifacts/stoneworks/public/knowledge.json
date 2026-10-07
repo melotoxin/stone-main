@@ -1,0 +1,2874 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "St Werkz collection knowledge graph",
+  "dateModified": "2026-09-04",
+  "eeat": {
+    "experience": [
+      {
+        "id": "claim-karachi-studio",
+        "statement": "St Werkz is a material studio in Karachi, Pakistan, led by Syed Rashid Ali, making furniture and objects from travertine, onyx, and marble.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Named principal, published address in North Nazimabad, first-hand collection photographs.",
+        "about": "organization"
+      },
+      {
+        "id": "claim-family-origin",
+        "statement": "St Werkz is rooted in a family from Bandha in Allahabad, Uttar Pradesh. Through generations of migration the family carried music, painting, colour, and art; that inherited relationship with making now takes form in marble, onyx, and travertine in Karachi.",
+        "pillars": [
+          "experience"
+        ],
+        "evidence": "Studio origin account: Bandha, Allahabad; migration; Karachi practice.",
+        "about": "principal"
+      },
+      {
+        "id": "claim-direct-line",
+        "statement": "Material questions, project conversations, and first looks at works in the collection go to Syed Rashid Ali, not through an anonymous showroom desk.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Published phone and email on the atelier and enquiry pages.",
+        "about": "principal"
+      },
+      {
+        "id": "claim-onyx-backlit",
+        "statement": "Onyx in this studio is a translucent, banded stone. Where the slab allows, St Werkz internally lights it so the vein becomes the room’s light source.",
+        "pillars": [
+          "expertise",
+          "experience"
+        ],
+        "evidence": "Luminous Onyx Plinth and Backlit Onyx Waterfall Counter, photographed as lit interiors.",
+        "about": "material:onyx"
+      },
+      {
+        "id": "claim-first-hand-photos",
+        "statement": "Every work in the published collection is documented with first-hand photography from the Karachi studio, yard, object still, or an installed interior — not stock imagery.",
+        "pillars": [
+          "experience",
+          "trustworthiness"
+        ],
+        "evidence": "Image paths under /gallery tied to named works.",
+        "about": "dataset"
+      }
+    ],
+    "expertise": [
+      {
+        "id": "claim-travertine-honed",
+        "statement": "Travertine is a porous sedimentary limestone. At St Werkz it is usually specified honed, with natural pits left open rather than filled to a glass face.",
+        "pillars": [
+          "expertise"
+        ],
+        "evidence": "Collection material lines and honed travertine works in dining, living, accents, and interiors.",
+        "about": "material:travertine"
+      },
+      {
+        "id": "claim-onyx-backlit",
+        "statement": "Onyx in this studio is a translucent, banded stone. Where the slab allows, St Werkz internally lights it so the vein becomes the room’s light source.",
+        "pillars": [
+          "expertise",
+          "experience"
+        ],
+        "evidence": "Luminous Onyx Plinth and Backlit Onyx Waterfall Counter, photographed as lit interiors.",
+        "about": "material:onyx"
+      },
+      {
+        "id": "claim-marble-figure",
+        "statement": "Marble in the St Werkz collection is specified as figured, often high-polish stone — including noir-gold, Portoro-type amber veining, and Nero-type white calcite.",
+        "pillars": [
+          "expertise"
+        ],
+        "evidence": "Noir gold dining, Portoro slat table, Nero slabs and objects in the collection.",
+        "about": "material:marble"
+      },
+      {
+        "id": "claim-indicative-estimate",
+        "statement": "A St Werkz studio estimate is an indicative range in Pakistani rupees (with a conversation conversion to US dollars). It is not a bank rate, a quote, or an invoice.",
+        "pillars": [
+          "trustworthiness",
+          "expertise"
+        ],
+        "evidence": "Estimate tool copy and persisted brief language.",
+        "about": "process"
+      },
+      {
+        "id": "claim-export-desk",
+        "statement": "St Werkz discusses marble, onyx and travertine lots from its Karachi yard with importers and fabricators. A photographed lot and a sample crate come before a container. There is no published price list.",
+        "pillars": [
+          "trustworthiness",
+          "expertise"
+        ],
+        "evidence": "Export desk copy, slab-book legend, and first-hand yard photographs of Nero Vein Slabs and Noir Gold Circular Top.",
+        "about": "process"
+      }
+    ],
+    "authoritativeness": [
+      {
+        "id": "claim-karachi-studio",
+        "statement": "St Werkz is a material studio in Karachi, Pakistan, led by Syed Rashid Ali, making furniture and objects from travertine, onyx, and marble.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Named principal, published address in North Nazimabad, first-hand collection photographs.",
+        "about": "organization"
+      },
+      {
+        "id": "claim-direct-line",
+        "statement": "Material questions, project conversations, and first looks at works in the collection go to Syed Rashid Ali, not through an anonymous showroom desk.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Published phone and email on the atelier and enquiry pages.",
+        "about": "principal"
+      },
+      {
+        "id": "claim-nap",
+        "statement": "St Werkz may be reached at stoneworks014@gmail.com, +92 304 7689678, Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.",
+        "pillars": [
+          "trustworthiness",
+          "authoritativeness"
+        ],
+        "evidence": "Identical name, address, and phone on atelier, enquiry, trade, export, and footer.",
+        "about": "organization"
+      }
+    ],
+    "trustworthiness": [
+      {
+        "id": "claim-karachi-studio",
+        "statement": "St Werkz is a material studio in Karachi, Pakistan, led by Syed Rashid Ali, making furniture and objects from travertine, onyx, and marble.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Named principal, published address in North Nazimabad, first-hand collection photographs.",
+        "about": "organization"
+      },
+      {
+        "id": "claim-gallery-not-cart",
+        "statement": "The St Werkz website presents a numbered gallery of works without checkout prices. A viewing or a studio estimate starts a conversation; it is not a cart.",
+        "pillars": [
+          "trustworthiness"
+        ],
+        "evidence": "Collection wall text; enquire and estimate flows.",
+        "about": "organization"
+      },
+      {
+        "id": "claim-direct-line",
+        "statement": "Material questions, project conversations, and first looks at works in the collection go to Syed Rashid Ali, not through an anonymous showroom desk.",
+        "pillars": [
+          "experience",
+          "authoritativeness",
+          "trustworthiness"
+        ],
+        "evidence": "Published phone and email on the atelier and enquiry pages.",
+        "about": "principal"
+      },
+      {
+        "id": "claim-first-hand-photos",
+        "statement": "Every work in the published collection is documented with first-hand photography from the Karachi studio, yard, object still, or an installed interior — not stock imagery.",
+        "pillars": [
+          "experience",
+          "trustworthiness"
+        ],
+        "evidence": "Image paths under /gallery tied to named works.",
+        "about": "dataset"
+      },
+      {
+        "id": "claim-indicative-estimate",
+        "statement": "A St Werkz studio estimate is an indicative range in Pakistani rupees (with a conversation conversion to US dollars). It is not a bank rate, a quote, or an invoice.",
+        "pillars": [
+          "trustworthiness",
+          "expertise"
+        ],
+        "evidence": "Estimate tool copy and persisted brief language.",
+        "about": "process"
+      },
+      {
+        "id": "claim-nap",
+        "statement": "St Werkz may be reached at stoneworks014@gmail.com, +92 304 7689678, Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.",
+        "pillars": [
+          "trustworthiness",
+          "authoritativeness"
+        ],
+        "evidence": "Identical name, address, and phone on atelier, enquiry, trade, export, and footer.",
+        "about": "organization"
+      },
+      {
+        "id": "claim-export-desk",
+        "statement": "St Werkz discusses marble, onyx and travertine lots from its Karachi yard with importers and fabricators. A photographed lot and a sample crate come before a container. There is no published price list.",
+        "pillars": [
+          "trustworthiness",
+          "expertise"
+        ],
+        "evidence": "Export desk copy, slab-book legend, and first-hand yard photographs of Nero Vein Slabs and Noir Gold Circular Top.",
+        "about": "process"
+      }
+    ]
+  },
+  "organization": {
+    "name": "St Werkz",
+    "legalName": "St Werkz",
+    "alternateName": "St Werkz Karachi",
+    "description": "St Werkz is a Karachi material studio making furniture, objects, and architectural stone from travertine, onyx, and marble. The collection is shown as a gallery, not as a shop floor.",
+    "email": "stoneworks014@gmail.com",
+    "telephone": "+92 304 7689678",
+    "telephoneHref": "tel:+923047689678",
+    "address": {
+      "streetAddress": "Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad",
+      "addressLocality": "Karachi",
+      "addressRegion": "Sindh",
+      "addressCountry": "PK",
+      "full": "Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi"
+    }
+  },
+  "principal": {
+    "name": "Syed Rashid Ali",
+    "jobTitle": "Principal, St Werkz",
+    "description": "Syed Rashid Ali leads the Karachi studio. He is the named contact for material questions, viewings, and project conversations.",
+    "email": "stoneworks014@gmail.com",
+    "telephone": "+92 304 7689678"
+  },
+  "origin": {
+    "ancestralPlace": "Bandha, Allahabad, Uttar Pradesh, India",
+    "presentPlace": "Karachi, Pakistan",
+    "statement": "St Werkz is rooted in a family from Bandha in Allahabad, Uttar Pradesh. Through generations of migration the family carried music, painting, colour, and art; that inherited relationship with making now takes form in marble, onyx, and travertine in Karachi."
+  },
+  "materials": [
+    {
+      "id": "travertine",
+      "label": "Travertine",
+      "cite": "Travertine is a porous sedimentary limestone. At St Werkz it is usually specified honed, with natural pits left open rather than filled to a glass face.",
+      "expertise": "Linear bedding, open pores, and a matte hand. Typical on dining pedestals, living tables, objects, and hospitality counters in this collection."
+    },
+    {
+      "id": "marble",
+      "label": "Marble",
+      "cite": "Marble in the St Werkz collection is specified as figured, often high-polish stone — including noir-gold, Portoro-type amber veining, and Nero-type white calcite.",
+      "expertise": "Metamorphic stone read by vein, contrast, and polish. Used for dining tops, nested tables, vessel sinks, and yard slabs."
+    },
+    {
+      "id": "onyx",
+      "label": "Onyx",
+      "cite": "Onyx in this studio is a translucent, banded stone. Where the slab allows, St Werkz internally lights it so the vein becomes the room’s light source.",
+      "expertise": "Translucency, colour banding (sage, cream, honey, rust), and backlight as a construction method rather than a decorative extra."
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed materials",
+      "cite": "Some St Werkz pieces join stone to brass, oak, or a second cut. The collection records those meetings as specified construction, not as generic mixed media.",
+      "expertise": "Stone with metal cages, tulip stems, brass rims, oak joinery, or an uncertain marble/onyx reading when the face was not laboratory-named."
+    }
+  ],
+  "pakistanStones": [
+    {
+      "id": "flower",
+      "name": "Flower Marble",
+      "alsoKnownAs": [
+        "Tipi Flower",
+        "Tippy Flower"
+      ],
+      "family": "marble",
+      "colour": "Red / pink floral figure",
+      "origin": "Lasbela and Swat belts",
+      "grade": "budget",
+      "ratePkr": {
+        "low": 65,
+        "high": 175
+      },
+      "use": "Budget floors and decorative borders"
+    },
+    {
+      "id": "sunny-grey",
+      "name": "Sunny Grey",
+      "alsoKnownAs": [
+        "Pakistan Grey",
+        "Buner Grey"
+      ],
+      "family": "marble",
+      "colour": "Cool grey, fine grain",
+      "origin": "Buner, Khyber Pakhtunkhwa",
+      "grade": "budget",
+      "ratePkr": {
+        "low": 65,
+        "high": 240
+      },
+      "use": "Everyday floors and rooms"
+    },
+    {
+      "id": "badal-grey",
+      "name": "Badal Grey",
+      "alsoKnownAs": [
+        "Badal",
+        "Ziarat Badal"
+      ],
+      "family": "marble",
+      "colour": "Clouded grey",
+      "origin": "Swat, Khyber Pakhtunkhwa",
+      "grade": "budget",
+      "ratePkr": {
+        "low": 70,
+        "high": 385
+      },
+      "use": "Modern floors and stairs"
+    },
+    {
+      "id": "silky-black",
+      "name": "Silky Black",
+      "alsoKnownAs": [
+        "Black Zebra",
+        "Pak Black (Buner)"
+      ],
+      "family": "marble",
+      "colour": "Jet black with faint movement",
+      "origin": "Buner, Khyber Pakhtunkhwa",
+      "grade": "budget",
+      "ratePkr": {
+        "low": 80,
+        "high": 320
+      },
+      "use": "Borders, contrast strips, floors"
+    },
+    {
+      "id": "tavera",
+      "name": "Tavera",
+      "alsoKnownAs": [
+        "Travera",
+        "Tervera",
+        "Tippy Tevera"
+      ],
+      "family": "marble",
+      "colour": "Warm beige / cream, often fossil",
+      "origin": "Lasbela, Balochistan, and Swat",
+      "grade": "budget",
+      "ratePkr": {
+        "low": 85,
+        "high": 370
+      },
+      "use": "Family-home flooring"
+    },
+    {
+      "id": "ziarat-grey",
+      "name": "Ziarat Grey",
+      "alsoKnownAs": [
+        "Grey Ziarat"
+      ],
+      "family": "marble",
+      "colour": "Even premium grey",
+      "origin": "Mohmand / Ziarat white belt, KPK",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 85,
+        "high": 400
+      },
+      "use": "Modern grey floors"
+    },
+    {
+      "id": "sunny-white",
+      "name": "Sunny White",
+      "alsoKnownAs": [
+        "Pakistan White",
+        "Pasha White",
+        "Bampokha White"
+      ],
+      "family": "marble",
+      "colour": "Bright white, light grey vein",
+      "origin": "Buner, Khyber Pakhtunkhwa",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 105,
+        "high": 420
+      },
+      "use": "Homes, stairs, rooms"
+    },
+    {
+      "id": "cheetah-white",
+      "name": "Cheetah White",
+      "alsoKnownAs": [
+        "Cheetah Marble"
+      ],
+      "family": "marble",
+      "colour": "White with spotted / leopard figure",
+      "origin": "Khyber Pakhtunkhwa trade yards",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 110,
+        "high": 600
+      },
+      "use": "Patterned feature floors"
+    },
+    {
+      "id": "strawberry-red",
+      "name": "Strawberry Red",
+      "alsoKnownAs": [
+        "Strawberry Marble"
+      ],
+      "family": "marble",
+      "colour": "Warm red",
+      "origin": "Pakistan local quarries",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 150,
+        "high": 400
+      },
+      "use": "Borders and decorative floors"
+    },
+    {
+      "id": "sun-tippi",
+      "name": "Sun Tippi",
+      "alsoKnownAs": [
+        "Tippi",
+        "Sunny Beige"
+      ],
+      "family": "marble",
+      "colour": "Warm beige with soft movement",
+      "origin": "Lasbela, Balochistan",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 150,
+        "high": 520
+      },
+      "use": "Warm interiors and stairs"
+    },
+    {
+      "id": "cherry-pink",
+      "name": "Cherry Pink",
+      "alsoKnownAs": [
+        "Pink Marble"
+      ],
+      "family": "marble",
+      "colour": "Soft pink",
+      "origin": "Pakistan local quarries",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 150,
+        "high": 650
+      },
+      "use": "Accent floors and cladding"
+    },
+    {
+      "id": "botticino-fancy",
+      "name": "Botticino Fancy",
+      "alsoKnownAs": [
+        "Booti Seena",
+        "Boticina Fancy",
+        "Pak Botticino"
+      ],
+      "family": "marble",
+      "colour": "Beige with cloudy figure",
+      "origin": "Chagai, Balochistan",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 170,
+        "high": 400
+      },
+      "use": "Family floors and kitchen tops"
+    },
+    {
+      "id": "sona-beige",
+      "name": "Sona Beige",
+      "alsoKnownAs": [
+        "Golden Beige"
+      ],
+      "family": "marble",
+      "colour": "Golden beige",
+      "origin": "Balochistan cream belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 180,
+        "high": 650
+      },
+      "use": "Warm reception and cladding"
+    },
+    {
+      "id": "verona",
+      "name": "Verona / Perlino",
+      "alsoKnownAs": [
+        "Parlino",
+        "Verona Beige",
+        "Spotted Verona"
+      ],
+      "family": "marble",
+      "colour": "Cream beige, sometimes spotted",
+      "origin": "Khuzdar, Balochistan",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 150,
+        "high": 650
+      },
+      "use": "Classic warm interiors"
+    },
+    {
+      "id": "shangla-white",
+      "name": "Shangla White",
+      "alsoKnownAs": [
+        "Swat White"
+      ],
+      "family": "marble",
+      "colour": "Fine white",
+      "origin": "Shangla, Swat",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 150,
+        "high": 500
+      },
+      "use": "Floors and light cladding"
+    },
+    {
+      "id": "elegant-grey",
+      "name": "Elegant Grey",
+      "alsoKnownAs": [
+        "Silver Grey",
+        "Oceanic Grey"
+      ],
+      "family": "marble",
+      "colour": "Silver-grey",
+      "origin": "Pakistan grey belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 150,
+        "high": 900
+      },
+      "use": "Modern villas and bathrooms"
+    },
+    {
+      "id": "mastung-cream",
+      "name": "Mastung Cream",
+      "alsoKnownAs": [
+        "Loralai Cream"
+      ],
+      "family": "marble",
+      "colour": "Dark cream, compact grain",
+      "origin": "Mastung and Loralai, Balochistan",
+      "grade": "standard",
+      "ratePkr": {
+        "low": 180,
+        "high": 550
+      },
+      "use": "Warm floors and stairs"
+    },
+    {
+      "id": "jungle-green",
+      "name": "Jungle Green",
+      "alsoKnownAs": [
+        "Pak Green",
+        "Forest Green"
+      ],
+      "family": "marble",
+      "colour": "Deep green",
+      "origin": "Pakistan green marble belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 200,
+        "high": 1000
+      },
+      "use": "Borders, mosques, feature panels"
+    },
+    {
+      "id": "pak-black",
+      "name": "Pak Black",
+      "alsoKnownAs": [
+        "Jet Black",
+        "Balochistan Black"
+      ],
+      "family": "marble",
+      "colour": "Dense black",
+      "origin": "Buner and Balochistan",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 200,
+        "high": 550
+      },
+      "use": "Borders, stairs, feature areas"
+    },
+    {
+      "id": "mohmand-white",
+      "name": "Mohmand White",
+      "alsoKnownAs": [
+        "Tribal White",
+        "Pak Carrara"
+      ],
+      "family": "marble",
+      "colour": "White with grey calcite",
+      "origin": "Mohmand, Khyber Pakhtunkhwa",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 200,
+        "high": 700
+      },
+      "use": "Floors, walls, furniture tops"
+    },
+    {
+      "id": "antique-green",
+      "name": "Antique Green",
+      "alsoKnownAs": [
+        "Green Antique"
+      ],
+      "family": "marble",
+      "colour": "Heritage green with figure",
+      "origin": "Pakistan green marble belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 250,
+        "high": 1100
+      },
+      "use": "Feature panels and cladding"
+    },
+    {
+      "id": "golden-marble",
+      "name": "Golden Marble",
+      "alsoKnownAs": [
+        "Pakistan Gold"
+      ],
+      "family": "marble",
+      "colour": "Gold on cream or beige",
+      "origin": "Pakistan / mixed local gold belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 250,
+        "high": 700
+      },
+      "use": "Classic luxury interiors"
+    },
+    {
+      "id": "pakistan-chocolate",
+      "name": "Pakistan Chocolate",
+      "alsoKnownAs": [
+        "Chocolate Brown",
+        "Pakistan Emperador"
+      ],
+      "family": "marble",
+      "colour": "Warm brown",
+      "origin": "Balochistan brown belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 250,
+        "high": 950
+      },
+      "use": "Reception and cladding"
+    },
+    {
+      "id": "teakwood",
+      "name": "Teak Wood Marble",
+      "alsoKnownAs": [
+        "Pak Teakwood",
+        "Wooden Marble"
+      ],
+      "family": "marble",
+      "colour": "Wood-grain brown",
+      "origin": "Lasbela, Balochistan",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 250,
+        "high": 1000
+      },
+      "use": "Warm rooms and furniture faces"
+    },
+    {
+      "id": "black-n-gold",
+      "name": "Black and Gold",
+      "alsoKnownAs": [
+        "Pak Black & Gold",
+        "Black n Gold"
+      ],
+      "family": "marble",
+      "colour": "Black with golden spots and veins",
+      "origin": "Lasbela, Balochistan",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 275,
+        "high": 750
+      },
+      "use": "Luxury borders, walls, counters"
+    },
+    {
+      "id": "himalayan-white",
+      "name": "Himalayan White",
+      "alsoKnownAs": [
+        "Hunza White",
+        "Jinnah White",
+        "K2 White"
+      ],
+      "family": "marble",
+      "colour": "Northern white",
+      "origin": "Chitral, Hunza and northern belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 300,
+        "high": 1000
+      },
+      "use": "Premium white interiors"
+    },
+    {
+      "id": "ziarat-white",
+      "name": "Ziarat White",
+      "alsoKnownAs": [
+        "Universal White",
+        "Super White",
+        "Pakistani Carrara"
+      ],
+      "family": "marble",
+      "colour": "Clean white with subtle grey vein",
+      "origin": "Mohmand Agency, Khyber Pakhtunkhwa",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 320,
+        "high": 850
+      },
+      "use": "Luxury floors, stairs, walls"
+    },
+    {
+      "id": "sahara-gold",
+      "name": "Sahara Gold",
+      "alsoKnownAs": [
+        "Indus Gold (trade)"
+      ],
+      "family": "marble",
+      "colour": "Sandy gold",
+      "origin": "Pakistan gold-stone belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 300,
+        "high": 800
+      },
+      "use": "Feature floors and cladding"
+    },
+    {
+      "id": "indus-gold",
+      "name": "Indus Gold",
+      "alsoKnownAs": [
+        "Inca Gold",
+        "Fairy Gold"
+      ],
+      "family": "marble",
+      "colour": "Strong golden figure",
+      "origin": "Pakistan gold-stone belts",
+      "grade": "premium",
+      "ratePkr": {
+        "low": 350,
+        "high": 1000
+      },
+      "use": "Golden feature walls and floors"
+    },
+    {
+      "id": "ziarat-supreme",
+      "name": "Ziarat Supreme White",
+      "alsoKnownAs": [
+        "Supreme White",
+        "Ziarat Super"
+      ],
+      "family": "marble",
+      "colour": "Highest-grade Ziarat white",
+      "origin": "Mohmand, Khyber Pakhtunkhwa",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 350,
+        "high": 1250
+      },
+      "use": "Villas, stairs, reception"
+    },
+    {
+      "id": "michael-angelo",
+      "name": "Michael Angelo",
+      "alsoKnownAs": [
+        "Michelangelo",
+        "Pakistan Portoro"
+      ],
+      "family": "marble",
+      "colour": "Black with gold / amber veins",
+      "origin": "Chagai, Balochistan",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 400,
+        "high": 1500
+      },
+      "use": "Feature walls, counters, furniture"
+    },
+    {
+      "id": "light-green-onyx",
+      "name": "Light Green Onyx",
+      "alsoKnownAs": [
+        "Sage Onyx",
+        "Soft Green Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Pale green, cloudy, translucent",
+      "origin": "Chagai–Bolan–Lasbela–Khuzdar belt",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 2000,
+        "high": 6500
+      },
+      "use": "Backlit walls, vanities, tabletops"
+    },
+    {
+      "id": "green-onyx",
+      "name": "Green Onyx",
+      "alsoKnownAs": [
+        "Pak Green Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Green with white, brown and gold bands",
+      "origin": "Chagai, Balochistan",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 2500,
+        "high": 8000
+      },
+      "use": "Counters, tables, hotel interiors"
+    },
+    {
+      "id": "multi-green-onyx",
+      "name": "Multi Green Onyx",
+      "alsoKnownAs": [
+        "Multigreen Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Green, white, honey and gold mixed",
+      "origin": "Chagai and Khuzdar",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 2500,
+        "high": 9000
+      },
+      "use": "Large cladding and reception"
+    },
+    {
+      "id": "dark-green-onyx",
+      "name": "Dark Green Onyx",
+      "alsoKnownAs": [
+        "Emerald Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Deep green, bold banding",
+      "origin": "Chagai, Balochistan",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 3000,
+        "high": 9500
+      },
+      "use": "Statement walls and luxury tables"
+    },
+    {
+      "id": "brown-onyx",
+      "name": "Brown Onyx",
+      "alsoKnownAs": [
+        "Multi Brown Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Earth brown, cream and honey",
+      "origin": "Balochistan onyx belt",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 3000,
+        "high": 10000
+      },
+      "use": "Tables, counters, decorative panels"
+    },
+    {
+      "id": "honey-onyx",
+      "name": "Honey Onyx",
+      "alsoKnownAs": [
+        "Honey Caramel",
+        "Amber Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Golden yellow / amber, highly translucent",
+      "origin": "Chagai and Lasbela",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 3500,
+        "high": 11000
+      },
+      "use": "Backlit bars, bathrooms, panels"
+    },
+    {
+      "id": "orange-onyx",
+      "name": "Orange Onyx",
+      "alsoKnownAs": [
+        "Orange Honey Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Warm orange and gold",
+      "origin": "Balochistan onyx belt",
+      "grade": "luxury",
+      "ratePkr": {
+        "low": 4000,
+        "high": 12000
+      },
+      "use": "Backlit panels and furniture"
+    },
+    {
+      "id": "white-onyx",
+      "name": "White Onyx",
+      "alsoKnownAs": [
+        "Cream Onyx",
+        "Crystal White Onyx"
+      ],
+      "family": "onyx",
+      "colour": "White to cream, gold or grey vein",
+      "origin": "Chagai; supply is limited",
+      "grade": "rare",
+      "ratePkr": {
+        "low": 5000,
+        "high": 14000
+      },
+      "use": "Luxury baths, vanities, tabletops"
+    },
+    {
+      "id": "red-onyx",
+      "name": "Red Onyx",
+      "alsoKnownAs": [
+        "Rosso Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Red with brown, green and cream",
+      "origin": "Balochistan onyx belt",
+      "grade": "rare",
+      "ratePkr": {
+        "low": 7000,
+        "high": 15000
+      },
+      "use": "Feature walls and custom furniture"
+    },
+    {
+      "id": "pink-onyx",
+      "name": "Pink Onyx",
+      "alsoKnownAs": [
+        "Afghan Pink (traded through Pakistan)"
+      ],
+      "family": "onyx",
+      "colour": "Rose / pink, often scarce",
+      "origin": "Pakistan–Afghanistan onyx trade",
+      "grade": "rare",
+      "ratePkr": {
+        "low": 8000,
+        "high": 16000
+      },
+      "use": "Boutique interiors and tabletops"
+    },
+    {
+      "id": "black-onyx",
+      "name": "Black Onyx",
+      "alsoKnownAs": [
+        "Dark Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Near-black, limited translucency",
+      "origin": "Balochistan; quarry-dependent",
+      "grade": "rare",
+      "ratePkr": {
+        "low": 8000,
+        "high": 18000
+      },
+      "use": "Modern counters and furniture"
+    },
+    {
+      "id": "blue-onyx",
+      "name": "Blue Onyx",
+      "alsoKnownAs": [
+        "Pak Blue Onyx"
+      ],
+      "family": "onyx",
+      "colour": "Blue, the rarest regular colour",
+      "origin": "Balochistan; not always in stock",
+      "grade": "rare",
+      "ratePkr": {
+        "low": 10000,
+        "high": 20000
+      },
+      "use": "Special luxury decorative work"
+    }
+  ],
+  "finishes": [
+    {
+      "id": "honed",
+      "label": "Honed",
+      "cite": "A honed finish is matte and soft to the hand. St Werkz uses it especially on travertine so pores and bedding stay visible."
+    },
+    {
+      "id": "polished",
+      "label": "Polished",
+      "cite": "A polished finish is a quiet mirror. It is the usual face for marble and onyx tables and objects in this collection."
+    },
+    {
+      "id": "backlit",
+      "label": "Backlit",
+      "cite": "Backlighting is reserved for translucent onyx: LEDs or an internal lamp turn the slab into a light source. It is not a finish applied to opaque marble or travertine."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "workshop",
+      "label": "Workshop / showroom photograph",
+      "experience": "First-hand image made in the Karachi studio, yard, or showroom before or during making."
+    },
+    {
+      "id": "interior",
+      "label": "Installed interior",
+      "experience": "First-hand photograph of the work in a room — apartment, lobby, or staged interior — not a catalogue render."
+    },
+    {
+      "id": "still-life",
+      "label": "Object still",
+      "experience": "First-hand studio still of an object or small table, photographed as a piece in its own right."
+    },
+    {
+      "id": "yard",
+      "label": "Yard / slab",
+      "experience": "First-hand photograph of a slab or top in the yard, before it is commissioned as furniture."
+    }
+  ],
+  "process": [
+    {
+      "position": 1,
+      "name": "Listen first",
+      "text": "The room, the light, and what the surface should feel like — before a catalogue page."
+    },
+    {
+      "position": 2,
+      "name": "Find the right cut",
+      "text": "Tone, grain, scale, edge, and how the stone will age, not only the obvious face."
+    },
+    {
+      "position": 3,
+      "name": "A first range",
+      "text": "A studio estimate is an indicative band, never a final price or an invoice."
+    },
+    {
+      "position": 4,
+      "name": "Make it real",
+      "text": "Samples, honest guidance, and a path from conversation to installation."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-karachi-studio",
+      "statement": "St Werkz is a material studio in Karachi, Pakistan, led by Syed Rashid Ali, making furniture and objects from travertine, onyx, and marble.",
+      "pillars": [
+        "experience",
+        "authoritativeness",
+        "trustworthiness"
+      ],
+      "evidence": "Named principal, published address in North Nazimabad, first-hand collection photographs.",
+      "about": "organization"
+    },
+    {
+      "id": "claim-gallery-not-cart",
+      "statement": "The St Werkz website presents a numbered gallery of works without checkout prices. A viewing or a studio estimate starts a conversation; it is not a cart.",
+      "pillars": [
+        "trustworthiness"
+      ],
+      "evidence": "Collection wall text; enquire and estimate flows.",
+      "about": "organization"
+    },
+    {
+      "id": "claim-family-origin",
+      "statement": "St Werkz is rooted in a family from Bandha in Allahabad, Uttar Pradesh. Through generations of migration the family carried music, painting, colour, and art; that inherited relationship with making now takes form in marble, onyx, and travertine in Karachi.",
+      "pillars": [
+        "experience"
+      ],
+      "evidence": "Studio origin account: Bandha, Allahabad; migration; Karachi practice.",
+      "about": "principal"
+    },
+    {
+      "id": "claim-direct-line",
+      "statement": "Material questions, project conversations, and first looks at works in the collection go to Syed Rashid Ali, not through an anonymous showroom desk.",
+      "pillars": [
+        "experience",
+        "authoritativeness",
+        "trustworthiness"
+      ],
+      "evidence": "Published phone and email on the atelier and enquiry pages.",
+      "about": "principal"
+    },
+    {
+      "id": "claim-travertine-honed",
+      "statement": "Travertine is a porous sedimentary limestone. At St Werkz it is usually specified honed, with natural pits left open rather than filled to a glass face.",
+      "pillars": [
+        "expertise"
+      ],
+      "evidence": "Collection material lines and honed travertine works in dining, living, accents, and interiors.",
+      "about": "material:travertine"
+    },
+    {
+      "id": "claim-onyx-backlit",
+      "statement": "Onyx in this studio is a translucent, banded stone. Where the slab allows, St Werkz internally lights it so the vein becomes the room’s light source.",
+      "pillars": [
+        "expertise",
+        "experience"
+      ],
+      "evidence": "Luminous Onyx Plinth and Backlit Onyx Waterfall Counter, photographed as lit interiors.",
+      "about": "material:onyx"
+    },
+    {
+      "id": "claim-marble-figure",
+      "statement": "Marble in the St Werkz collection is specified as figured, often high-polish stone — including noir-gold, Portoro-type amber veining, and Nero-type white calcite.",
+      "pillars": [
+        "expertise"
+      ],
+      "evidence": "Noir gold dining, Portoro slat table, Nero slabs and objects in the collection.",
+      "about": "material:marble"
+    },
+    {
+      "id": "claim-first-hand-photos",
+      "statement": "Every work in the published collection is documented with first-hand photography from the Karachi studio, yard, object still, or an installed interior — not stock imagery.",
+      "pillars": [
+        "experience",
+        "trustworthiness"
+      ],
+      "evidence": "Image paths under /gallery tied to named works.",
+      "about": "dataset"
+    },
+    {
+      "id": "claim-indicative-estimate",
+      "statement": "A St Werkz studio estimate is an indicative range in Pakistani rupees (with a conversation conversion to US dollars). It is not a bank rate, a quote, or an invoice.",
+      "pillars": [
+        "trustworthiness",
+        "expertise"
+      ],
+      "evidence": "Estimate tool copy and persisted brief language.",
+      "about": "process"
+    },
+    {
+      "id": "claim-nap",
+      "statement": "St Werkz may be reached at stoneworks014@gmail.com, +92 304 7689678, Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.",
+      "pillars": [
+        "trustworthiness",
+        "authoritativeness"
+      ],
+      "evidence": "Identical name, address, and phone on atelier, enquiry, trade, export, and footer.",
+      "about": "organization"
+    },
+    {
+      "id": "claim-export-desk",
+      "statement": "St Werkz discusses marble, onyx and travertine lots from its Karachi yard with importers and fabricators. A photographed lot and a sample crate come before a container. There is no published price list.",
+      "pillars": [
+        "trustworthiness",
+        "expertise"
+      ],
+      "evidence": "Export desk copy, slab-book legend, and first-hand yard photographs of Nero Vein Slabs and Noir Gold Circular Top.",
+      "about": "process"
+    }
+  ],
+  "rooms": [
+    {
+      "slug": "marble",
+      "title": "Marble Collection",
+      "kicker": "Premium Marble Surfaces and Furniture",
+      "wallText": "Discover our exquisite range of marble products, crafted for elegance and durability. Perfect for luxury interiors and architectural projects.",
+      "works": 14
+    },
+    {
+      "slug": "onyx",
+      "title": "Onyx Collection",
+      "kicker": "Translucent and Captivating Onyx",
+      "wallText": "Experience the unique beauty of backlit onyx. Ideal for feature walls, statement tables, and breathtaking accents.",
+      "works": 21
+    },
+    {
+      "slug": "limestone",
+      "title": "Limestone Collection",
+      "kicker": "Natural and Timeless Limestone",
+      "wallText": "Explore our versatile limestone selection, offering a warm, organic aesthetic for both modern and classic designs.",
+      "works": 38
+    },
+    {
+      "slug": "tiles",
+      "title": "Premium Tiles",
+      "kicker": "Exquisite Stone Tiles",
+      "wallText": "High-quality natural stone tiles for flooring and wall cladding, ensuring a sophisticated finish for any space.",
+      "works": 0
+    },
+    {
+      "slug": "slabs",
+      "title": "Stone Slabs",
+      "kicker": "Large Format Natural Stone Slabs",
+      "wallText": "Our curated collection of premium slabs, ready to be transformed into bespoke architectural elements and countertops.",
+      "works": 5
+    },
+    {
+      "slug": "handicrafts",
+      "title": "Stone Handicrafts",
+      "kicker": "Artisanal Stone Accents",
+      "wallText": "Beautifully crafted stone objects, from vases and bowls to intricate bath sets, adding a touch of luxury to everyday living.",
+      "works": 14
+    }
+  ],
+  "works": [
+    {
+      "slug": "oval-travertine-pedestal",
+      "title": "Oval Travertine Pedestal Table",
+      "material": "Honed beige travertine",
+      "form": "Elliptical dining top on a tapered stone pedestal",
+      "note": "A long oval of linear-veined travertine, thick enough to read as architecture, set on a single conical foot. Photographed with mixed dining chairs in a city apartment — the stone holds the room without asking for ornament.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Oval Travertine Pedestal Table is a Elliptical dining top on a tapered stone pedestal in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Oval Travertine Pedestal Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/oval-travertine-pedestal",
+      "path": "/collection/limestone/oval-travertine-pedestal",
+      "citationPath": "/citation/works/oval-travertine-pedestal.md",
+      "images": [
+        "/gallery/dining-oval-pedestal.jpg"
+      ]
+    },
+    {
+      "slug": "oval-travertine-assemblage",
+      "title": "Oval Travertine Assemblage",
+      "material": "Honed cream travertine",
+      "form": "Oval top on intersecting X-shaped stone pedestals",
+      "note": "Seen in the workshop, still on protective board. Two heavy stone trestles — one crossed, one planar — carry a bullnosed oval. A study in how slabs become legs.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "workshop",
+      "cite": "Oval Travertine Assemblage is a Oval top on intersecting X-shaped stone pedestals in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Oval Travertine Assemblage.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/oval-travertine-assemblage",
+      "path": "/collection/limestone/oval-travertine-assemblage",
+      "citationPath": "/citation/works/oval-travertine-assemblage.md",
+      "images": [
+        "/gallery/dining-oval-assemblage.jpg"
+      ]
+    },
+    {
+      "slug": "noir-gold-dining",
+      "title": "Noir Gold Dining Table",
+      "material": "Polished black marble with gold veining",
+      "form": "Rectangular dining top with rounded corners, upholstered chairs",
+      "note": "A dark, high-polish surface broken by warm mineral lightning. Staged with a ring of beige wrap-back chairs — a gathering table that behaves like a night sky under glass.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Noir Gold Dining Table is a Rectangular dining top with rounded corners, upholstered chairs in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Noir Gold Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/noir-gold-dining",
+      "path": "/collection/marble/noir-gold-dining",
+      "citationPath": "/citation/works/noir-gold-dining.md",
+      "images": [
+        "/gallery/dining-noir-gold.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-slat-dining",
+      "title": "Portoro Slat Dining Table",
+      "material": "Polished noir marble with amber veining, brushed gold base",
+      "form": "Rectangular top on a fan of gold vertical slats",
+      "note": "The stone is almost black, then suddenly gold. The base is a disciplined row of gilt blades that gather at the floor. Made for rooms that already know how to be quiet.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Portoro Slat Dining Table is a Rectangular top on a fan of gold vertical slats in Polished noir marble with amber veining, brushed gold base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Portoro Slat Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/portoro-slat-dining",
+      "path": "/collection/marble/portoro-slat-dining",
+      "citationPath": "/citation/works/portoro-slat-dining.md",
+      "images": [
+        "/gallery/dining-portoro-slat.jpg"
+      ]
+    },
+    {
+      "slug": "cream-gathering-table",
+      "title": "Cream Stone Gathering Table",
+      "material": "Polished cream marble or onyx with sandy movement",
+      "form": "Long rounded rectangle with mixed terracotta and cream chairs",
+      "note": "A pale, swirling top that reads warm rather than white. The chairs split in terracotta and cream — a dining room composed like a still life, not a matching suite.",
+      "room": "onyx",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Cream Stone Gathering Table is a Long rounded rectangle with mixed terracotta and cream chairs in Polished cream marble or onyx with sandy movement, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Cream Stone Gathering Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/cream-gathering-table",
+      "path": "/collection/onyx/cream-gathering-table",
+      "citationPath": "/citation/works/cream-gathering-table.md",
+      "images": [
+        "/gallery/dining-cream-gathering.jpg"
+      ]
+    },
+    {
+      "slug": "sage-round-table",
+      "title": "Sage Round Table",
+      "material": "Polished sage onyx or marble",
+      "form": "Circular dining or café top, lifestyle still",
+      "note": "Seen from above with a terracotta chair tucked under the rim. Glass, a single leaf, a cream bowl. The stone is a muted green, finely veined — a table for two, or for looking at.",
+      "room": "onyx",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Round Table is a Circular dining or café top, lifestyle still in Polished sage onyx or marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Round Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-round-table",
+      "path": "/collection/onyx/sage-round-table",
+      "citationPath": "/citation/works/sage-round-table.md",
+      "images": [
+        "/gallery/dining-sage-round.jpg"
+      ]
+    },
+    {
+      "slug": "sage-onyx-organza",
+      "title": "Sage Onyx Organza Table",
+      "material": "Polished translucent green onyx",
+      "form": "Kidney oval on twin faceted hexagonal pedestals",
+      "note": "A monumental workshop piece: soft green stone with rust and ochre veining, the top organically waisted, the legs cut as matching hex columns. Still on ply, already a finished work.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "workshop",
+      "cite": "Sage Onyx Organza Table is a Kidney oval on twin faceted hexagonal pedestals in Polished translucent green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Sage Onyx Organza Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-onyx-organza",
+      "path": "/collection/onyx/sage-onyx-organza",
+      "citationPath": "/citation/works/sage-onyx-organza.md",
+      "images": [
+        "/gallery/dining-sage-organza.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-round-dining",
+      "title": "Round Travertine Dining Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on a tapered conical pedestal",
+      "note": "The same language as the oval pedestal, reduced to a circle. Upholstered chairs, a terracotta wall, a small stone vase of dried flowers. Dining as a still interior.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Round Travertine Dining Table is a Circular top on a tapered conical pedestal in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Round Travertine Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-round-dining",
+      "path": "/collection/limestone/travertine-round-dining",
+      "citationPath": "/citation/works/travertine-round-dining.md",
+      "images": [
+        "/gallery/dining-travertine-round.jpg"
+      ]
+    },
+    {
+      "slug": "luminous-onyx-plinth",
+      "title": "Luminous Onyx Plinth",
+      "material": "Backlit white onyx with amber veining, black metal frame",
+      "form": "Square coffee table, internally lit",
+      "note": "Translucent cream onyx, gold veining, lit from within so the slab becomes a lamp. One view sits on a ribbed rug with books and a candle; another in a night interior, the city behind it. Furniture that behaves like light.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "backlit",
+      "evidence": "interior",
+      "cite": "Luminous Onyx Plinth is a Square coffee table, internally lit in Backlit white onyx with amber veining, black metal frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Luminous Onyx Plinth.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/luminous-onyx-plinth",
+      "path": "/collection/onyx/luminous-onyx-plinth",
+      "citationPath": "/citation/works/luminous-onyx-plinth.md",
+      "images": [
+        "/gallery/living-luminous-onyx-a.jpg",
+        "/gallery/living-luminous-onyx-b.jpg"
+      ]
+    },
+    {
+      "slug": "emerald-cage-table",
+      "title": "Emerald Cage Table",
+      "material": "Polished sage green onyx, brass cage base",
+      "form": "Round side table on a vertical-rod drum",
+      "note": "A circular onyx top with rust and cream movement, held by a light brass birdcage. Heavy stone, thin metal — the usual St Werkz contrast, at the scale of a drink.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Emerald Cage Table is a Round side table on a vertical-rod drum in Polished sage green onyx, brass cage base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Emerald Cage Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/emerald-cage-table",
+      "path": "/collection/onyx/emerald-cage-table",
+      "citationPath": "/citation/works/emerald-cage-table.md",
+      "images": [
+        "/gallery/living-emerald-cage.jpg"
+      ]
+    },
+    {
+      "slug": "sage-tulip-table",
+      "title": "Sage Tulip Table",
+      "material": "Polished green onyx, brushed metal pedestal",
+      "form": "Round accent table on a tulip stem",
+      "note": "The same family of green onyx, this time on a mid-century metal foot. Sage, cream and terracotta in the stone; a single stem underneath. An accent that can stand alone.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Tulip Table is a Round accent table on a tulip stem in Polished green onyx, brushed metal pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Tulip Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-tulip-table",
+      "path": "/collection/onyx/sage-tulip-table",
+      "citationPath": "/citation/works/sage-tulip-table.md",
+      "images": [
+        "/gallery/living-sage-tulip.jpg"
+      ]
+    },
+    {
+      "slug": "cream-companion-tables",
+      "title": "Cream Companion Tables",
+      "material": "Polished cream stone, satin brass",
+      "form": "Pair: monolithic pedestal and brass-stem side table",
+      "note": "Two circular tops from the same pale stone. One sits on a tapering stone drum; the other on a slender brass stem and disc. A pair meant to be read together, like two notes.",
+      "room": "marble",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Cream Companion Tables is a Pair: monolithic pedestal and brass-stem side table in Polished cream stone, satin brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Cream Companion Tables.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/cream-companion-tables",
+      "path": "/collection/marble/cream-companion-tables",
+      "citationPath": "/citation/works/cream-companion-tables.md",
+      "images": [
+        "/gallery/living-cream-companions.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-cone-table",
+      "title": "Travertine Cone Table",
+      "material": "Honed light travertine",
+      "form": "Circular top on a tapered conical base",
+      "note": "A small pedestal table in the showroom, horizontal banding running around the cone. Other stone tables wait behind it. Form reduced to circle and frustum.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "workshop",
+      "cite": "Travertine Cone Table is a Circular top on a tapered conical base in Honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Travertine Cone Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-cone-table",
+      "path": "/collection/limestone/travertine-cone-table",
+      "citationPath": "/citation/works/travertine-cone-table.md",
+      "images": [
+        "/gallery/living-travertine-cone.jpg"
+      ]
+    },
+    {
+      "slug": "notched-joinery-tables",
+      "title": "Notched Travertine Tables",
+      "material": "Honed travertine, light oak",
+      "form": "Round tops with flush wood-leg joinery",
+      "note": "Four semicircular notches in the stone receive rounded oak legs, flush with the surface. A precise meeting of two materials. Photographed as a workshop group — collection photography from the Karachi studio.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "workshop",
+      "cite": "Notched Travertine Tables is a Round tops with flush wood-leg joinery in Honed travertine, light oak, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Notched Travertine Tables.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/notched-joinery-tables",
+      "path": "/collection/limestone/notched-joinery-tables",
+      "citationPath": "/citation/works/notched-joinery-tables.md",
+      "images": [
+        "/gallery/living-notched-joinery.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-cross-table",
+      "title": "Travertine Cross-Base Table",
+      "material": "Honed beige travertine",
+      "form": "Round top on an intersecting slab pedestal",
+      "note": "Four vertical stone slabs meet at a cross and take a circular top. A candle on the surface, a cream sofa beside it. Geometry first, then the pits and pores of the stone.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Travertine Cross-Base Table is a Round top on an intersecting slab pedestal in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Travertine Cross-Base Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-cross-table",
+      "path": "/collection/limestone/travertine-cross-table",
+      "citationPath": "/citation/works/travertine-cross-table.md",
+      "images": [
+        "/gallery/living-cross-base.jpg"
+      ]
+    },
+    {
+      "slug": "rust-cage-table",
+      "title": "Rust Vein Cage Table",
+      "material": "Polished black marble with rust veining, gold geometric base",
+      "form": "Round side table on an angular brass cage",
+      "note": "Dark stone figured with copper and white, set on a taut gold frame. Smaller than a dining table, more assertive than a drinks stand.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Rust Vein Cage Table is a Round side table on an angular brass cage in Polished black marble with rust veining, gold geometric base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Rust Vein Cage Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/rust-cage-table",
+      "path": "/collection/marble/rust-cage-table",
+      "citationPath": "/citation/works/rust-cage-table.md",
+      "images": [
+        "/gallery/living-rust-cage.jpg"
+      ]
+    },
+    {
+      "slug": "stepped-travertine-table",
+      "title": "Stepped Travertine Table",
+      "material": "Honed cream travertine",
+      "form": "Two-tier coffee table on a crossed slab base",
+      "note": "Two planes at different heights, useful and sculptural at once. Flowers, a book, taper candles on the lower shelf. A living-room table that still reads as a construction.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Stepped Travertine Table is a Two-tier coffee table on a crossed slab base in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Stepped Travertine Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/stepped-travertine-table",
+      "path": "/collection/limestone/stepped-travertine-table",
+      "citationPath": "/citation/works/stepped-travertine-table.md",
+      "images": [
+        "/gallery/living-stepped-travertine.jpg"
+      ]
+    },
+    {
+      "slug": "nested-nero-tables",
+      "title": "Nested Nero Tables",
+      "material": "Polished black marble with white veining, dark metal",
+      "form": "Pair of circular nesting coffee tables",
+      "note": "Two black discs, one slightly higher, rims in dark metal. They sit together on a rug the way stones sit in a river — close, not identical.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Nested Nero Tables is a Pair of circular nesting coffee tables in Polished black marble with white veining, dark metal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Nested Nero Tables.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nested-nero-tables",
+      "path": "/collection/marble/nested-nero-tables",
+      "citationPath": "/citation/works/nested-nero-tables.md",
+      "images": [
+        "/gallery/living-nested-nero.jpg"
+      ]
+    },
+    {
+      "slug": "hex-pedestal-table",
+      "title": "Hexagonal Pedestal Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on a hexagonal stone drum",
+      "note": "Round against six sides. The banding in the travertine runs like strata around the drum. A coffee table with a vase of roses — domestic, but still a solid.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Hexagonal Pedestal Table is a Circular top on a hexagonal stone drum in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Hexagonal Pedestal Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/hex-pedestal-table",
+      "path": "/collection/limestone/hex-pedestal-table",
+      "citationPath": "/citation/works/hex-pedestal-table.md",
+      "images": [
+        "/gallery/living-hex-pedestal.jpg"
+      ]
+    },
+    {
+      "slug": "monolith-coffee-table",
+      "title": "Monolithic Travertine Coffee Table",
+      "material": "Honed travertine",
+      "form": "Thick rectangular slab on twin plinth legs",
+      "note": "A low, architectural block: slab, two legs, nothing else. Books, a glass sphere, dried palm. The grain of the stone does the drawing.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Monolithic Travertine Coffee Table is a Thick rectangular slab on twin plinth legs in Honed travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Monolithic Travertine Coffee Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/monolith-coffee-table",
+      "path": "/collection/limestone/monolith-coffee-table",
+      "citationPath": "/citation/works/monolith-coffee-table.md",
+      "images": [
+        "/gallery/living-monolith-coffee.jpg"
+      ]
+    },
+    {
+      "slug": "nero-gold-rim-table",
+      "title": "Nero Gold-Rim Table",
+      "material": "Polished black marble, polished brass rim and base",
+      "form": "Round coffee table with gold open frame",
+      "note": "A black, densely veined disc bound in bright brass, photographed on the workshop floor. Contrast as the whole idea.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "workshop",
+      "cite": "Nero Gold-Rim Table is a Round coffee table with gold open frame in Polished black marble, polished brass rim and base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Nero Gold-Rim Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nero-gold-rim-table",
+      "path": "/collection/marble/nero-gold-rim-table",
+      "citationPath": "/citation/works/nero-gold-rim-table.md",
+      "images": [
+        "/gallery/living-nero-gold-rim.jpg"
+      ]
+    },
+    {
+      "slug": "amber-showroom-table",
+      "title": "Amber Vein Showroom Table",
+      "material": "Polished cream onyx or marble with amber veining, dark pedestal",
+      "form": "Thick rectangular top on a black plinth",
+      "note": "Taken in the studio among sample racks. Gold-orange movement in a cream ground, a mirrored dark base, a small bowl as a scale mark. A table that could also be a counter.",
+      "room": "onyx",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "workshop",
+      "cite": "Amber Vein Showroom Table is a Thick rectangular top on a black plinth in Polished cream onyx or marble with amber veining, dark pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Amber Vein Showroom Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/amber-showroom-table",
+      "path": "/collection/onyx/amber-showroom-table",
+      "citationPath": "/citation/works/amber-showroom-table.md",
+      "images": [
+        "/gallery/living-amber-showroom.jpg"
+      ]
+    },
+    {
+      "slug": "ochre-pedestal-table",
+      "title": "Ochre & Charcoal Pedestal",
+      "material": "Polished figured marble with gold and white veining",
+      "form": "Circular top on a slender curved pedestal",
+      "note": "A small statement table: charcoal, ochre, jagged white. One stem, a high polish. Meant to stand in a corner and be walked past slowly.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Ochre & Charcoal Pedestal is a Circular top on a slender curved pedestal in Polished figured marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Ochre & Charcoal Pedestal.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/ochre-pedestal-table",
+      "path": "/collection/marble/ochre-pedestal-table",
+      "citationPath": "/citation/works/ochre-pedestal-table.md",
+      "images": [
+        "/gallery/living-ochre-pedestal.jpg"
+      ]
+    },
+    {
+      "slug": "vessel-sink",
+      "title": "Noir Gold Vessel Sink",
+      "material": "Polished dark marble with gold and white veining",
+      "form": "Circular countertop basin",
+      "note": "A shallow round vessel, drain at the centre, the interior as figured as the exterior. Black stone with honey and frost. A bath piece treated as sculpture.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Noir Gold Vessel Sink is a Circular countertop basin in Polished dark marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Noir Gold Vessel Sink.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/vessel-sink",
+      "path": "/collection/handicrafts/vessel-sink",
+      "citationPath": "/citation/works/vessel-sink.md",
+      "images": [
+        "/gallery/accents-vessel-sink.jpg"
+      ]
+    },
+    {
+      "slug": "coral-canister",
+      "title": "Coral-Lid Travertine Canister",
+      "material": "Honed travertine, polished brass coral finial",
+      "form": "Cylindrical jar with sculptural lid",
+      "note": "A plain stone drum, closed with a brass branch of coral. Raw pits against a small piece of jewellery. For a counter, or for nothing but itself.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Coral-Lid Travertine Canister is a Cylindrical jar with sculptural lid in Honed travertine, polished brass coral finial, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Coral-Lid Travertine Canister.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/coral-canister",
+      "path": "/collection/limestone/coral-canister",
+      "citationPath": "/citation/works/coral-canister.md",
+      "images": [
+        "/gallery/accents-coral-canister.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-candlesticks",
+      "title": "Travertine Candle Holders",
+      "material": "Honed natural travertine",
+      "form": "Graduated pair, conical base and cylindrical cup",
+      "note": "Two heights, one language: a tapering cone, a thick stone cup. A pillar candle in the taller. Porous, matte, and deliberately unpolished.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Candle Holders is a Graduated pair, conical base and cylindrical cup in Honed natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Candle Holders.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-candlesticks",
+      "path": "/collection/limestone/travertine-candlesticks",
+      "citationPath": "/citation/works/travertine-candlesticks.md",
+      "images": [
+        "/gallery/clean/accents-travertine-candlesticks.svg"
+      ]
+    },
+    {
+      "slug": "pedestal-bowl",
+      "title": "Travertine Pedestal Bowl",
+      "material": "Natural travertine",
+      "form": "Shallow raised bowl",
+      "note": "Twelve inches across, five inches high. A wide, thick-rimmed bowl on a short stepped foot — fruit, objects, or empty. The pits in the stone are left open.",
+      "room": "limestone",
+      "dimensions": "12\" × 5\"",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Pedestal Bowl is a Shallow raised bowl in Natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 12\" × 5\". Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Pedestal Bowl.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/pedestal-bowl",
+      "path": "/collection/limestone/pedestal-bowl",
+      "citationPath": "/citation/works/pedestal-bowl.md",
+      "images": [
+        "/gallery/clean/accents-pedestal-bowl.svg"
+      ]
+    },
+    {
+      "slug": "portoro-bookends",
+      "title": "Portoro Bookends",
+      "material": "Polished black marble with gold veining",
+      "form": "Pair of geometric wedges",
+      "note": "Two solid slopes, high-gloss, ochre and white against a dark ground. Functional sculpture for a shelf that already has a point of view.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Portoro Bookends is a Pair of geometric wedges in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Portoro Bookends.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/portoro-bookends",
+      "path": "/collection/handicrafts/portoro-bookends",
+      "citationPath": "/citation/works/portoro-bookends.md",
+      "images": [
+        "/gallery/accents-portoro-bookends.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-tray",
+      "title": "Travertine Rectangular Tray",
+      "material": "Honed beige travertine",
+      "form": "Shallow rectangular platter with raised rim",
+      "note": "A single block, rimmed, full of natural voids. For keys, a glass, or to sit empty on a table as a small plane of stone.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Rectangular Tray is a Shallow rectangular platter with raised rim in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Rectangular Tray.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-tray",
+      "path": "/collection/limestone/travertine-tray",
+      "citationPath": "/citation/works/travertine-tray.md",
+      "images": [
+        "/gallery/accents-travertine-tray.jpg"
+      ]
+    },
+    {
+      "slug": "desk-suite",
+      "title": "Midnight Marble Desk Suite",
+      "material": "Polished noir marble with copper veining, brass plates",
+      "form": "Four-piece valet: tray, memo box, pen cup, letter rack",
+      "note": "A desk reduced to four stone volumes. White and rust veins, thin brass feet. Written work given the same material gravity as a table.",
+      "room": "handicrafts",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Midnight Marble Desk Suite is a Four-piece valet: tray, memo box, pen cup, letter rack in Polished noir marble with copper veining, brass plates, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Midnight Marble Desk Suite.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/desk-suite",
+      "path": "/collection/handicrafts/desk-suite",
+      "citationPath": "/citation/works/desk-suite.md",
+      "images": [
+        "/gallery/accents-desk-suite.jpg"
+      ]
+    },
+    {
+      "slug": "nero-candles",
+      "title": "Nero Candle Group",
+      "material": "Polished black marble with white veining",
+      "form": "Low dish holder and tiered pillar, with taper beyond",
+      "note": "Candlelight on a dark, glossy ground. A wide dish and a stacked cylinder, both in the same lightning-veined stone. Evening objects.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Nero Candle Group is a Low dish holder and tiered pillar, with taper beyond in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Nero Candle Group.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/nero-candles",
+      "path": "/collection/handicrafts/nero-candles",
+      "citationPath": "/citation/works/nero-candles.md",
+      "images": [
+        "/gallery/accents-nero-candles.jpg"
+      ]
+    },
+    {
+      "slug": "scalloped-valet",
+      "title": "Scalloped Travertine Valet",
+      "material": "Honed pitted travertine",
+      "form": "Rectangular dish with notched corners",
+      "note": "A shallow basin, linear grain in the floor of the tray, small scallops at each corner. Soft geometry on a porous stone.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Scalloped Travertine Valet is a Rectangular dish with notched corners in Honed pitted travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Scalloped Travertine Valet.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/scalloped-valet",
+      "path": "/collection/limestone/scalloped-valet",
+      "citationPath": "/citation/works/scalloped-valet.md",
+      "images": [
+        "/gallery/accents-scalloped-valet.jpg"
+      ]
+    },
+    {
+      "slug": "curved-canisters",
+      "title": "Curved Travertine Canisters",
+      "material": "Honed travertine, polished white marble pulls",
+      "form": "Pair of lidded boxes with concave ends",
+      "note": "Two sizes, waisted at the sides, lids dipping with the curve. White marble handles like small waves. Storage that still looks like carving.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Curved Travertine Canisters is a Pair of lidded boxes with concave ends in Honed travertine, polished white marble pulls, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Curved Travertine Canisters.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/curved-canisters",
+      "path": "/collection/limestone/curved-canisters",
+      "citationPath": "/citation/works/curved-canisters.md",
+      "images": [
+        "/gallery/clean/accents-curved-canisters.svg"
+      ]
+    },
+    {
+      "slug": "travertine-bath",
+      "title": "Travertine Bath Suite",
+      "material": "Honed unfilled beige travertine",
+      "form": "Tissue cover, dispenser and vessels on dark stone",
+      "note": "Square and rectangular bath objects, pores left open, set on a black counter. Daily pieces given the same finish as the furniture.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Bath Suite is a Tissue cover, dispenser and vessels on dark stone in Honed unfilled beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Bath Suite.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-bath",
+      "path": "/collection/limestone/travertine-bath",
+      "citationPath": "/citation/works/travertine-bath.md",
+      "images": [
+        "/gallery/accents-travertine-bath.jpg"
+      ]
+    },
+    {
+      "slug": "tapered-vessel",
+      "title": "Tapered Travertine Vessel",
+      "material": "Hand-finished natural travertine",
+      "form": "Shouldered cylinder with a rolled rim",
+      "note": "A tall, slightly closed form, photographed outdoors against foliage. Horizontal striations, a thick rim. Vase or object — either reading is correct.",
+      "room": "limestone",
+      "dimensions": "5\" × 5\" × 10\"",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Tapered Travertine Vessel is a Shouldered cylinder with a rolled rim in Hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 5\" × 5\" × 10\". Evidence: object still.",
+      "howToCite": "St Werkz. “Tapered Travertine Vessel.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/tapered-vessel",
+      "path": "/collection/limestone/tapered-vessel",
+      "citationPath": "/citation/works/tapered-vessel.md",
+      "images": [
+        "/gallery/clean/accents-tapered-vessel.svg"
+      ]
+    },
+    {
+      "slug": "round-tray",
+      "title": "Travertine Disc Tray",
+      "material": "Honed porous travertine",
+      "form": "Shallow circular tray with a straight rim",
+      "note": "A round plane of cream stone, pitted, with a low wall. Centrepiece or catchall. The circle is the whole argument.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Disc Tray is a Shallow circular tray with a straight rim in Honed porous travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Disc Tray.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/round-tray",
+      "path": "/collection/limestone/round-tray",
+      "citationPath": "/citation/works/round-tray.md",
+      "images": [
+        "/gallery/clean/accents-round-tray.svg"
+      ]
+    },
+    {
+      "slug": "bulbous-vessel",
+      "title": "Travertine Sculptural Vessel",
+      "material": "Hand-finished natural travertine",
+      "form": "Spherical body with a wide cylindrical neck",
+      "note": "A heavy, porous body and a short open neck. Shown with a single sunflower — scale, texture, and a little colour against the cream stone.",
+      "room": "limestone",
+      "dimensions": "7\" × 7\" × 9\"",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Sculptural Vessel is a Spherical body with a wide cylindrical neck in Hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 7\" × 7\" × 9\". Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Sculptural Vessel.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/bulbous-vessel",
+      "path": "/collection/limestone/bulbous-vessel",
+      "citationPath": "/citation/works/bulbous-vessel.md",
+      "images": [
+        "/gallery/clean/accents-bulbous-vessel.svg"
+      ]
+    },
+    {
+      "slug": "onyx-urns",
+      "title": "Pair of Onyx Urns",
+      "material": "Polished banded onyx in sage, cream and rust",
+      "form": "Classical urns with flared rims and pedestal feet",
+      "note": "Two matching vessels, translucent and layered, green giving way to terracotta in the stone itself. Mantel objects with a geological rather than a decorative pattern.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Pair of Onyx Urns is a Classical urns with flared rims and pedestal feet in Polished banded onyx in sage, cream and rust, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Pair of Onyx Urns.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/onyx-urns",
+      "path": "/collection/onyx/onyx-urns",
+      "citationPath": "/citation/works/onyx-urns.md",
+      "images": [
+        "/gallery/accents-onyx-urns.jpg"
+      ]
+    },
+    {
+      "slug": "onyx-sphere-bowl",
+      "title": "Onyx Sphere Bowl",
+      "material": "Polished green onyx",
+      "form": "Shallow basin raised on three stone spheres",
+      "note": "A sage bowl with white and rust movement, standing on three matching orbs. Fruit optional. Balance as a construction method.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Onyx Sphere Bowl is a Shallow basin raised on three stone spheres in Polished green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Onyx Sphere Bowl.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/onyx-sphere-bowl",
+      "path": "/collection/onyx/onyx-sphere-bowl",
+      "citationPath": "/citation/works/onyx-sphere-bowl.md",
+      "images": [
+        "/gallery/accents-onyx-sphere-bowl.jpg"
+      ]
+    },
+    {
+      "slug": "oblong-tray",
+      "title": "Oblong Travertine Tray",
+      "material": "Hand-carved cream travertine",
+      "form": "Long dish with integrated rounded handles",
+      "note": "An elongated valet, tabs at each end, photographed on dark marble. Serving and display in one cut.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Oblong Travertine Tray is a Long dish with integrated rounded handles in Hand-carved cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Oblong Travertine Tray.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/oblong-tray",
+      "path": "/collection/limestone/oblong-tray",
+      "citationPath": "/citation/works/oblong-tray.md",
+      "images": [
+        "/gallery/accents-oblong-tray.jpg"
+      ]
+    },
+    {
+      "slug": "nero-cylinder",
+      "title": "Nero Cylindrical Vessel",
+      "material": "Polished Nero-type black marble",
+      "form": "Open cylinder with a thick rounded rim",
+      "note": "A short, exact drum in high-contrast black and white. Pen cup, vase, or weight on a desk. The vein is the drawing.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Nero Cylindrical Vessel is a Open cylinder with a thick rounded rim in Polished Nero-type black marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Nero Cylindrical Vessel.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/nero-cylinder",
+      "path": "/collection/handicrafts/nero-cylinder",
+      "citationPath": "/citation/works/nero-cylinder.md",
+      "images": [
+        "/gallery/accents-nero-cylinder.jpg"
+      ]
+    },
+    {
+      "slug": "coaster-suite",
+      "title": "Travertine Coaster Suite",
+      "material": "Honed beige travertine",
+      "form": "Four discs in a U-cut cylindrical holder",
+      "note": "A small nested set: four circles, one drum, a thumb cutout. Table architecture at the scale of a glass.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Coaster Suite is a Four discs in a U-cut cylindrical holder in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Coaster Suite.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/coaster-suite",
+      "path": "/collection/limestone/coaster-suite",
+      "citationPath": "/citation/works/coaster-suite.md",
+      "images": [
+        "/gallery/accents-coaster-suite.jpg"
+      ]
+    },
+    {
+      "slug": "nero-disc-tray",
+      "title": "Nero Disc Tray",
+      "material": "Polished black marble with white veining",
+      "form": "Low circular tray with an upright rim",
+      "note": "A black disc, one bold white vein, a short wall. Centrepiece or empty object. Polished until it holds a room’s light.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Nero Disc Tray is a Low circular tray with an upright rim in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Nero Disc Tray.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/nero-disc-tray",
+      "path": "/collection/handicrafts/nero-disc-tray",
+      "citationPath": "/citation/works/nero-disc-tray.md",
+      "images": [
+        "/gallery/accents-nero-disc-tray.jpg"
+      ]
+    },
+    {
+      "slug": "hemisphere-candle",
+      "title": "Travertine Hemisphere Candle",
+      "material": "Porous cream travertine, brushed brass",
+      "form": "Stone dome, brass stem and tray, pillar candle",
+      "note": "A half-sphere of pitted stone, then a short gilt stem and a shallow tray. Candlelight on a geological foot. For a table already in conversation with books and a bowl.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Hemisphere Candle is a Stone dome, brass stem and tray, pillar candle in Porous cream travertine, brushed brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Hemisphere Candle.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/hemisphere-candle",
+      "path": "/collection/limestone/hemisphere-candle",
+      "citationPath": "/citation/works/hemisphere-candle.md",
+      "images": [
+        "/gallery/accents-hemisphere-candle.jpg"
+      ]
+    },
+    {
+      "slug": "hotel-reception",
+      "title": "Travertine Monolith Reception",
+      "material": "Honed travertine with a raw-hewn feature edge",
+      "form": "Long hospitality desk on a recessed dark plinth",
+      "note": "A hotel lobby reduced to one material: desk, wall, floor. The far edge is left broken, like a quarry face, against an otherwise exact block. Stone as both finish and origin.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Travertine Monolith Reception is a Long hospitality desk on a recessed dark plinth in Honed travertine with a raw-hewn feature edge, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Travertine Monolith Reception.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/hotel-reception",
+      "path": "/collection/limestone/hotel-reception",
+      "citationPath": "/citation/works/hotel-reception.md",
+      "images": [
+        "/gallery/interiors-hotel-reception.jpg"
+      ]
+    },
+    {
+      "slug": "counter-glow",
+      "title": "Travertine Counter with Underglow",
+      "material": "Linear-veined travertine, recessed lit plinth",
+      "form": "Monolithic display or reception counter",
+      "note": "A long cream block, floating on a wash of warm light. A shell bowl, a lamp, drapery behind. The stone is the architecture; the glow is the only ornament.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Travertine Counter with Underglow is a Monolithic display or reception counter in Linear-veined travertine, recessed lit plinth, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Travertine Counter with Underglow.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/counter-glow",
+      "path": "/collection/limestone/counter-glow",
+      "citationPath": "/citation/works/counter-glow.md",
+      "images": [
+        "/gallery/interiors-counter-glow.jpg"
+      ]
+    },
+    {
+      "slug": "onyx-waterfall",
+      "title": "Backlit Onyx Waterfall Counter",
+      "material": "Translucent honey onyx, internal LED",
+      "form": "L-shaped counter with a vein-matched waterfall edge",
+      "note": "Cream stone lit from inside until the veins become a landscape. The top turns the corner and meets the floor in one fall. A kitchen or bar treated as a luminous solid.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "backlit",
+      "evidence": "interior",
+      "cite": "Backlit Onyx Waterfall Counter is a L-shaped counter with a vein-matched waterfall edge in Translucent honey onyx, internal LED, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Backlit Onyx Waterfall Counter.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/onyx-waterfall",
+      "path": "/collection/onyx/onyx-waterfall",
+      "citationPath": "/citation/works/onyx-waterfall.md",
+      "images": [
+        "/gallery/interiors-onyx-waterfall.jpg"
+      ]
+    },
+    {
+      "slug": "noir-gold-disc",
+      "title": "Noir Gold Circular Top",
+      "material": "Polished black marble with gold and white veining",
+      "form": "Circular tabletop, photographed in the yard",
+      "note": "A finished disc before it is a table: ochre rivers and white threads on a black ground, lying on the workshop floor. The cut from which dining pieces are imagined.",
+      "room": "slabs",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Noir Gold Circular Top is a Circular tabletop, photographed in the yard in Polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Noir Gold Circular Top.” Collection, Karachi, reviewed 2026-09-04. /collection/slabs/noir-gold-disc",
+      "path": "/collection/slabs/noir-gold-disc",
+      "citationPath": "/citation/works/noir-gold-disc.md",
+      "images": [
+        "/gallery/surfaces-noir-gold-disc.jpg"
+      ]
+    },
+    {
+      "slug": "nero-marquina-slabs",
+      "title": "Nero Vein Slabs",
+      "material": "Polished black marble with white calcite veining",
+      "form": "Large-format vertical slabs in the yard",
+      "note": "Two views of tall black slabs, veined like frost on glass. Wall, island, or table waiting to be decided. This is the inventory as exhibition.",
+      "room": "slabs",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Nero Vein Slabs is a Large-format vertical slabs in the yard in Polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Nero Vein Slabs.” Collection, Karachi, reviewed 2026-09-04. /collection/slabs/nero-marquina-slabs",
+      "path": "/collection/slabs/nero-marquina-slabs",
+      "citationPath": "/citation/works/nero-marquina-slabs.md",
+      "images": [
+        "/gallery/surfaces-nero-slab-a.jpg",
+        "/gallery/surfaces-nero-slab-b.jpg"
+      ]
+    },
+    {
+      "slug": "pill-travertine-dining",
+      "title": "Pill Travertine Dining Table",
+      "material": "Honed light travertine",
+      "form": "Rounded-rectangle top on a cylindrical stone pedestal",
+      "note": "A gathering table photographed in a pale room with wishbone chairs. Soft corners, a honed face, one drum of stone underneath — St Werkz inventory for a dining room, not a catalogue sketch.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Pill Travertine Dining Table is a Rounded-rectangle top on a cylindrical stone pedestal in Honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Pill Travertine Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/pill-travertine-dining",
+      "path": "/collection/limestone/pill-travertine-dining",
+      "citationPath": "/citation/works/pill-travertine-dining.md",
+      "images": [
+        "/gallery/st-werkz/pill-travertine-dining.jpg"
+      ]
+    },
+    {
+      "slug": "nero-oval-wood-dining",
+      "title": "Nero Oval Dining Table",
+      "material": "Polished black marble with white veining, dark wood base",
+      "form": "Oval dining top on a tapered wood frame",
+      "note": "A high-polish Nero face on a warm wood undercarriage, set with cream wrap chairs. Finished furniture from the Karachi studio, ready to be viewed as a piece.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Nero Oval Dining Table is a Oval dining top on a tapered wood frame in Polished black marble with white veining, dark wood base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Nero Oval Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nero-oval-wood-dining",
+      "path": "/collection/marble/nero-oval-wood-dining",
+      "citationPath": "/citation/works/nero-oval-wood-dining.md",
+      "images": [
+        "/gallery/st-werkz/nero-oval-wood-dining.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-pedestal-dining",
+      "title": "Portoro Pedestal Dining Table",
+      "material": "Polished black marble with gold veining",
+      "form": "Rectangular dining top on a dark pedestal",
+      "note": "Close on the gold movement in a black ground. A dining table treated as a slab you sit around — the same Portoro language as the yard lots, finished as furniture.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Portoro Pedestal Dining Table is a Rectangular dining top on a dark pedestal in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Portoro Pedestal Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/portoro-pedestal-dining",
+      "path": "/collection/marble/portoro-pedestal-dining",
+      "citationPath": "/citation/works/portoro-pedestal-dining.md",
+      "images": [
+        "/gallery/st-werkz/portoro-pedestal-dining.jpg"
+      ]
+    },
+    {
+      "slug": "nero-chrome-dining",
+      "title": "Nero Chrome Dining Table",
+      "material": "Polished black marble with white veining, chrome frame",
+      "form": "Rectangular dining top on a geometric metal base",
+      "note": "Lightning-white veins on a black top, held by a taut chrome frame and grey velvet chairs. A retail dining piece with a clearer metal line than the wood-base oval.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Nero Chrome Dining Table is a Rectangular dining top on a geometric metal base in Polished black marble with white veining, chrome frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Nero Chrome Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nero-chrome-dining",
+      "path": "/collection/marble/nero-chrome-dining",
+      "citationPath": "/citation/works/nero-chrome-dining.md",
+      "images": [
+        "/gallery/st-werkz/nero-chrome-dining.jpg"
+      ]
+    },
+    {
+      "slug": "nero-xframe-dining",
+      "title": "Nero X-Frame Dining Table",
+      "material": "Polished black marble with white veining, black metal trestle",
+      "form": "Rounded-rectangle top on an X-frame",
+      "note": "A long Nero top with eased corners, photographed in the studio with a wrapped slab behind it. The stone is the product; the frame keeps it in the room.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "workshop",
+      "cite": "Nero X-Frame Dining Table is a Rounded-rectangle top on an X-frame in Polished black marble with white veining, black metal trestle, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Nero X-Frame Dining Table.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nero-xframe-dining",
+      "path": "/collection/marble/nero-xframe-dining",
+      "citationPath": "/citation/works/nero-xframe-dining.md",
+      "images": [
+        "/gallery/st-werkz/nero-xframe-dining.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-square-pedestal",
+      "title": "Travertine Square-Pedestal Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on a square stone plinth",
+      "note": "Round against square. A compact dining or café table in open-pored travertine — inventory for a smaller room that still wants stone under the meal.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Square-Pedestal Table is a Circular top on a square stone plinth in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Square-Pedestal Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-square-pedestal",
+      "path": "/collection/limestone/travertine-square-pedestal",
+      "citationPath": "/citation/works/travertine-square-pedestal.md",
+      "images": [
+        "/gallery/st-werkz/travertine-square-pedestal.jpg"
+      ]
+    },
+    {
+      "slug": "sage-onyx-disc-table",
+      "title": "Sage Onyx Disc Table",
+      "material": "Polished sage onyx, brushed metal rim",
+      "form": "Circular coffee or side table",
+      "note": "A finished disc of rust-and-mint onyx, photographed from above so the face is the whole argument. Living-room furniture from the same stone as the slab book.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Onyx Disc Table is a Circular coffee or side table in Polished sage onyx, brushed metal rim, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Onyx Disc Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-onyx-disc-table",
+      "path": "/collection/onyx/sage-onyx-disc-table",
+      "citationPath": "/citation/works/sage-onyx-disc-table.md",
+      "images": [
+        "/gallery/st-werkz/sage-onyx-disc-table.jpg"
+      ]
+    },
+    {
+      "slug": "sage-onyx-brass-table",
+      "title": "Sage Onyx Brass Table",
+      "material": "Polished green onyx, brushed brass cage",
+      "form": "Round accent table on a vertical-rod drum",
+      "note": "Sage, cream and rust in the stone; a light brass birdcage underneath. A retail side table meant to stand alone in a room that already has a point of view.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Onyx Brass Table is a Round accent table on a vertical-rod drum in Polished green onyx, brushed brass cage, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Onyx Brass Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-onyx-brass-table",
+      "path": "/collection/onyx/sage-onyx-brass-table",
+      "citationPath": "/citation/works/sage-onyx-brass-table.md",
+      "images": [
+        "/gallery/st-werkz/sage-onyx-brass-table.jpg"
+      ]
+    },
+    {
+      "slug": "cream-oval-plinth-table",
+      "title": "Cream Oval Plinth Table",
+      "material": "Polished cream marble or onyx with tan veining",
+      "form": "Oval coffee table on an offset slab base",
+      "note": "A pale, figured oval on a split architectural foot. Low living-room furniture that still reads as construction.",
+      "room": "onyx",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Cream Oval Plinth Table is a Oval coffee table on an offset slab base in Polished cream marble or onyx with tan veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Cream Oval Plinth Table.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/cream-oval-plinth-table",
+      "path": "/collection/onyx/cream-oval-plinth-table",
+      "citationPath": "/citation/works/cream-oval-plinth-table.md",
+      "images": [
+        "/gallery/st-werkz/cream-oval-plinth-table.jpg"
+      ]
+    },
+    {
+      "slug": "linear-travertine-coffee",
+      "title": "Linear Travertine Coffee Table",
+      "material": "Honed vein-cut travertine",
+      "form": "Rectangular slab on twin block legs",
+      "note": "Horizontal bedding running the length of a low table. A small gilt seal on the leg. Furniture from the same travertine as the objects.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Linear Travertine Coffee Table is a Rectangular slab on twin block legs in Honed vein-cut travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Linear Travertine Coffee Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/linear-travertine-coffee",
+      "path": "/collection/limestone/linear-travertine-coffee",
+      "citationPath": "/citation/works/linear-travertine-coffee.md",
+      "images": [
+        "/gallery/st-werkz/linear-travertine-coffee.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-cube-table",
+      "title": "Travertine Cube Table",
+      "material": "Honed beige travertine",
+      "form": "Cubic pedestal on a recessed plinth",
+      "note": "A stone cube, banded like strata, lifted a finger off the floor. Side table or plinth — either reading is correct.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Cube Table is a Cubic pedestal on a recessed plinth in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Cube Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-cube-table",
+      "path": "/collection/limestone/travertine-cube-table",
+      "citationPath": "/citation/works/travertine-cube-table.md",
+      "images": [
+        "/gallery/st-werkz/travertine-cube-table.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-tripod-coffee",
+      "title": "Travertine Tripod Coffee Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on three intersecting slabs",
+      "note": "A low round table whose base is a meeting of three planes. Form first, then the pits in the stone.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Tripod Coffee Table is a Circular top on three intersecting slabs in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Tripod Coffee Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-tripod-coffee",
+      "path": "/collection/limestone/travertine-tripod-coffee",
+      "citationPath": "/citation/works/travertine-tripod-coffee.md",
+      "images": [
+        "/gallery/st-werkz/travertine-tripod-coffee.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-block-side",
+      "title": "Travertine Block Side Table",
+      "material": "Honed unfilled travertine",
+      "form": "Thick rectangular top on a solid upright",
+      "note": "A small architectural block: one upright, one plane. Photographed close so the voids in the stone stay visible.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Block Side Table is a Thick rectangular top on a solid upright in Honed unfilled travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Block Side Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-block-side",
+      "path": "/collection/limestone/travertine-block-side",
+      "citationPath": "/citation/works/travertine-block-side.md",
+      "images": [
+        "/gallery/st-werkz/travertine-block-side.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-walnut-coffee",
+      "title": "Travertine Walnut Coffee Table",
+      "material": "Honed travertine, dark walnut frame",
+      "form": "Circular stone top in a four-leg wood apron",
+      "note": "Stone set into wood, mid-century in the legs, geological in the face. A living-room table from the retail floor.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Walnut Coffee Table is a Circular stone top in a four-leg wood apron in Honed travertine, dark walnut frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Walnut Coffee Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-walnut-coffee",
+      "path": "/collection/limestone/travertine-walnut-coffee",
+      "citationPath": "/citation/works/travertine-walnut-coffee.md",
+      "images": [
+        "/gallery/st-werkz/travertine-walnut-coffee.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-drum-side",
+      "title": "Travertine Drum Side Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on a cylindrical pedestal",
+      "note": "Circle on a drum, photographed on herringbone boards. A quiet accent table for a corner that needs stone, not ornament.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "interior",
+      "cite": "Travertine Drum Side Table is a Circular top on a cylindrical pedestal in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Travertine Drum Side Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-drum-side",
+      "path": "/collection/limestone/travertine-drum-side",
+      "citationPath": "/citation/works/travertine-drum-side.md",
+      "images": [
+        "/gallery/st-werkz/travertine-drum-side.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-cone-pedestal",
+      "title": "Travertine Cone Pedestal Table",
+      "material": "Honed cream travertine",
+      "form": "Circular top on a tapered conical base",
+      "note": "The same language as the dining pedestals, reduced to a side table. One frustum, one disc.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Cone Pedestal Table is a Circular top on a tapered conical base in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Cone Pedestal Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-cone-pedestal",
+      "path": "/collection/limestone/travertine-cone-pedestal",
+      "citationPath": "/citation/works/travertine-cone-pedestal.md",
+      "images": [
+        "/gallery/st-werkz/travertine-cone-pedestal.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-c-table",
+      "title": "Travertine C-Table",
+      "material": "Honed banded travertine",
+      "form": "Cantilevered C-shaped side table",
+      "note": "A notched block that slides beside a sofa. Horizontal banding does the drawing; the void is the useful part.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine C-Table is a Cantilevered C-shaped side table in Honed banded travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine C-Table.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-c-table",
+      "path": "/collection/limestone/travertine-c-table",
+      "citationPath": "/citation/works/travertine-c-table.md",
+      "images": [
+        "/gallery/st-werkz/travertine-c-table.jpg"
+      ]
+    },
+    {
+      "slug": "banded-onyx-vase",
+      "title": "Banded Onyx Vase",
+      "material": "Polished banded onyx in rust, amber and cream",
+      "form": "Shouldered vessel with a flared rim",
+      "note": "Horizontal strata in burgundy, honey and sage. A mantel object from the retail inventory, finished as a piece in its own right.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Banded Onyx Vase is a Shouldered vessel with a flared rim in Polished banded onyx in rust, amber and cream, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Banded Onyx Vase.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/banded-onyx-vase",
+      "path": "/collection/onyx/banded-onyx-vase",
+      "citationPath": "/citation/works/banded-onyx-vase.md",
+      "images": [
+        "/gallery/st-werkz/banded-onyx-vase.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-cylinder-cup",
+      "title": "Portoro Cylinder Cup",
+      "material": "Polished black marble with gold and white veining",
+      "form": "Open cylinder with a thick rim",
+      "note": "A short drum in Portoro — pen cup, vase, or weight on a desk. The vein is the drawing.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Portoro Cylinder Cup is a Open cylinder with a thick rim in Polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Portoro Cylinder Cup.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/portoro-cylinder-cup",
+      "path": "/collection/handicrafts/portoro-cylinder-cup",
+      "citationPath": "/citation/works/portoro-cylinder-cup.md",
+      "images": [
+        "/gallery/st-werkz/portoro-cylinder-cup.jpg"
+      ]
+    },
+    {
+      "slug": "tall-noir-vase",
+      "title": "Tall Noir Marble Vase",
+      "material": "Polished dark marble with white veining",
+      "form": "Elongated floor or pedestal vase",
+      "note": "A tall, softly tapered cylinder in high-contrast black stone. Photographed against a chair rail — an accent meant to be walked past slowly.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Tall Noir Marble Vase is a Elongated floor or pedestal vase in Polished dark marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Tall Noir Marble Vase.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/tall-noir-vase",
+      "path": "/collection/handicrafts/tall-noir-vase",
+      "citationPath": "/citation/works/tall-noir-vase.md",
+      "images": [
+        "/gallery/st-werkz/tall-noir-vase.jpg"
+      ]
+    },
+    {
+      "slug": "copper-vein-basin",
+      "title": "Copper-Vein Marble Basin",
+      "material": "Polished black marble with copper and white veining",
+      "form": "Shallow circular vessel or sink",
+      "note": "A round basin, drain-ready, the interior as figured as the exterior. Bath or still-life — the same stone either way.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Copper-Vein Marble Basin is a Shallow circular vessel or sink in Polished black marble with copper and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Copper-Vein Marble Basin.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/copper-vein-basin",
+      "path": "/collection/handicrafts/copper-vein-basin",
+      "citationPath": "/citation/works/copper-vein-basin.md",
+      "images": [
+        "/gallery/st-werkz/copper-vein-basin.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-compote",
+      "title": "Travertine Compote",
+      "material": "Honed beige travertine",
+      "form": "Wide pedestal bowl on a hemispherical foot",
+      "note": "A raised centrepiece with the pits left open. Fruit, shells, or empty. Table architecture at the scale of a meal.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Compote is a Wide pedestal bowl on a hemispherical foot in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Compote.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-compote",
+      "path": "/collection/limestone/travertine-compote",
+      "citationPath": "/citation/works/travertine-compote.md",
+      "images": [
+        "/gallery/st-werkz/travertine-compote.jpg"
+      ]
+    },
+    {
+      "slug": "sage-onyx-pear-bowl",
+      "title": "Sage Onyx Sphere-Foot Bowl",
+      "material": "Polished sage onyx",
+      "form": "Shallow bowl on three stone spheres",
+      "note": "Green onyx with rust movement, standing on three matching orbs, photographed with pears. Balance as a construction method.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Onyx Sphere-Foot Bowl is a Shallow bowl on three stone spheres in Polished sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Onyx Sphere-Foot Bowl.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-onyx-pear-bowl",
+      "path": "/collection/onyx/sage-onyx-pear-bowl",
+      "citationPath": "/citation/works/sage-onyx-pear-bowl.md",
+      "images": [
+        "/gallery/st-werkz/sage-onyx-pear-bowl.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-vanity-gold",
+      "title": "Travertine Vanity with Gold Pump",
+      "material": "Honed beige travertine, gilt metal pump",
+      "form": "Tray, dispenser, tumbler, canister and soap dish",
+      "note": "A five-piece bath set on a stone tray. Daily objects given the same finish as the furniture.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Vanity with Gold Pump is a Tray, dispenser, tumbler, canister and soap dish in Honed beige travertine, gilt metal pump, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Vanity with Gold Pump.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-vanity-gold",
+      "path": "/collection/limestone/travertine-vanity-gold",
+      "citationPath": "/citation/works/travertine-vanity-gold.md",
+      "images": [
+        "/gallery/st-werkz/travertine-vanity-gold.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-bath-ensemble",
+      "title": "Travertine Bath Ensemble",
+      "material": "Honed travertine, brushed metal and glass",
+      "form": "Tray, pump, canisters and glass toothbrush cup",
+      "note": "A spa set photographed as a still life. Cotton, wood brushes, open pores — the bath treated as a small collection.",
+      "room": "limestone",
+      "stoneFamily": "travertine",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Bath Ensemble is a Tray, pump, canisters and glass toothbrush cup in Honed travertine, brushed metal and glass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Bath Ensemble.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-bath-ensemble",
+      "path": "/collection/limestone/travertine-bath-ensemble",
+      "citationPath": "/citation/works/travertine-bath-ensemble.md",
+      "images": [
+        "/gallery/st-werkz/travertine-bath-ensemble.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-bath-set",
+      "title": "Portoro Bath Set",
+      "material": "Polished black marble with gold veining",
+      "form": "Tissue cover, dispenser, dish, cup and lidded jar",
+      "note": "Five Portoro volumes for a dark counter. The same gold lightning as the dining tables, at the scale of soap and cotton.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Portoro Bath Set is a Tissue cover, dispenser, dish, cup and lidded jar in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Portoro Bath Set.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/portoro-bath-set",
+      "path": "/collection/handicrafts/portoro-bath-set",
+      "citationPath": "/citation/works/portoro-bath-set.md",
+      "images": [
+        "/gallery/st-werkz/portoro-bath-set.jpg"
+      ]
+    },
+    {
+      "slug": "travertine-bath-seven",
+      "title": "Travertine Bath Seven",
+      "material": "Honed travertine, chrome and coral brass",
+      "form": "Seven-piece bath set with tray, brush pot and coral-lid canister",
+      "note": "The fuller bath language: toilet brush, coral finial, dispenser, tumbler, dish. One stone, several daily gestures.",
+      "room": "limestone",
+      "stoneFamily": "mixed",
+      "finish": "honed",
+      "evidence": "still-life",
+      "cite": "Travertine Bath Seven is a Seven-piece bath set with tray, brush pot and coral-lid canister in Honed travertine, chrome and coral brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Travertine Bath Seven.” Collection, Karachi, reviewed 2026-09-04. /collection/limestone/travertine-bath-seven",
+      "path": "/collection/limestone/travertine-bath-seven",
+      "citationPath": "/citation/works/travertine-bath-seven.md",
+      "images": [
+        "/gallery/st-werkz/travertine-bath-seven.jpg"
+      ]
+    },
+    {
+      "slug": "scalloped-onyx-bowl",
+      "title": "Scalloped Onyx Bowl",
+      "material": "Polished banded sage onyx",
+      "form": "Fluted circular bowl",
+      "note": "A ruffled rim in translucent green and terracotta onyx. Two views: one on black marble, one in daylight. An accent that can hold fruit or nothing.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Scalloped Onyx Bowl is a Fluted circular bowl in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Scalloped Onyx Bowl.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/scalloped-onyx-bowl",
+      "path": "/collection/onyx/scalloped-onyx-bowl",
+      "citationPath": "/citation/works/scalloped-onyx-bowl.md",
+      "images": [
+        "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+        "/gallery/st-werkz/scalloped-onyx-bowl-b.jpg"
+      ]
+    },
+    {
+      "slug": "sage-onyx-coasters",
+      "title": "Sage Onyx Coaster Set",
+      "material": "Polished banded sage onyx",
+      "form": "Circular discs in a U-cut cylindrical holder",
+      "note": "Table architecture at the scale of a glass. Two photographs of the same nested set — mint, rust, and a thumb cutout.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Sage Onyx Coaster Set is a Circular discs in a U-cut cylindrical holder in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Sage Onyx Coaster Set.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-onyx-coasters",
+      "path": "/collection/onyx/sage-onyx-coasters",
+      "citationPath": "/citation/works/sage-onyx-coasters.md",
+      "images": [
+        "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+        "/gallery/st-werkz/sage-onyx-coasters-b.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-baluster-vase",
+      "title": "Portoro Baluster Vase",
+      "material": "Polished black marble with white and amber veining",
+      "form": "Classical urn with a ringed neck and pedestal foot",
+      "note": "A turned Portoro vessel, high-gloss, for a shelf that already knows how to be quiet.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Portoro Baluster Vase is a Classical urn with a ringed neck and pedestal foot in Polished black marble with white and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Portoro Baluster Vase.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/portoro-baluster-vase",
+      "path": "/collection/handicrafts/portoro-baluster-vase",
+      "citationPath": "/citation/works/portoro-baluster-vase.md",
+      "images": [
+        "/gallery/st-werkz/portoro-baluster-vase.jpg"
+      ]
+    },
+    {
+      "slug": "terracotta-marble-urn",
+      "title": "Terracotta Marble Urn",
+      "material": "Polished charcoal marble with terracotta and cream figure",
+      "form": "Footed urn on a square plinth",
+      "note": "A planter or object: burnt orange against dark stone, a square foot. Sculpture that can also hold a plant.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Terracotta Marble Urn is a Footed urn on a square plinth in Polished charcoal marble with terracotta and cream figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Terracotta Marble Urn.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/terracotta-marble-urn",
+      "path": "/collection/handicrafts/terracotta-marble-urn",
+      "citationPath": "/citation/works/terracotta-marble-urn.md",
+      "images": [
+        "/gallery/st-werkz/terracotta-marble-urn.jpg"
+      ]
+    },
+    {
+      "slug": "live-edge-onyx-vessel",
+      "title": "Live-Edge Onyx Vessel",
+      "material": "Polished banded sage onyx",
+      "form": "Shallow elongated bowl with a raw rim",
+      "note": "An oval onyx dish, the lip left irregular. Organic rather than turned — a centrepiece from the object inventory.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Live-Edge Onyx Vessel is a Shallow elongated bowl with a raw rim in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Live-Edge Onyx Vessel.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/live-edge-onyx-vessel",
+      "path": "/collection/onyx/live-edge-onyx-vessel",
+      "citationPath": "/citation/works/live-edge-onyx-vessel.md",
+      "images": [
+        "/gallery/st-werkz/live-edge-onyx-vessel.jpg"
+      ]
+    },
+    {
+      "slug": "pair-stone-pedestals",
+      "title": "Pair of Stone Pedestals",
+      "material": "Polished dark marble with tan figure",
+      "form": "Matched Doric display columns",
+      "note": "Two slender pedestals for a bust, a vase, or empty height. Architectural accents sold as a pair.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Pair of Stone Pedestals is a Matched Doric display columns in Polished dark marble with tan figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Pair of Stone Pedestals.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/pair-stone-pedestals",
+      "path": "/collection/handicrafts/pair-stone-pedestals",
+      "citationPath": "/citation/works/pair-stone-pedestals.md",
+      "images": [
+        "/gallery/st-werkz/pair-stone-pedestals.jpg"
+      ]
+    },
+    {
+      "slug": "onyx-chess-casket",
+      "title": "Onyx Chess Casket",
+      "material": "Polished white and banded onyx, velvet case",
+      "form": "Travel chess set in a lined presentation box",
+      "note": "White onyx against rust-and-sage banded onyx, housed in a burgundy case. A game treated as an object.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Onyx Chess Casket is a Travel chess set in a lined presentation box in Polished white and banded onyx, velvet case, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Onyx Chess Casket.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/onyx-chess-casket",
+      "path": "/collection/onyx/onyx-chess-casket",
+      "citationPath": "/citation/works/onyx-chess-casket.md",
+      "images": [
+        "/gallery/st-werkz/onyx-chess-casket.jpg"
+      ]
+    },
+    {
+      "slug": "nero-chess-set",
+      "title": "Nero Chess Set",
+      "material": "Polished black and pale figured stone",
+      "form": "Full board with carved stone pieces",
+      "note": "A square Nero board with a wide black border. Pieces in the same two stones. Living-room sculpture that also plays.",
+      "room": "handicrafts",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "still-life",
+      "cite": "Nero Chess Set is a Full board with carved stone pieces in Polished black and pale figured stone, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.",
+      "howToCite": "St Werkz. “Nero Chess Set.” Collection, Karachi, reviewed 2026-09-04. /collection/handicrafts/nero-chess-set",
+      "path": "/collection/handicrafts/nero-chess-set",
+      "citationPath": "/citation/works/nero-chess-set.md",
+      "images": [
+        "/gallery/st-werkz/nero-chess-set.jpg"
+      ]
+    },
+    {
+      "slug": "viola-marble-fireplace",
+      "title": "Viola Marble Fireplace",
+      "material": "Polished cream marble with rust and charcoal figure",
+      "form": "Carved mantel, matching hearth and wall face",
+      "note": "A room-scale surround: mantel, hearth and the slab above, vein-matched. Stone as architecture for a living room or lobby.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Viola Marble Fireplace is a Carved mantel, matching hearth and wall face in Polished cream marble with rust and charcoal figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Viola Marble Fireplace.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/viola-marble-fireplace",
+      "path": "/collection/marble/viola-marble-fireplace",
+      "citationPath": "/citation/works/viola-marble-fireplace.md",
+      "images": [
+        "/gallery/st-werkz/viola-marble-fireplace.jpg"
+      ]
+    },
+    {
+      "slug": "nero-marble-fireplace",
+      "title": "Nero Marble Fireplace",
+      "material": "Polished black marble with white veining",
+      "form": "Classic panelled mantel and hearth",
+      "note": "A Nero surround with recessed panels, photographed with a live fire. Architectural stone for a specified interior.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "interior",
+      "cite": "Nero Marble Fireplace is a Classic panelled mantel and hearth in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.",
+      "howToCite": "St Werkz. “Nero Marble Fireplace.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/nero-marble-fireplace",
+      "path": "/collection/marble/nero-marble-fireplace",
+      "citationPath": "/citation/works/nero-marble-fireplace.md",
+      "images": [
+        "/gallery/st-werkz/nero-marble-fireplace.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-workshop-mantel",
+      "title": "Portoro Workshop Mantel",
+      "material": "Polished black marble with gold veining",
+      "form": "Carved fireplace surround on the workshop floor",
+      "note": "Taken in the yard before install: gold rivers in a black ground, mouldings already cut. Evidence of how a mantel leaves Karachi.",
+      "room": "marble",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "workshop",
+      "cite": "Portoro Workshop Mantel is a Carved fireplace surround on the workshop floor in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.",
+      "howToCite": "St Werkz. “Portoro Workshop Mantel.” Collection, Karachi, reviewed 2026-09-04. /collection/marble/portoro-workshop-mantel",
+      "path": "/collection/marble/portoro-workshop-mantel",
+      "citationPath": "/citation/works/portoro-workshop-mantel.md",
+      "images": [
+        "/gallery/st-werkz/portoro-workshop-mantel.jpg"
+      ]
+    },
+    {
+      "slug": "honey-quartzite-slab",
+      "title": "Honey Quartzite Slab",
+      "material": "Polished crystalline stone with gold and amber veining",
+      "form": "Large-format slab face",
+      "note": "A luminous cream ground with amber rivers. Photographed as a lot face — the stone before it becomes a counter or a wall.",
+      "room": "slabs",
+      "stoneFamily": "mixed",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Honey Quartzite Slab is a Large-format slab face in Polished crystalline stone with gold and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Honey Quartzite Slab.” Collection, Karachi, reviewed 2026-09-04. /collection/slabs/honey-quartzite-slab",
+      "path": "/collection/slabs/honey-quartzite-slab",
+      "citationPath": "/citation/works/honey-quartzite-slab.md",
+      "images": [
+        "/gallery/st-werkz/honey-quartzite-slab.jpg"
+      ]
+    },
+    {
+      "slug": "celadon-onyx-slab",
+      "title": "Celadon Onyx Slab",
+      "material": "Polished translucent sage onyx",
+      "form": "Vertical onyx face",
+      "note": "Mint and cream with rust pockets. A yard photograph of onyx that can take backlight — discussed as a lot, not as a moodboard.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Celadon Onyx Slab is a Vertical onyx face in Polished translucent sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Celadon Onyx Slab.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/celadon-onyx-slab",
+      "path": "/collection/onyx/celadon-onyx-slab",
+      "citationPath": "/citation/works/celadon-onyx-slab.md",
+      "images": [
+        "/gallery/st-werkz/celadon-onyx-slab.jpg"
+      ]
+    },
+    {
+      "slug": "nero-calcite-lot",
+      "title": "Nero Calcite Lot",
+      "material": "Polished black marble with white calcite veining",
+      "form": "Two faces from the same black-and-white lot",
+      "note": "Jagged white on a black ground, recorded as two close faces. Inventory for architects and the export desk.",
+      "room": "slabs",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Nero Calcite Lot is a Two faces from the same black-and-white lot in Polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Nero Calcite Lot.” Collection, Karachi, reviewed 2026-09-04. /collection/slabs/nero-calcite-lot",
+      "path": "/collection/slabs/nero-calcite-lot",
+      "citationPath": "/citation/works/nero-calcite-lot.md",
+      "images": [
+        "/gallery/st-werkz/nero-calcite-slab-a.jpg",
+        "/gallery/st-werkz/nero-calcite-slab-b.jpg"
+      ]
+    },
+    {
+      "slug": "sage-rust-onyx-slab",
+      "title": "Sage & Rust Onyx Slab",
+      "material": "Polished green onyx with rust and gold figure",
+      "form": "Full-frame onyx face",
+      "note": "Lightning in amber across a celadon ground. The same family as the disc tables, shown here as quantity stone.",
+      "room": "onyx",
+      "stoneFamily": "onyx",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Sage & Rust Onyx Slab is a Full-frame onyx face in Polished green onyx with rust and gold figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Sage & Rust Onyx Slab.” Collection, Karachi, reviewed 2026-09-04. /collection/onyx/sage-rust-onyx-slab",
+      "path": "/collection/onyx/sage-rust-onyx-slab",
+      "citationPath": "/citation/works/sage-rust-onyx-slab.md",
+      "images": [
+        "/gallery/st-werkz/sage-rust-onyx-slab.jpg"
+      ]
+    },
+    {
+      "slug": "portoro-gold-lot",
+      "title": "Portoro Gold Lot",
+      "material": "Polished black marble with honey-gold veining",
+      "form": "Slab face and a book-matched inlay panel",
+      "note": "Two records of Portoro: a raw face, then a panel with turned borders. This is the cut the dining tables are drawn from.",
+      "room": "slabs",
+      "stoneFamily": "marble",
+      "finish": "polished",
+      "evidence": "yard",
+      "cite": "Portoro Gold Lot is a Slab face and a book-matched inlay panel in Polished black marble with honey-gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.",
+      "howToCite": "St Werkz. “Portoro Gold Lot.” Collection, Karachi, reviewed 2026-09-04. /collection/slabs/portoro-gold-lot",
+      "path": "/collection/slabs/portoro-gold-lot",
+      "citationPath": "/citation/works/portoro-gold-lot.md",
+      "images": [
+        "/gallery/st-werkz/portoro-gold-slab.jpg",
+        "/gallery/st-werkz/portoro-gold-inlay.jpg"
+      ]
+    }
+  ]
+}

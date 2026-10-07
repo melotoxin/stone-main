@@ -1,0 +1,122 @@
+[
+  {
+    "source": "/gallery/accents-bulbous-vessel.jpg",
+    "displayed": "/gallery/clean/accents-bulbous-vessel.svg",
+    "originalSha256": "7ee26adc693b13557f0f18115c6f20955f4bb87766c50ae4d69821085d45d8c1",
+    "sourceDimensions": [
+      679,
+      1024
+    ],
+    "frameDimensions": [
+      660,
+      859
+    ],
+    "viewport": [
+      0,
+      0,
+      660,
+      859
+    ],
+    "pixelEdits": false
+  },
+  {
+    "source": "/gallery/accents-travertine-candlesticks.jpg",
+    "displayed": "/gallery/clean/accents-travertine-candlesticks.svg",
+    "originalSha256": "27d680cef3896382c11c44a8abb129585d24fd9231bb9048f467384ac681adad",
+    "sourceDimensions": [
+      750,
+      922
+    ],
+    "frameDimensions": [
+      660,
+      922
+    ],
+    "viewport": [
+      0,
+      0,
+      660,
+      922
+    ],
+    "pixelEdits": false
+  },
+  {
+    "source": "/gallery/accents-tapered-vessel.jpg",
+    "displayed": "/gallery/clean/accents-tapered-vessel.svg",
+    "originalSha256": "005f686b4d71cabad919bec5b7dbd40dbe01d07f0e72af0848bac5da787b81f7",
+    "sourceDimensions": [
+      679,
+      1024
+    ],
+    "frameDimensions": [
+      660,
+      837
+    ],
+    "viewport": [
+      0,
+      0,
+      660,
+      837
+    ],
+    "pixelEdits": false
+  },
+  {
+    "source": "/gallery/accents-round-tray.jpg",
+    "displayed": "/gallery/clean/accents-round-tray.svg",
+    "originalSha256": "ee78a6eb8b47cc1399333d08a031fd8004727d7d70f05d55167e041b2a596925",
+    "sourceDimensions": [
+      672,
+      586
+    ],
+    "frameDimensions": [
+      584,
+      244
+    ],
+    "viewport": [
+      72,
+      225,
+      584,
+      244
+    ],
+    "pixelEdits": false
+  },
+  {
+    "source": "/gallery/accents-curved-canisters.jpg",
+    "displayed": "/gallery/clean/accents-curved-canisters.svg",
+    "originalSha256": "2a6d7121fb7aae31d4fcb5346defc9e0bc68809a1e8c12ca0c72aa004ff2c5b6",
+    "sourceDimensions": [
+      736,
+      920
+    ],
+    "frameDimensions": [
+      470,
+      390
+    ],
+    "viewport": [
+      130,
+      290,
+      470,
+      390
+    ],
+    "pixelEdits": false
+  },
+  {
+    "source": "/gallery/accents-pedestal-bowl.jpg",
+    "displayed": "/gallery/clean/accents-pedestal-bowl.svg",
+    "originalSha256": "574fe9d655d38ac24ac484c93cc0837e3afe768fbf6017a4cf451d00f2c3f470",
+    "sourceDimensions": [
+      750,
+      488
+    ],
+    "frameDimensions": [
+      570,
+      283
+    ],
+    "viewport": [
+      78,
+      136,
+      570,
+      283
+    ],
+    "pixelEdits": false
+  }
+]

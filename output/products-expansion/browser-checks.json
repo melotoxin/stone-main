@@ -1,0 +1,447 @@
+{
+  "createdAt": "2026-10-05T21:42:19.362Z",
+  "checks": [
+    {
+      "check": "320px header and products",
+      "passed": true,
+      "details": "No horizontal overflow; all navigation controls fit inside client width, 44px search/menu targets."
+    },
+    {
+      "check": "390px Kitchen catalogue",
+      "passed": true,
+      "details": "11 objects; 10 distinct shelf cards plus one featured photo. Tabs sit immediately below 68px header; search text 16px."
+    },
+    {
+      "check": "Product finder",
+      "passed": true,
+      "details": "STW-ON-15 returns the added Sphere-Foot Bowl; featured Compote match stays text-only; unknown query shows 0/11 and reset returns 10 shelf cards with input focus."
+    },
+    {
+      "check": "Washroom added item search",
+      "passed": true,
+      "details": "STW-HC-07 returns the Portoro Cylinder Cup, 1/10 objects."
+    },
+    {
+      "check": "Keyboard category navigation",
+      "focused": "tab-kitchen",
+      "passed": true,
+      "query": "",
+      "selected": "tab-kitchen"
+    },
+    {
+      "check": "768px tablet Products",
+      "passed": true,
+      "details": "No horizontal overflow; three complete tabs at75px; main navigation and quote button fit."
+    },
+    {
+      "check": "Mobile menu close and navigation",
+      "overflow": false,
+      "passed": true,
+      "path": "/collection"
+    },
+    {
+      "check": "Collections at390px",
+      "bodyFont": "14px",
+      "eyebrowFont": "11px",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "check": "390px gallery photographs",
+      "arrows": [
+        {
+          "h": 44,
+          "w": 44
+        },
+        {
+          "h": 44,
+          "w": 44
+        }
+      ],
+      "overflow": false,
+      "passed": true,
+      "positionFont": "11px",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-b.jpg"
+    },
+    {
+      "check": "Product navigation starts at photo/title",
+      "heroTop": 194,
+      "passed": true,
+      "path": "/collection/handicrafts/portoro-bookends",
+      "scrollY": 0,
+      "title": "Portoro Bookends"
+    },
+    {
+      "check": "Back preserves category, search and shelf position",
+      "cards": 1,
+      "category": "#home-decor",
+      "passed": true,
+      "query": "bookends",
+      "scrollY": 1382
+    },
+    {
+      "check": "Retail mobile search",
+      "count": 1,
+      "inputFont": "16px",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "check": "Mobile global search and dialog controls",
+      "close": [
+        {
+          "h": 44,
+          "w": 44
+        }
+      ],
+      "inputFont": "16px",
+      "overflow": false,
+      "passed": true,
+      "result": "Portoro BookendsPolished black marble with gold veining"
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Bring your vision to life.",
+      "passed": true,
+      "path": "/",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Nature, inits own handwriting.",
+      "passed": true,
+      "path": "/collection",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "A singular piece for home.",
+      "passed": true,
+      "path": "/retail",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Marble and onyx with a name.",
+      "passed": true,
+      "path": "/stones",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Start witha question.",
+      "passed": true,
+      "path": "/enquire",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "A first range, before the slab.",
+      "passed": true,
+      "path": "/estimate",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [
+        {
+          "label": null,
+          "right": 339.125,
+          "text": "Enquire"
+        },
+        {
+          "label": null,
+          "right": 365.4375,
+          "text": "Interior Design"
+        },
+        {
+          "label": null,
+          "right": 460.53125,
+          "text": "Wholesalers"
+        }
+      ],
+      "heading": "Stone witha point of view.",
+      "passed": true,
+      "path": "/architects",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [
+        {
+          "label": null,
+          "right": 339.125,
+          "text": "Enquire"
+        },
+        {
+          "label": null,
+          "right": 365.4375,
+          "text": "Interior Design"
+        },
+        {
+          "label": null,
+          "right": 460.53125,
+          "text": "Wholesalers"
+        }
+      ],
+      "heading": "Objects and slabsfor the room.",
+      "passed": true,
+      "path": "/interiors",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [
+        {
+          "label": null,
+          "right": 339.125,
+          "text": "Enquire"
+        },
+        {
+          "label": null,
+          "right": 365.4375,
+          "text": "Interior Design"
+        },
+        {
+          "label": null,
+          "right": 460.53125,
+          "text": "Wholesalers"
+        }
+      ],
+      "heading": "Photographed lots,then a crate.",
+      "passed": true,
+      "path": "/export",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [
+        {
+          "label": null,
+          "right": 339.125,
+          "text": "Enquire"
+        },
+        {
+          "label": null,
+          "right": 365.4375,
+          "text": "Interior Design"
+        },
+        {
+          "label": null,
+          "right": 460.53125,
+          "text": "Wholesalers"
+        }
+      ],
+      "heading": "Pieces customerscome back for.",
+      "passed": true,
+      "path": "/retailers",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Stone sourced for scale. Sculpted for one.",
+      "passed": true,
+      "path": "/about",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px page layout",
+      "clientWidth": 305,
+      "headerOutOfBounds": [],
+      "heading": "Good stone has a quiet kind of gravity.",
+      "passed": true,
+      "path": "/atelier",
+      "scrollWidth": 305
+    },
+    {
+      "check": "320px Trade header fix",
+      "brandName": "St Werkz home",
+      "clientWidth": 305,
+      "enquireRight": 272,
+      "headerHeight": 162,
+      "passed": true
+    },
+    {
+      "check": "320px Export header fix",
+      "brandName": "St Werkz home",
+      "clientWidth": 305,
+      "enquireRight": 272,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "check": "Cross-page FAQ anchor",
+      "expectedTop": 112,
+      "passed": true,
+      "targetTop": 111.65625,
+      "url": "http://localhost:4173/atelier#faq"
+    },
+    {
+      "check": "320px RTL Products",
+      "category": "home-decor",
+      "dir": "rtl",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "check": "1280px desktop Products",
+      "cards": 12,
+      "category": "home-decor",
+      "overflow": false,
+      "passed": true,
+      "width": 1280
+    },
+    {
+      "check": "Fresh final preview load",
+      "passed": true,
+      "language": "en-PK",
+      "products": 34,
+      "consoleErrors": []
+    }
+  ],
+  "consoleCheck": {
+    "since": "2026-10-05T21:42:04.608Z",
+    "errors": [],
+    "historicalEditTimeReloadErrors": [
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/layout/CollectionSearch.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.156Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/seo/DocumentMeta.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.156Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/layout/SiteChrome.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.156Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/seo/FaqSection.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.156Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/layout/AudienceNav.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.156Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.157Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/App.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.157Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/components/motion/SiteStoryMotion.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.157Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/about-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.157Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/not-found.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.157Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/estimate-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/retail-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/atelier-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/home-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/products-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/export-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/enquire-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/stones-page.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/trade-pages.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.160Z",
+        "url": "http://localhost:4173/@vite/client"
+      },
+      {
+        "level": "error",
+        "message": "[vite] Failed to reload /src/pages/gallery-pages.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
+        "timestamp": "2026-10-05T21:33:13.164Z",
+        "url": "http://localhost:4173/@vite/client"
+      }
+    ]
+  },
+  "limits": "Responsive checks use simulated viewport sizes, not physical iOS/Android devices. Historical edit-time Vite reload errors are preserved separately; a fresh final reload has no console errors. Earlier clipped Trade/Export header entries are followed by passing fix checks."
+}

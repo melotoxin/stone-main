@@ -1,0 +1,48 @@
+{
+  "id": "/",
+  "name": "St Werkz",
+  "short_name": "St Werkz",
+  "description": "St Werkz is a Karachi material studio making custom marble, travertine and onyx furniture, objects and architectural stone. Dining tables, coffee tables, sinks and slabs, shown as a gallery — viewings by request.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "browser"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#111111",
+  "theme_color": "#0c0c0c",
+  "lang": "en-PK",
+  "dir": "ltr",
+  "categories": [
+    "lifestyle",
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

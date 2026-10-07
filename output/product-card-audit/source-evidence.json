@@ -1,0 +1,1022 @@
+{
+  "scope": "41 actual catalogue products, 6 card frames and 6 existing clean frames",
+  "metadataCount": 41,
+  "products": [
+    {
+      "slug": "travertine-compote",
+      "source": "/gallery/st-werkz/travertine-compote.jpg",
+      "display": "/gallery/card-frames/travertine-compote.svg",
+      "metadataDimensions": [
+        736,
+        625
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        625
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "ff5a554036f3bf1ec9a64b961690fd4956b097554254e54e2a1415b3f0fb6521",
+      "embeddedSha256": "ff5a554036f3bf1ec9a64b961690fd4956b097554254e54e2a1415b3f0fb6521",
+      "sourceDimensions": [
+        736,
+        865
+      ],
+      "viewport": [
+        0,
+        240,
+        736,
+        625
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-tray",
+      "source": "/gallery/accents-travertine-tray.jpg",
+      "display": "/gallery/accents-travertine-tray.jpg",
+      "metadataDimensions": [
+        736,
+        912
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        912
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "oblong-tray",
+      "source": "/gallery/accents-oblong-tray.jpg",
+      "display": "/gallery/accents-oblong-tray.jpg",
+      "metadataDimensions": [
+        736,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        981
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "round-tray",
+      "source": "/gallery/clean/accents-round-tray.svg",
+      "display": "/gallery/clean/accents-round-tray.svg",
+      "metadataDimensions": [
+        584,
+        244
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        584,
+        244
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "ee78a6eb8b47cc1399333d08a031fd8004727d7d70f05d55167e041b2a596925",
+      "embeddedSha256": "ee78a6eb8b47cc1399333d08a031fd8004727d7d70f05d55167e041b2a596925",
+      "sourceDimensions": [
+        672,
+        586
+      ],
+      "viewport": [
+        72,
+        225,
+        584,
+        244
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "coaster-suite",
+      "source": "/gallery/accents-coaster-suite.jpg",
+      "display": "/gallery/card-frames/coaster-suite.svg",
+      "metadataDimensions": [
+        600,
+        620
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        600,
+        620
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "6487c4bf32bbd07f600b18294f36222c453f76a20d1915c709a332fa13d64b0f",
+      "embeddedSha256": "6487c4bf32bbd07f600b18294f36222c453f76a20d1915c709a332fa13d64b0f",
+      "sourceDimensions": [
+        600,
+        800
+      ],
+      "viewport": [
+        0,
+        90,
+        600,
+        620
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "sage-onyx-coasters",
+      "source": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "display": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "curved-canisters",
+      "source": "/gallery/clean/accents-curved-canisters.svg",
+      "display": "/gallery/clean/accents-curved-canisters.svg",
+      "metadataDimensions": [
+        470,
+        390
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        470,
+        390
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "2a6d7121fb7aae31d4fcb5346defc9e0bc68809a1e8c12ca0c72aa004ff2c5b6",
+      "embeddedSha256": "2a6d7121fb7aae31d4fcb5346defc9e0bc68809a1e8c12ca0c72aa004ff2c5b6",
+      "sourceDimensions": [
+        736,
+        920
+      ],
+      "viewport": [
+        130,
+        290,
+        470,
+        390
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "pedestal-bowl",
+      "source": "/gallery/clean/accents-pedestal-bowl.svg",
+      "display": "/gallery/clean/accents-pedestal-bowl.svg",
+      "metadataDimensions": [
+        570,
+        283
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        570,
+        283
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "574fe9d655d38ac24ac484c93cc0837e3afe768fbf6017a4cf451d00f2c3f470",
+      "embeddedSha256": "574fe9d655d38ac24ac484c93cc0837e3afe768fbf6017a4cf451d00f2c3f470",
+      "sourceDimensions": [
+        750,
+        488
+      ],
+      "viewport": [
+        78,
+        136,
+        570,
+        283
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "sage-onyx-pear-bowl",
+      "source": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "display": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "metadataDimensions": [
+        736,
+        920
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        920
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "scalloped-onyx-bowl",
+      "source": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "display": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "metadataDimensions": [
+        736,
+        1022
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1022
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "nero-disc-tray",
+      "source": "/gallery/accents-nero-disc-tray.jpg",
+      "display": "/gallery/accents-nero-disc-tray.jpg",
+      "metadataDimensions": [
+        700,
+        700
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        700,
+        700
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "portoro-bath-set",
+      "source": "/gallery/st-werkz/portoro-bath-set.jpg",
+      "display": "/gallery/st-werkz/portoro-bath-set.jpg",
+      "metadataDimensions": [
+        600,
+        600
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        600,
+        600
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-vanity-gold",
+      "source": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "display": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "metadataDimensions": [
+        600,
+        600
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        600,
+        600
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-bath-ensemble",
+      "source": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "display": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "metadataDimensions": [
+        736,
+        1130
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1130
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-bath-seven",
+      "source": "/gallery/st-werkz/travertine-bath-seven.jpg",
+      "display": "/gallery/card-frames/travertine-bath-seven.svg",
+      "metadataDimensions": [
+        736,
+        690
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        690
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2",
+      "embeddedSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2",
+      "sourceDimensions": [
+        736,
+        736
+      ],
+      "viewport": [
+        0,
+        0,
+        736,
+        690
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-bath",
+      "source": "/gallery/accents-travertine-bath.jpg",
+      "display": "/gallery/accents-travertine-bath.jpg",
+      "metadataDimensions": [
+        314,
+        239
+      ],
+      "nativeLimit": true,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        314,
+        239
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "vessel-sink",
+      "source": "/gallery/accents-vessel-sink.jpg",
+      "display": "/gallery/card-frames/vessel-sink.svg",
+      "metadataDimensions": [
+        670,
+        365
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        670,
+        365
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "d2079c3cd5dcc7d3872178eaff5a0e62ef0426e091ea15f581a2e871d59dd3e2",
+      "embeddedSha256": "d2079c3cd5dcc7d3872178eaff5a0e62ef0426e091ea15f581a2e871d59dd3e2",
+      "sourceDimensions": [
+        750,
+        500
+      ],
+      "viewport": [
+        40,
+        65,
+        670,
+        365
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "copper-vein-basin",
+      "source": "/gallery/st-werkz/copper-vein-basin.jpg",
+      "display": "/gallery/card-frames/copper-vein-basin.svg",
+      "metadataDimensions": [
+        640,
+        400
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        640,
+        400
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "13ab249cea0d06dd648a5c5d298bc30e149d694f043c061ada139bdb8ec05435",
+      "embeddedSha256": "13ab249cea0d06dd648a5c5d298bc30e149d694f043c061ada139bdb8ec05435",
+      "sourceDimensions": [
+        640,
+        640
+      ],
+      "viewport": [
+        0,
+        130,
+        640,
+        400
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "coral-canister",
+      "source": "/gallery/accents-coral-canister.jpg",
+      "display": "/gallery/accents-coral-canister.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "scalloped-valet",
+      "source": "/gallery/accents-scalloped-valet.jpg",
+      "display": "/gallery/accents-scalloped-valet.jpg",
+      "metadataDimensions": [
+        736,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        981
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "portoro-cylinder-cup",
+      "source": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "display": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "metadataDimensions": [
+        500,
+        500
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        500,
+        500
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "nero-cylinder",
+      "source": "/gallery/accents-nero-cylinder.jpg",
+      "display": "/gallery/accents-nero-cylinder.jpg",
+      "metadataDimensions": [
+        576,
+        1024
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        576,
+        1024
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "tapered-vessel",
+      "source": "/gallery/clean/accents-tapered-vessel.svg",
+      "display": "/gallery/clean/accents-tapered-vessel.svg",
+      "metadataDimensions": [
+        660,
+        837
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        660,
+        837
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "005f686b4d71cabad919bec5b7dbd40dbe01d07f0e72af0848bac5da787b81f7",
+      "embeddedSha256": "005f686b4d71cabad919bec5b7dbd40dbe01d07f0e72af0848bac5da787b81f7",
+      "sourceDimensions": [
+        679,
+        1024
+      ],
+      "viewport": [
+        0,
+        0,
+        660,
+        837
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "banded-onyx-vase",
+      "source": "/gallery/st-werkz/banded-onyx-vase.jpg",
+      "display": "/gallery/st-werkz/banded-onyx-vase.jpg",
+      "metadataDimensions": [
+        735,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        735,
+        981
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "portoro-baluster-vase",
+      "source": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "display": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "metadataDimensions": [
+        736,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        981
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "terracotta-marble-urn",
+      "source": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "display": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "live-edge-onyx-vessel",
+      "source": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "display": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "onyx-chess-casket",
+      "source": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "display": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "metadataDimensions": [
+        736,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        981
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "nero-chess-set",
+      "source": "/gallery/st-werkz/nero-chess-set.jpg",
+      "display": "/gallery/st-werkz/nero-chess-set.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-candlesticks",
+      "source": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "display": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "metadataDimensions": [
+        660,
+        922
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        660,
+        922
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "27d680cef3896382c11c44a8abb129585d24fd9231bb9048f467384ac681adad",
+      "embeddedSha256": "27d680cef3896382c11c44a8abb129585d24fd9231bb9048f467384ac681adad",
+      "sourceDimensions": [
+        750,
+        922
+      ],
+      "viewport": [
+        0,
+        0,
+        660,
+        922
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "bulbous-vessel",
+      "source": "/gallery/clean/accents-bulbous-vessel.svg",
+      "display": "/gallery/clean/accents-bulbous-vessel.svg",
+      "metadataDimensions": [
+        660,
+        859
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        660,
+        859
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "7ee26adc693b13557f0f18115c6f20955f4bb87766c50ae4d69821085d45d8c1",
+      "embeddedSha256": "7ee26adc693b13557f0f18115c6f20955f4bb87766c50ae4d69821085d45d8c1",
+      "sourceDimensions": [
+        679,
+        1024
+      ],
+      "viewport": [
+        0,
+        0,
+        660,
+        859
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "portoro-bookends",
+      "source": "/gallery/accents-portoro-bookends.jpg",
+      "display": "/gallery/card-frames/portoro-bookends.svg",
+      "metadataDimensions": [
+        736,
+        566
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        566
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "3b09b9e9d146b41e2662797051410b12374d480a4643731fb6fe7e88d95007d8",
+      "embeddedSha256": "3b09b9e9d146b41e2662797051410b12374d480a4643731fb6fe7e88d95007d8",
+      "sourceDimensions": [
+        736,
+        736
+      ],
+      "viewport": [
+        0,
+        170,
+        736,
+        566
+      ],
+      "viewportWithinSource": true,
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "desk-suite",
+      "source": "/gallery/accents-desk-suite.jpg",
+      "display": "/gallery/accents-desk-suite.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "nero-candles",
+      "source": "/gallery/accents-nero-candles.jpg",
+      "display": "/gallery/accents-nero-candles.jpg",
+      "metadataDimensions": [
+        736,
+        736
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        736
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "hemisphere-candle",
+      "source": "/gallery/accents-hemisphere-candle.jpg",
+      "display": "/gallery/accents-hemisphere-candle.jpg",
+      "metadataDimensions": [
+        681,
+        1024
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        681,
+        1024
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "onyx-urns",
+      "source": "/gallery/accents-onyx-urns.jpg",
+      "display": "/gallery/accents-onyx-urns.jpg",
+      "metadataDimensions": [
+        735,
+        832
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        735,
+        832
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "tall-noir-vase",
+      "source": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "display": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "metadataDimensions": [
+        736,
+        1104
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1104
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "pair-stone-pedestals",
+      "source": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "display": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "metadataDimensions": [
+        736,
+        1226
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1226
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-drum-side",
+      "source": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "display": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "metadataDimensions": [
+        736,
+        1104
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1104
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-cone-pedestal",
+      "source": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "display": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "metadataDimensions": [
+        736,
+        1104
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        1104
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "slug": "travertine-c-table",
+      "source": "/gallery/st-werkz/travertine-c-table.jpg",
+      "display": "/gallery/st-werkz/travertine-c-table.jpg",
+      "metadataDimensions": [
+        736,
+        981
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        981
+      ],
+      "dimensionsMatch": true
+    }
+  ],
+  "frames": [
+    {
+      "slug": "travertine-compote",
+      "source": "/gallery/st-werkz/travertine-compote.jpg",
+      "display": "/gallery/card-frames/travertine-compote.svg",
+      "metadataDimensions": [
+        736,
+        625
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        625
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "ff5a554036f3bf1ec9a64b961690fd4956b097554254e54e2a1415b3f0fb6521",
+      "embeddedSha256": "ff5a554036f3bf1ec9a64b961690fd4956b097554254e54e2a1415b3f0fb6521",
+      "sourceDimensions": [
+        736,
+        865
+      ],
+      "viewport": [
+        0,
+        240,
+        736,
+        625
+      ],
+      "viewportWithinSource": true
+    },
+    {
+      "slug": "coaster-suite",
+      "source": "/gallery/accents-coaster-suite.jpg",
+      "display": "/gallery/card-frames/coaster-suite.svg",
+      "metadataDimensions": [
+        600,
+        620
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        600,
+        620
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "6487c4bf32bbd07f600b18294f36222c453f76a20d1915c709a332fa13d64b0f",
+      "embeddedSha256": "6487c4bf32bbd07f600b18294f36222c453f76a20d1915c709a332fa13d64b0f",
+      "sourceDimensions": [
+        600,
+        800
+      ],
+      "viewport": [
+        0,
+        90,
+        600,
+        620
+      ],
+      "viewportWithinSource": true
+    },
+    {
+      "slug": "travertine-bath-seven",
+      "source": "/gallery/st-werkz/travertine-bath-seven.jpg",
+      "display": "/gallery/card-frames/travertine-bath-seven.svg",
+      "metadataDimensions": [
+        736,
+        690
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        690
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2",
+      "embeddedSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2",
+      "sourceDimensions": [
+        736,
+        736
+      ],
+      "viewport": [
+        0,
+        0,
+        736,
+        690
+      ],
+      "viewportWithinSource": true
+    },
+    {
+      "slug": "vessel-sink",
+      "source": "/gallery/accents-vessel-sink.jpg",
+      "display": "/gallery/card-frames/vessel-sink.svg",
+      "metadataDimensions": [
+        670,
+        365
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        670,
+        365
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "d2079c3cd5dcc7d3872178eaff5a0e62ef0426e091ea15f581a2e871d59dd3e2",
+      "embeddedSha256": "d2079c3cd5dcc7d3872178eaff5a0e62ef0426e091ea15f581a2e871d59dd3e2",
+      "sourceDimensions": [
+        750,
+        500
+      ],
+      "viewport": [
+        40,
+        65,
+        670,
+        365
+      ],
+      "viewportWithinSource": true
+    },
+    {
+      "slug": "copper-vein-basin",
+      "source": "/gallery/st-werkz/copper-vein-basin.jpg",
+      "display": "/gallery/card-frames/copper-vein-basin.svg",
+      "metadataDimensions": [
+        640,
+        400
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        640,
+        400
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "13ab249cea0d06dd648a5c5d298bc30e149d694f043c061ada139bdb8ec05435",
+      "embeddedSha256": "13ab249cea0d06dd648a5c5d298bc30e149d694f043c061ada139bdb8ec05435",
+      "sourceDimensions": [
+        640,
+        640
+      ],
+      "viewport": [
+        0,
+        130,
+        640,
+        400
+      ],
+      "viewportWithinSource": true
+    },
+    {
+      "slug": "portoro-bookends",
+      "source": "/gallery/accents-portoro-bookends.jpg",
+      "display": "/gallery/card-frames/portoro-bookends.svg",
+      "metadataDimensions": [
+        736,
+        566
+      ],
+      "nativeLimit": false,
+      "sourceFileExists": true,
+      "actualDisplayDimensions": [
+        736,
+        566
+      ],
+      "embeddedBytesExact": true,
+      "sourceSha256": "3b09b9e9d146b41e2662797051410b12374d480a4643731fb6fe7e88d95007d8",
+      "embeddedSha256": "3b09b9e9d146b41e2662797051410b12374d480a4643731fb6fe7e88d95007d8",
+      "sourceDimensions": [
+        736,
+        736
+      ],
+      "viewport": [
+        0,
+        170,
+        736,
+        566
+      ],
+      "viewportWithinSource": true
+    }
+  ],
+  "failures": [],
+  "uniquePhotoSources": 41,
+  "nativeLimitedProducts": [
+    "travertine-bath"
+  ],
+  "all41DimensionsMatch": true,
+  "all12SVGEmbeddedPhotographsExact": true,
+  "allSVGViewportsWithinOriginalBounds": true,
+  "onlyBathSuiteNative": true,
+  "manualSubjectInspection": "PASS: inspected all six viewport crops against original photographs; full rims, feet, handles, shells and tray edges are retained. Cropping removes only surrounding wall/white space and the sink source top border.",
+  "staticComponentAudit": {
+    "ProductCard": "Reuses original detail routes, localized product names/materials/forms and piece code; entire card is one link.",
+    "CataloguePhoto": "Uses audited display dimensions for aspect ratio and native-only flag; all 41 supplied sources have entries.",
+    "all41MappingsPresent": true,
+    "onlyBathSuiteUsesNativeCap": true
+  }
+}

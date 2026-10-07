@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "cd ../.. && pnpm install",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/public",
+  "env": {
+    "VITE_SITE_URL": "https://thestoneworks.com"
+  },
+  "headers": [
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!citation/|knowledge\\.json|llms\\.txt|llms-full\\.txt|llm\\.txt|sitemap\\.xml|robots\\.txt|site\\.webmanifest|sw\\.js|offline\\.html|icons/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

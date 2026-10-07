@@ -1,0 +1,19 @@
+
+> @workspace/stoneworks@0.0.0 build D:\St werks\stone-main\artifacts\stoneworks
+> vite build --config vite.config.ts
+
+vite v7.3.6 building client environment for production...
+transforming...
+src/components/ui/tooltip.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 1888 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/public/index.html                     4.35 kB │ gzip:   1.20 kB
+dist/public/assets/index-DfdO27lq.css    227.70 kB │ gzip:  41.60 kB
+dist/public/assets/index-BihzEquk.js   1,136.10 kB │ gzip: 333.05 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.60s

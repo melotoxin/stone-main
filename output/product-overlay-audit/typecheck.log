@@ -1,0 +1,4 @@
+
+> @workspace/stoneworks@0.0.0 typecheck D:\St werks\stone-main\artifacts\stoneworks
+> tsc -p tsconfig.json --noEmit
+

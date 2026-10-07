@@ -1,0 +1,153 @@
+{
+  "method": "Read-only React server render through existing Vite transform, without a browser",
+  "pages": [
+    {
+      "path": "/products",
+      "status": "passed",
+      "uniqueIds": 10,
+      "resolvedPageLinks": 39,
+      "htmlBytes": 33354,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/es/products",
+      "status": "passed",
+      "uniqueIds": 10,
+      "resolvedPageLinks": 39,
+      "htmlBytes": 33585,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/ar/products",
+      "status": "passed",
+      "uniqueIds": 10,
+      "resolvedPageLinks": 39,
+      "htmlBytes": 34131,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/",
+      "status": "passed",
+      "uniqueIds": 18,
+      "resolvedPageLinks": 57,
+      "htmlBytes": 38429,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/about",
+      "status": "passed",
+      "uniqueIds": 8,
+      "resolvedPageLinks": 33,
+      "htmlBytes": 20858,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/collection",
+      "status": "passed",
+      "uniqueIds": 2,
+      "resolvedPageLinks": 34,
+      "htmlBytes": 21506,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/collection/onyx/banded-onyx-vase",
+      "status": "passed",
+      "uniqueIds": 2,
+      "resolvedPageLinks": 34,
+      "htmlBytes": 17423,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/architects",
+      "status": "passed",
+      "uniqueIds": 4,
+      "resolvedPageLinks": 19,
+      "htmlBytes": 20871,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/es/architects",
+      "status": "passed",
+      "uniqueIds": 4,
+      "resolvedPageLinks": 19,
+      "htmlBytes": 21049,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/ar/architects",
+      "status": "passed",
+      "uniqueIds": 4,
+      "resolvedPageLinks": 19,
+      "htmlBytes": 21507,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    },
+    {
+      "path": "/atelier",
+      "status": "passed",
+      "uniqueIds": 8,
+      "resolvedPageLinks": 37,
+      "htmlBytes": 31602,
+      "productsNavigation": "present",
+      "note": "Effects, pointer events and scroll motion do not run during server rendering."
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/projects",
+      "relativeTarget": "/products",
+      "resolvedTarget": "/products",
+      "htmlBytes": 838,
+      "status": "passed"
+    },
+    {
+      "path": "/es/projects",
+      "relativeTarget": "/products",
+      "resolvedTarget": "/es/products",
+      "htmlBytes": 838,
+      "status": "passed"
+    },
+    {
+      "path": "/ru/projects",
+      "relativeTarget": "/products",
+      "resolvedTarget": "/ru/products",
+      "htmlBytes": 838,
+      "status": "passed"
+    }
+  ],
+  "metadata": {
+    "title": "Products — Marble, Onyx & Travertine Objects | St Werkz",
+    "path": "/products",
+    "structuredDataType": "CollectionPage",
+    "localizedCanonical": "/es/products",
+    "sitemap": "passed",
+    "status": "passed"
+  },
+  "errors": [],
+  "categoryAssets": {
+    "categories": [
+      {
+        "id": "kitchen",
+        "pieces": 7
+      },
+      {
+        "id": "bathroom",
+        "pieces": 7
+      },
+      {
+        "id": "handicrafts",
+        "pieces": 8
+      }
+    ],
+    "status": "passed"
+  }
+}

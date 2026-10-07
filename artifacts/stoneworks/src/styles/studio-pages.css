@@ -1,0 +1,108 @@
+.studio-page { color: #eee8dd; background: #11110f; }
+.studio-shell { max-width: 1400px; margin-inline: auto; padding-inline: clamp(24px, 5.2vw, 84px); }
+.studio-page h1, .studio-page h2, .studio-page h3 { font-family: var(--app-font-serif); font-weight: 400; }
+.studio-page h1 { max-width: 720px; margin-top: 24px; font-family: "Reference Editorial", var(--app-font-serif); font-size: clamp(50px, 5.3vw, 82px); line-height: 1.04; letter-spacing: -.035em; }
+.studio-page h2 { max-width: 650px; margin-top: 20px; font-size: clamp(36px, 3.6vw, 55px); line-height: 1.1; letter-spacing: -.027em; }
+.studio-page h1 em, .studio-page h2 em { color: #c7ac79; font-weight: 400; }
+.studio-kicker { color: #bba98c; font-size: 11px; letter-spacing: .15em; line-height: 1.6; text-transform: uppercase; }
+.studio-lead, .studio-body { max-width: 535px; color: #bbb4a8; font-size: 15px; line-height: 1.9; }
+.studio-lead { margin-top: 28px; }
+.studio-body { margin-top: 25px; }
+.studio-photo { display: block; overflow: hidden; background: #1e1e1a; }
+.studio-photo img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 600ms cubic-bezier(.16, 1, .3, 1); }
+.studio-page figcaption { display: flex; align-items: flex-start; gap: 16px; padding-top: 15px; font-size: 12px; line-height: 1.5; color: #b6ada0; }
+.studio-page figcaption > span, .studio-index { flex: 0 0 auto; padding-top: 2px; color: #a59476; font-size: 10px; letter-spacing: .1em; }
+.studio-page figcaption a { display: inline-flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 30px; flex: 1; }
+.studio-text-link { display: inline-flex; min-height: 44px; align-items: center; gap: 18px; margin-top: 28px; border-bottom: 1px solid #c6b18b5c; color: #e7d8bb; font-size: 11px; letter-spacing: .06em; line-height: 1.6; }
+.studio-text-link svg { flex-shrink: 0; transition: translate 250ms ease; }
+.studio-paper { background: #e8e1d5; color: #302f29; }
+.studio-paper h1 em, .studio-paper h2 em { color: #86714e; }
+.studio-paper .studio-kicker { color: #776649; }
+.studio-paper .studio-body { color: #5d5a51; }
+.studio-paper .studio-text-link { color: #51442c; border-color: #806d4640; }
+.studio-about__intro { display: grid; grid-template-columns: 1.25fr .75fr; align-items: center; gap: clamp(45px, 7vw, 105px); padding-top: clamp(138px, 11vw, 178px); padding-bottom: 90px; }
+.studio-about__object { max-width: 370px; margin-top: 15px; justify-self: end; }
+.studio-about__object .studio-photo { aspect-ratio: 2/3; }
+.studio-about__material { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: clamp(48px, 7vw, 100px); padding-block: 55px 100px; }
+.studio-about__material .studio-photo { aspect-ratio: 4/3; }
+.studio-about__paths { padding-block: 80px 100px; border-top: 1px solid #d7c29b26; }
+.studio-about__path-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 50px; margin-top: 45px; }
+.studio-about__path { display: grid; grid-template-columns: 24px 1fr 22px; align-items: start; gap: 20px; border-top: 1px solid #d7c29b30; padding-block: 28px 32px; }
+.studio-about__path h3 { font-size: 28px; line-height: 1.15; }
+.studio-about__path p { margin-top: 15px; max-width: 360px; color: #b5ada0; font-size: 13px; line-height: 1.8; }
+.studio-about__path-cta { display: block; margin-top: 20px; font-size: 11px; color: #cebb96; }
+.studio-about__path > svg { margin-top: 3px; color: #ba9e6e; transition: translate 250ms ease; }
+.studio-about__offices { padding-block: 70px 100px; border-top: 1px solid #d7c29b26; }
+.studio-about__offices > section { margin-top: 44px; }
+.studio-contact { display: grid; grid-template-columns: 1.2fr .8fr; gap: 80px; align-items: center; padding-block: 85px 95px; }
+.studio-contact__actions { display: flex; flex-direction: column; align-items: flex-start; justify-self: end; gap: 18px; }
+.studio-contact__actions .studio-text-link { margin-top: 0; }
+.studio-atelier__intro { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: clamp(45px, 7vw, 100px); padding-top: 140px; padding-bottom: 85px; }
+.studio-atelier__intro h1 { max-width: 660px; }
+.studio-atelier__workshop { max-width: 475px; justify-self: end; padding: 12px; background: #e9e3d8; }
+.studio-atelier__workshop .studio-photo { aspect-ratio: 531/709; }
+.studio-atelier__workshop figcaption { padding-inline: 4px; color: #5e5a4f; }
+.studio-atelier__workshop figcaption > span { color: #8a7654; }
+.studio-atelier__origin { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 90px; padding-block: 80px; }
+.studio-atelier__origin .studio-body { margin-top: 0; }
+.studio-atelier__process { display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; padding-block: 105px; scroll-margin-top: 110px; }
+.studio-atelier__steps details { border-top: 1px solid #d7c29b35; }
+.studio-atelier__steps details:last-child { border-bottom: 1px solid #d7c29b35; }
+.studio-atelier__steps summary { display: grid; grid-template-columns: 28px 1fr 18px; align-items: center; gap: 20px; min-height: 88px; cursor: pointer; list-style: none; }
+.studio-atelier__steps summary::-webkit-details-marker { display: none; }
+.studio-atelier__steps summary h3 { font-size: 28px; line-height: 1.2; }
+.studio-atelier__steps summary svg { color: #bca476; transition: rotate 180ms ease; }
+.studio-atelier__steps details[open] summary svg { rotate: 180deg; }
+.studio-atelier__steps details p { max-width: 430px; margin-inline-start: 48px; padding-bottom: 28px; color: #b7aea0; font-size: 14px; line-height: 1.85; }
+.studio-atelier__steps summary:focus-visible { outline: 2px solid #d5b981; outline-offset: 3px; }
+.studio-atelier__materials { padding-block: 40px 100px; }
+.studio-atelier__families { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; border-block: 1px solid #d7c29b30; margin-block: 45px 65px; padding-block: 30px; }
+.studio-atelier__families dt { font-family: var(--app-font-serif); font-size: 30px; margin-top: 15px; }
+.studio-atelier__families dd { color: #b5ada0; font-size: 13px; line-height: 1.85; margin-top: 16px; }
+.studio-atelier__stone-heading { display: grid; grid-template-columns: 1fr 1.4fr; gap: 30px; align-items: start; }
+.studio-atelier__stone-heading .studio-body { margin-top: 0; font-size: 13px; }
+.studio-atelier__stones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 34px; }
+.studio-atelier__stone .studio-photo { aspect-ratio: 4/3; }
+.studio-atelier__stone > div:last-of-type { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 15px; color: #e1d8c8; font-family: var(--app-font-serif); font-size: 23px; line-height: 1.25; }
+.studio-atelier__stone > p { margin-top: 8px; font-size: 12px; color: #b4a99a; }
+.studio-atelier__contact { border-top: 1px solid #d7c29b26; }
+.studio-atelier__phone { display: inline-flex; align-items: center; gap: 13px; min-height: 44px; font-size: 16px; color: #e4d7bd; }
+@media (hover: hover) and (pointer: fine) {
+  a.studio-photo:hover img, .studio-atelier__stone:hover img { transform: scale(1.025); }
+  .studio-text-link:hover svg { translate: 4px 0; }
+  .studio-about__path:hover > svg { translate: 3px -3px; }
+  .studio-about__path:hover h3 { color: #d2b681; }
+}
+@media (min-width: 1000px) { .studio-atelier__process .studio-section-heading { align-self: start; position: sticky; top: 125px; } }
+@media (max-width: 999px) {
+  .studio-about__intro, .studio-about__material, .studio-atelier__intro { gap: 45px; }
+  .studio-contact, .studio-atelier__origin, .studio-atelier__process { gap: 45px; }
+  .studio-page h1 { font-size: 58px; }
+  .studio-about__path-grid { gap: 0 30px; }
+  .studio-about__path { gap: 14px; }
+  .studio-atelier__stones { grid-template-columns: 1fr 1fr; gap: 30px; }
+}
+@media (max-width: 699px) {
+  .studio-page h1 { font-size: clamp(45px, 10.4vw, 67px); }
+  .studio-page h2 { font-size: 38px; }
+  .studio-lead, .studio-body { font-size: 14px; }
+  .studio-about__intro, .studio-atelier__intro { grid-template-columns: 1fr; padding-top: 120px; padding-bottom: 55px; gap: 40px; }
+  .studio-about__object { width: 78%; max-width: 360px; margin: 0; }
+  .studio-about__material { grid-template-columns: 1fr; padding-block: 35px 60px; gap: 36px; }
+  .studio-about__material > div { grid-row: 1; }
+  .studio-about__paths { padding-block: 58px; }
+  .studio-about__path-grid { grid-template-columns: 1fr; margin-top: 30px; }
+  .studio-about__offices { padding-block: 55px 60px; }
+  .studio-contact, .studio-atelier__origin, .studio-atelier__process { grid-template-columns: 1fr; padding-block: 58px; gap: 34px; }
+  .studio-contact__actions { justify-self: start; }
+  .studio-atelier__workshop { width: 90%; max-width: 430px; }
+  .studio-atelier__process { scroll-margin-top: 95px; }
+  .studio-atelier__families { grid-template-columns: 1fr; gap: 0; margin-block: 32px 45px; padding-block: 0; }
+  .studio-atelier__families > div { padding-block: 24px; border-bottom: 1px solid #d7c29b25; }
+  .studio-atelier__families > div:last-child { border-bottom: 0; }
+  .studio-atelier__stone-heading { grid-template-columns: 1fr; gap: 14px; }
+  .studio-atelier__materials { padding-block: 20px 60px; }
+  .studio-atelier__stones { gap: 30px 18px; }
+  .studio-atelier__stone > div:last-of-type { font-size: 21px; }
+  .studio-page figcaption { gap: 10px; font-size: 11px; }
+}

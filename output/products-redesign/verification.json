@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "Kitchen accessories",
+    "Bathroom accessories",
+    "Handicrafts"
+  ],
+  "distinct_existing_products": 22,
+  "chapter_products": [
+    7,
+    7,
+    8
+  ],
+  "photographs_and_textures_validated": 11,
+  "production_assets_present": true,
+  "routes_respond_200": [
+    "/products",
+    "/projects",
+    "/products#kitchen",
+    "/products#bathroom",
+    "/products#handicrafts",
+    "/sitemap.xml"
+  ],
+  "products_in_localized_sitemap": true,
+  "reference_home_hero_unchanged": true,
+  "english_default_preserved": true,
+  "production_build": "passed",
+  "typescript": "19 pre-existing errors; no new file diagnostics",
+  "visual_browser_check": "pending manual refresh; browser rejected inspection of connection-error data URL"
+}

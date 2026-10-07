@@ -1,0 +1,126 @@
+# St Werkz
+
+> Karachi material studio led by Syed Rashid Ali. Furniture, objects, and architectural stone in travertine, onyx, and marble, shown as a gallery.
+
+St Werkz publishes first-hand photographs and named material specifications so writers and models can cite a work, a stone family, or the studio without inventing quarry names, prices, or awards.
+
+## Cite the studio
+
+- [About the studio](/citation/about.md): Principal, address, origin, process, E-E-A-T claims
+- [Material notes](/citation/materials.md): Travertine, marble, onyx, Pakistani names and rates, finishes, evidence kinds
+- [Collection index](/citation/collection.md): All 92 works by room
+- [Export desk](/citation/export.md): Photographed lots, sample crates, FOB Karachi
+- [Knowledge graph (JSON)](/knowledge.json): Machine-readable dataset for citation
+
+## Collection pages
+
+- [Home](/): Vestibule
+- [Collection](/collection): Five rooms
+- [Atelier](/atelier): Maker and method
+- [Pakistan marble and onyx](/stones): Named stones with September 2026 indicative PKR rates
+- [Studio estimate](/estimate): Indicative range, not an invoice
+- [Enquiry](/enquire): Request a viewing
+- [Retailers](/retailers): Trade edit
+- [Architects](/architects): Specification support
+- [Export desk](/export): Photographed lots and sample crates, separate from the gallery
+
+## Works
+
+- [Oval Travertine Pedestal Table](/citation/works/oval-travertine-pedestal.md): Travertine, Honed. Elliptical dining top on a tapered stone pedestal
+- [Oval Travertine Assemblage](/citation/works/oval-travertine-assemblage.md): Travertine, Honed. Oval top on intersecting X-shaped stone pedestals
+- [Noir Gold Dining Table](/citation/works/noir-gold-dining.md): Marble, Polished. Rectangular dining top with rounded corners, upholstered chairs
+- [Portoro Slat Dining Table](/citation/works/portoro-slat-dining.md): Marble, Polished. Rectangular top on a fan of gold vertical slats
+- [Cream Stone Gathering Table](/citation/works/cream-gathering-table.md): Mixed materials, Polished. Long rounded rectangle with mixed terracotta and cream chairs
+- [Sage Round Table](/citation/works/sage-round-table.md): Mixed materials, Polished. Circular dining or café top, lifestyle still
+- [Sage Onyx Organza Table](/citation/works/sage-onyx-organza.md): Onyx, Polished. Kidney oval on twin faceted hexagonal pedestals
+- [Round Travertine Dining Table](/citation/works/travertine-round-dining.md): Travertine, Honed. Circular top on a tapered conical pedestal
+- [Luminous Onyx Plinth](/citation/works/luminous-onyx-plinth.md): Onyx, Backlit. Square coffee table, internally lit
+- [Emerald Cage Table](/citation/works/emerald-cage-table.md): Onyx, Polished. Round side table on a vertical-rod drum
+- [Sage Tulip Table](/citation/works/sage-tulip-table.md): Onyx, Polished. Round accent table on a tulip stem
+- [Cream Companion Tables](/citation/works/cream-companion-tables.md): Mixed materials, Polished. Pair: monolithic pedestal and brass-stem side table
+- [Travertine Cone Table](/citation/works/travertine-cone-table.md): Travertine, Honed. Circular top on a tapered conical base
+- [Notched Travertine Tables](/citation/works/notched-joinery-tables.md): Mixed materials, Honed. Round tops with flush wood-leg joinery
+- [Travertine Cross-Base Table](/citation/works/travertine-cross-table.md): Travertine, Honed. Round top on an intersecting slab pedestal
+- [Rust Vein Cage Table](/citation/works/rust-cage-table.md): Marble, Polished. Round side table on an angular brass cage
+- [Stepped Travertine Table](/citation/works/stepped-travertine-table.md): Travertine, Honed. Two-tier coffee table on a crossed slab base
+- [Nested Nero Tables](/citation/works/nested-nero-tables.md): Marble, Polished. Pair of circular nesting coffee tables
+- [Hexagonal Pedestal Table](/citation/works/hex-pedestal-table.md): Travertine, Honed. Circular top on a hexagonal stone drum
+- [Monolithic Travertine Coffee Table](/citation/works/monolith-coffee-table.md): Travertine, Honed. Thick rectangular slab on twin plinth legs
+- [Nero Gold-Rim Table](/citation/works/nero-gold-rim-table.md): Marble, Polished. Round coffee table with gold open frame
+- [Amber Vein Showroom Table](/citation/works/amber-showroom-table.md): Mixed materials, Polished. Thick rectangular top on a black plinth
+- [Ochre & Charcoal Pedestal](/citation/works/ochre-pedestal-table.md): Marble, Polished. Circular top on a slender curved pedestal
+- [Noir Gold Vessel Sink](/citation/works/vessel-sink.md): Marble, Polished. Circular countertop basin
+- [Coral-Lid Travertine Canister](/citation/works/coral-canister.md): Mixed materials, Honed. Cylindrical jar with sculptural lid
+- [Travertine Candle Holders](/citation/works/travertine-candlesticks.md): Travertine, Honed. Graduated pair, conical base and cylindrical cup
+- [Travertine Pedestal Bowl](/citation/works/pedestal-bowl.md): Travertine, Honed. Shallow raised bowl
+- [Portoro Bookends](/citation/works/portoro-bookends.md): Marble, Polished. Pair of geometric wedges
+- [Travertine Rectangular Tray](/citation/works/travertine-tray.md): Travertine, Honed. Shallow rectangular platter with raised rim
+- [Midnight Marble Desk Suite](/citation/works/desk-suite.md): Mixed materials, Polished. Four-piece valet: tray, memo box, pen cup, letter rack
+- [Nero Candle Group](/citation/works/nero-candles.md): Marble, Polished. Low dish holder and tiered pillar, with taper beyond
+- [Scalloped Travertine Valet](/citation/works/scalloped-valet.md): Travertine, Honed. Rectangular dish with notched corners
+- [Curved Travertine Canisters](/citation/works/curved-canisters.md): Mixed materials, Honed. Pair of lidded boxes with concave ends
+- [Travertine Bath Suite](/citation/works/travertine-bath.md): Travertine, Honed. Tissue cover, dispenser and vessels on dark stone
+- [Tapered Travertine Vessel](/citation/works/tapered-vessel.md): Travertine, Honed. Shouldered cylinder with a rolled rim
+- [Travertine Disc Tray](/citation/works/round-tray.md): Travertine, Honed. Shallow circular tray with a straight rim
+- [Travertine Sculptural Vessel](/citation/works/bulbous-vessel.md): Travertine, Honed. Spherical body with a wide cylindrical neck
+- [Pair of Onyx Urns](/citation/works/onyx-urns.md): Onyx, Polished. Classical urns with flared rims and pedestal feet
+- [Onyx Sphere Bowl](/citation/works/onyx-sphere-bowl.md): Onyx, Polished. Shallow basin raised on three stone spheres
+- [Oblong Travertine Tray](/citation/works/oblong-tray.md): Travertine, Honed. Long dish with integrated rounded handles
+- [Nero Cylindrical Vessel](/citation/works/nero-cylinder.md): Marble, Polished. Open cylinder with a thick rounded rim
+- [Travertine Coaster Suite](/citation/works/coaster-suite.md): Travertine, Honed. Four discs in a U-cut cylindrical holder
+- [Nero Disc Tray](/citation/works/nero-disc-tray.md): Marble, Polished. Low circular tray with an upright rim
+- [Travertine Hemisphere Candle](/citation/works/hemisphere-candle.md): Mixed materials, Honed. Stone dome, brass stem and tray, pillar candle
+- [Travertine Monolith Reception](/citation/works/hotel-reception.md): Travertine, Honed. Long hospitality desk on a recessed dark plinth
+- [Travertine Counter with Underglow](/citation/works/counter-glow.md): Travertine, Honed. Monolithic display or reception counter
+- [Backlit Onyx Waterfall Counter](/citation/works/onyx-waterfall.md): Onyx, Backlit. L-shaped counter with a vein-matched waterfall edge
+- [Noir Gold Circular Top](/citation/works/noir-gold-disc.md): Marble, Polished. Circular tabletop, photographed in the yard
+- [Nero Vein Slabs](/citation/works/nero-marquina-slabs.md): Marble, Polished. Large-format vertical slabs in the yard
+- [Pill Travertine Dining Table](/citation/works/pill-travertine-dining.md): Travertine, Honed. Rounded-rectangle top on a cylindrical stone pedestal
+- [Nero Oval Dining Table](/citation/works/nero-oval-wood-dining.md): Marble, Polished. Oval dining top on a tapered wood frame
+- [Portoro Pedestal Dining Table](/citation/works/portoro-pedestal-dining.md): Marble, Polished. Rectangular dining top on a dark pedestal
+- [Nero Chrome Dining Table](/citation/works/nero-chrome-dining.md): Marble, Polished. Rectangular dining top on a geometric metal base
+- [Nero X-Frame Dining Table](/citation/works/nero-xframe-dining.md): Marble, Polished. Rounded-rectangle top on an X-frame
+- [Travertine Square-Pedestal Table](/citation/works/travertine-square-pedestal.md): Travertine, Honed. Circular top on a square stone plinth
+- [Sage Onyx Disc Table](/citation/works/sage-onyx-disc-table.md): Onyx, Polished. Circular coffee or side table
+- [Sage Onyx Brass Table](/citation/works/sage-onyx-brass-table.md): Onyx, Polished. Round accent table on a vertical-rod drum
+- [Cream Oval Plinth Table](/citation/works/cream-oval-plinth-table.md): Mixed materials, Polished. Oval coffee table on an offset slab base
+- [Linear Travertine Coffee Table](/citation/works/linear-travertine-coffee.md): Travertine, Honed. Rectangular slab on twin block legs
+- [Travertine Cube Table](/citation/works/travertine-cube-table.md): Travertine, Honed. Cubic pedestal on a recessed plinth
+- [Travertine Tripod Coffee Table](/citation/works/travertine-tripod-coffee.md): Travertine, Honed. Circular top on three intersecting slabs
+- [Travertine Block Side Table](/citation/works/travertine-block-side.md): Travertine, Honed. Thick rectangular top on a solid upright
+- [Travertine Walnut Coffee Table](/citation/works/travertine-walnut-coffee.md): Mixed materials, Honed. Circular stone top in a four-leg wood apron
+- [Travertine Drum Side Table](/citation/works/travertine-drum-side.md): Travertine, Honed. Circular top on a cylindrical pedestal
+- [Travertine Cone Pedestal Table](/citation/works/travertine-cone-pedestal.md): Travertine, Honed. Circular top on a tapered conical base
+- [Travertine C-Table](/citation/works/travertine-c-table.md): Travertine, Honed. Cantilevered C-shaped side table
+- [Banded Onyx Vase](/citation/works/banded-onyx-vase.md): Onyx, Polished. Shouldered vessel with a flared rim
+- [Portoro Cylinder Cup](/citation/works/portoro-cylinder-cup.md): Marble, Polished. Open cylinder with a thick rim
+- [Tall Noir Marble Vase](/citation/works/tall-noir-vase.md): Marble, Polished. Elongated floor or pedestal vase
+- [Copper-Vein Marble Basin](/citation/works/copper-vein-basin.md): Marble, Polished. Shallow circular vessel or sink
+- [Travertine Compote](/citation/works/travertine-compote.md): Travertine, Honed. Wide pedestal bowl on a hemispherical foot
+- [Sage Onyx Sphere-Foot Bowl](/citation/works/sage-onyx-pear-bowl.md): Onyx, Polished. Shallow bowl on three stone spheres
+- [Travertine Vanity with Gold Pump](/citation/works/travertine-vanity-gold.md): Travertine, Honed. Tray, dispenser, tumbler, canister and soap dish
+- [Travertine Bath Ensemble](/citation/works/travertine-bath-ensemble.md): Travertine, Honed. Tray, pump, canisters and glass toothbrush cup
+- [Portoro Bath Set](/citation/works/portoro-bath-set.md): Marble, Polished. Tissue cover, dispenser, dish, cup and lidded jar
+- [Travertine Bath Seven](/citation/works/travertine-bath-seven.md): Mixed materials, Honed. Seven-piece bath set with tray, brush pot and coral-lid canister
+- [Scalloped Onyx Bowl](/citation/works/scalloped-onyx-bowl.md): Onyx, Polished. Fluted circular bowl
+- [Sage Onyx Coaster Set](/citation/works/sage-onyx-coasters.md): Onyx, Polished. Circular discs in a U-cut cylindrical holder
+- [Portoro Baluster Vase](/citation/works/portoro-baluster-vase.md): Marble, Polished. Classical urn with a ringed neck and pedestal foot
+- [Terracotta Marble Urn](/citation/works/terracotta-marble-urn.md): Marble, Polished. Footed urn on a square plinth
+- [Live-Edge Onyx Vessel](/citation/works/live-edge-onyx-vessel.md): Onyx, Polished. Shallow elongated bowl with a raw rim
+- [Pair of Stone Pedestals](/citation/works/pair-stone-pedestals.md): Marble, Polished. Matched Doric display columns
+- [Onyx Chess Casket](/citation/works/onyx-chess-casket.md): Onyx, Polished. Travel chess set in a lined presentation box
+- [Nero Chess Set](/citation/works/nero-chess-set.md): Marble, Polished. Full board with carved stone pieces
+- [Viola Marble Fireplace](/citation/works/viola-marble-fireplace.md): Marble, Polished. Carved mantel, matching hearth and wall face
+- [Nero Marble Fireplace](/citation/works/nero-marble-fireplace.md): Marble, Polished. Classic panelled mantel and hearth
+- [Portoro Workshop Mantel](/citation/works/portoro-workshop-mantel.md): Marble, Polished. Carved fireplace surround on the workshop floor
+- [Honey Quartzite Slab](/citation/works/honey-quartzite-slab.md): Mixed materials, Polished. Large-format slab face
+- [Celadon Onyx Slab](/citation/works/celadon-onyx-slab.md): Onyx, Polished. Vertical onyx face
+- [Nero Calcite Lot](/citation/works/nero-calcite-lot.md): Marble, Polished. Two faces from the same black-and-white lot
+- [Sage & Rust Onyx Slab](/citation/works/sage-rust-onyx-slab.md): Onyx, Polished. Full-frame onyx face
+- [Portoro Gold Lot](/citation/works/portoro-gold-lot.md): Marble, Polished. Slab face and a book-matched inlay panel
+
+## Optional
+
+- Contact: stoneworks014@gmail.com · +92 304 7689678
+- Address: Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi
+- Last reviewed: 2026-09-04

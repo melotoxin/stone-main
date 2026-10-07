@@ -1,0 +1,18 @@
+# St Werkz (Karachi)
+
+St Werkz is a Karachi stone studio led by Syed Rashid Ali. It makes custom marble, travertine and onyx furniture, objects and architectural surfaces. The site is a gallery, not a shop.
+
+Key facts:
+- Location: Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi
+- Contact: stoneworks014@gmail.com / +92 304 7689678
+- Materials: marble, travertine, onyx (including backlit onyx)
+- Named Pakistani stones and indicative material rates: /stones
+- Offers: dining tables, coffee and side tables, sculptural accents, vessel sinks, reception counters, slabs
+- Commercial model: viewings and studio estimates; no online checkout
+- Export desk: photographed lots and sample crates from the Karachi yard, FOB Karachi; /export
+
+Start here: /
+Collection: /collection
+Longer machine-readable brief: /llms.txt
+Full catalogue: /llms-full.txt
+Knowledge graph: /knowledge.json

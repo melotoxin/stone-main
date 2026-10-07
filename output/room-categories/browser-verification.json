@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-05",
+  "method": "Live Codex in-app browser using supported CUA controls and read-only DOM inspection",
+  "collections": {
+    "desktopViewport": [1440, 900],
+    "categoryGates": 3,
+    "materialCollections": 6,
+    "roomPhotosLoaded": true,
+    "desktopHorizontalOverflow": false,
+    "phoneViewport": [390, 844],
+    "phoneGateWidthsAfterFix": [327, 327, 327],
+    "phoneHorizontalOverflowAfterFix": false,
+    "categoryEntrancesTested": ["kitchen", "washroom"]
+  },
+  "products": {
+    "chaptersTested": ["kitchen", "washroom", "home-decor"],
+    "allRoomPhotosLoaded": true,
+    "productCounts": {"kitchen": 7, "washroom": 7, "home-decor": 8},
+    "keyboardTabNavigation": "Home Decor ArrowLeft selects Washroom with 7 products",
+    "reloadSelection": "#washroom selected tab-washroom with 7 products",
+    "finalViewport": [463, 884],
+    "finalActiveChapter": "home-decor",
+    "finalSelectedTab": "tab-home-decor",
+    "finalObjects": 8,
+    "finalHorizontalOverflow": false
+  },
+  "temporaryViewportOverride": "reset",
+  "server": "running at localhost:4173",
+  "screenshots": ["collections-desktop.jpg", "products-home-decor-phone.jpg"]
+}

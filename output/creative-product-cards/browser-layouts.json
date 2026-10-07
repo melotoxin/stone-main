@@ -1,0 +1,247 @@
+{
+  "layouts": [
+    {
+      "cards": 10,
+      "category": "#kitchen",
+      "count": "14 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "cards": 11,
+      "category": "#washroom",
+      "count": "16 objects",
+      "nativeWidth": 241,
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "cards": 17,
+      "category": "#home-decor",
+      "count": "18 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "dark",
+        "light"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 320
+    },
+    {
+      "cards": 10,
+      "category": "#kitchen",
+      "count": "14 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "cards": 11,
+      "category": "#washroom",
+      "count": "16 objects",
+      "nativeWidth": 311,
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "cards": 17,
+      "category": "#home-decor",
+      "count": "18 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "dark",
+        "light"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 390
+    },
+    {
+      "cards": 10,
+      "category": "#kitchen",
+      "count": "14 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "cards": 11,
+      "category": "#washroom",
+      "count": "16 objects",
+      "nativeWidth": 292,
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "cards": 17,
+      "category": "#home-decor",
+      "count": "18 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "dark",
+        "light"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 768
+    },
+    {
+      "cards": 10,
+      "category": "#kitchen",
+      "count": "14 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "cards": 11,
+      "category": "#washroom",
+      "count": "16 objects",
+      "nativeWidth": 314,
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "cards": 17,
+      "category": "#home-decor",
+      "count": "18 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "dark",
+        "light"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1280
+    },
+    {
+      "cards": 10,
+      "category": "#kitchen",
+      "count": "14 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    },
+    {
+      "cards": 11,
+      "category": "#washroom",
+      "count": "16 objects",
+      "nativeWidth": 309,
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "light",
+        "dark"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    },
+    {
+      "cards": 17,
+      "category": "#home-decor",
+      "count": "18 objects",
+      "overflow": false,
+      "photoFit": true,
+      "tones": [
+        "dark",
+        "light"
+      ],
+      "touchTargets": true,
+      "uniform": true,
+      "width": 1800
+    }
+  ],
+  "dragAndMobile": [
+    {
+      "category": "#kitchen",
+      "dragDisabled": true,
+      "images": 13,
+      "tilted": false
+    },
+    {
+      "category": "#washroom",
+      "dragDisabled": true,
+      "images": 15,
+      "tilted": false
+    },
+    {
+      "category": "#home-decor",
+      "dragDisabled": true,
+      "images": 17,
+      "tilted": false
+    }
+  ],
+  "liveDesktopDepth": [
+    {
+      "rotationX": "1.84deg",
+      "rotationY": "1.08deg",
+      "title": "Travertine Vanity with Gold Pump",
+      "transform": "matrix3d(0.999822, 0.000605196, -0.0188387, 1.56989e-05, 0, 0.999484, 0.0321085, -2.67571e-05, 0.0188484, -0.0321028, 0.999307, -0.000832756, 0, -6, 0, 1)"
+    }
+  ]
+}

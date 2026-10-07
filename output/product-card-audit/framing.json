@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "travertine-compote",
+    "source": "/gallery/st-werkz/travertine-compote.jpg",
+    "src": "/gallery/card-frames/travertine-compote.svg",
+    "viewport": [
+      0,
+      240,
+      736,
+      625
+    ],
+    "sourceSha256": "ff5a554036f3bf1ec9a64b961690fd4956b097554254e54e2a1415b3f0fb6521",
+    "pixelEdits": false
+  },
+  {
+    "slug": "coaster-suite",
+    "source": "/gallery/accents-coaster-suite.jpg",
+    "src": "/gallery/card-frames/coaster-suite.svg",
+    "viewport": [
+      0,
+      90,
+      600,
+      620
+    ],
+    "sourceSha256": "6487c4bf32bbd07f600b18294f36222c453f76a20d1915c709a332fa13d64b0f",
+    "pixelEdits": false
+  },
+  {
+    "slug": "travertine-bath-seven",
+    "source": "/gallery/st-werkz/travertine-bath-seven.jpg",
+    "src": "/gallery/card-frames/travertine-bath-seven.svg",
+    "viewport": [
+      0,
+      0,
+      736,
+      690
+    ],
+    "sourceSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2",
+    "pixelEdits": false
+  },
+  {
+    "slug": "vessel-sink",
+    "source": "/gallery/accents-vessel-sink.jpg",
+    "src": "/gallery/card-frames/vessel-sink.svg",
+    "viewport": [
+      40,
+      65,
+      670,
+      365
+    ],
+    "sourceSha256": "d2079c3cd5dcc7d3872178eaff5a0e62ef0426e091ea15f581a2e871d59dd3e2",
+    "pixelEdits": false
+  },
+  {
+    "slug": "copper-vein-basin",
+    "source": "/gallery/st-werkz/copper-vein-basin.jpg",
+    "src": "/gallery/card-frames/copper-vein-basin.svg",
+    "viewport": [
+      0,
+      130,
+      640,
+      400
+    ],
+    "sourceSha256": "13ab249cea0d06dd648a5c5d298bc30e149d694f043c061ada139bdb8ec05435",
+    "pixelEdits": false
+  },
+  {
+    "slug": "portoro-bookends",
+    "source": "/gallery/accents-portoro-bookends.jpg",
+    "src": "/gallery/card-frames/portoro-bookends.svg",
+    "viewport": [
+      0,
+      170,
+      736,
+      566
+    ],
+    "sourceSha256": "3b09b9e9d146b41e2662797051410b12374d480a4643731fb6fe7e88d95007d8",
+    "pixelEdits": false
+  }
+]

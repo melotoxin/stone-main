@@ -1,0 +1,60 @@
+{
+  "createdAt": "2026-10-05T21:57:35.673Z",
+  "checks": [
+    {
+      "check": "Clean vessel on desktop",
+      "passed": true,
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "naturalSize": [
+        660,
+        859
+      ],
+      "fullObjectVisible": true,
+      "removed": "Social controls, pricing/contact footer and right-edge scroll indicator."
+    },
+    {
+      "check": "Added Washroom vessel and clean phone image",
+      "count": "1 / 12 objects",
+      "overflow": false,
+      "passed": true,
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 390
+    },
+    {
+      "check": "Added vessel detail keeps the clean image",
+      "overflow": false,
+      "passed": true,
+      "path": "/collection/limestone/tapered-vessel",
+      "scrollY": 0,
+      "src": "/gallery/clean/accents-tapered-vessel.svg"
+    },
+    {
+      "check": "Added Home Decor item at320px",
+      "count": "1 / 18 objects",
+      "overflow": false,
+      "passed": true,
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 320
+    },
+    {
+      "check": "Global search uses the clean photograph",
+      "passed": true,
+      "src": "/gallery/clean/accents-bulbous-vessel.svg"
+    },
+    {
+      "check": "Retail uses the clean photograph",
+      "overflow": false,
+      "passed": true,
+      "src": "/gallery/clean/accents-bulbous-vessel.svg"
+    },
+    {
+      "check": "Expanded Home Decor on desktop",
+      "overflow": false,
+      "passed": true,
+      "shelfObjects": 17,
+      "total": "41 objects",
+      "width": 1280
+    }
+  ],
+  "limits": "Mobile checks use browser viewport simulation."
+}

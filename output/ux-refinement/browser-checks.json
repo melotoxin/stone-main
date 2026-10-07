@@ -1,0 +1,171 @@
+{
+  "method": "Live Codex in-app browser checks at 390×844 and 1280×900, with viewport reset afterward",
+  "checks": [
+    {
+      "check": "home mobile category",
+      "image": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "overflow": false,
+      "selected": "03Room & home decor accessoriesSculptural vessels and accents for rooms that feel like home.",
+      "width": 390
+    },
+    {
+      "check": "home stone deep link",
+      "dialog": "Honey OnyxHoney Onyx pattern — golden yellow / amber, highly translucent, polished slab for identificationIdentifyHoney Onyxonyx · Golden yellow / amber, highly translucentAlso Honey Caramel, Amber OnyxChagai and LasbelaBacklit bars, bathrooms, panelsLuxuryRequest a sampleClose",
+      "dialogOverflow": "auto",
+      "overflow": false,
+      "url": "http://localhost:4173/stones#honey-onyx"
+    },
+    {
+      "check": "sample enquiry context",
+      "overflow": false,
+      "prefill": "Honey Onyx — Golden yellow / amber, highly translucent",
+      "url": "http://localhost:4173/enquire?intent=sample&brief=Honey+Onyx+%E2%80%94+Golden+yellow+%2F+amber%2C+highly+translucent"
+    },
+    {
+      "check": "empty brief validation",
+      "messageInvalid": true,
+      "prepared": false
+    },
+    {
+      "check": "enquiry prepared locally",
+      "explanation": "Your brief is ready.Open your email app to send your brief to our studio. Nothing is sent until you confirm there.Your namePreview visitorEmail addresspreview@example.comThe briefingPlease advise on Honey Onyx samples.Open email app Review and edit",
+      "mailto": "mailto:stoneworks014@gmail.com?subject=ST%20WERKZ%20studio%20enquiry&body=Your%20name%3A%20Preview%20visitor%0AEmail%20address%3A%20preview%40example.com%0A%0AThe%20briefing%3A%0APlease%20advise%20on%20Honey%20Onyx%20samples.",
+      "title": "Your brief is ready."
+    },
+    {
+      "check": "edit retains brief",
+      "message": "Please advise on Honey Onyx samples.",
+      "name": "Preview visitor"
+    },
+    {
+      "cards": 1,
+      "check": "retail filters and code search",
+      "overflow": false,
+      "result": "Banded Onyx Vase"
+    },
+    {
+      "allPressed": "true",
+      "cards": 87,
+      "check": "retail empty/reset",
+      "search": ""
+    },
+    {
+      "check": "piece next photograph",
+      "overflow": false,
+      "selected": "button-piece-photo-2",
+      "source": "/gallery/st-werkz/scalloped-onyx-bowl-b.jpg"
+    },
+    {
+      "check": "piece keyboard photograph",
+      "fit": "contain",
+      "source": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg"
+    },
+    {
+      "check": "export phone FAQ",
+      "expanded": true,
+      "headerBottom": 167.546875,
+      "overflow": false,
+      "productsNav": "/products"
+    },
+    {
+      "check": "trade contact contrast and fit",
+      "contactColor": "rgb(238, 231, 217)",
+      "headerBottom": 156,
+      "headerOverflow": false
+    },
+    {
+      "check": "mobile page layout",
+      "heading": "Stone sourced for scale. Sculpted for one.",
+      "overflow": false,
+      "photoCount": 2,
+      "url": "/about"
+    },
+    {
+      "check": "mobile page layout",
+      "heading": "Good stone has a quiet kind of gravity.",
+      "overflow": false,
+      "photoCount": 9,
+      "url": "/atelier"
+    },
+    {
+      "check": "mobile page layout",
+      "heading": "Nature, inits own handwriting.",
+      "overflow": false,
+      "photoCount": 8,
+      "url": "/collection"
+    },
+    {
+      "check": "stone search",
+      "items": 2,
+      "overflow": false,
+      "result": "Stone faceHoney Onyxonyx · Golden yellow / amber, highly translucentAlso Honey Caramel, Amber OnyxChagai and LasbelaBacklit bars, bathrooms, panelsLuxuryStone faceOrange Onyxonyx ·"
+    },
+    {
+      "check": "stone category filter",
+      "items": 16,
+      "pressed": "true"
+    },
+    {
+      "check": "footer office directory",
+      "expanded": true
+    },
+    {
+      "check": "desktop Collections",
+      "heading": "Nature, inits own handwriting.",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bodyFont": "15px",
+      "category": "03Room & home decor08 objects",
+      "check": "desktop Products",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "check": "desktop layout",
+      "headerOverflow": false,
+      "heading": "Stone witha point of view.",
+      "overflow": false,
+      "url": "/architects",
+      "width": 1280
+    },
+    {
+      "check": "desktop layout",
+      "headerOverflow": false,
+      "heading": "Photographed lots,then a crate.",
+      "overflow": false,
+      "url": "/export",
+      "width": 1280
+    },
+    {
+      "check": "desktop layout",
+      "headerOverflow": false,
+      "heading": "A singular piece for home.",
+      "overflow": false,
+      "url": "/retail",
+      "width": 1280
+    },
+    {
+      "bodyFont": "15px",
+      "categoryBarHeight": 87.78125,
+      "check": "product readability mobile",
+      "overflow": false,
+      "tabFont": "14px"
+    },
+    {
+      "check": "mobile trade final spacing",
+      "headerBottom": 156,
+      "headerOverflow": false,
+      "kickerTop": 175,
+      "overflow": false
+    },
+    {
+      "check": "homepage final default language and reference",
+      "hero": "/design/reference/vanity-1953.webp",
+      "locale": "en-PK",
+      "overflow": false
+    }
+  ],
+  "externalEmailOpened": false
+}

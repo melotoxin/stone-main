@@ -1,0 +1,92 @@
+{
+  "photographs_decoded": 142,
+  "source_photographs_unchanged": 142,
+  "original_photographs_preserved": 142,
+  "stone_faces_verified": 43,
+  "referenced_image_urls_checked": 149,
+  "homepage_http_200": true,
+  "remaining_old_source_references": [],
+  "errors": [],
+  "homepage_optimized_images": [
+    {
+      "url": "/design/enhanced/craft.webp",
+      "dimensions": [
+        960,
+        1282
+      ],
+      "bytes": 208656
+    },
+    {
+      "url": "/design/enhanced/hero-1280.webp",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 167452
+    },
+    {
+      "url": "/design/enhanced/hero-2048.webp",
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "bytes": 286010
+    },
+    {
+      "url": "/design/enhanced/hero-480.webp",
+      "dimensions": [
+        480,
+        270
+      ],
+      "bytes": 30500
+    },
+    {
+      "url": "/design/enhanced/hero-960.webp",
+      "dimensions": [
+        960,
+        540
+      ],
+      "bytes": 105144
+    },
+    {
+      "url": "/design/enhanced/interior.webp",
+      "dimensions": [
+        960,
+        1441
+      ],
+      "bytes": 76840
+    },
+    {
+      "url": "/design/enhanced/marble-dark.webp",
+      "dimensions": [
+        960,
+        1290
+      ],
+      "bytes": 239860
+    },
+    {
+      "url": "/design/enhanced/marble-light.webp",
+      "dimensions": [
+        960,
+        640
+      ],
+      "bytes": 78638
+    },
+    {
+      "url": "/design/enhanced/material.webp",
+      "dimensions": [
+        960,
+        854
+      ],
+      "bytes": 103172
+    },
+    {
+      "url": "/design/enhanced/sample.webp",
+      "dimensions": [
+        960,
+        1474
+      ],
+      "bytes": 78348
+    }
+  ]
+}

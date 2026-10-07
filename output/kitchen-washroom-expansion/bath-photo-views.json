@@ -1,0 +1,62 @@
+[
+  {
+    "id": "portoro-soap-dispenser",
+    "source": "portoro-bath-set",
+    "size": [
+      600,
+      600
+    ],
+    "viewport": [
+      419,
+      83,
+      175,
+      264
+    ],
+    "originalSha256": "5704cb6f97b5c986f52512a1e0f3b144728df56b06186bbc03eed960ae82db39"
+  },
+  {
+    "id": "travertine-soap-dish",
+    "source": "travertine-vanity-gold",
+    "size": [
+      600,
+      600
+    ],
+    "viewport": [
+      250,
+      351,
+      180,
+      112
+    ],
+    "originalSha256": "263322e56394ef13e98ec7080ec72dbecfd391d6a1052910ee3700ac9594007d"
+  },
+  {
+    "id": "travertine-brush-holder",
+    "source": "travertine-bath-seven",
+    "size": [
+      736,
+      736
+    ],
+    "viewport": [
+      51,
+      27,
+      167,
+      526
+    ],
+    "originalSha256": "742f660294a79fb841536ce6aa54939ba464113768607a93af78f689f77946a2"
+  },
+  {
+    "id": "travertine-cotton-jar",
+    "source": "travertine-bath-ensemble",
+    "size": [
+      736,
+      1130
+    ],
+    "viewport": [
+      395,
+      567,
+      341,
+      318
+    ],
+    "originalSha256": "e4f8bf1048add7d92b93d4f0342313efd37cb2c930fb196fc632d42e9f76b68c"
+  }
+]

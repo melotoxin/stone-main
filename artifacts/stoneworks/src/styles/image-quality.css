@@ -1,0 +1,37 @@
+/* Small source photographs stay at their useful native size. Original pixels,
+   colours and texture remain intact instead of being stretched into a hero. */
+img[src='/gallery/accents-travertine-bath.jpg'] { --catalogue-photo-width: 314px; --catalogue-photo-height: 239px; }
+img[src='/gallery/living-rust-cage.jpg'] { --catalogue-photo-width: 460px; --catalogue-photo-height: 500px; }
+img[src='/gallery/st-werkz/portoro-cylinder-cup.jpg'] { --catalogue-photo-width: 500px; --catalogue-photo-height: 500px; }
+img[src='/gallery/clean/accents-round-tray.svg'] { --catalogue-photo-width: 584px; --catalogue-photo-height: 244px; }
+img:not(.catalogue-photo):is([src='/gallery/accents-travertine-bath.jpg'],[src='/gallery/living-rust-cage.jpg'],[src='/gallery/st-werkz/portoro-cylinder-cup.jpg'],[src='/gallery/clean/accents-round-tray.svg']) {
+  width: auto !important;
+  height: auto !important;
+  max-width: min(100%,var(--catalogue-photo-width));
+  max-height: min(100%,var(--catalogue-photo-height));
+  object-fit: contain;
+  margin-inline: auto;
+  transform: none !important;
+}
+:is(.product-object__image,.product-feature__photograph>a,.retail-object__photograph,.gallery-room__photo,.gallery-piece__related-photo,.trade-product__photo):has(>img:is([src='/gallery/accents-travertine-bath.jpg'],[src='/gallery/living-rust-cage.jpg'],[src='/gallery/st-werkz/portoro-cylinder-cup.jpg'],[src='/gallery/clean/accents-round-tray.svg'])) {
+  display: grid;
+  place-items: center;
+}
+.piece-photographs__main:has(>img[src='/gallery/accents-travertine-bath.jpg']) {
+  min-height: 300px;
+  height: min(56svh,430px);
+}
+.product-accessories--washroom .product-accessory__photo img {
+  max-width: min(100%,var(--accessory-native-width));
+  max-height: min(100%,var(--accessory-native-height));
+  filter: drop-shadow(0 9px 8px #4b392518);
+}
+.product-accessory > .product-accessory__treatment {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #716b60;
+  margin-top: 2px;
+}
+@media(prefers-reduced-motion:reduce) {
+  .product-accessory__photo img { transition: none; }
+}

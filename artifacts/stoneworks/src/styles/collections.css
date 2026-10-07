@@ -1,0 +1,225 @@
+.collection-experience {
+  --collection-serif: 'Reference Editorial', var(--app-font-serif);
+  --collection-gold: #b99a69;
+  background: #ece5d9;
+  color: #29271f;
+}
+.collection-experience :is(a,button):focus-visible, .gallery-room :is(a,button):focus-visible, .gallery-piece :is(a,button):focus-visible { outline: 2px solid #b4925e; outline-offset: 5px; }
+.collection-eyebrow { font: 600 9px/1.5 var(--app-font-sans); letter-spacing: .2em; text-transform: uppercase; }
+.collection-link { display: inline-flex; align-items: center; gap: 22px; padding-block: 11px; border-bottom: 1px solid #a0896280; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: .13em; color: #7d6340; }
+.collection-link svg { flex-shrink: 0; transition: transform .3s; }
+.collection-experience em { color: #98794d; font-weight: 400; }
+.material-intro { display: grid; grid-template-columns: 58% 42%; gap: 0; padding: 136px 6vw 90px; max-width: 1900px; margin-inline: auto; }
+.material-intro__copy { min-width: 0; padding-right: 6%; }
+.material-intro__copy nav ol, .material-intro__copy nav [aria-current] { color: #786d5b; }
+.material-intro__copy > .collection-eyebrow { color: #8a724e; margin-top: 58px; }
+.material-intro h1 { font: 400 clamp(64px, 6.8vw, 125px)/.98 var(--collection-serif); letter-spacing: -.045em; max-width: 880px; margin-top: 23px; }
+.material-intro h1 em { display: block; }
+.material-intro__description { max-width: 430px; margin-top: 27px; font-size: 13px; line-height: 1.9; color: #776d5d; }
+.material-intro__copy > .collection-link { margin-top: 25px; }
+.material-intro__samples { position: relative; min-height: 555px; margin-top: 30px; overflow: clip; }
+.material-intro__sample { position: absolute; box-shadow: 0 18px 28px #47391e20; background: #e1d7c5; }
+.material-intro__sample img { height: 100%; width: 100%; object-fit: cover; }
+.material-intro__sample figcaption { position: absolute; bottom: 15px; inset-inline: 18px; color: #4a463d; font-size: 6px; letter-spacing: .15em; padding: 5px 7px; background: #f5efdfd9; width: fit-content; }
+.material-intro__sample--white { width: 63%; height: 60%; left: 6%; top: 5%; transform: rotate(-7deg); }
+.material-intro__sample--amber { width: 57%; height: 56%; right: 4%; bottom: 6%; transform: rotate(7deg); }
+.material-intro__notation { position: absolute; right: 4%; top: 11%; color: #9a896c; font: italic 400 19px/1.25 var(--collection-serif); transform: rotate(7deg); }
+.material-index { margin: 0 6vw; display: flex; align-items: stretch; flex-wrap: wrap; border-block: 1px solid #aa9a8055; }
+.material-index a { display: inline-flex; flex: 1 0 14%; align-items: center; justify-content: space-between; gap: 11px; min-width: 0; padding: 23px 13px; border-inline-end: 1px solid #aa9a8033; font-size: 10px; color: #5c503d; }
+.material-index a:first-child { padding-inline-start: 0; }
+.material-index a:last-child { border-inline-end: 0; }
+.material-index a > span { font: 400 16px/1 var(--collection-serif); color: #a08b69; }
+.material-index svg { flex-shrink: 0; color: #9b8058; }
+.material-atlas { padding: 95px 6vw 105px; scroll-margin-top: 110px; }
+.material-atlas__heading { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 18px 40px; margin-bottom: 60px; }
+.material-atlas__heading .collection-eyebrow { grid-column: 1/-1; color: #8b7756; }
+.material-atlas h2 { font: 400 clamp(45px, 4.7vw, 84px)/1 var(--collection-serif); letter-spacing: -.03em; }
+.material-atlas__heading > p:last-child { justify-self: end; font-size: 12px; color: #897d6a; line-height: 1.9; }
+.material-atlas__grid { display: grid; grid-template-columns: repeat(12,minmax(0,1fr)); gap: 65px 38px; align-items: start; }
+.material-study { min-width: 0; scroll-margin-top: 110px; }
+.material-study--marble { grid-column: span 7; }
+.material-study--onyx { grid-column: span 5; }
+.material-study--limestone { grid-column: span 5; }
+.material-study--tiles { grid-column: span 7; padding-top: 100px; }
+.material-study--slabs { grid-column: span 7; padding-top: 55px; }
+.material-study--handicrafts { grid-column: span 5; }
+.material-study__link { display: block; }
+.material-study__photograph { position: relative; aspect-ratio: 16/10; overflow: clip; background: #e3dccf; }
+.material-study__photograph img { height: 100%; width: 100%; object-fit: cover; transition: transform .85s cubic-bezier(.16,.8,.25,1); }
+.material-study--onyx .material-study__photograph { aspect-ratio: 1; }
+.material-study--limestone .material-study__photograph { aspect-ratio: 4/5; }
+.material-study--tiles .material-study__photograph { aspect-ratio: 2; }
+.material-study--slabs .material-study__photograph { aspect-ratio: 1.55; background: #d8d1c6; }
+.material-study--slabs .material-study__photograph img { object-fit: contain; }
+.material-study--handicrafts .material-study__photograph { aspect-ratio: 4/5; }
+.material-study--handicrafts .material-study__photograph img { object-fit: contain; }
+.material-study__photograph figcaption { position: absolute; bottom: 18px; left: 20px; right: 20px; font-size: 7px; text-transform: uppercase; letter-spacing: .12em; color: #554935; background: #f7efe1df; width: fit-content; max-width: calc(100% - 40px); padding: 7px 10px; }
+.material-study__roman { position: absolute; left: 24px; top: 22px; font: 400 37px/1 var(--collection-serif); color: #faf6ea; text-shadow: 0 2px 20px #0008; }
+.material-study__copy { padding-top: 23px; }
+.material-study__copy .collection-eyebrow { color: #947d58; font-size: 8px; }
+.material-study h3 { font: 400 clamp(35px,3.5vw,64px)/1 var(--collection-serif); letter-spacing: -.025em; margin-top: 13px; }
+.material-study__copy > p:not(.collection-eyebrow) { font-size: 12px; line-height: 1.9; color: #7c705e; max-width: 450px; margin-top: 17px; }
+.material-study .collection-link { font-size: 8px; margin-top: 17px; }
+.collection-space-links { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; background: #181713; color: #eee7db; padding: 70px 6vw 85px; }
+.collection-space-links .collection-eyebrow { color: #b49b73; margin-bottom: 20px; }
+.collection-space-links h2 { font: 400 clamp(39px,3.7vw,67px)/1.05 var(--collection-serif); letter-spacing: -.02em; }
+.collection-space-links p:not(.collection-eyebrow) { color: #a99e8b; font-size: 12px; margin-top: 17px; }
+.collection-space-links nav { display: grid; align-content: start; }
+.collection-space-links nav a { padding: 22px 0; border-bottom: 1px solid #b4a08433; display: grid; grid-template-columns: 35px 1fr 24px; gap: 15px; align-items: center; font: 400 28px/1.1 var(--collection-serif); }
+.collection-space-links nav a > span { font: 400 9px/1 var(--app-font-sans); color: #a38b64; }
+.collection-space-links nav svg { color: #c8ab7d; }
+
+.gallery-room, .gallery-piece { --gallery-serif: 'Reference Editorial',var(--app-font-serif); }
+.gallery-room { padding: 125px 6vw 95px; max-width: 1740px; margin-inline: auto; }
+.gallery-room__heading { display: grid; grid-template-columns: 1.2fr .8fr; gap: 25px 65px; align-items: end; }
+.gallery-room__heading > nav { grid-column: 1/-1; }
+.gallery-room__heading h1 { font: 400 clamp(49px,6vw,101px)/.98 var(--gallery-serif); letter-spacing: -.035em; margin-top: 16px; }
+.gallery-room__heading .collection-eyebrow { color: #b19d7b; margin-top: 28px; }
+.gallery-room__heading > p { font-size: 12px; color: #b0a793; line-height: 1.9; max-width: 420px; }
+.gallery-room__nav { display: flex; flex-wrap: wrap; gap: 12px 28px; border-block: 1px solid #b6a18233; padding-block: 19px; margin-block: 43px 38px; }
+.gallery-room__nav a { font-size: 9px; letter-spacing: .08em; color: #a69b88; padding-block: 7px; }
+.gallery-room__nav [aria-current] { color: #efe3cc; text-decoration: underline; text-decoration-color: #bea276; text-underline-offset: 8px; }
+.gallery-room__grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 47px 24px; }
+.gallery-room__card { min-width: 0; }
+.gallery-room__card > a { display: block; }
+.gallery-room__photo { aspect-ratio: 4/3; overflow: clip; position: relative; background: #e7e1d6; }
+.gallery-room__photo img { height: 100%; width: 100%; object-fit: contain; transition: transform .55s ease; }
+.gallery-room__photo > span { position: absolute; bottom: 13px; right: 13px; display: grid; place-items: center; border-radius: 50%; width: 31px; height: 31px; color: #625035; background: #f4ebddea; }
+.gallery-label { padding-top: 18px; }
+.gallery-label__code { color: #897e6a; font-size: 7px; letter-spacing: .08em; }
+.gallery-label h2 { font: 400 clamp(25px,2.05vw,36px)/1.08 var(--gallery-serif); letter-spacing: -.02em; margin-top: 10px; }
+.gallery-label__material { color: #b4a894; font-size: 9px; line-height: 1.7; margin-top: 10px; }
+.gallery-label__dimensions { color: #948670; font-size: 9px; margin-top: 6px; }
+.gallery-label__form { color: #9a907e; font-size: 10px; line-height: 1.7; margin-top: 8px; }
+.gallery-room__empty { border: 1px solid #b6a18233; padding: 50px; }
+.gallery-room__empty h2 { font: 400 38px/1.1 var(--gallery-serif); }
+.gallery-room__empty p { max-width: 480px; margin-top: 18px; color: #b4a894; font-size: 13px; line-height: 1.8; }
+.gallery-room__empty .collection-link { color: #d0b88e; margin-top: 18px; }
+.gallery-piece__layout { align-items: start; }
+.piece-photographs { min-width: 0; }
+.piece-photographs__main { position: relative; min-height: 360px; height: min(72svh,760px); max-height: 850px; background: #e9e4da; display: grid; place-items: center; padding: 22px 35px; }
+.piece-photographs__main > img { height: 100%; width: 100%; min-height: 0; object-fit: contain; }
+.piece-photographs__position { position: absolute; left: 16px; bottom: 16px; font-size: 8px; letter-spacing: .1em; padding: 7px 10px; color: #6f624d; background: #f6efe0e8; }
+.piece-photographs__arrows { position: absolute; right: 15px; bottom: 15px; display: flex; gap: 6px; }
+.piece-photographs__arrows button { display: grid; place-items: center; width: 39px; height: 39px; color: #6a5739; background: #f6efdfec; border: 1px solid #b8a4884d; }
+.piece-photographs__thumbnails { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px; }
+.piece-photographs__thumbnails button { width: 78px; height: 78px; padding: 4px; border: 1px solid #6b5b453f; background: #e9e4da; }
+.piece-photographs__thumbnails [aria-pressed='true'] { border-color: #ceae78; box-shadow: 0 0 0 2px #ceae7855; }
+.piece-photographs__thumbnails img { width: 100%; height: 100%; object-fit: contain; }
+.piece-photographs__caption { color: #9f947e; font-size: 9px; line-height: 1.6; margin-top: 14px; }
+.gallery-piece__related-photo { aspect-ratio: 4/3; background: #e7e1d6; overflow: clip; }
+.gallery-piece__related-photo img { width: 100%; height: 100%; object-fit: contain; transition: transform .6s; }
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  .collection-link:hover svg, .material-study__link:hover .collection-link svg { transform: translate(3px,-3px); }
+  .material-study__link:hover .material-study__photograph img { transform: scale(1.03); }
+  .gallery-room__card > a:hover img, .gallery-piece__related-link:hover img { transform: scale(1.025); }
+}
+@media (max-width:1100px) {
+  .material-intro { grid-template-columns: 60% 40%; padding-top: 125px; }
+  .material-intro__samples { min-height: 480px; }
+  .material-intro__notation { font-size: 16px; }
+  .material-index a { flex-basis: 30%; }
+  .material-index a:nth-child(3n) { border-inline-end: 0; }
+  .material-index a:first-child { padding-inline-start: 13px; }
+  .material-atlas__grid { gap: 48px 25px; }
+  .material-study--tiles { padding-top: 60px; }
+  .material-study--slabs { padding-top: 25px; }
+  .gallery-room__grid { gap: 37px 20px; }
+  .gallery-room__heading { gap: 25px 40px; }
+}
+@media (max-width:767px) {
+  .material-intro { grid-template-columns: 1fr; padding: 110px 24px 28px; }
+  .material-intro__copy { padding-right: 0; }
+  .material-intro__copy > .collection-eyebrow { font-size: 8px; margin-top: 35px; }
+  .material-intro h1 { font-size: clamp(53px,13.6vw,84px); max-width: 540px; }
+  .material-intro__description { font-size: 12px; max-width: 430px; }
+  .material-intro__copy > .collection-link { font-size: 8px; }
+  .material-intro__samples { min-height: 355px; max-width: 460px; width: 100%; margin: 22px auto 0; }
+  .material-intro__notation { font-size: 16px; top: 6%; }
+  .material-intro__sample figcaption { font-size: 5px; inset-inline: 10px; bottom: 10px; padding: 5px; }
+  .material-index { margin-inline: 24px; }
+  .material-index a { flex-basis: 50%; gap: 9px; font-size: 8px; padding: 17px 10px; }
+  .material-index a:nth-child(3n) { border-inline-end: 1px solid #aa9a8033; }
+  .material-index a:nth-child(2n) { border-inline-end: 0; }
+  .material-index a > span { font-size: 14px; }
+  .material-index svg { width: 13px; }
+  .material-atlas { padding: 65px 24px 75px; scroll-margin-top: 85px; }
+  .material-atlas__heading { grid-template-columns: 1fr; gap: 19px; margin-bottom: 35px; }
+  .material-atlas__heading .collection-eyebrow { font-size: 8px; }
+  .material-atlas h2 { font-size: clamp(43px,11vw,68px); }
+  .material-atlas__heading > p:last-child { justify-self: start; font-size: 11px; }
+  .material-atlas__grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 40px 18px; }
+  .material-study { grid-column: span 1; padding-top: 0; scroll-margin-top: 85px; }
+  .material-study--marble, .material-study--limestone, .material-study--slabs { grid-column: 1/-1; }
+  .material-study--onyx, .material-study--tiles, .material-study--handicrafts { grid-column: 1/-1; }
+  .material-study--onyx .material-study__link, .material-study--tiles .material-study__link { display: grid; grid-template-columns: .85fr 1.15fr; gap: 18px; align-items: center; }
+  .material-study--onyx .material-study__photograph, .material-study--tiles .material-study__photograph { aspect-ratio: 3/4; }
+  .material-study--onyx .material-study__copy, .material-study--tiles .material-study__copy { padding-top: 0; }
+  .material-study--limestone .material-study__photograph { aspect-ratio: 4/3; }
+  .material-study--handicrafts .material-study__link { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; }
+  .material-study--handicrafts .material-study__photograph { aspect-ratio: 3/4; }
+  .material-study--handicrafts .material-study__copy { padding-top: 0; }
+  .material-study__copy { padding-top: 18px; }
+  .material-study__copy .collection-eyebrow { font-size: 6px; line-height: 1.8; }
+  .material-study h3 { font-size: clamp(28px,8vw,45px); line-height: 1.04; overflow-wrap: anywhere; }
+  .material-study__copy > p:not(.collection-eyebrow) { font-size: 10px; line-height: 1.8; margin-top: 12px; }
+  .material-study .collection-link { font-size: 7px; gap: 8px; letter-spacing: .06em; margin-top: 10px; }
+  .material-study__photograph figcaption { font-size: 5px; left: 10px; bottom: 10px; max-width: calc(100% - 20px); padding: 5px 6px; }
+  .material-study__roman { font-size: 25px; left: 15px; top: 14px; }
+  .collection-space-links { grid-template-columns: 1fr; gap: 28px; padding: 55px 24px 65px; }
+  .collection-space-links h2 { font-size: 43px; }
+  .collection-space-links .collection-eyebrow { font-size: 7px; }
+  .collection-space-links nav a { font-size: 28px; padding-block: 19px; }
+  .gallery-room { padding: 110px 24px 75px; }
+  .gallery-room__heading { grid-template-columns: 1fr; gap: 22px; }
+  .gallery-room__heading h1 { font-size: clamp(47px,12vw,80px); }
+  .gallery-room__heading .collection-eyebrow { font-size: 8px; }
+  .gallery-room__heading > p { font-size: 11px; }
+  .gallery-room__nav { margin-block: 30px 28px; gap: 8px 17px; padding-block: 12px; }
+  .gallery-room__nav a { font-size: 8px; }
+  .gallery-room__grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 14px; }
+  .gallery-room__photo { aspect-ratio: 1; }
+  .gallery-room__photo > span { width: 25px; height: 25px; bottom: 8px; right: 8px; }
+  .gallery-room__photo > span svg { width: 14px; }
+  .gallery-label { padding-top: 14px; }
+  .gallery-label h2 { font-size: 25px; overflow-wrap: anywhere; }
+  .gallery-label__code { font-size: 6px; }
+  .gallery-label__material, .gallery-label__dimensions { font-size: 8px; }
+  .gallery-label__form { font-size: 9px; line-height: 1.65; }
+  .gallery-room__empty { padding: 30px 24px; }
+  .gallery-room__empty h2 { font-size: 32px; }
+  .piece-photographs__main { min-height: 300px; height: min(58svh,560px); padding: 16px 21px; }
+  .piece-photographs__thumbnails { gap: 10px; }
+  .piece-photographs__thumbnails button { width: 62px; height: 62px; }
+  .piece-photographs__position { font-size: 6px; bottom: 12px; left: 12px; }
+  .piece-photographs__arrows { bottom: 11px; right: 11px; }
+  .piece-photographs__arrows button { width: 34px; height: 34px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .collection-experience *, .collection-experience *::before, .collection-experience *::after, .gallery-room *, .gallery-piece * { animation: none !important; transition: none !important; }
+}
+@media (max-width:767px) {
+  .collection-experience .collection-eyebrow { font-size: 11px; letter-spacing: .12em; }
+  .material-intro__description, .material-study__copy > p:not(.collection-eyebrow), .collection-space-links p:not(.collection-eyebrow), .gallery-room__heading > p { font-size: 14px; line-height: 1.8; }
+  .collection-experience .collection-link { font-size: 12px; line-height: 1.5; min-height: 44px; letter-spacing: .05em; }
+  .material-index a { font-size: 12px; line-height: 1.5; min-height: 52px; }
+  .material-intro__sample figcaption, .material-study__photograph figcaption { font-size: 10px; line-height: 1.5; letter-spacing: .05em; }
+  .gallery-room__nav { gap: 4px 18px; }
+  .gallery-room__nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 12px; line-height: 1.5; }
+  .gallery-label__code { font-size: 11px; line-height: 1.5; }
+  .gallery-label__material, .gallery-label__dimensions { font-size: 12px; }
+  .gallery-label__form { font-size: 13px; }
+  .piece-photographs__position { font-size: 11px; }
+  .piece-photographs__caption { font-size: 12px; line-height: 1.7; }
+  .piece-photographs__arrows button { width: 44px; height: 44px; }
+  .gallery-piece__layout aside > h1 { overflow-wrap: anywhere; line-height: 1.05; }
+  .gallery-piece__layout aside > p:first-child, .gallery-piece__layout aside dt { font-size: 12px; }
+  .gallery-piece [data-testid="link-piece-viewing"] { min-height: 52px; font-size: 12px; letter-spacing: .08em; }
+}
+@media (max-width:380px) {
+  .material-study--onyx .material-study__link, .material-study--tiles .material-study__link, .material-study--handicrafts .material-study__link { display: block; }
+  .material-study--onyx .material-study__photograph, .material-study--tiles .material-study__photograph, .material-study--handicrafts .material-study__photograph { aspect-ratio: 4/3; }
+  .material-study--onyx .material-study__copy, .material-study--tiles .material-study__copy, .material-study--handicrafts .material-study__copy { padding-top: 18px; }
+  .gallery-room__grid { grid-template-columns: 1fr; }
+  .gallery-room__photo { aspect-ratio: 4/3; }
+}

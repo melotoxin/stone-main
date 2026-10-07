@@ -1,0 +1,25 @@
+.stone-browser > section:first-child { display: grid; grid-template-columns: 1.1fr .9fr; gap: 12px 50px; padding-top: 35px; }
+.stone-browser > section:first-child > h1 { grid-column: 1; font-size: clamp(54px,6vw,86px); line-height: 1; }
+.stone-browser > section:first-child > p { font-size: 14px; }
+.stone-browser > section:first-child > .speakable { grid-column: 2; grid-row: 2; align-self: center; font-size: 16px; margin-top: 0; }
+.stone-browser > section:first-child > p:last-child { grid-column: 2; }
+.stone-browser__tools { position: sticky; top: 95px; z-index: 20; padding-top: 20px; padding-bottom: 20px; background: #161613f2; backdrop-filter: blur(12px); border-block: 1px solid #ffffff18; margin-bottom: 35px; }
+.stone-browser__search { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.stone-browser__search label { display: inline-flex; gap: 10px; align-items: center; font-size: 13px; color: #d5c4a5; }
+.stone-browser__search input { flex: 1; width: 100%; min-width: 0; max-width: 540px; border: 1px solid #ffffff30; background: #f3eee509; padding: 12px 14px; min-height: 46px; font-size: 16px; }
+.stone-browser__search > span { font-size: 13px; color: #f3eee5a8; }
+.stone-browser__tools button { min-height: 44px; font-size: 12px; letter-spacing: .1em; }
+.stone-browser button:focus-visible, .stone-browser a:focus-visible, .stone-browser input:focus-visible { outline: 2px solid #d5bc88; outline-offset: 4px; }
+.stone-browser ol > li { border-bottom: 1px solid #ffffff20; padding-bottom: 24px; }
+.stone-browser ol > li img { border: 1px solid #ffffff18; }
+.stone-browser ol > li article > p.text-sm { font-size: 15px; }
+.stone-browser__sample { display: inline-flex; align-items: center; gap: 18px; margin-top: 20px; padding-bottom: 8px; border-bottom: 1px solid #d5bc88; color: #d5bc88; font-size: 14px; }
+@media(max-width:767px) {
+ .stone-browser > section:first-child { display: block; padding-top: 20px; padding-bottom: 30px; }
+ .stone-browser > section:first-child > .speakable { margin-top: 24px; }
+ .stone-browser__tools { top: 73px; }
+ .stone-browser__search { gap: 10px; }
+ .stone-browser__search label > span { display: none; }
+ .stone-browser__tools > .flex { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 5px; }
+ .stone-browser__tools button { flex-shrink: 0; }
+}

@@ -1,0 +1,740 @@
+[
+  {
+    "category": "kitchen",
+    "slug": "travertine-compote",
+    "src": "/gallery/st-werkz/travertine-compote.jpg",
+    "size": [
+      736,
+      865
+    ],
+    "nativeSize": [
+      736,
+      865
+    ],
+    "bytes": 37395,
+    "sourceFile": "originals/collection/accents/travertine-compote.jpg",
+    "enhancedFile": "enhanced/collection/accents/travertine-compote-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "travertine-tray",
+    "src": "/gallery/accents-travertine-tray.jpg",
+    "size": [
+      736,
+      912
+    ],
+    "nativeSize": [
+      736,
+      912
+    ],
+    "bytes": 70552,
+    "sourceFile": "originals/collection/accents/accents-travertine-tray.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-travertine-tray-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "oblong-tray",
+    "src": "/gallery/accents-oblong-tray.jpg",
+    "size": [
+      736,
+      981
+    ],
+    "nativeSize": [
+      736,
+      981
+    ],
+    "bytes": 105325,
+    "sourceFile": "originals/collection/accents/accents-oblong-tray.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-oblong-tray-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "round-tray",
+    "src": "/gallery/clean/accents-round-tray.svg",
+    "size": [
+      584,
+      244
+    ],
+    "nativeSize": [
+      672,
+      586
+    ],
+    "bytes": 55963,
+    "sourceFile": "originals/collection/accents/accents-round-tray.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-round-tray-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Original embedded text, marks or social UI retained; Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "coaster-suite",
+    "src": "/gallery/accents-coaster-suite.jpg",
+    "size": [
+      600,
+      800
+    ],
+    "nativeSize": [
+      600,
+      800
+    ],
+    "bytes": 43446,
+    "sourceFile": "originals/collection/accents/accents-coaster-suite.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-coaster-suite-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "sage-onyx-coasters",
+    "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 68710,
+    "sourceFile": "originals/collection/accents/sage-onyx-coasters-a.jpg",
+    "enhancedFile": "enhanced/collection/accents/sage-onyx-coasters-a-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "curved-canisters",
+    "src": "/gallery/clean/accents-curved-canisters.svg",
+    "size": [
+      470,
+      390
+    ],
+    "nativeSize": [
+      736,
+      920
+    ],
+    "bytes": 38486,
+    "sourceFile": "originals/collection/accents/accents-curved-canisters.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-curved-canisters-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Original embedded text, marks or social UI retained; Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "pedestal-bowl",
+    "src": "/gallery/clean/accents-pedestal-bowl.svg",
+    "size": [
+      570,
+      283
+    ],
+    "nativeSize": [
+      750,
+      488
+    ],
+    "bytes": 36119,
+    "sourceFile": "originals/collection/accents/accents-pedestal-bowl.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-pedestal-bowl-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Original embedded text, marks or social UI retained; Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "sage-onyx-pear-bowl",
+    "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+    "size": [
+      736,
+      920
+    ],
+    "nativeSize": [
+      736,
+      920
+    ],
+    "bytes": 59826,
+    "sourceFile": "originals/collection/accents/sage-onyx-pear-bowl.jpg",
+    "enhancedFile": "enhanced/collection/accents/sage-onyx-pear-bowl-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "scalloped-onyx-bowl",
+    "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+    "size": [
+      736,
+      1022
+    ],
+    "nativeSize": [
+      736,
+      1022
+    ],
+    "bytes": 49546,
+    "sourceFile": "originals/collection/accents/scalloped-onyx-bowl-a.jpg",
+    "enhancedFile": "enhanced/collection/accents/scalloped-onyx-bowl-a-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "kitchen",
+    "slug": "nero-disc-tray",
+    "src": "/gallery/accents-nero-disc-tray.jpg",
+    "size": [
+      700,
+      700
+    ],
+    "nativeSize": [
+      700,
+      700
+    ],
+    "bytes": 41910,
+    "sourceFile": "originals/collection/accents/accents-nero-disc-tray.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-nero-disc-tray-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "portoro-bath-set",
+    "src": "/gallery/st-werkz/portoro-bath-set.jpg",
+    "size": [
+      600,
+      600
+    ],
+    "nativeSize": [
+      600,
+      600
+    ],
+    "bytes": 44849,
+    "sourceFile": "originals/collection/accents/portoro-bath-set.jpg",
+    "enhancedFile": "enhanced/collection/accents/portoro-bath-set-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "travertine-vanity-gold",
+    "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+    "size": [
+      600,
+      600
+    ],
+    "nativeSize": [
+      600,
+      600
+    ],
+    "bytes": 56748,
+    "sourceFile": "originals/collection/accents/travertine-vanity-gold.jpg",
+    "enhancedFile": "enhanced/collection/accents/travertine-vanity-gold-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "travertine-bath-ensemble",
+    "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+    "size": [
+      736,
+      1130
+    ],
+    "nativeSize": [
+      736,
+      1130
+    ],
+    "bytes": 58400,
+    "sourceFile": "originals/collection/accents/travertine-bath-ensemble.jpg",
+    "enhancedFile": "enhanced/collection/accents/travertine-bath-ensemble-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 1.81x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "travertine-bath-seven",
+    "src": "/gallery/st-werkz/travertine-bath-seven.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 37536,
+    "sourceFile": "originals/collection/accents/travertine-bath-seven.jpg",
+    "enhancedFile": "enhanced/collection/accents/travertine-bath-seven-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "travertine-bath",
+    "src": "/gallery/accents-travertine-bath.jpg",
+    "size": [
+      314,
+      239
+    ],
+    "nativeSize": [
+      314,
+      239
+    ],
+    "bytes": 11423,
+    "sourceFile": "originals/collection/accents/accents-travertine-bath.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-travertine-bath-enhanced.png",
+    "sourceFlags": "VERY LOW RESOLUTION: fine detail cannot be recovered reliably; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "vessel-sink",
+    "src": "/gallery/accents-vessel-sink.jpg",
+    "size": [
+      750,
+      500
+    ],
+    "nativeSize": [
+      750,
+      500
+    ],
+    "bytes": 37972,
+    "sourceFile": "originals/collection/accents/accents-vessel-sink.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-vessel-sink-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "copper-vein-basin",
+    "src": "/gallery/st-werkz/copper-vein-basin.jpg",
+    "size": [
+      640,
+      640
+    ],
+    "nativeSize": [
+      640,
+      640
+    ],
+    "bytes": 26461,
+    "sourceFile": "originals/collection/accents/copper-vein-basin.jpg",
+    "enhancedFile": "enhanced/collection/accents/copper-vein-basin-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "coral-canister",
+    "src": "/gallery/accents-coral-canister.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 36076,
+    "sourceFile": "originals/collection/accents/accents-coral-canister.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-coral-canister-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "scalloped-valet",
+    "src": "/gallery/accents-scalloped-valet.jpg",
+    "size": [
+      736,
+      981
+    ],
+    "nativeSize": [
+      736,
+      981
+    ],
+    "bytes": 92008,
+    "sourceFile": "originals/collection/accents/accents-scalloped-valet.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-scalloped-valet-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "portoro-cylinder-cup",
+    "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+    "size": [
+      500,
+      500
+    ],
+    "nativeSize": [
+      500,
+      500
+    ],
+    "bytes": 39616,
+    "sourceFile": "originals/collection/accents/portoro-cylinder-cup.jpg",
+    "enhancedFile": "enhanced/collection/accents/portoro-cylinder-cup-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "nero-cylinder",
+    "src": "/gallery/accents-nero-cylinder.jpg",
+    "size": [
+      576,
+      1024
+    ],
+    "nativeSize": [
+      576,
+      1024
+    ],
+    "bytes": 81587,
+    "sourceFile": "originals/collection/accents/accents-nero-cylinder.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-nero-cylinder-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "washroom",
+    "slug": "tapered-vessel",
+    "src": "/gallery/clean/accents-tapered-vessel.svg",
+    "size": [
+      660,
+      837
+    ],
+    "nativeSize": [
+      679,
+      1024
+    ],
+    "bytes": 256553,
+    "sourceFile": "originals/collection/accents/accents-tapered-vessel.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-tapered-vessel-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Original embedded text, marks or social UI retained; Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "banded-onyx-vase",
+    "src": "/gallery/st-werkz/banded-onyx-vase.jpg",
+    "size": [
+      735,
+      981
+    ],
+    "nativeSize": [
+      735,
+      981
+    ],
+    "bytes": 81041,
+    "sourceFile": "originals/collection/accents/banded-onyx-vase.jpg",
+    "enhancedFile": "enhanced/collection/accents/banded-onyx-vase-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "portoro-baluster-vase",
+    "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+    "size": [
+      736,
+      981
+    ],
+    "nativeSize": [
+      736,
+      981
+    ],
+    "bytes": 45506,
+    "sourceFile": "originals/collection/accents/portoro-baluster-vase.jpg",
+    "enhancedFile": "enhanced/collection/accents/portoro-baluster-vase-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "terracotta-marble-urn",
+    "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 39143,
+    "sourceFile": "originals/collection/accents/terracotta-marble-urn.jpg",
+    "enhancedFile": "enhanced/collection/accents/terracotta-marble-urn-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "live-edge-onyx-vessel",
+    "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 61571,
+    "sourceFile": "originals/collection/accents/live-edge-onyx-vessel.jpg",
+    "enhancedFile": "enhanced/collection/accents/live-edge-onyx-vessel-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "onyx-chess-casket",
+    "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+    "size": [
+      736,
+      981
+    ],
+    "nativeSize": [
+      736,
+      981
+    ],
+    "bytes": 119640,
+    "sourceFile": "originals/collection/accents/onyx-chess-casket.jpg",
+    "enhancedFile": "enhanced/collection/accents/onyx-chess-casket-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "nero-chess-set",
+    "src": "/gallery/st-werkz/nero-chess-set.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 69020,
+    "sourceFile": "originals/collection/accents/nero-chess-set.jpg",
+    "enhancedFile": "enhanced/collection/accents/nero-chess-set-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "travertine-candlesticks",
+    "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+    "size": [
+      660,
+      922
+    ],
+    "nativeSize": [
+      750,
+      922
+    ],
+    "bytes": 64100,
+    "sourceFile": "originals/collection/accents/accents-travertine-candlesticks.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-travertine-candlesticks-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "bulbous-vessel",
+    "src": "/gallery/clean/accents-bulbous-vessel.svg",
+    "size": [
+      660,
+      859
+    ],
+    "nativeSize": [
+      679,
+      1024
+    ],
+    "bytes": 231200,
+    "sourceFile": "originals/collection/accents/accents-bulbous-vessel.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-bulbous-vessel-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Original embedded text, marks or social UI retained; Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "portoro-bookends",
+    "src": "/gallery/accents-portoro-bookends.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 39365,
+    "sourceFile": "originals/collection/accents/accents-portoro-bookends.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-portoro-bookends-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "desk-suite",
+    "src": "/gallery/accents-desk-suite.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 82387,
+    "sourceFile": "originals/collection/accents/accents-desk-suite.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-desk-suite-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "nero-candles",
+    "src": "/gallery/accents-nero-candles.jpg",
+    "size": [
+      736,
+      736
+    ],
+    "nativeSize": [
+      736,
+      736
+    ],
+    "bytes": 38310,
+    "sourceFile": "originals/collection/accents/accents-nero-candles.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-nero-candles-enhanced.png",
+    "sourceFlags": "LOW RESOLUTION: limited fine-detail recovery; STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "hemisphere-candle",
+    "src": "/gallery/accents-hemisphere-candle.jpg",
+    "size": [
+      681,
+      1024
+    ],
+    "nativeSize": [
+      681,
+      1024
+    ],
+    "bytes": 106665,
+    "sourceFile": "originals/collection/accents/accents-hemisphere-candle.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-hemisphere-candle-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "onyx-urns",
+    "src": "/gallery/accents-onyx-urns.jpg",
+    "size": [
+      735,
+      832
+    ],
+    "nativeSize": [
+      735,
+      832
+    ],
+    "bytes": 75652,
+    "sourceFile": "originals/collection/accents/accents-onyx-urns.jpg",
+    "enhancedFile": "enhanced/collection/accents/accents-onyx-urns-enhanced.png",
+    "sourceFlags": "STRONG JPEG QUANTIZATION: lost source texture cannot be restored",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "tall-noir-vase",
+    "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+    "size": [
+      736,
+      1104
+    ],
+    "nativeSize": [
+      736,
+      1104
+    ],
+    "bytes": 96708,
+    "sourceFile": "originals/collection/accents/tall-noir-vase.jpg",
+    "enhancedFile": "enhanced/collection/accents/tall-noir-vase-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 1.86x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "pair-stone-pedestals",
+    "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+    "size": [
+      736,
+      1226
+    ],
+    "nativeSize": [
+      736,
+      1226
+    ],
+    "bytes": 59015,
+    "sourceFile": "originals/collection/accents/pair-stone-pedestals.jpg",
+    "enhancedFile": "enhanced/collection/accents/pair-stone-pedestals-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 1.67x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "travertine-drum-side",
+    "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+    "size": [
+      736,
+      1104
+    ],
+    "nativeSize": [
+      736,
+      1104
+    ],
+    "bytes": 77437,
+    "sourceFile": "originals/collection/living/travertine-drum-side.jpg",
+    "enhancedFile": "enhanced/collection/living/travertine-drum-side-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 1.86x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "travertine-cone-pedestal",
+    "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+    "size": [
+      736,
+      1104
+    ],
+    "nativeSize": [
+      736,
+      1104
+    ],
+    "bytes": 38083,
+    "sourceFile": "originals/collection/living/travertine-cone-pedestal.jpg",
+    "enhancedFile": "enhanced/collection/living/travertine-cone-pedestal-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 1.86x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  },
+  {
+    "category": "home-decor",
+    "slug": "travertine-c-table",
+    "src": "/gallery/st-werkz/travertine-c-table.jpg",
+    "size": [
+      736,
+      981
+    ],
+    "nativeSize": [
+      736,
+      981
+    ],
+    "bytes": 94990,
+    "sourceFile": "originals/collection/living/travertine-c-table.jpg",
+    "enhancedFile": "enhanced/collection/living/travertine-c-table-enhanced.png",
+    "sourceFlags": "",
+    "sourceNotes": "Exposure and white balance retained after visual review to protect material colors and lighting; Lanczos enlargement 2.00x; mild thresholded sharpening; lossless PNG (no new JPEG artifacts); enlargement does not add captured detail"
+  }
+]

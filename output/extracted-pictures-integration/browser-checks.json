@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "desktop": {
+    "clientWidth": 1265,
+    "images": [
+      {
+        "background": "rgb(235, 231, 223)",
+        "display": [
+          225.5,
+          225.5
+        ],
+        "href": "/collection/handicrafts/portoro-bath-set",
+        "label": "Retouched detail",
+        "loaded": true,
+        "native": [
+          1254,
+          1254
+        ],
+        "src": "/gallery/accessories/extracted/portoro-soap-dispenser.png"
+      },
+      {
+        "background": "rgb(235, 231, 223)",
+        "display": [
+          220,
+          146.65625
+        ],
+        "href": "/collection/limestone/travertine-vanity-gold",
+        "label": "Retouched detail",
+        "loaded": true,
+        "native": [
+          1536,
+          1024
+        ],
+        "src": "/gallery/accessories/extracted/travertine-soap-dish.png"
+      },
+      {
+        "background": "rgb(235, 231, 223)",
+        "display": [
+          146.65625,
+          219.984375
+        ],
+        "href": "/collection/limestone/travertine-bath-seven",
+        "label": "Retouched detail",
+        "loaded": true,
+        "native": [
+          1024,
+          1536
+        ],
+        "src": "/gallery/accessories/extracted/travertine-brush-holder.png"
+      },
+      {
+        "background": "rgb(235, 231, 223)",
+        "display": [
+          220,
+          166.5625
+        ],
+        "href": "/collection/limestone/travertine-bath-ensemble",
+        "label": "Retouched detail",
+        "loaded": true,
+        "native": [
+          1441,
+          1091
+        ],
+        "src": "/gallery/accessories/extracted/travertine-cotton-jar.png"
+      }
+    ],
+    "lang": "en-PK",
+    "scrollWidth": 1265
+  },
+  "mobile": {
+    "clientWidth": 375,
+    "images": [
+      {
+        "display": [
+          145.7421875,
+          145.7421875
+        ],
+        "frame": [
+          158,
+          210
+        ],
+        "loaded": true,
+        "native": [
+          1254,
+          1254
+        ],
+        "src": "/gallery/accessories/extracted/portoro-soap-dispenser.png"
+      },
+      {
+        "display": [
+          142.1875,
+          94.78125
+        ],
+        "frame": [
+          158,
+          210
+        ],
+        "loaded": true,
+        "native": [
+          1536,
+          1024
+        ],
+        "src": "/gallery/accessories/extracted/travertine-soap-dish.png"
+      },
+      {
+        "display": [
+          123.328125,
+          184.984375
+        ],
+        "frame": [
+          158,
+          210
+        ],
+        "loaded": true,
+        "native": [
+          1024,
+          1536
+        ],
+        "src": "/gallery/accessories/extracted/travertine-brush-holder.png"
+      },
+      {
+        "display": [
+          142.1875,
+          107.640625
+        ],
+        "frame": [
+          158,
+          210
+        ],
+        "loaded": true,
+        "native": [
+          1441,
+          1091
+        ],
+        "src": "/gallery/accessories/extracted/travertine-cotton-jar.png"
+      }
+    ],
+    "scrollWidth": 375
+  },
+  "allImagesLoaded": true,
+  "originalSetLinksPreserved": true,
+  "retouchedLabelsVisible": true,
+  "noHorizontalOverflow": true
+}

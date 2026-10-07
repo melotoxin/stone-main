@@ -1,0 +1,3925 @@
+{
+  "createdAt": "2026-10-06T21:57:18.084Z",
+  "method": "Vite SSR transformation and React renderToString; synthetic hashes for initial product category selection",
+  "limits": "No effects, browser history interaction, visual layouts, keyboard or pointer events, scroll animation, or form submission are exercised.",
+  "pages": [
+    {
+      "scope": "/products#kitchen",
+      "locale": "en",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "locale": "en",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "locale": "en",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/",
+      "locale": "en",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection",
+      "locale": "en",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/architects",
+      "locale": "en",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/interiors",
+      "locale": "en",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/retail",
+      "locale": "en",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/export",
+      "locale": "en",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/about",
+      "locale": "en",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/atelier",
+      "locale": "en",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/enquire",
+      "locale": "en",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "locale": "es",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "locale": "es",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "locale": "es",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/es",
+      "locale": "es",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/collection",
+      "locale": "es",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/architects",
+      "locale": "es",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/interiors",
+      "locale": "es",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/retail",
+      "locale": "es",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/export",
+      "locale": "es",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/about",
+      "locale": "es",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/atelier",
+      "locale": "es",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/enquire",
+      "locale": "es",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "locale": "it",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "locale": "it",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "locale": "it",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/it",
+      "locale": "it",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/collection",
+      "locale": "it",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/architects",
+      "locale": "it",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/interiors",
+      "locale": "it",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/retail",
+      "locale": "it",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/export",
+      "locale": "it",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/about",
+      "locale": "it",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/atelier",
+      "locale": "it",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/enquire",
+      "locale": "it",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "locale": "fr",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "locale": "fr",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "locale": "fr",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr",
+      "locale": "fr",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/collection",
+      "locale": "fr",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/architects",
+      "locale": "fr",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/interiors",
+      "locale": "fr",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/retail",
+      "locale": "fr",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/export",
+      "locale": "fr",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/about",
+      "locale": "fr",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/atelier",
+      "locale": "fr",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/enquire",
+      "locale": "fr",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "locale": "ar",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "locale": "ar",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "locale": "ar",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar",
+      "locale": "ar",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/collection",
+      "locale": "ar",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/architects",
+      "locale": "ar",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/interiors",
+      "locale": "ar",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/retail",
+      "locale": "ar",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/export",
+      "locale": "ar",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/about",
+      "locale": "ar",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/atelier",
+      "locale": "ar",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/enquire",
+      "locale": "ar",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "locale": "ur",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "locale": "ur",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "locale": "ur",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur",
+      "locale": "ur",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/collection",
+      "locale": "ur",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/architects",
+      "locale": "ur",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/interiors",
+      "locale": "ur",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/retail",
+      "locale": "ur",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/export",
+      "locale": "ur",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/about",
+      "locale": "ur",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/atelier",
+      "locale": "ur",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/enquire",
+      "locale": "ur",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "locale": "ru",
+      "imageCount": 14,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "locale": "ru",
+      "imageCount": 16,
+      "uniqueIds": 13,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "locale": "ru",
+      "imageCount": 18,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru",
+      "locale": "ru",
+      "imageCount": 6,
+      "uniqueIds": 15,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/collection",
+      "locale": "ru",
+      "imageCount": 8,
+      "uniqueIds": 12,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/architects",
+      "locale": "ru",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/interiors",
+      "locale": "ru",
+      "imageCount": 5,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/retail",
+      "locale": "ru",
+      "imageCount": 87,
+      "uniqueIds": 7,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/export",
+      "locale": "ru",
+      "imageCount": 8,
+      "uniqueIds": 11,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/about",
+      "locale": "ru",
+      "imageCount": 2,
+      "uniqueIds": 8,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/atelier",
+      "locale": "ru",
+      "imageCount": 9,
+      "uniqueIds": 10,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/enquire",
+      "locale": "ru",
+      "imageCount": 0,
+      "uniqueIds": 5,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-compote",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-tray",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/oblong-tray",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/round-tray",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/coaster-suite",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-coasters",
+      "locale": "en",
+      "imageCount": 6,
+      "uniqueIds": 4,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/curved-canisters",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/pedestal-bowl",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-pear-bowl",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/scalloped-onyx-bowl",
+      "locale": "en",
+      "imageCount": 6,
+      "uniqueIds": 4,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-disc-tray",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bath-set",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-vanity-gold",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-ensemble",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-seven",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/vessel-sink",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/copper-vein-basin",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/coral-canister",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/scalloped-valet",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-cylinder-cup",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-cylinder",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/tapered-vessel",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/banded-onyx-vase",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-baluster-vase",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/terracotta-marble-urn",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/live-edge-onyx-vessel",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/onyx-chess-casket",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-chess-set",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-candlesticks",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/bulbous-vessel",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bookends",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/desk-suite",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-candles",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/hemisphere-candle",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/onyx-urns",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/tall-noir-vase",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/pair-stone-pedestals",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-drum-side",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-cone-pedestal",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-c-table",
+      "locale": "en",
+      "imageCount": 4,
+      "uniqueIds": 2,
+      "status": "passed"
+    }
+  ],
+  "productCategories": [
+    {
+      "scope": "/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "category": "kitchen",
+      "catalogueCards": 10,
+      "accessoryCards": 3,
+      "displayed": 14,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "category": "washroom",
+      "catalogueCards": 11,
+      "accessoryCards": 4,
+      "displayed": 16,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "category": "home-decor",
+      "catalogueCards": 17,
+      "accessoryCards": 0,
+      "displayed": 18,
+      "status": "passed"
+    }
+  ],
+  "productDetails": [
+    {
+      "scope": "/collection/limestone/travertine-compote",
+      "slug": "travertine-compote",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-tray",
+      "slug": "travertine-tray",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/oblong-tray",
+      "slug": "oblong-tray",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/round-tray",
+      "slug": "round-tray",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/coaster-suite",
+      "slug": "coaster-suite",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-coasters",
+      "slug": "sage-onyx-coasters",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/curved-canisters",
+      "slug": "curved-canisters",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/pedestal-bowl",
+      "slug": "pedestal-bowl",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/sage-onyx-pear-bowl",
+      "slug": "sage-onyx-pear-bowl",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/scalloped-onyx-bowl",
+      "slug": "scalloped-onyx-bowl",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-disc-tray",
+      "slug": "nero-disc-tray",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bath-set",
+      "slug": "portoro-bath-set",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-vanity-gold",
+      "slug": "travertine-vanity-gold",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-ensemble",
+      "slug": "travertine-bath-ensemble",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath-seven",
+      "slug": "travertine-bath-seven",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-bath",
+      "slug": "travertine-bath",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/vessel-sink",
+      "slug": "vessel-sink",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/copper-vein-basin",
+      "slug": "copper-vein-basin",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/coral-canister",
+      "slug": "coral-canister",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/scalloped-valet",
+      "slug": "scalloped-valet",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-cylinder-cup",
+      "slug": "portoro-cylinder-cup",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-cylinder",
+      "slug": "nero-cylinder",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/tapered-vessel",
+      "slug": "tapered-vessel",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/banded-onyx-vase",
+      "slug": "banded-onyx-vase",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-baluster-vase",
+      "slug": "portoro-baluster-vase",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/terracotta-marble-urn",
+      "slug": "terracotta-marble-urn",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/live-edge-onyx-vessel",
+      "slug": "live-edge-onyx-vessel",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/onyx-chess-casket",
+      "slug": "onyx-chess-casket",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-chess-set",
+      "slug": "nero-chess-set",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-candlesticks",
+      "slug": "travertine-candlesticks",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/bulbous-vessel",
+      "slug": "bulbous-vessel",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/portoro-bookends",
+      "slug": "portoro-bookends",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/desk-suite",
+      "slug": "desk-suite",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/nero-candles",
+      "slug": "nero-candles",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/hemisphere-candle",
+      "slug": "hemisphere-candle",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/onyx/onyx-urns",
+      "slug": "onyx-urns",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/tall-noir-vase",
+      "slug": "tall-noir-vase",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/handicrafts/pair-stone-pedestals",
+      "slug": "pair-stone-pedestals",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-drum-side",
+      "slug": "travertine-drum-side",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-cone-pedestal",
+      "slug": "travertine-cone-pedestal",
+      "status": "passed"
+    },
+    {
+      "scope": "/collection/limestone/travertine-c-table",
+      "slug": "travertine-c-table",
+      "status": "passed"
+    }
+  ],
+  "imageDimensions": [
+    {
+      "scope": "/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/es/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/it/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/fr/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ar/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ur/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "travertine-tray",
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "width": 736,
+      "height": 912,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "oblong-tray",
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "round-tray",
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "width": 584,
+      "height": 244,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "coaster-suite",
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "width": 600,
+      "height": 620,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "sage-onyx-coasters",
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "curved-canisters",
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "width": 470,
+      "height": 390,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "pedestal-bowl",
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "width": 570,
+      "height": 283,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "sage-onyx-pear-bowl",
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "width": 736,
+      "height": 920,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "scalloped-onyx-bowl",
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "width": 736,
+      "height": 1022,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#kitchen",
+      "slug": "nero-disc-tray",
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "width": 700,
+      "height": 700,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "travertine-vanity-gold",
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "width": 600,
+      "height": 600,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "travertine-bath-ensemble",
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "width": 736,
+      "height": 1130,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "travertine-bath-seven",
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "width": 736,
+      "height": 690,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "travertine-bath",
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "width": 314,
+      "height": 239,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "vessel-sink",
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "width": 670,
+      "height": 365,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "copper-vein-basin",
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "width": 640,
+      "height": 400,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "coral-canister",
+      "src": "/gallery/accents-coral-canister.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "scalloped-valet",
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "portoro-cylinder-cup",
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "width": 500,
+      "height": 500,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "nero-cylinder",
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "width": 576,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#washroom",
+      "slug": "tapered-vessel",
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "width": 660,
+      "height": 837,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "portoro-baluster-vase",
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "terracotta-marble-urn",
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "live-edge-onyx-vessel",
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "onyx-chess-casket",
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "nero-chess-set",
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "travertine-candlesticks",
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "width": 660,
+      "height": 922,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "bulbous-vessel",
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "width": 660,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "portoro-bookends",
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "width": 736,
+      "height": 566,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "desk-suite",
+      "src": "/gallery/accents-desk-suite.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "nero-candles",
+      "src": "/gallery/accents-nero-candles.jpg",
+      "width": 736,
+      "height": 736,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "hemisphere-candle",
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "width": 681,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "onyx-urns",
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "width": 735,
+      "height": 832,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "tall-noir-vase",
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "pair-stone-pedestals",
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "width": 736,
+      "height": 1226,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "travertine-drum-side",
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "travertine-cone-pedestal",
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "width": 736,
+      "height": 1104,
+      "status": "passed"
+    },
+    {
+      "scope": "/ru/products#home-decor",
+      "slug": "travertine-c-table",
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "width": 736,
+      "height": 981,
+      "status": "passed"
+    }
+  ],
+  "assets": [
+    {
+      "src": "/brand/sw-mark.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/travertine-compote.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-travertine-tray.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-oblong-tray.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-round-tray.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/coaster-suite.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-onyx-coasters-a.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-curved-canisters.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-pedestal-bowl.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-onyx-pear-bowl.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-a.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-nero-disc-tray.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/references/onyx-mortar-pestle.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/references/marble-serving-board.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/references/slate-cheese-platter.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-bath-set.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-vanity-gold.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-bath-ensemble.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/travertine-bath-seven.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-travertine-bath.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/vessel-sink.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/copper-vein-basin.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-coral-canister.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-scalloped-valet.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-cylinder-cup.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-nero-cylinder.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-tapered-vessel.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accessories/extracted/portoro-soap-dispenser.png",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accessories/extracted/travertine-soap-dish.png",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accessories/extracted/travertine-brush-holder.png",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accessories/extracted/travertine-cotton-jar.png",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/banded-onyx-vase.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-baluster-vase.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/terracotta-marble-urn.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/live-edge-onyx-vessel.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/onyx-chess-casket.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-chess-set.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-travertine-candlesticks.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/clean/accents-bulbous-vessel.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/card-frames/portoro-bookends.svg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-desk-suite.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-nero-candles.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-hemisphere-candle.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-onyx-urns.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/tall-noir-vase.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/pair-stone-pedestals.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-drum-side.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-cone-pedestal.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-c-table.jpg",
+      "exists": true
+    },
+    {
+      "src": "/design/reference/vanity-1953.webp",
+      "exists": true
+    },
+    {
+      "src": "/design/reference/vanity-768.webp",
+      "exists": true
+    },
+    {
+      "src": "/design/reference/vanity-1440.webp",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/scalloped-onyx-bowl-b.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/mastung-cream.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/honey-onyx.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/pak-black.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-walnut-coffee.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/ziarat-white.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/orange-onyx.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/black-n-gold.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/light-green-onyx.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-monolith-coffee.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/flower.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/surfaces-nero-slab-a.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-gold-inlay.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-vessel-sink.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/interiors-onyx-waterfall.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-emerald-cage.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/linear-travertine-coffee.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-luminous-onyx-a.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/interiors-hotel-reception.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-oval-pedestal.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-oval-assemblage.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-noir-gold.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-portoro-slat.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-cream-gathering.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-sage-round.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-sage-organza.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/dining-travertine-round.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-sage-tulip.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-cream-companions.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-travertine-cone.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-notched-joinery.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-cross-base.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-rust-cage.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-stepped-travertine.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-nested-nero.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-hex-pedestal.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-nero-gold-rim.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-amber-showroom.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/living-ochre-pedestal.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-portoro-bookends.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-onyx-sphere-bowl.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/accents-coaster-suite.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/interiors-counter-glow.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/pill-travertine-dining.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-oval-wood-dining.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-pedestal-dining.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-chrome-dining.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-xframe-dining.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-square-pedestal.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-onyx-disc-table.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-onyx-brass-table.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/cream-oval-plinth-table.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-cube-table.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-tripod-coffee.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-block-side.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/copper-vein-basin.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-compote.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/travertine-bath-seven.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/viola-marble-fireplace.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-marble-fireplace.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-workshop-mantel.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/celadon-onyx-slab.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-rust-onyx-slab.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/surfaces-nero-slab-b.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/portoro-gold-slab.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-calcite-slab-a.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/honey-quartzite-slab.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/surfaces-noir-gold-disc.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/nero-calcite-slab-b.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/tavera.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/sunny-grey.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/michael-angelo.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/green-onyx.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/stone-faces/white-onyx.jpg",
+      "exists": true
+    },
+    {
+      "src": "/gallery/st-werkz/sage-onyx-coasters-b.jpg",
+      "exists": true
+    }
+  ],
+  "errors": [],
+  "catalogue": {
+    "canonicalProducts": 41,
+    "totalDisplayed": 48,
+    "categories": [
+      {
+        "id": "kitchen",
+        "catalogue": 11,
+        "accessories": 3,
+        "displayed": 14
+      },
+      {
+        "id": "washroom",
+        "catalogue": 12,
+        "accessories": 4,
+        "displayed": 16
+      },
+      {
+        "id": "home-decor",
+        "catalogue": 18,
+        "accessories": 0,
+        "displayed": 18
+      }
+    ]
+  },
+  "result": "passed"
+}

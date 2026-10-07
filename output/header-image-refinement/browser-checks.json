@@ -1,0 +1,452 @@
+{
+  "status": "passed",
+  "assertions": [
+    {
+      "label": "Small-phone menu fits and touch targets",
+      "detail": {
+        "fits": true,
+        "overflow": "auto",
+        "targets": [
+          {
+            "h": 54,
+            "text": "Products",
+            "w": 242
+          },
+          {
+            "h": 54,
+            "text": "Retail Store",
+            "w": 242
+          },
+          {
+            "h": 54,
+            "text": "Architect",
+            "w": 242
+          },
+          {
+            "h": 54,
+            "text": "Interior Design",
+            "w": 242
+          },
+          {
+            "h": 54,
+            "text": "Wholesalers",
+            "w": 242
+          },
+          {
+            "h": 58.375,
+            "text": "Start a conversation",
+            "w": 242
+          },
+          {
+            "h": 44,
+            "text": "English",
+            "w": 60.203125
+          },
+          {
+            "h": 44,
+            "text": "Español",
+            "w": 63.28125
+          },
+          {
+            "h": 44,
+            "text": "Italiano",
+            "w": 64.6875
+          },
+          {
+            "h": 44,
+            "text": "Français",
+            "w": 69.390625
+          },
+          {
+            "h": 44,
+            "text": "العربية",
+            "w": 44
+          },
+          {
+            "h": 44,
+            "text": "اردو",
+            "w": 44
+          },
+          {
+            "h": 44,
+            "text": "Русский",
+            "w": 68.703125
+          },
+          {
+            "h": 44,
+            "text": "Close",
+            "w": 44
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "label": "Escape closes menu and restores focus",
+      "detail": {
+        "closed": true,
+        "focus": "button-service-menu"
+      },
+      "passed": true
+    },
+    {
+      "label": "Phone contact anchor clears the bar",
+      "detail": {
+        "clientWidth": 305,
+        "headerBottom": 65,
+        "menuClosed": true,
+        "scrollWidth": 305,
+        "sectionTop": 84.96875
+      },
+      "passed": true
+    },
+    {
+      "label": "Urdu phone menu preserves the page route",
+      "detail": {
+        "contact": "/ur/architects#trade-contact",
+        "fit": true,
+        "rtl": "rtl",
+        "scrollable": "auto"
+      },
+      "passed": true
+    },
+    {
+      "label": "Tablet contact anchor clears the bar",
+      "detail": {
+        "headerBottom": 77,
+        "sectionTop": 97.015625
+      },
+      "passed": true
+    },
+    {
+      "label": "Mobile accessory photos match cleaned assets and stay within native size",
+      "detail": {
+        "clientWidth": 375,
+        "images": [
+          {
+            "declared": [
+              154,
+              250
+            ],
+            "display": [
+              116.80194091796876,
+              189.6090087890625
+            ],
+            "loaded": true,
+            "native": [
+              154,
+              250
+            ]
+          },
+          {
+            "declared": [
+              176,
+              112
+            ],
+            "display": [
+              142.1875,
+              90.46875
+            ],
+            "loaded": true,
+            "native": [
+              176,
+              112
+            ]
+          },
+          {
+            "declared": [
+              152,
+              516
+            ],
+            "display": [
+              54.484375,
+              184.953125
+            ],
+            "loaded": true,
+            "native": [
+              152,
+              516
+            ]
+          },
+          {
+            "declared": [
+              355,
+              303
+            ],
+            "display": [
+              142.1875,
+              121.359375
+            ],
+            "loaded": true,
+            "native": [
+              355,
+              303
+            ]
+          }
+        ],
+        "scrollWidth": 375
+      },
+      "passed": true
+    },
+    {
+      "label": "Desktop four accessory columns with clear images and navigation",
+      "detail": {
+        "barBottom": 148,
+        "columns": "259.844px 259.859px 259.844px 259.859px",
+        "images": [
+          {
+            "display": [
+              138.90350341796875,
+              225.4840087890625
+            ],
+            "loaded": true,
+            "natural": [
+              154,
+              250
+            ]
+          },
+          {
+            "display": [
+              176,
+              112
+            ],
+            "loaded": true,
+            "natural": [
+              176,
+              112
+            ]
+          },
+          {
+            "display": [
+              64.796875,
+              219.953125
+            ],
+            "loaded": true,
+            "natural": [
+              152,
+              516
+            ]
+          },
+          {
+            "display": [
+              220,
+              187.765625
+            ],
+            "loaded": true,
+            "natural": [
+              355,
+              303
+            ]
+          }
+        ],
+        "overflow": 0,
+        "top": 163.578125,
+        "viewport": 1265
+      },
+      "passed": true
+    },
+    {
+      "label": "Small original photograph is displayed without enlargement",
+      "detail": {
+        "display": [
+          314,
+          239
+        ],
+        "loaded": true,
+        "natural": [
+          314,
+          239
+        ],
+        "source": "/gallery/accents-travertine-bath.jpg"
+      },
+      "passed": true
+    },
+    {
+      "label": "Clean tray detail uses complete-product frame",
+      "detail": {
+        "display": [
+          584,
+          244
+        ],
+        "loaded": true,
+        "natural": [
+          584,
+          244
+        ],
+        "source": "/gallery/clean/accents-round-tray.svg"
+      },
+      "passed": true
+    },
+    {
+      "label": "Final English bar clears photographs at normal viewport",
+      "detail": {
+        "captionTop": 946.21875,
+        "clientWidth": 708,
+        "english": true,
+        "headerHeight": 65,
+        "photoTop": 586.21875,
+        "scrollWidth": 708
+      },
+      "passed": true
+    }
+  ],
+  "desktopHeaderMeasurements": [
+    {
+      "label": "English desktop1280",
+      "active": "Architect",
+      "clientWidth": 1265,
+      "headerHeight": 77,
+      "items": [
+        {
+          "name": "St Werkz",
+          "right": 178.984375,
+          "x": 38.390625
+        },
+        {
+          "name": "Products",
+          "right": 477.953125,
+          "x": 408.984375
+        },
+        {
+          "name": "Retail Store",
+          "right": 584.6875,
+          "x": 497.140625
+        },
+        {
+          "name": "Architect",
+          "right": 675.84375,
+          "x": 603.875
+        },
+        {
+          "name": "Interior Design",
+          "right": 805.40625,
+          "x": 695.03125
+        },
+        {
+          "name": "Wholesalers",
+          "right": 919.359375,
+          "x": 824.59375
+        },
+        {
+          "name": "English",
+          "right": 1022.390625,
+          "x": 947.359375
+        },
+        {
+          "name": "Start a conversation",
+          "right": 1226.609375,
+          "x": 1040.390625
+        }
+      ],
+      "menuVisible": false,
+      "overlap": [],
+      "scrollWidth": 1265
+    },
+    {
+      "label": "French desktop1280",
+      "active": "Architecte",
+      "clientWidth": 1265,
+      "headerHeight": 77,
+      "items": [
+        {
+          "name": "St Werkz",
+          "right": 178.984375,
+          "x": 38.390625
+        },
+        {
+          "name": "Produits",
+          "right": 424.140625,
+          "x": 360.734375
+        },
+        {
+          "name": "Boutique",
+          "right": 508.671875,
+          "x": 443.328125
+        },
+        {
+          "name": "Architecte",
+          "right": 607.53125,
+          "x": 527.859375
+        },
+        {
+          "name": "Design d’intérieur",
+          "right": 756.125,
+          "x": 626.71875
+        },
+        {
+          "name": "Grossistes",
+          "right": 854.203125,
+          "x": 775.3125
+        },
+        {
+          "name": "Français",
+          "right": 964.765625,
+          "x": 882.203125
+        },
+        {
+          "name": "Commencer une conversation",
+          "right": 1226.609375,
+          "x": 982.765625
+        }
+      ],
+      "menuVisible": false,
+      "overlap": [],
+      "scrollWidth": 1265
+    },
+    {
+      "label": "Russian desktop1280",
+      "active": "Оптовики",
+      "clientWidth": 1265,
+      "headerHeight": 77,
+      "items": [
+        {
+          "name": "St Werkz",
+          "right": 178.984375,
+          "x": 38.390625
+        },
+        {
+          "name": "Изделия",
+          "right": 517.578125,
+          "x": 454.515625
+        },
+        {
+          "name": "Магазин",
+          "right": 598.75,
+          "x": 536.765625
+        },
+        {
+          "name": "Архитектор",
+          "right": 704.890625,
+          "x": 617.9375
+        },
+        {
+          "name": "Дизайн интерьера",
+          "right": 861.609375,
+          "x": 724.078125
+        },
+        {
+          "name": "Оптовики",
+          "right": 953.859375,
+          "x": 880.796875
+        },
+        {
+          "name": "Русский",
+          "right": 1064.671875,
+          "x": 981.859375
+        },
+        {
+          "name": "Запросить лот",
+          "right": 1226.609375,
+          "x": 1082.671875
+        }
+      ],
+      "menuVisible": false,
+      "overlap": [],
+      "scrollWidth": 1265
+    }
+  ],
+  "viewportOverrideReset": true,
+  "originalPhotoPixelsPreserved": true,
+  "runtimeErrors": [],
+  "preview": "http://localhost:4174/"
+}

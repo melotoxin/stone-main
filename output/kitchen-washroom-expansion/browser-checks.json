@@ -1,0 +1,618 @@
+{
+  "assertions": [
+    {
+      "name": "No horizontal overflow across inspected sizes",
+      "passed": true
+    },
+    {
+      "name": "Kitchen has3 additions and14 displayed items",
+      "passed": true
+    },
+    {
+      "name": "Washroom has4 additions and16 displayed items",
+      "passed": true
+    },
+    {
+      "name": "Shortcut clears sticky bars on desktop,phone andtablet",
+      "passed": true
+    },
+    {
+      "name": "New designs appear in category search",
+      "passed": true
+    },
+    {
+      "name": "Bath components appear in category search",
+      "passed": true
+    },
+    {
+      "name": "Reference enquiry has selected design and reference label",
+      "passed": true
+    },
+    {
+      "name": "Empty search and reset behave correctly",
+      "passed": true
+    },
+    {
+      "name": "Explicit RTL320 fits all cards",
+      "passed": true
+    },
+    {
+      "name": "No errors from the new local preview",
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "label": "Washroom desktop 1280",
+      "accessoryCount": 4,
+      "accessoryTop": 163.578125,
+      "cardBounds": [
+        {
+          "left": 76.796875,
+          "right": 336.640625
+        },
+        {
+          "left": 360.640625,
+          "right": 620.5
+        },
+        {
+          "left": 644.5,
+          "right": 904.34375
+        },
+        {
+          "left": 928.34375,
+          "right": 1188.203125
+        }
+      ],
+      "empty": false,
+      "headerBottom": 148,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 1265,
+      "searchCount": "16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 1265
+    },
+    {
+      "label": "Washroom new item search 390",
+      "accessoryCount": 1,
+      "accessoryTop": -1218.484375,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 180
+        }
+      ],
+      "empty": false,
+      "headerBottom": 6.734375,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "1 / 16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 375
+    },
+    {
+      "label": "Washroom mobile 390",
+      "accessoryCount": 4,
+      "accessoryTop": 3624.640625,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        },
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 375
+    },
+    {
+      "label": "Washroom mobile 390 settled jump",
+      "accessoryCount": 4,
+      "accessoryTop": 3624.640625,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        },
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 375
+    },
+    {
+      "label": "Washroom mobile 390 shortcut",
+      "accessoryCount": 4,
+      "accessoryTop": 150.640625,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        },
+        {
+          "left": 22,
+          "right": 180
+        },
+        {
+          "left": 195,
+          "right": 353
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 375
+    },
+    {
+      "label": "Kitchen phone 320",
+      "accessoryCount": 3,
+      "accessoryTop": 150.703125,
+      "cardBounds": [
+        {
+          "left": 20,
+          "right": 285
+        },
+        {
+          "left": 20,
+          "right": 285
+        },
+        {
+          "left": 20,
+          "right": 285
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/onyx-mortar-pestle.jpg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/marble-serving-board.jpg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "height": 824,
+          "src": "/gallery/references/slate-cheese-platter.jpg",
+          "width": 1200
+        }
+      ],
+      "scrollWidth": 305,
+      "searchCount": "14 objects",
+      "selected": "Kitchen, 14 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#kitchen",
+      "width": 305
+    },
+    {
+      "label": "Kitchen reference search 390",
+      "accessoryCount": 1,
+      "accessoryTop": 537.734375,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 353
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/onyx-mortar-pestle.jpg",
+          "width": 1200
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "1 / 14 objects",
+      "selected": "Kitchen, 14 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#kitchen",
+      "width": 375
+    },
+    {
+      "label": "Kitchen design enquiry prefill 390",
+      "brief": "Discuss this design: Onyx Mortar & Pestle (Reference photograph).",
+      "scrollWidth": 375,
+      "url": "http://localhost:4174/enquire?intent=consultation&name=Onyx+Mortar+%26+Pestle&brief=Discuss+this+design%3A+Onyx+Mortar+%26+Pestle+%28Reference+photograph%29.",
+      "width": 375
+    },
+    {
+      "label": "Kitchen empty search 390",
+      "accessoryCount": 0,
+      "cardBounds": [],
+      "empty": true,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [],
+      "scrollWidth": 375,
+      "searchCount": "0 / 14 objects",
+      "selected": "Kitchen, 14 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#kitchen",
+      "width": 375
+    },
+    {
+      "label": "Kitchen search reset 390",
+      "accessoryCount": 3,
+      "accessoryTop": 3109.984375,
+      "cardBounds": [
+        {
+          "left": 22,
+          "right": 353
+        },
+        {
+          "left": 22,
+          "right": 353
+        },
+        {
+          "left": 22,
+          "right": 353
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/onyx-mortar-pestle.jpg",
+          "width": 1200
+        },
+        {
+          "complete": false,
+          "height": 0,
+          "src": "/gallery/references/marble-serving-board.jpg",
+          "width": 0
+        },
+        {
+          "complete": false,
+          "height": 0,
+          "src": "/gallery/references/slate-cheese-platter.jpg",
+          "width": 0
+        }
+      ],
+      "scrollWidth": 375,
+      "searchCount": "14 objects",
+      "selected": "Kitchen, 14 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#kitchen",
+      "width": 375
+    },
+    {
+      "label": "Washroom tablet 768",
+      "accessoryCount": 4,
+      "accessoryTop": 164.109375,
+      "cardBounds": [
+        {
+          "left": 46.078125,
+          "right": 364.5
+        },
+        {
+          "left": 388.5,
+          "right": 706.921875
+        },
+        {
+          "left": 46.078125,
+          "right": 364.5
+        },
+        {
+          "left": 388.5,
+          "right": 706.921875
+        }
+      ],
+      "empty": false,
+      "headerBottom": 148,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 753,
+      "searchCount": "16 objects",
+      "selected": "Washroom, 16 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#washroom",
+      "width": 753
+    },
+    {
+      "label": "Explicit Arabic Washroom 320",
+      "accessoryCount": 4,
+      "accessoryTop": 150.625,
+      "cardBounds": [
+        {
+          "left": 20,
+          "right": 285
+        },
+        {
+          "left": 20,
+          "right": 285
+        },
+        {
+          "left": 20,
+          "right": 285
+        },
+        {
+          "left": 20,
+          "right": 285
+        }
+      ],
+      "empty": false,
+      "headerBottom": 135,
+      "headerLanguage": "St WerkzالمجموعاتالمنتجاتالمهندسونAboutتجار الجملةالبحث في المجموعةالعربيةاطلب عرض سعر",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 264,
+          "src": "/gallery/accessories/portoro-soap-dispenser.svg",
+          "width": 175
+        },
+        {
+          "complete": true,
+          "height": 112,
+          "src": "/gallery/accessories/travertine-soap-dish.svg",
+          "width": 180
+        },
+        {
+          "complete": true,
+          "height": 526,
+          "src": "/gallery/accessories/travertine-brush-holder.svg",
+          "width": 167
+        },
+        {
+          "complete": true,
+          "height": 318,
+          "src": "/gallery/accessories/travertine-cotton-jar.svg",
+          "width": 341
+        }
+      ],
+      "scrollWidth": 305,
+      "searchCount": "16 قطع",
+      "selected": "الحمام, 16 قطع",
+      "total": "48 قطع",
+      "url": "http://localhost:4174/ar/products#washroom",
+      "width": 305
+    },
+    {
+      "label": "Kitchen desktop 1280",
+      "accessoryCount": 3,
+      "accessoryTop": 163.53125,
+      "cardBounds": [
+        {
+          "left": 76.796875,
+          "right": 431.265625
+        },
+        {
+          "left": 455.265625,
+          "right": 809.734375
+        },
+        {
+          "left": 833.734375,
+          "right": 1188.203125
+        }
+      ],
+      "empty": false,
+      "headerBottom": 148,
+      "headerLanguage": "St WerkzCollectionsProductsArchitectsAboutWholesalersSearch the collectionEnglishInquire for Quote",
+      "imageStates": [
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/onyx-mortar-pestle.jpg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "height": 1800,
+          "src": "/gallery/references/marble-serving-board.jpg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "height": 824,
+          "src": "/gallery/references/slate-cheese-platter.jpg",
+          "width": 1200
+        }
+      ],
+      "scrollWidth": 1265,
+      "searchCount": "14 objects",
+      "selected": "Kitchen, 14 objects",
+      "total": "48 objects",
+      "url": "http://localhost:4174/products#kitchen",
+      "width": 1265
+    }
+  ],
+  "activePreviewErrors": [],
+  "notes": "Intermediate resize/search-clear observations are retained. Offscreen loading=lazy images may be pending; loaded images and shortcut positioning were verified in settled views."
+}
