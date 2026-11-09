@@ -24,17 +24,15 @@ import '@/styles/collections.css';
 
 type RouteParams = { room?: string; piece?: string };
 
-const NUMBER_WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-/** Follows the published rooms, so the copy stays right when a room is added or hidden. */
-const roomCountWord = NUMBER_WORDS[rooms.length] ?? String(rooms.length);
 
-const materialPhotographs: Record<RoomSlug, { image: string; alt: string; caption: string }> = {
-  marble: { image: '/gallery/stone-faces/black-n-gold.jpg', alt: 'Black and Gold marble sample with dark stone and warm gold veins', caption: 'Black & Gold / Marble face' },
-  onyx: { image: '/gallery/stone-faces/light-green-onyx.jpg', alt: 'Light green onyx sample with soft bands of green and cream', caption: 'Light Green Onyx / Stone face' },
-  limestone: { image: '/gallery/living-monolith-coffee.jpg', alt: 'Honed travertine coffee table with a thick slab and two stone plinth legs', caption: 'Travertine / Formed in stone' },
-  tiles: { image: '/gallery/stone-faces/flower.jpg', alt: 'Flower Marble sample showing red, pink and grey floral mineral patterns', caption: 'Flower Marble / Stone face' },
-  slabs: { image: '/gallery/surfaces-nero-slab-a.jpg', alt: 'Original photograph of black marble slabs with white veins standing in the stone yard', caption: 'Nero slabs / At the yard' },
-  handicrafts: { image: '/gallery/st-werkz/portoro-baluster-vase.jpg', alt: 'Carved Portoro marble baluster vase with a ringed neck and pedestal foot', caption: 'Portoro / The carved object' },
+/** Room cover photographs; alt text and captions are translated in t.collectionIndex.roomPhotos. */
+const materialPhotographs: Record<RoomSlug, string> = {
+  marble: '/gallery/stone-faces/black-n-gold.jpg',
+  onyx: '/gallery/stone-faces/light-green-onyx.jpg',
+  limestone: '/gallery/living-monolith-coffee.jpg',
+  tiles: '/gallery/stone-faces/flower.jpg',
+  slabs: '/gallery/surfaces-nero-slab-a.jpg',
+  handicrafts: '/gallery/st-werkz/portoro-baluster-vase.jpg',
 };
 
 function Label({ piece, index }: { piece: Piece; index: number }) {
@@ -55,6 +53,7 @@ function Label({ piece, index }: { piece: Piece; index: number }) {
 
 export function CollectionPage() {
   const { locale, t } = useI18n();
+  const c = t.collectionIndex;
 
   return (
     <SiteChrome>
@@ -62,29 +61,29 @@ export function CollectionPage() {
         <section className="material-intro" aria-labelledby="collection-title">
           <div className="material-intro__copy">
             <GalleryBreadcrumb items={[{ href: '/', label: 'St Werkz' }, { label: t.chrome.collection }]} />
-            <p className="collection-eyebrow">ST WERKZ / THE MATERIAL LIBRARY</p>
+            <p className="collection-eyebrow">{c.eyebrow}</p>
             <h1 id="collection-title">{locale === 'en' ? <>Nature, in<br /><em>its own handwriting.</em></> : <>{t.collection.titleBefore}<em>{t.collection.titleEm}</em></>}</h1>
             <p className="speakable material-intro__description">{locale === 'en' ? 'Follow a vein. Find a colour. Discover the character of marble, onyx and travertine, from a stone face to a finished object.' : t.definitions.collection}</p>
-            <a href="#collection-materials" className="collection-link">Explore the {roomCountWord} collections <ArrowUpRight size={18} aria-hidden="true" /></a>
+            <a href="#collection-materials" className="collection-link">{c.explore(rooms.length)} <ArrowUpRight size={18} aria-hidden="true" /></a>
           </div>
-          <div className="material-intro__samples" aria-label="Natural stone samples">
-            <figure className="material-intro__sample material-intro__sample--white"><img src="/gallery/stone-faces/ziarat-white.jpg" alt="Original Ziarat White marble face with fine diagonal grey veins" width={1536} height={1024} fetchPriority="high" decoding="async" data-testid="img-collection-cover" /><figcaption>ZIARAT WHITE / MARBLE</figcaption></figure>
-            <figure className="material-intro__sample material-intro__sample--amber"><img src="/gallery/stone-faces/orange-onyx.jpg" alt="Original Orange Onyx stone face with warm orange bands and pale mineral lines" width={1536} height={1024} decoding="async" /><figcaption>ORANGE ONYX / NATURAL MOVEMENT</figcaption></figure>
-            <span className="material-intro__notation" aria-hidden="true">No two veins<br />tell the same story.</span>
+          <div className="material-intro__samples" aria-label={c.samplesAria}>
+            <figure className="material-intro__sample material-intro__sample--white"><img src="/gallery/stone-faces/ziarat-white.jpg" alt={c.whiteAlt} width={1536} height={1024} fetchPriority="high" decoding="async" data-testid="img-collection-cover" /><figcaption>{c.whiteCaption}</figcaption></figure>
+            <figure className="material-intro__sample material-intro__sample--amber"><img src="/gallery/stone-faces/orange-onyx.jpg" alt={c.amberAlt} width={1536} height={1024} decoding="async" /><figcaption>{c.amberCaption}</figcaption></figure>
+            <span className="material-intro__notation" aria-hidden="true">{c.notationBefore}<br />{c.notationAfter}</span>
           </div>
         </section>
 
-        <nav className="material-index" aria-label="Material collections">
+        <nav className="material-index" aria-label={t.collectionIndex.indexAria}>
           {rooms.map(room => <a key={room.slug} href={`#material-${room.slug}`}><span>{room.roman}</span>{localizedRoom(room, locale).title}<ArrowUpRight size={15} aria-hidden="true" /></a>)}
         </nav>
 
         <section id="collection-materials" className="material-atlas" aria-labelledby="collection-materials-title">
-          <div className="material-atlas__heading"><p className="collection-eyebrow">{roomCountWord.toUpperCase()} COLLECTIONS / A CLOSER LOOK</p><h2 id="collection-materials-title">The character<br /><em>is in the detail.</em></h2><p>A material to build around.<br />An object to live with.</p></div>
+          <div className="material-atlas__heading"><p className="collection-eyebrow">{c.atlasEyebrow(rooms.length)}</p><h2 id="collection-materials-title">{c.atlasTitleBefore}<br /><em>{c.atlasTitleEm}</em></h2><p>{c.atlasBodyFirst}<br />{c.atlasBodySecond}</p></div>
           <div className="material-atlas__grid">
             {rooms.map(room => {
               const localRoom = localizedRoom(room, locale);
               const works = piecesInRoom(room.slug);
-              const photograph = materialPhotographs[room.slug];
+              const photograph = { image: materialPhotographs[room.slug], ...c.roomPhotos[room.slug] };
               return <article id={`material-${room.slug}`} className={`material-study material-study--${room.slug}`} key={room.slug}>
                 <Link href={roomHref(room.slug)} className="material-study__link" data-testid={`link-room-${room.slug}`}>
                   <figure className="material-study__photograph"><img src={photograph.image} alt={photograph.alt} width={1200} height={900} loading="lazy" decoding="async" data-testid={`img-room-cover-${room.slug}`} /><figcaption>{photograph.caption}</figcaption><span className="material-study__roman" aria-hidden="true">{room.roman}</span></figure>
@@ -96,11 +95,11 @@ export function CollectionPage() {
         </section>
 
         <section className="collection-space-links" aria-labelledby="collection-spaces-title">
-          <div><p className="collection-eyebrow">FROM THE MATERIAL TO YOUR HOME</p><h2 id="collection-spaces-title">Have a space in mind?</h2><p>Explore accessories by the way you live.</p></div>
-          <nav aria-label="Find products by space">
-            <Link href="/products#kitchen" data-testid="link-category-kitchen"><span>01</span>Kitchen<ArrowUpRight size={20} aria-hidden="true" /></Link>
-            <Link href="/products#washroom" data-testid="link-category-washroom"><span>02</span>Washroom<ArrowUpRight size={20} aria-hidden="true" /></Link>
-            <Link href="/products#home-decor" data-testid="link-category-home-decor"><span>03</span>Room &amp; home decor<ArrowUpRight size={20} aria-hidden="true" /></Link>
+          <div><p className="collection-eyebrow">{c.spacesEyebrow}</p><h2 id="collection-spaces-title">{c.spacesTitle}</h2><p>{c.spacesBody}</p></div>
+          <nav aria-label={c.spacesAria}>
+            <Link href="/products#kitchen" data-testid="link-category-kitchen"><span>01</span>{c.spaceKitchen}<ArrowUpRight size={20} aria-hidden="true" /></Link>
+            <Link href="/products#washroom" data-testid="link-category-washroom"><span>02</span>{c.spaceWashroom}<ArrowUpRight size={20} aria-hidden="true" /></Link>
+            <Link href="/products#home-decor" data-testid="link-category-home-decor"><span>03</span>{c.spaceHomeDecor}<ArrowUpRight size={20} aria-hidden="true" /></Link>
           </nav>
         </section>
       </main>
@@ -133,7 +132,7 @@ export function RoomPage({ params }: { params?: RouteParams }) {
           <div><p className="collection-eyebrow">{t.collection.roomLine(localRoom.roman, String(works.length).padStart(2, '0'))}</p><h1 id="gallery-room-title">{localRoom.title}</h1></div>
           <p>{t.definitions.room(localRoom.title, localRoom.wallText)}</p>
         </section>
-        <nav className="gallery-room__nav" aria-label="Material collections">{rooms.map(item => <Link href={roomHref(item.slug)} key={item.slug} aria-current={item.slug === room.slug ? 'page' : undefined}>{localizedRoom(item, locale).title}</Link>)}</nav>
+        <nav className="gallery-room__nav" aria-label={t.collectionIndex.indexAria}>{rooms.map(item => <Link href={roomHref(item.slug)} key={item.slug} aria-current={item.slug === room.slug ? 'page' : undefined}>{localizedRoom(item, locale).title}</Link>)}</nav>
         {works.length ? <section className="gallery-room__grid" aria-label={localRoom.title}>
           {works.map((piece, index) => <article key={piece.slug} className="gallery-room__card" data-testid={`card-piece-${piece.slug}`}>
             <Link href={pieceHref(piece)}><figure><div className="gallery-room__photo"><img src={originalCatalogImage(piece.images[0])} alt={t.seo.pieceAlt(piece.title, piece.material)} width={700} height={700} loading="lazy" decoding="async" /><span aria-hidden="true"><ArrowUpRight size={18} /></span></div><Label piece={piece} index={index + 1} /></figure></Link>
@@ -210,9 +209,9 @@ export function PiecePage({ params }: { params?: RouteParams }) {
             <figure className="piece-photographs__main">
               <img src={originalCatalogImage(piece.images[shownImage])} alt={t.seo.pieceAlt(piece.title, piece.material, piece.images.length > 1 ? shownImage : undefined)} fetchPriority={!piece.video ? 'high' : undefined} decoding="async" data-testid="img-piece-hero" />
               <span className="piece-photographs__position" aria-live="polite">{String(shownImage + 1).padStart(2, '0')} / {String(piece.images.length).padStart(2, '0')}</span>
-              {piece.images.length > 1 && <div className="piece-photographs__arrows"><button type="button" aria-label="Previous photograph" onClick={() => selectImage(shownImage - 1)} data-testid="button-piece-photo-previous"><ChevronLeft size={19} aria-hidden="true" /></button><button type="button" aria-label="Next photograph" onClick={() => selectImage(shownImage + 1)} data-testid="button-piece-photo-next"><ChevronRight size={19} aria-hidden="true" /></button></div>}
+              {piece.images.length > 1 && <div className="piece-photographs__arrows"><button type="button" aria-label={t.gallery.previousPhoto} onClick={() => selectImage(shownImage - 1)} data-testid="button-piece-photo-previous"><ChevronLeft size={19} aria-hidden="true" /></button><button type="button" aria-label={t.gallery.nextPhoto} onClick={() => selectImage(shownImage + 1)} data-testid="button-piece-photo-next"><ChevronRight size={19} aria-hidden="true" /></button></div>}
             </figure>
-            {piece.images.length > 1 && <div className="piece-photographs__thumbnails" role="group" aria-label="Product photographs">{piece.images.map((image,index) => <button type="button" id={`photo-${piece.slug}-${index}`} key={image} aria-label={`View photograph ${index + 1} of ${piece.images.length}: ${piece.title}`} aria-pressed={index === shownImage} onClick={() => selectImage(index)} onKeyDown={event => {
+            {piece.images.length > 1 && <div className="piece-photographs__thumbnails" role="group" aria-label={t.gallery.photosAria}>{piece.images.map((image,index) => <button type="button" id={`photo-${piece.slug}-${index}`} key={image} aria-label={t.gallery.viewPhoto(index + 1, piece.images.length, piece.title)} aria-pressed={index === shownImage} onClick={() => selectImage(index)} onKeyDown={event => {
               const next = event.key === 'ArrowRight' ? (index + 1) % piece.images.length : event.key === 'ArrowLeft' ? (index + piece.images.length - 1) % piece.images.length : event.key === 'Home' ? 0 : event.key === 'End' ? piece.images.length - 1 : -1;
               if (next < 0) return;
               event.preventDefault(); selectImage(next); document.getElementById(`photo-${piece.slug}-${next}`)?.focus();

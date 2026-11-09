@@ -8,6 +8,8 @@ import {
 } from '@/data/aeo';
 import { exportDefinition } from '@/data/export';
 import { midSentence, withArticle } from '@/lib/phrase';
+
+const EN_NUMBER_WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 import { commissions, finishes as estimateFinishes, shapes, stones } from '@/data/estimate';
 import { atelierSteps, studioFaqs } from '@/data/faq';
 import { pieces, rooms } from '@/data/gallery';
@@ -513,7 +515,7 @@ export const en: Catalog = {
     pathTitleBefore: 'Discover, walk, ',
     pathTitleEm: 'then see it.',
     steps: [
-      { number: '01', title: 'Discover', body: 'Browse the five rooms — dining, living, accents, interiors and slabs — as a quiet gallery.' },
+      { number: '01', title: 'Discover', body: 'Browse the five rooms — marble, onyx, limestone, slabs and handicrafts — as a quiet gallery.' },
       { number: '02', title: 'Walk the rooms', body: 'Open a work, read the stone, and sit with the form before asking for a time.' },
       { number: '03', title: 'Request a viewing', body: 'Name the piece or the room. Syed Rashid Ali takes the note and confirms the stone in Karachi.' },
     ],
@@ -567,4 +569,43 @@ export const en: Catalog = {
     finishes.map((finish) => [finish.id, { label: finish.label, cite: finish.cite }]),
   ) as Record<FinishKind, { label: string; cite: string }>,
   evidence: Object.fromEntries(evidenceKinds.map((kind) => [kind.id, kind.label])) as Record<EvidenceKind, string>,
+  collectionIndex: {
+    eyebrow: 'ST WERKZ / THE MATERIAL LIBRARY',
+    explore: (count) => `Explore the ${EN_NUMBER_WORDS[count] ?? count} collections`,
+    samplesAria: 'Natural stone samples',
+    whiteAlt: 'Original Ziarat White marble face with fine diagonal grey veins',
+    whiteCaption: 'ZIARAT WHITE / MARBLE',
+    amberAlt: 'Original Orange Onyx stone face with warm orange bands and pale mineral lines',
+    amberCaption: 'ORANGE ONYX / NATURAL MOVEMENT',
+    notationBefore: 'No two veins',
+    notationAfter: 'tell the same story.',
+    indexAria: 'Material collections',
+    atlasEyebrow: (count) => `${(EN_NUMBER_WORDS[count] ?? String(count)).toUpperCase()} COLLECTIONS / A CLOSER LOOK`,
+    atlasTitleBefore: 'The character',
+    atlasTitleEm: 'is in the detail.',
+    atlasBodyFirst: 'A material to build around.',
+    atlasBodySecond: 'An object to live with.',
+    roomPhotos: {
+      marble: { alt: 'Black and Gold marble sample with dark stone and warm gold veins', caption: 'Black & Gold / Marble face' },
+      onyx: { alt: 'Light green onyx sample with soft bands of green and cream', caption: 'Light Green Onyx / Stone face' },
+      limestone: { alt: 'Honed travertine coffee table with a thick slab and two stone plinth legs', caption: 'Travertine / Formed in stone' },
+      tiles: { alt: 'Flower Marble sample showing red, pink and grey floral mineral patterns', caption: 'Flower Marble / Stone face' },
+      slabs: { alt: 'Original photograph of black marble slabs with white veins standing in the stone yard', caption: 'Nero slabs / At the yard' },
+      handicrafts: { alt: 'Carved Portoro marble baluster vase with a ringed neck and pedestal foot', caption: 'Portoro / The carved object' },
+    },
+    spacesEyebrow: 'FROM THE MATERIAL TO YOUR HOME',
+    spacesTitle: 'Have a space in mind?',
+    spacesBody: 'Explore accessories by the way you live.',
+    spacesAria: 'Find products by space',
+    spaceKitchen: 'Kitchen',
+    spaceWashroom: 'Washroom',
+    spaceHomeDecor: 'Room & home decor',
+  },
+  gallery: {
+    previousPhoto: 'Previous photograph',
+    nextPhoto: 'Next photograph',
+    photosAria: 'Product photographs',
+    viewPhoto: (index, total, title) => `View photograph ${index} of ${total}: ${title}`,
+  },
+  dataText: { stones: {}, chapters: {}, accessories: {} },
 };

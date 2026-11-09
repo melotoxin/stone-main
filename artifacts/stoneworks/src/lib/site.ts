@@ -109,7 +109,7 @@ export const staticMeta = {
   collection: {
     title: titleFor('The Collection'),
     description:
-      'Walk five rooms of St Werkz stone — dining, living, accents, interiors and slabs — hung like a gallery in Karachi. No prices on the wall; request a viewing.',
+      'Walk five rooms of St Werkz stone — marble, onyx, limestone, slabs and handicrafts — hung like a gallery in Karachi. No prices on the wall; request a viewing.',
     path: '/collection',
   },
   atelier: {

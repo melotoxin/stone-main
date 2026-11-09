@@ -53,6 +53,25 @@
 .material-study--slabs .material-study__photograph img { object-fit: contain; }
 .material-study--handicrafts .material-study__photograph { aspect-ratio: 4/5; }
 .material-study--handicrafts .material-study__photograph img { object-fit: contain; }
+/* With an odd number of published rooms, the last one would sit alone beside an
+   empty half-row; lay it across the row with its photograph beside the copy. */
+@media (min-width: 768px) {
+  .material-study:last-child:nth-child(odd) { grid-column: 1 / -1; padding-top: 0; }
+  .material-study:last-child:nth-child(odd) .material-study__link { display: grid; grid-template-columns: 5fr 7fr; gap: 38px; align-items: center; }
+}
+/* Below desktop widths the amber card overlapped the white card's caption. Layer
+   the white card on top instead: its caption stays where it was and stays clear
+   of the "No two veins" notation in the top corner. */
+@media (max-width: 1100px) {
+  .material-intro__sample--white { z-index: 1; }
+  .material-intro__notation { z-index: 2; }
+}
+/* Fit the piece photograph frame to the photo on phones and tablets: a fixed
+   tall frame leaves landscape photos floating in mostly empty space. */
+@media (max-width: 1023px) {
+  .piece-photographs__main { height: auto; max-height: none; min-height: 240px; }
+  .piece-photographs__main > img { height: auto; max-height: 70svh; }
+}
 .material-study__photograph figcaption { position: absolute; bottom: 18px; left: 20px; right: 20px; font-size: 7px; text-transform: uppercase; letter-spacing: .12em; color: #554935; background: #f7efe1df; width: fit-content; max-width: calc(100% - 40px); padding: 7px 10px; }
 .material-study__roman { position: absolute; left: 24px; top: 22px; font: 400 37px/1 var(--collection-serif); color: #faf6ea; text-shadow: 0 2px 20px #0008; }
 .material-study__copy { padding-top: 23px; }
@@ -211,8 +230,6 @@
   .material-index a { justify-content: flex-start; }
   .material-index svg { margin-inline-start: auto; }
   .material-intro__sample figcaption, .material-study__photograph figcaption { font-size: 10px; line-height: 1.5; letter-spacing: .05em; }
-  /* The amber card overlaps the white card's lower edge on phones; caption the white one at the top. */
-  .material-intro__sample--white figcaption { top: 12px; bottom: auto; }
   .gallery-room__nav { gap: 4px 18px; }
   .gallery-room__nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 12px; line-height: 1.5; }
   .gallery-label__code { font-size: 11px; line-height: 1.5; }

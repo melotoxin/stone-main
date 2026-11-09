@@ -45,11 +45,11 @@ const PRODUCTS_META: Record<LocaleCode, { title: string; description: string }> 
   },
   es: {
     title: 'Productos — Objetos de mármol, ónix y travertino | St Werkz',
-    description: 'Descubre los accesorios de cocina, baño y decoración del hogar de St Werkz en mármol, ónix y travertino, hechos en Karachi.',
+    description: 'Descubra los accesorios de cocina, baño y decoración del hogar de St Werkz en mármol, ónix y travertino, hechos en Karachi.',
   },
   it: {
     title: 'Prodotti — Oggetti in marmo, onice e travertino | St Werkz',
-    description: 'Scopri gli accessori per cucina, bagno e arredo casa di St Werkz in marmo, onice e travertino, realizzati a Karachi.',
+    description: 'Scopra gli accessori St Werkz per la cucina, il bagno e le decorazioni per la casa, in marmo, onice e travertino, realizzati a Karachi.',
   },
   fr: {
     title: 'Produits — Objets en marbre, onyx et travertin | St Werkz',

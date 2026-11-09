@@ -14,7 +14,7 @@ const productsLabel = {
 } as const;
 
 const skipLabel = {
-  en: 'Skip to content', es: 'Saltar al contenido', it: 'Vai al contenuto',
+  en: 'Skip to content', es: 'Saltar al contenido', it: 'Al contenuto principale',
   fr: 'Aller au contenu', ar: 'التخطي إلى المحتوى', ur: 'مواد پر جائیں',
   ru: 'Перейти к содержимому',
 } as const;

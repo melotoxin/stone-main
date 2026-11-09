@@ -73,18 +73,18 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
   },
   es: {
     heroAlt: "Tocador de mármol con lavabo de piedra, grifo de latón y ramas de olivo — interior inspirado en la referencia",
-    workWithUs: "Trabaja con nosotros",
-    heroLines: ["Dale vida", "a tu visión."],
+    workWithUs: "Trabaje con nosotros",
+    heroLines: ["Dé vida", "a su visión."],
     heroBody:
-      "Solicita un presupuesto, una muestra o una consulta con nuestros expertos en piedra.",
-    sample: "Solicitar una muestra",
+      "Solicite un presupuesto, una muestra o una consulta con nuestros expertos en piedra.",
+    sample: "Pedir muestra",
     sampleBrief:
       "Me gustaría solicitar una muestra de piedra. Necesito información sobre materiales, acabados y envío para mi proyecto.",
-    collections: "Colecciones",
+    collections: "Colección",
     projects: "Proyectos",
     search: "Buscar en la colección",
-    searchHint: "Encuentra un material, objeto o colección.",
-    noResults: "Sin resultados. Prueba mármol, ónix o travertino.",
+    searchHint: "Encuentre un material, un objeto o una colección.",
+    noResults: "Sin resultados. Pruebe con mármol, ónix o travertino.",
     benefits: [
       ["Para arquitectos", "Especificaciones y recursos"],
       ["Fabricación a medida", "Soluciones personalizadas"],
@@ -101,7 +101,7 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     craftBody:
       "Desde la primera losa hasta el último borde, nuestro taller de Karachi cuida cada corte. Variación natural, proporciones cuidadas y la destreza del artesano.",
     resources: "Arquitectos y diseñadores",
-    resourcesTitle: "Tu visión. Nuestra experiencia en piedra.",
+    resourcesTitle: "Su visión. Nuestra experiencia en piedra.",
     resourceItems: [
       "Especificaciones y recursos",
       "Selección de piedra",
@@ -109,9 +109,9 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
       "Consulta de proyectos",
     ],
     exploreResources: "Recursos para arquitectos",
-    sampleTitle: "Experimenta el material antes de elegirlo.",
+    sampleTitle: "Conozca el material antes de elegirlo.",
     sampleBody:
-      "Observa las vetas. Siente el acabado. Consulta con nuestro taller sobre una muestra para tu espacio.",
+      "Observe las vetas. Sienta el acabado. Consulte con nuestro taller una muestra para su espacio.",
   },
   fr: {
     heroAlt: "Vasque en pierre sur un meuble en marbre, robinet en laiton et branches d’olivier — intérieur inspiré de la référence",
@@ -119,7 +119,7 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     heroLines: ["Donnez vie", "à votre vision."],
     heroBody:
       "Demandez un devis, un échantillon ou une consultation auprès de nos experts de la pierre.",
-    sample: "Demander un échantillon",
+    sample: "Votre échantillon",
     sampleBrief:
       "Je souhaite demander un échantillon de pierre. Merci de me conseiller sur les matériaux, les finitions et la livraison pour mon projet.",
     collections: "Collections",
@@ -157,18 +157,18 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
   },
   it: {
     heroAlt: "Mobile in marmo con lavabo in pietra, rubinetto in ottone e rami d’ulivo — interno ispirato al riferimento",
-    workWithUs: "Lavora con noi",
-    heroLines: ["Dai vita", "alla tua visione."],
+    workWithUs: "Lavori con noi",
+    heroLines: ["Dia forma", "alla sua visione."],
     heroBody:
-      "Richiedi un preventivo, un campione o una consulenza con i nostri esperti della pietra.",
-    sample: "Richiedi un campione",
+      "Richieda un preventivo, un campione o una consulenza ai nostri esperti della pietra.",
+    sample: "Richiesta campione",
     sampleBrief:
       "Vorrei richiedere un campione di pietra. Desidero informazioni su materiali, finiture e consegna per il mio progetto.",
     collections: "Collezioni",
     projects: "Progetti",
     search: "Cerca nella collezione",
-    searchHint: "Trova un materiale, un oggetto o una collezione.",
-    noResults: "Nessun risultato. Prova marmo, onice o travertino.",
+    searchHint: "Trovi un materiale, un oggetto o una collezione.",
+    noResults: "Nessun risultato. Provi con marmo, onice o travertino.",
     benefits: [
       ["Per gli architetti", "Specifiche e risorse"],
       ["Lavorazione su misura", "Soluzioni personalizzate"],
@@ -177,14 +177,14 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     ],
     materialsTitle: "Pietra naturale eccezionale, per spazi straordinari.",
     selectedMaterial: "Da vicino / materiale selezionato",
-    viewMaterial: "Scopri il materiale",
+    viewMaterial: "Scopra il materiale",
     projectsTitle: "Trasformiamo spazi in tutto il mondo.",
     craftKicker: "L’arte del fare",
     craftLines: ["Creata dalla natura.", "Rifinita a mano."],
     craftBody:
       "Dalla prima lastra all’ultimo bordo, il nostro studio di Karachi cura ogni taglio. Variazioni naturali, proporzioni studiate e la sapienza dell’artigiano.",
     resources: "Architetti e designer",
-    resourcesTitle: "La tua visione. La nostra esperienza.",
+    resourcesTitle: "La sua visione. La nostra esperienza.",
     resourceItems: [
       "Specifiche e risorse",
       "Selezione della pietra",
@@ -192,9 +192,9 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
       "Consulenza di progetto",
     ],
     exploreResources: "Risorse per architetti",
-    sampleTitle: "Scopri il materiale prima di sceglierlo.",
+    sampleTitle: "Conosca il materiale prima di sceglierlo.",
     sampleBody:
-      "Osserva le venature. Senti la finitura. Parla con il nostro studio di un campione per il tuo spazio.",
+      "Osservi le venature. Senta la finitura. Chieda al nostro studio un campione per il suo spazio.",
   },
   ru: {
     heroAlt: "Мраморная тумба с каменной раковиной, латунным смесителем и ветвями оливы — интерьер по образцу",
@@ -222,9 +222,9 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     viewMaterial: "Смотреть материал",
     projectsTitle: "Преображаем пространства по всему миру.",
     craftKicker: "Искусство создания",
-    craftLines: ["Создано природой.", "Доведено вручную."],
+    craftLines: ["Создано природой.", "Отшлифовано вручную."],
     craftBody:
-      "От первой плиты до последней кромки наша мастерская в Карачи заботится о каждом срезе. Природные вариации, выверенные пропорции и мастерство рук.",
+      "От первого слэба до последней кромки наша студия в Карачи внимательна к каждому срезу. Природные вариации, выверенные пропорции и мастерство рук.",
     resources: "Архитекторы и дизайнеры",
     resourcesTitle: "Ваша идея. Наше знание камня.",
     resourceItems: [
@@ -236,21 +236,21 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     exploreResources: "Ресурсы для архитекторов",
     sampleTitle: "Познакомьтесь с материалом до его выбора.",
     sampleBody:
-      "Рассмотрите прожилки. Почувствуйте поверхность. Обсудите образец для вашего пространства с нашей мастерской.",
+      "Рассмотрите прожилки. Почувствуйте поверхность. Обсудите с нашей студией образец для вашего пространства.",
   },
   ar: {
     heroAlt: "حوض حجري فوق سطح رخامي مع صنبور نحاسي وأغصان زيتون — تصميم مستوحى من الصورة المرجعية",
-    workWithUs: "اعملوا معنا",
-    heroLines: ["امنحوا رؤيتكم", "حياةً جديدة."],
-    heroBody: "اطلبوا عرض سعر أو عينة أو استشارة من فريق خبراء الحجر لدينا.",
+    workWithUs: "اعمل معنا",
+    heroLines: ["امنح رؤيتك", "حياةً جديدة."],
+    heroBody: "اطلب عرض سعر أو عيّنة أو استشارة من فريق خبراء الحجر لدينا.",
     sample: "طلب عينة",
     sampleBrief:
       "أود طلب عينة حجر. يرجى تقديم المشورة بشأن المواد والتشطيبات وتوصيل العينة لمشروعي.",
     collections: "المجموعات",
     projects: "المشاريع",
     search: "البحث في المجموعة",
-    searchHint: "ابحثوا عن مادة أو قطعة أو مجموعة.",
-    noResults: "لا توجد نتائج. جرّبوا الرخام أو الأونيكس أو الترافرتين.",
+    searchHint: "ابحث عن مادة أو قطعة أو مجموعة.",
+    noResults: "لا توجد نتائج. جرّب الرخام أو الأونيكس أو الترافرتين.",
     benefits: [
       ["للمهندسين المعماريين", "المواصفات والموارد"],
       ["تصنيع حسب الطلب", "حلول مخصصة"],
@@ -264,9 +264,9 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     craftKicker: "فن الصناعة",
     craftLines: ["صنعته الطبيعة.", "صقلته الأيدي."],
     craftBody:
-      "من أول لوح إلى آخر حافة، يعتني استوديو كراتشي بكل قطع. تنوع طبيعي ونسب مدروسة ومهارة حرفية هادئة.",
-    resources: "المعماريون والمصممون",
-    resourcesTitle: "رؤيتكم. خبرتنا في المواد.",
+      "من أول لوح إلى آخر حافة، يعتني استوديو كراتشي بكل قطعة. تنوّع طبيعي ونسب مدروسة ومهارة حرفية هادئة.",
+    resources: "المهندسون المعماريون والمصممون",
+    resourcesTitle: "رؤيتك. خبرتنا في المواد.",
     resourceItems: [
       "المواصفات والموارد",
       "اختيار الحجر",
@@ -274,15 +274,15 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
       "استشارة المشروع",
     ],
     exploreResources: "موارد المهندسين المعماريين",
-    sampleTitle: "اكتشفوا المادة قبل اعتمادها.",
+    sampleTitle: "اكتشف المادة قبل اعتمادها.",
     sampleBody:
-      "تأملوا العروق. المسوا التشطيب. تحدثوا مع استوديونا عن عينة مختارة لمساحتكم.",
+      "تأمّل العروق. المس التشطيب. تحدّث مع الاستوديو عن عيّنة مختارة لمساحتك.",
   },
   ur: {
     heroAlt: "سنگ مرمر کا کاؤنٹر، پتھر کا پیالہ نما بیسن، پیتل کا نل اور زیتون کی شاخیں — حوالہ تصویر سے متاثر منظر",
     workWithUs: "ہمارے ساتھ کام کریں",
     heroLines: ["اپنے تصور کو", "حقیقت بنائیں۔"],
-    heroBody: "ہمارے پتھر کے ماہرین سے قیمت، نمونہ یا مشاورت کی درخواست کریں۔",
+    heroBody: "ہمارے پتھر کے ماہرین سے کوٹیشن، نمونہ یا مشاورت کی درخواست کریں۔",
     sample: "نمونہ طلب کریں",
     sampleBrief:
       "میں پتھر کا نمونہ طلب کرنا چاہتا ہوں۔ براہ کرم میرے منصوبے کے لیے مواد، فنش اور نمونے کی ترسیل کے بارے میں رہنمائی کریں۔",
@@ -290,22 +290,22 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
     projects: "منصوبے",
     search: "مجموعے میں تلاش کریں",
     searchHint: "مواد، اشیا یا مجموعہ تلاش کریں۔",
-    noResults: "کوئی نتیجہ نہیں ملا۔ ماربل، اونکس یا ٹراورٹین آزمائیں۔",
+    noResults: "کوئی نتیجہ نہیں ملا۔ سنگ مرمر، اونیکس یا ٹریورٹائن آزمائیں۔",
     benefits: [
-      ["آرکیٹیکٹس کے لیے", "تفصیلات اور وسائل"],
+      ["معماروں کے لیے", "تفصیلات اور وسائل"],
       ["حسبِ ضرورت تیاری", "خصوصی حل"],
       ["عالمی سپلائی", "دنیا بھر میں ترسیل"],
-      ["ماہرین کی مدد", "مختص ٹیم"],
+      ["ماہرین کی مدد", "مخصوص ٹیم"],
     ],
     materialsTitle: "شاندار جگہوں کے لیے غیر معمولی قدرتی پتھر۔",
     selectedMaterial: "قریب سے دیکھیں / منتخب مواد",
     viewMaterial: "مواد دیکھیں",
-    projectsTitle: "دنیا بھر میں جگہوں کو بدلتے ہیں۔",
+    projectsTitle: "دنیا بھر کی جگہوں کو نیا روپ۔",
     craftKicker: "تخلیق کا فن",
     craftLines: ["قدرت کا بنایا ہوا۔", "ہاتھ سے نکھارا ہوا۔"],
     craftBody:
       "پہلی سلیب سے آخری کنارے تک، ہمارا کراچی اسٹوڈیو ہر کٹ کا خیال رکھتا ہے۔ قدرتی تنوع، سوچے سمجھے تناسب اور کاریگر کی مہارت۔",
-    resources: "آرکیٹیکٹس اور ڈیزائنرز",
+    resources: "معمار اور ڈیزائنرز",
     resourcesTitle: "آپ کا تصور۔ مواد میں ہماری مہارت۔",
     resourceItems: [
       "تفصیلات اور وسائل",
@@ -313,7 +313,7 @@ export const homeDesignCopy: Record<LocaleCode, HomeDesignCopy> = {
       "حسبِ ضرورت تیاری",
       "منصوبے کی مشاورت",
     ],
-    exploreResources: "آرکیٹیکٹ وسائل دیکھیں",
+    exploreResources: "معماروں کے وسائل دیکھیں",
     sampleTitle: "منتخب کرنے سے پہلے مواد کا تجربہ کریں۔",
     sampleBody:
       "رگوں کو دیکھیں۔ فنش کو محسوس کریں۔ اپنی جگہ کے لیے منتخب نمونے کے بارے میں ہمارے اسٹوڈیو سے بات کریں۔",

@@ -607,4 +607,46 @@ export type Catalog = {
   materials: Record<StoneFamily, { label: string; cite: string }>;
   finishes: Record<FinishKind, { label: string; cite: string }>;
   evidence: Record<EvidenceKind, string>;
+  /** Collection index page (/collection) copy that used to be hardcoded English. */
+  collectionIndex: {
+    eyebrow: string;
+    explore: (count: number) => string;
+    samplesAria: string;
+    whiteAlt: string;
+    whiteCaption: string;
+    amberAlt: string;
+    amberCaption: string;
+    notationBefore: string;
+    notationAfter: string;
+    indexAria: string;
+    atlasEyebrow: (count: number) => string;
+    atlasTitleBefore: string;
+    atlasTitleEm: string;
+    atlasBodyFirst: string;
+    atlasBodySecond: string;
+    roomPhotos: Record<RoomSlug, { alt: string; caption: string }>;
+    spacesEyebrow: string;
+    spacesTitle: string;
+    spacesBody: string;
+    spacesAria: string;
+    spaceKitchen: string;
+    spaceWashroom: string;
+    spaceHomeDecor: string;
+  };
+  /** Piece page photograph controls (accessible names). */
+  gallery: {
+    previousPhoto: string;
+    nextPhoto: string;
+    photosAria: string;
+    viewPhoto: (index: number, total: number, title: string) => string;
+  };
+  /**
+   * Translations of text that lives in data files, keyed by item id. A missing
+   * entry or field falls back to the English data, so English needs none.
+   */
+  dataText: {
+    stones: Record<string, { colour?: string; origin?: string; use?: string }>;
+    chapters: Record<string, { title?: string; subtitle?: string; description?: string; material?: string; heroAlt?: string }>;
+    accessories: Record<string, { title?: string; material?: string; description?: string; alt?: string }>;
+  };
 };

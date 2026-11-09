@@ -152,32 +152,32 @@ const enStones: StonesIndex = {
 const esDesk: ExportDesk = {
   keywords:
     'losas de mármol exportación Karachi, ónix pakistaní FOB, travertino FOB Karachi, mármol figurado Pakistán, lotes de mármol Karachi, St Werkz exportación, Syed Rashid Ali',
-  navAria: 'Navegación del escritorio de exportación',
-  yardInGallery: 'Patio en la galería',
+  navAria: 'Navegación del departamento de exportación',
+  yardInGallery: 'El almacén en la galería',
   namedStones: 'Piedras con nombre',
   slabBook: 'Libro de losas',
   requestLot: 'Pedir un lote',
   enquire: 'Consultar',
-  heroKicker: 'ST WERKZ / ESCRITORIO DE EXPORTACIÓN · KARACHI',
+  heroKicker: 'ST WERKZ / DEPARTAMENTO DE EXPORTACIÓN · KARACHI',
   heroTitleBefore: 'Lotes fotografiados,',
   heroTitleEm: 'luego un cajón.',
   heroCta: 'Nombre un puerto',
   heroBook: 'Leer el libro de losas',
   heroAlt:
-    'Losas altas de mármol negro pulido con vetas de calcita blanca en el patio de St Werkz, Karachi',
+    'Losas altas de mármol negro pulido con vetas de calcita blanca en el almacén de St Werkz, Karachi',
   separateKicker: 'APARTADO DE LA GALERÍA',
   separateTitleBefore: 'Cantidad sin convertirse en ',
-  separateTitleEm: 'commodity.',
+  separateTitleEm: 'mercancía.',
   principles: [
     {
       number: '01',
-      title: 'Este escritorio no es la galería',
+      title: 'La exportación no es la galería',
       body: 'Mesas, objetos y salas permanecen en el muro de la colección. Esta página es para lotes fotografiados, cajones de muestras y una conversación sobre piedra que puede viajar.',
     },
     {
       number: '02',
       title: 'La cara que ve es la cara que nombramos',
-      body: 'Los lotes se registran con fotografías de primera mano del patio. No usamos imágenes de stock ni nombres de cantera inventados.',
+      body: 'Los lotes se registran con fotografías de primera mano del almacén. No usamos imágenes de stock ni nombres de cantera inventados.',
     },
     {
       number: '03',
@@ -185,15 +185,15 @@ const esDesk: ExportDesk = {
       body: 'Un cajón de muestras, luego un primer lote pagado. El volumen sigue una repetición de tono y acabado — no se promete en un titular.',
     },
   ],
-  bookKicker: 'LIBRO DE LOSAS / V1 · EVIDENCIA DE PATIO',
+  bookKicker: 'LIBRO DE LOSAS / V1 · FOTOGRAFÍAS DEL ALMACÉN',
   bookTitleBefore: 'Caras del',
-  bookTitleEm: 'patio de Karachi.',
+  bookTitleEm: 'almacén de Karachi.',
   legend:
-    'Estas caras son fotografías de primera mano del patio de Karachi. Muestran cómo St Werkz registra un lote. Disponibilidad, espesor, recuento y acabado se confirman por escrito: esta página no es un inventario ni una lista de precios.',
+    'Estas caras son fotografías de primera mano del almacén de Karachi. Muestran cómo St Werkz registra un lote. Disponibilidad, espesor, recuento y acabado se confirman por escrito: esta página no es un inventario ni una lista de precios.',
   openGallery: 'Abrir en la galería',
   lotFamilyFigured: 'Mármol figurado',
-  lotStatusEvidence: 'Evidencia de patio / colección',
-  lotAlt: (title, material) => `${title} en ${material.toLowerCase()}, fotografiado en el patio de Karachi`,
+  lotStatusEvidence: 'Fotografía de almacén / colección',
+  lotAlt: (title, material) => `${title} en ${material.toLowerCase()}, fotografiado en el almacén de Karachi`,
   lotFamilies: [
     {
       name: 'Mármol figurado',
@@ -215,17 +215,17 @@ const esDesk: ExportDesk = {
   howTitleEm: 'cajón.',
   howToName: 'Cómo pedir un lote de exportación St Werkz desde Karachi',
   howToDescription:
-    'Pida lotes fotografiados de mármol, ónix o travertino desde el patio St Werkz en Karachi. Un cajón de muestras llega antes de un contenedor. No es una compra en línea.',
+    'Pida lotes fotografiados de mármol, ónix o travertino desde el almacén de St Werkz en Karachi. Un cajón de muestras llega antes de un contenedor. No es una compra en línea.',
   howTo: [
     {
       number: '01',
       name: 'Nombre la piedra y el puerto',
-      text: 'Escriba qué familia necesita — mármol figurado, ónix o travertino —, el acabado y el puerto de destino. Syed Rashid Ali toma la nota.',
+      text: 'Escriba qué familia necesita — mármol figurado, ónix o travertino —, el acabado y el puerto de destino. Syed Rashid Ali atiende la consulta.',
     },
     {
       number: '02',
       name: 'Lea el lote fotografiado',
-      text: 'El estudio responde con caras del patio, no con un catálogo genérico. Si la piedra no está en mano, se dice con claridad.',
+      text: 'El estudio responde con caras fotografiadas en el almacén, no con un catálogo genérico. Si la piedra no está en mano, se dice con claridad.',
     },
     {
       number: '03',
@@ -248,7 +248,7 @@ const esDesk: ExportDesk = {
     },
     {
       title: 'Precio',
-      body: 'No hay lista de precios publicada ni checkout. Puede darse un rango para un lote nombrado. No es factura ni cotización bancaria.',
+      body: 'No hay lista de precios publicada ni checkout. Puede darse un rango para un lote nombrado. No es una factura ni un presupuesto en firme.',
     },
     {
       title: 'Cantidad',
@@ -265,7 +265,7 @@ const esDesk: ExportDesk = {
   qc: [
     {
       title: 'Lotear el tono',
-      body: 'Las caras que viajarán juntas se agrupan a ojo desde las fotografías del patio y se confirman antes del embalaje.',
+      body: 'Las caras que viajarán juntas se agrupan a ojo a partir de las fotografías del almacén y se confirman antes del embalaje.',
     },
     {
       title: 'Acabado',
@@ -281,7 +281,7 @@ const esDesk: ExportDesk = {
     },
     {
       title: 'Embalaje',
-      body: 'Protección de cantos, método de cajón y carga pueden filmarse desde el patio para un comprador serio. El film se hace para esa conversación; no es un clip de stock.',
+      body: 'Protección de cantos, método de cajón y carga pueden filmarse en el almacén para un comprador serio. El film se hace para esa conversación; no es un clip de stock.',
     },
     {
       title: 'Rechazo',
@@ -290,19 +290,19 @@ const esDesk: ExportDesk = {
   ],
   faqKicker: 'PREGUNTAS / RESPUESTAS CLARAS',
   faqTitleBefore: 'Lo que preguntan al ',
-  faqTitleEm: 'escritorio.',
+  faqTitleEm: 'departamento.',
   faqs: [
     {
       id: 'what-is-export-desk',
       question: '¿Esto es lo mismo que comprar una mesa en St Werkz?',
       answer:
-        'No. La colección es una galería de muebles, objetos y piezas arquitectónicas, mostrada con visita. El escritorio de exportación es para lotes fotografiados de mármol, ónix y travertino como piedra que puede viajar. Ambas conversaciones van a Syed Rashid Ali.',
+        'No. La colección es una galería de muebles, objetos y piezas arquitectónicas, mostrada con visita. El departamento de exportación se ocupa de lotes fotografiados de mármol, ónix y travertino como piedra que puede viajar. Ambas conversaciones van a Syed Rashid Ali.',
     },
     {
       id: 'do-you-publish-stock',
       question: '¿Publican un inventario en vivo?',
       answer:
-        'No. El libro de losas de esta página muestra cómo se registran los lotes, con fotografías de primera mano del patio ya en la colección. Caras actuales, espesor y recuento se confirman por escrito al comprador que pregunta. No es un volcado de almacén ni una lista de precios.',
+        'No. El libro de losas de esta página muestra cómo se registran los lotes, con fotografías de primera mano del almacén ya incluidas en la colección. Caras actuales, espesor y recuento se confirman por escrito al comprador que pregunta. No es un inventario completo ni una lista de precios.',
     },
     {
       id: 'how-to-start-lot',
@@ -321,8 +321,8 @@ const esDesk: ExportDesk = {
   contactTitleBefore: 'Nombre la piedra',
   contactTitleEm: 'y el puerto.',
   contactBody:
-    'Empresa, destino, familia y acabado. Syed Rashid Ali toma la nota. Sigue siendo una conversación — no un carrito, ni una promesa de gran volumen en la primera carta.',
-  successTitle: 'Su nota está en el escritorio.',
+    'Empresa, destino, familia y acabado. Syed Rashid Ali atiende la consulta. Sigue siendo una conversación, no una compra en línea ni una promesa de gran volumen en la primera carta.',
+  successTitle: 'Su mensaje está listo para el departamento de exportación.',
   successBody: 'Ábrala en el correo para que llegue a Syed Rashid Ali, o escriba al estudio directamente.',
   openEmail: 'Abrir en el correo',
   fieldName: 'Su nombre',
@@ -354,7 +354,7 @@ const esStones: StonesIndex = {
   pageTitle: 'Materiales',
   titleBefore: 'Mármol y ónix con ',
   titleEm: 'nombre.',
-  body: 'Estos son nombres comerciales del mercado pakistaní, y rangos indicativos de material en PKR por pie cuadrado — de suelo a espesor de encimera, septiembre 2026. No son nombres de laboratorio, ni un presupuesto St Werkz, ni el precio de una mesa terminada. Grado, espesor, pulido, merma y la losa concreta siguen moviendo la cifra. Una visita en Karachi confirma la piedra.',
+  body: 'Estos son nombres comerciales del mercado pakistaní, y rangos indicativos de material en PKR por pie cuadrado — de suelo a espesor de encimera, septiembre 2026. No son nombres de laboratorio, ni un presupuesto St Werkz, ni el precio de una mesa terminada. Grado, espesor, pulido, merma y la losa concreta influyen en el precio. Una visita en Karachi confirma la piedra.',
   ratesLine: (date, marbles, onyx, total) =>
     `Rangos al ${date} · ${marbles} mármoles · ${onyx} colores de ónix · ${total} nombres`,
   filterAria: 'Filtrar por familia de piedra',
@@ -386,7 +386,7 @@ const esStones: StonesIndex = {
   afterBody:
     'Estas bandas son para la piedra como material. Una mesa de comedor, un mostrador retroiluminado o un objeto tallado siguen el estimado de estudio — tamaño, acabado, merma y la losa en mano. Pida una visita para unir un nombre a una cara.',
   estimateCta: 'Estimado de estudio',
-  exportCta: 'Escritorio de exportación — lotes, no mesas',
+  exportCta: 'Departamento de exportación — lotes, no mesas',
   enquireCta: 'Pedir una visita',
   listName: 'Nombres de mármol y ónix pakistaníes',
   rateDescribe: (colour, origin, rate) =>
@@ -404,32 +404,32 @@ const esStones: StonesIndex = {
 const itDesk: ExportDesk = {
   keywords:
     'lastre di marmo export Karachi, onice pakistano FOB, travertino FOB Karachi, marmo figurato Pakistan, lotti di marmo Karachi, St Werkz export, Syed Rashid Ali',
-  navAria: 'Navigazione del banco export',
-  yardInGallery: 'Cantiere in galleria',
-  namedStones: 'Pietre nominate',
+  navAria: 'Navigazione dell’ufficio export',
+  yardInGallery: 'Il deposito in galleria',
+  namedStones: 'Pietre con nome',
   slabBook: 'Libro lastre',
   requestLot: 'Richiedere un lotto',
   enquire: 'Richiesta',
-  heroKicker: 'ST WERKZ / BANCO EXPORT · KARACHI',
+  heroKicker: 'ST WERKZ / UFFICIO EXPORT · KARACHI',
   heroTitleBefore: 'Lotti fotografati,',
   heroTitleEm: 'poi una cassa.',
-  heroCta: 'Nomini un porto',
+  heroCta: 'Indichi un porto',
   heroBook: 'Leggere il libro lastre',
   heroAlt:
-    'Alte lastre di marmo nero lucidato con venature di calcite bianca nel cantiere St Werkz, Karachi',
+    'Alte lastre di marmo nero lucidato con venature di calcite bianca nel deposito St Werkz, Karachi',
   separateKicker: 'SEPARATO DALLA GALLERIA',
   separateTitleBefore: 'Quantità senza diventare ',
-  separateTitleEm: 'commodity.',
+  separateTitleEm: 'merce.',
   principles: [
     {
       number: '01',
-      title: 'Questo banco non è la galleria',
+      title: 'Questo ufficio non è la galleria',
       body: 'Tavoli, oggetti e sale restano sul muro della collezione. Questa pagina è per lotti fotografati, casse di campioni e una conversazione sulla pietra che può viaggiare.',
     },
     {
       number: '02',
       title: 'La faccia che vede è la faccia che intendiamo',
-      body: 'I lotti si registrano con fotografie di prima mano dal cantiere. Non usiamo immagini di stock né nomi di cava inventati.',
+      body: 'I lotti si registrano con fotografie di prima mano dal deposito. Non usiamo immagini di stock né nomi di cava inventati.',
     },
     {
       number: '03',
@@ -437,19 +437,19 @@ const itDesk: ExportDesk = {
       body: 'Una cassa di campioni, poi un primo lotto pagato. Il volume segue una ripetizione di tono e finitura — non si promette in un titolo.',
     },
   ],
-  bookKicker: 'LIBRO LASTRE / V1 · EVIDENZA DI CANTIERE',
+  bookKicker: 'LIBRO LASTRE / V1 · FOTOGRAFIE DAL DEPOSITO',
   bookTitleBefore: 'Facce dal',
-  bookTitleEm: 'cantiere di Karachi.',
+  bookTitleEm: 'deposito di Karachi.',
   legend:
-    'Queste facce sono fotografie di prima mano dal cantiere di Karachi. Mostrano come St Werkz registra un lotto. Disponibilità, spessore, conteggio e finitura si confermano per iscritto: questa pagina non è un inventario né un listino.',
-  openGallery: 'Apri in galleria',
+    'Queste facce sono fotografie di prima mano dal deposito di Karachi. Mostrano come St Werkz registra un lotto. Disponibilità, spessore, conteggio e finitura si confermano per iscritto: questa pagina non è un inventario né un listino.',
+  openGallery: 'Vedere in galleria',
   lotFamilyFigured: 'Marmo figurato',
-  lotStatusEvidence: 'Evidenza di cantiere / collezione',
-  lotAlt: (title, material) => `${title} in ${material.toLowerCase()}, fotografato nel cantiere di Karachi`,
+  lotStatusEvidence: 'Fotografia dal deposito / collezione',
+  lotAlt: (title, material) => `${title} in ${material.toLowerCase()}, fotografato nel deposito di Karachi`,
   lotFamilies: [
     {
       name: 'Marmo figurato',
-      text: 'Pietra di alta lucidatura letta per vena e contrasto — compreso noir-oro e calcite bianca tipo Nero. Si nomina come marmo figurato, non come cava straniera.',
+      text: 'Pietra di alta lucidatura letta per vena e contrasto — compreso noir-oro e calcite bianca tipo Nero. Si indica come marmo figurato, non con il nome di una cava straniera.',
     },
     {
       name: 'Onice',
@@ -460,24 +460,24 @@ const itDesk: ExportDesk = {
       text: 'Di solito si specifica levigato, con pori naturali aperti invece che stuccati fino a un vetro. Lettura lineare per piani, top e bordi architettonici.',
     },
   ],
-  namedStonesLine: 'Pietre pakistane nominate e tariffe indicative:',
+  namedStonesLine: 'Pietre pakistane con nome e tariffe indicative:',
   citationLine: 'Schema completo per la citazione:',
   howKicker: 'COME INIZIA UN PRIMO LOTTO',
   howTitleBefore: 'Quattro passi, poi la ',
   howTitleEm: 'cassa.',
   howToName: 'Come richiedere un lotto export St Werkz da Karachi',
   howToDescription:
-    'Richieda lotti fotografati di marmo, onice o travertino dal cantiere St Werkz a Karachi. Una cassa di campioni arriva prima di un container. Non è un acquisto in rete.',
+    'Richieda lotti fotografati di marmo, onice o travertino dal deposito St Werkz di Karachi. Una cassa di campioni arriva prima di un container. Non è un acquisto in rete.',
   howTo: [
     {
       number: '01',
-      name: 'Nomini la pietra e il porto',
-      text: 'Scriva quale famiglia le serve — marmo figurato, onice o travertino —, la finitura e il porto di destinazione. Syed Rashid Ali prende la nota.',
+      name: 'Indichi la pietra e il porto',
+      text: 'Scriva quale famiglia le serve — marmo figurato, onice o travertino —, la finitura e il porto di destinazione. Syed Rashid Ali segue personalmente la richiesta.',
     },
     {
       number: '02',
       name: 'Legga il lotto fotografato',
-      text: 'Lo studio risponde con facce dal cantiere, non con un catalogo generico. Se la pietra non è in mano, si dice con chiarezza.',
+      text: 'Lo studio risponde con facce dal deposito, non con un catalogo generico. Se la pietra non è in mano, si dice con chiarezza.',
     },
     {
       number: '03',
@@ -496,11 +496,11 @@ const itDesk: ExportDesk = {
   terms: [
     {
       title: 'Incoterms',
-      body: 'Le conversazioni partono FOB Karachi salvo altro termine concordato per iscritto. Nolo, assicurazione e oneri a destinazione si nominano a parte.',
+      body: 'Le conversazioni partono FOB Karachi salvo altro termine concordato per iscritto. Nolo, assicurazione e oneri a destinazione si quotano a parte.',
     },
     {
       title: 'Prezzo',
-      body: 'Non c’è un listino pubblicato né un checkout. Si può dare una forchetta per un lotto nominato. Non è fattura né quotazione bancaria.',
+      body: 'Non c’è un listino pubblicato né un checkout. Si può indicare una forchetta per un lotto specifico. Non è fattura né quotazione bancaria.',
     },
     {
       title: 'Quantità',
@@ -517,7 +517,7 @@ const itDesk: ExportDesk = {
   qc: [
     {
       title: 'Lotting del tono',
-      body: 'Le facce che viaggeranno insieme si raggruppano a occhio dalle fotografie di cantiere, poi si confermano prima dell’imballo.',
+      body: 'Le facce che viaggeranno insieme si raggruppano a occhio dalle fotografie del deposito, poi si confermano prima dell’imballo.',
     },
     {
       title: 'Finitura',
@@ -533,7 +533,7 @@ const itDesk: ExportDesk = {
     },
     {
       title: 'Imballo',
-      body: 'Protezione dei bordi, metodo di cassa e carico possono essere filmati dal cantiere per un acquirente serio. Il film è per quella conversazione; non è un clip di stock.',
+      body: 'Protezione dei bordi, metodo di cassa e carico possono essere filmati al deposito per un acquirente serio. Il film è per quella conversazione; non è un clip di stock.',
     },
     {
       title: 'Rifiuto',
@@ -541,20 +541,20 @@ const itDesk: ExportDesk = {
     },
   ],
   faqKicker: 'DOMANDE / RISPOSTE CHIARE',
-  faqTitleBefore: 'Cosa chiedono al ',
-  faqTitleEm: 'banco.',
+  faqTitleBefore: 'Cosa chiedono all’ufficio ',
+  faqTitleEm: 'export.',
   faqs: [
     {
       id: 'what-is-export-desk',
       question: 'È lo stesso che comprare un tavolo da St Werkz?',
       answer:
-        'No. La collezione è una galleria di mobili, oggetti e pezzi architettonici, mostrata con visita. Il banco export è per lotti fotografati di marmo, onice e travertino come pietra che può viaggiare. Entrambe le conversazioni vanno a Syed Rashid Ali.',
+        'No. La collezione è una galleria di mobili, oggetti e pezzi architettonici, visibile su appuntamento. L’ufficio export si occupa di lotti fotografati di marmo, onice e travertino come pietra che può viaggiare. Entrambe le conversazioni vanno a Syed Rashid Ali.',
     },
     {
       id: 'do-you-publish-stock',
-      question: 'Pubblicate un inventario in tempo reale?',
+      question: 'St Werkz pubblica un inventario in tempo reale?',
       answer:
-        'No. Il libro lastre di questa pagina mostra come si registrano i lotti, con fotografie di prima mano dal cantiere già in collezione. Facce attuali, spessore e conteggio si confermano per iscritto all’acquirente che chiede. Non è uno scarico di magazzino né un listino.',
+        'No. Il libro lastre di questa pagina mostra come si registrano i lotti, con fotografie di prima mano dal deposito già in collezione. Facce attuali, spessore e conteggio si confermano per iscritto all’acquirente che chiede. Non è uno scarico di magazzino né un listino.',
     },
     {
       id: 'how-to-start-lot',
@@ -566,17 +566,17 @@ const itDesk: ExportDesk = {
       id: 'fob-karachi',
       question: 'Quali termini di spedizione usa St Werkz?',
       answer:
-        'Le conversazioni partono FOB Karachi salvo altro termine concordato per iscritto. Lo studio è a North Nazimabad, Karachi. Nolo, assicurazione e oneri dopo il porto si nominano a parte. Non c’è una tariffa di nolo pubblicata su questo sito.',
+        'Le conversazioni partono FOB Karachi salvo altro termine concordato per iscritto. Lo studio è a North Nazimabad, Karachi. Nolo, assicurazione e oneri dopo il porto si quotano a parte. Non c’è una tariffa di nolo pubblicata su questo sito.',
     },
   ],
   contactKicker: 'UNA LINEA DIRETTA / KARACHI',
-  contactTitleBefore: 'Nomini la pietra',
+  contactTitleBefore: 'Indichi la pietra',
   contactTitleEm: 'e il porto.',
   contactBody:
-    'Azienda, destinazione, famiglia e finitura. Syed Rashid Ali prende la nota. Resta una conversazione — non un carrello, né una promessa di grande volume nella prima lettera.',
-  successTitle: 'La sua nota è sulla scrivania.',
-  successBody: 'La apra in posta perché arrivi a Syed Rashid Ali, o scriva allo studio direttamente.',
-  openEmail: 'Apri in posta',
+    'Azienda, destinazione, famiglia e finitura. Syed Rashid Ali segue personalmente la richiesta. Resta una conversazione — non un carrello, né una promessa di grande volume nella prima lettera.',
+  successTitle: 'Il suo messaggio è pronto.',
+  successBody: 'Lo apra nella posta perché arrivi a Syed Rashid Ali, o scriva allo studio direttamente.',
+  openEmail: 'Apra nella posta',
   fieldName: 'Il suo nome',
   fieldCompany: 'Azienda',
   fieldEmail: 'E-mail',
@@ -590,7 +590,7 @@ const itDesk: ExportDesk = {
   stoneMixed: 'Lotto misto',
   fieldNeed: 'Di che cosa ha bisogno',
   needPlaceholder: 'Finitura, volume approssimativo e se parte come cassa di campioni.',
-  send: 'Invia la nota',
+  send: 'Invii il messaggio',
   calcKicker: 'FASCIA DEL LOTTO / MATERIALE INDICATIVO',
   calcTitleBefore: 'Una prima cifra ',
   calcTitleEm: 'prima della cassa.',
@@ -598,25 +598,25 @@ const itDesk: ExportDesk = {
   footerTag: 'Lotti fotografati da Karachi.',
   collection: 'Collezione',
   architects: 'Architetti',
-  backToTop: 'Torna in cima',
+  backToTop: 'Inizio pagina',
 };
 
 const itStones: StonesIndex = {
-  kicker: 'Pakistan / pietre nominate',
+  kicker: 'Pakistan / pietre con nome',
   pageTitle: 'Materiali',
   titleBefore: 'Marmo e onice con un ',
   titleEm: 'nome.',
   body: 'Questi sono nomi commerciali del mercato pakistano, e tariffe indicative di materiale in PKR per piede quadrato — da pavimento a spessore da piano cucina, settembre 2026. Non sono nomi di laboratorio, né un preventivo St Werkz, né il prezzo di un tavolo finito. Grado, spessore, lucidatura, scarto e la lastra concreta spostano ancora la cifra. Una visita a Karachi conferma la pietra.',
   ratesLine: (date, marbles, onyx, total) =>
     `Tariffe al ${date} · ${marbles} marmi · ${onyx} colori di onice · ${total} nomi`,
-  filterAria: 'Filtra per famiglia di pietra',
+  filterAria: 'Filtrare per famiglia di pietra',
   filterAll: 'Tutti i nomi',
   filterMarble: 'Marmo',
   filterNatural: 'Pietra naturale',
   filterGranite: 'Granito',
   filterOnyx: 'Onice',
   filterTravertine: 'Travertino',
-  swatchKind: 'Volto di pietra',
+  swatchKind: 'Campione',
   projectKind: 'Opera in situ',
   emptyCategory: 'Non ci sono ancora fotografie proprie di questa famiglia.',
   projectAlt: (name) => `${name} — progetto St Werkz, Karachi`,
@@ -627,10 +627,10 @@ const itStones: StonesIndex = {
   colRate: 'Tariffa / piede²',
   also: 'Anche',
   patternNote:
-    'Ogni nome ha una fotografia del disegno in alta risoluzione per l’identificazione. Sono volti di riferimento, non foto di un lotto St Werkz specifico — una visita a Karachi conferma la lastra.',
+    'Ogni nome ha una fotografia del disegno in alta risoluzione per l’identificazione. Sono campioni di riferimento, non foto di un lotto St Werkz specifico — una visita a Karachi conferma la lastra.',
   imageAlt: (name, colour) => `Disegno di ${name} — ${colour.toLowerCase()}, lastra lucida per identificazione`,
-  openPattern: 'Apri disegno',
-  closePattern: 'Chiudi disegno',
+  openPattern: 'Apra il disegno',
+  closePattern: 'Chiuda il disegno',
   identify: 'Identificare',
   afterKicker: 'Dopo il nome',
   afterTitleBefore: 'Una tariffa non è un ',
@@ -638,7 +638,7 @@ const itStones: StonesIndex = {
   afterBody:
     'Queste bande sono per la pietra come materiale. Un tavolo da pranzo, un banco retroilluminato o un oggetto intagliato seguono ancora il preventivo di studio — misura, finitura, scarto e la lastra in mano. Richieda una visita per unire un nome a una faccia.',
   estimateCta: 'Preventivo di studio',
-  exportCta: 'Banco export — lotti, non tavoli',
+  exportCta: 'Ufficio export — lotti, non tavoli',
   enquireCta: 'Richiedere una visita',
   listName: 'Nomi di marmo e onice pakistani',
   rateDescribe: (colour, origin, rate) =>
@@ -657,7 +657,7 @@ const frDesk: ExportDesk = {
   keywords:
     'dalles de marbre export Karachi, onyx pakistanais FOB, travertin FOB Karachi, marbre figuré Pakistan, lots de marbre Karachi, St Werkz export, Syed Rashid Ali',
   navAria: 'Navigation du bureau export',
-  yardInGallery: 'Cour dans la galerie',
+  yardInGallery: 'Le dépôt dans la galerie',
   namedStones: 'Pierres nommées',
   slabBook: 'Livre de dalles',
   requestLot: 'Demander un lot',
@@ -668,10 +668,10 @@ const frDesk: ExportDesk = {
   heroCta: 'Nommez un port',
   heroBook: 'Lire le livre de dalles',
   heroAlt:
-    'Hautes dalles de marbre noir poli aux veines de calcite blanche dans la cour St Werkz, Karachi',
+    'Hautes dalles de marbre noir poli aux veines de calcite blanche au dépôt St Werkz, Karachi',
   separateKicker: 'SÉPARÉ DE LA GALERIE',
   separateTitleBefore: 'De la quantité sans devenir une ',
-  separateTitleEm: 'commodity.',
+  separateTitleEm: 'marchandise.',
   principles: [
     {
       number: '01',
@@ -681,7 +681,7 @@ const frDesk: ExportDesk = {
     {
       number: '02',
       title: 'La face que vous voyez est la face que nous nommons',
-      body: 'Les lots s’enregistrent avec des photographies de première main de la cour. Pas d’images de stock ni de noms de carrière inventés.',
+      body: 'Les lots s’enregistrent avec des photographies de première main du dépôt. Pas d’images de stock ni de noms de carrière inventés.',
     },
     {
       number: '03',
@@ -689,15 +689,15 @@ const frDesk: ExportDesk = {
       body: 'Une caisse d’échantillons, puis un premier lot payé. Le volume suit une répétition de ton et de finition — il ne se promet pas dans un titre.',
     },
   ],
-  bookKicker: 'LIVRE DE DALLES / V1 · PREUVE DE COUR',
-  bookTitleBefore: 'Des faces de la',
-  bookTitleEm: 'cour de Karachi.',
+  bookKicker: 'LIVRE DE DALLES / V1 · PHOTOS DU DÉPÔT',
+  bookTitleBefore: 'Des faces du',
+  bookTitleEm: 'dépôt de Karachi.',
   legend:
-    'Ces faces sont des photographies de première main de la cour de Karachi. Elles montrent comment St Werkz enregistre un lot. Disponibilité, épaisseur, compte et finition se confirment par écrit : cette page n’est ni un stock ni un tarif.',
+    'Ces faces sont des photographies de première main du dépôt de Karachi. Elles montrent comment St Werkz enregistre un lot. Disponibilité, épaisseur, compte et finition se confirment par écrit : cette page n’est ni un stock ni un tarif.',
   openGallery: 'Ouvrir dans la galerie',
   lotFamilyFigured: 'Marbre figuré',
-  lotStatusEvidence: 'Preuve de cour / collection',
-  lotAlt: (title, material) => `${title} en ${material.toLowerCase()}, photographié dans la cour de Karachi`,
+  lotStatusEvidence: 'Photo du dépôt / collection',
+  lotAlt: (title, material) => `${title} en ${material.toLowerCase()}, photographié au dépôt de Karachi`,
   lotFamilies: [
     {
       name: 'Marbre figuré',
@@ -705,7 +705,7 @@ const frDesk: ExportDesk = {
     },
     {
       name: 'Onyx',
-      text: 'Pierre translucide et bandée. Le rétroéclairage est réservé aux dalles qui le permettent. Les lots se discutent d’abord comme faces, ensuite comme lumière.',
+      text: 'Pierre translucide et rubanée. Le rétroéclairage est réservé aux dalles qui le permettent. Les lots se discutent d’abord comme faces, ensuite comme lumière.',
     },
     {
       name: 'Travertin',
@@ -719,17 +719,17 @@ const frDesk: ExportDesk = {
   howTitleEm: 'caisse.',
   howToName: 'Comment demander un lot export St Werkz depuis Karachi',
   howToDescription:
-    'Demandez des lots photographiés de marbre, d’onyx ou de travertin depuis la cour St Werkz à Karachi. Une caisse d’échantillons précède un conteneur. Ce n’est pas un achat en ligne.',
+    'Demandez des lots photographiés de marbre, d’onyx ou de travertin depuis le dépôt St Werkz à Karachi. Une caisse d’échantillons précède un conteneur. Ce n’est pas un achat en ligne.',
   howTo: [
     {
       number: '01',
       name: 'Nommez la pierre et le port',
-      text: 'Écrivez quelle famille vous faut — marbre figuré, onyx ou travertin —, la finition et le port de destination. Syed Rashid Ali prend la note.',
+      text: 'Écrivez quelle famille vous faut — marbre figuré, onyx ou travertin —, la finition et le port de destination. Syed Rashid Ali reçoit votre demande.',
     },
     {
       number: '02',
       name: 'Lisez le lot photographié',
-      text: 'L’atelier répond avec des faces de la cour, pas un catalogue générique. Si la pierre n’est pas en main, cela se dit clairement.',
+      text: 'L’atelier répond avec des faces photographiées au dépôt, pas un catalogue générique. Si la pierre n’est pas en main, cela se dit clairement.',
     },
     {
       number: '03',
@@ -760,7 +760,7 @@ const frDesk: ExportDesk = {
     },
     {
       title: 'Ce que nous n’affirmerons pas',
-      body: 'Origine italienne, prix, couleur identique au conteneur suivant sans lotting, ou un volume que nous n’avons pas encore expédié ensemble.',
+      body: 'Origine italienne, prix, couleur identique au conteneur suivant sans tri par lot, ou un volume que nous n’avons pas encore expédié ensemble.',
     },
   ],
   qcKicker: 'AVANT TOUT EMBALLAGE',
@@ -768,8 +768,8 @@ const frDesk: ExportDesk = {
   qcTitleEm: 'promesse d’identique.',
   qc: [
     {
-      title: 'Lotting du ton',
-      body: 'Les faces qui voyageront ensemble se groupent à l’œil depuis les photographies de cour, puis se confirment avant l’emballage.',
+      title: 'Tri par teinte',
+      body: 'Les faces qui voyageront ensemble se groupent à l’œil d’après les photographies du dépôt, puis se confirment avant l’emballage.',
     },
     {
       title: 'Finition',
@@ -785,7 +785,7 @@ const frDesk: ExportDesk = {
     },
     {
       title: 'Emballage',
-      body: 'Protection des chants, méthode de caisse et chargement peuvent se filmer depuis la cour pour un acheteur sérieux. Le film se fait pour cette conversation ; ce n’est pas un clip de stock.',
+      body: 'Protection des chants, méthode de caisse et chargement peuvent se filmer au dépôt pour un acheteur sérieux. Le film se fait pour cette conversation ; ce n’est pas un clip de stock.',
     },
     {
       title: 'Refus',
@@ -800,13 +800,13 @@ const frDesk: ExportDesk = {
       id: 'what-is-export-desk',
       question: 'Est-ce la même chose que d’acheter une table chez St Werkz ?',
       answer:
-        'Non. La collection est une galerie de meubles, d’objets et de pièces architecturales, montrée sur visite. Le bureau export est pour des lots photographiés de marbre, d’onyx et de travertin comme pierre qui peut voyager. Les deux conversations vont à Syed Rashid Ali.',
+        'Non. La collection est une galerie de meubles, d’objets et de pièces architecturales, présentée sur rendez-vous. Le bureau export est pour des lots photographiés de marbre, d’onyx et de travertin comme pierre qui peut voyager. Les deux conversations vont à Syed Rashid Ali.',
     },
     {
       id: 'do-you-publish-stock',
       question: 'Publiez-vous un stock en direct ?',
       answer:
-        'Non. Le livre de dalles de cette page montre comment les lots s’enregistrent, avec des photographies de première main de la cour déjà dans la collection. Faces actuelles, épaisseur et compte se confirment par écrit à l’acheteur qui demande. Ce n’est ni un déversement d’entrepôt ni un tarif.',
+        'Non. Le livre de dalles de cette page montre comment les lots s’enregistrent, avec des photographies de première main du dépôt déjà dans la collection. Faces actuelles, épaisseur et compte se confirment par écrit à l’acheteur qui demande. Ce n’est ni un inventaire d’entrepôt ni un tarif.',
     },
     {
       id: 'how-to-start-lot',
@@ -825,8 +825,8 @@ const frDesk: ExportDesk = {
   contactTitleBefore: 'Nommez la pierre',
   contactTitleEm: 'et le port.',
   contactBody:
-    'Société, destination, famille et finition. Syed Rashid Ali prend la note. Cela reste une conversation — pas un panier, ni une promesse de gros volume dès la première lettre.',
-  successTitle: 'Votre note est sur le bureau.',
+    'Société, destination, famille et finition. Syed Rashid Ali reçoit votre demande. Cela reste une conversation — pas un achat en ligne, ni une promesse de gros volume dès la première lettre.',
+  successTitle: 'Votre message est bien parvenu au bureau export.',
   successBody: 'Ouvrez-la dans le courrier pour qu’elle parvienne à Syed Rashid Ali, ou écrivez directement à l’atelier.',
   openEmail: 'Ouvrir dans le courrier',
   fieldName: 'Votre nom',
@@ -858,7 +858,7 @@ const frStones: StonesIndex = {
   pageTitle: 'Matériaux',
   titleBefore: 'Marbre et onyx avec un ',
   titleEm: 'nom.',
-  body: 'Ce sont des noms commerciaux du marché pakistanais, et des tarifs matière indicatifs en PKR par pied carré — du sol à l’épaisseur de plan de travail, septembre 2026. Ce ne sont pas des noms de laboratoire, ni un devis St Werkz, ni le prix d’une table finie. Grade, épaisseur, poli, chute et la dalle concrète déplacent encore le chiffre. Une visite à Karachi confirme la pierre.',
+  body: 'Ce sont des noms commerciaux du marché pakistanais, et des tarifs matière indicatifs en PKR par pied carré — du sol à l’épaisseur de plan de travail, septembre 2026. Ce ne sont pas des noms de laboratoire, ni un devis St Werkz, ni le prix d’une table finie. Le choix, l’épaisseur, le poli, les chutes et la dalle elle-même font varier le prix. Une visite à Karachi confirme la pierre.',
   ratesLine: (date, marbles, onyx, total) =>
     `Tarifs au ${date} · ${marbles} marbres · ${onyx} couleurs d’onyx · ${total} noms`,
   filterAria: 'Filtrer par famille de pierre',
@@ -875,7 +875,7 @@ const frStones: StonesIndex = {
   srTitle: 'Noms de marbre et d’onyx pakistanais avec fourchettes actuelles',
   colName: 'Nom',
   colOrigin: 'Origine',
-  colGrade: 'Grade',
+  colGrade: 'Choix',
   colRate: 'Tarif / pied²',
   also: 'Aussi',
   patternNote:
@@ -907,19 +907,19 @@ const frStones: StonesIndex = {
 
 const arDesk: ExportDesk = {
   keywords:
-    'تصدير ألواح رخام كراتشي، أونيكس باكستاني FOB، ترافرتين FOB كراتشي، رخام مزخرف باكستان، دفعات رخام كراتشي، تصدير St Werkz، Syed Rashid Ali',
+    'تصدير ألواح رخام كراتشي، أونيكس باكستاني FOB، ترافرتين FOB كراتشي، رخام مزخرف باكستان، دفعات رخام كراتشي، تصدير St\u00A0Werkz، Syed\u00A0Rashid\u00A0Ali',
   navAria: 'تنقّل مكتب التصدير',
   yardInGallery: 'الساحة في المعرض',
   namedStones: 'أحجار بأسماء',
   slabBook: 'كتاب الألواح',
   requestLot: 'اطلب دفعة',
   enquire: 'استفسر',
-  heroKicker: 'ST WERKZ / مكتب التصدير · KARACHI',
+  heroKicker: 'ST\u00A0WERKZ / مكتب التصدير · KARACHI',
   heroTitleBefore: 'دفعات مصوّرة،',
   heroTitleEm: 'ثم صندوق.',
   heroCta: 'سمِّ ميناءً',
   heroBook: 'اقرأ كتاب الألواح',
-  heroAlt: 'ألواح رخام أسود مصقول عالية بعروق كالسيت بيضاء في ساحة St Werkz، Karachi',
+  heroAlt: 'ألواح رخام أسود مصقول عالية بعروق كالسيت بيضاء في ساحة St\u00A0Werkz، Karachi',
   separateKicker: 'منفصل عن المعرض',
   separateTitleBefore: 'كمية دون أن تصير ',
   separateTitleEm: 'سلعة.',
@@ -944,7 +944,7 @@ const arDesk: ExportDesk = {
   bookTitleBefore: 'وجوه من',
   bookTitleEm: 'ساحة Karachi.',
   legend:
-    'هذه الوجوه صور مباشرة من ساحة Karachi. تُظهر كيف يسجّل St Werkz دفعة. التوفر والسماكة والعدد والتشطيب تُؤكَّد كتابةً — هذه الصفحة ليست قائمة مخزون ولا قائمة أسعار.',
+    'هذه الوجوه صور مباشرة من ساحة Karachi. تُظهر كيف يسجّل St\u00A0Werkz دفعة. التوفر والسماكة والعدد والتشطيب تُؤكَّد كتابةً — هذه الصفحة ليست قائمة مخزون ولا قائمة أسعار.',
   openGallery: 'افتح في المعرض',
   lotFamilyFigured: 'رخام مزخرف',
   lotStatusEvidence: 'دليل الساحة / المجموعة',
@@ -968,14 +968,14 @@ const arDesk: ExportDesk = {
   howKicker: 'كيف تبدأ أول دفعة',
   howTitleBefore: 'أربع خطوات، ثم ',
   howTitleEm: 'الصندوق.',
-  howToName: 'كيف تطلب دفعة تصدير St Werkz من Karachi',
+  howToName: 'كيف تطلب دفعة تصدير St\u00A0Werkz من Karachi',
   howToDescription:
-    'اطلب دفعات مصوّرة من الرخام أو الأونيكس أو الترافرتين من ساحة St Werkz في Karachi. صندوق عيّنات يأتي قبل الحاوية. ليست عملية شراء عبر الإنترنت.',
+    'اطلب دفعات مصوّرة من الرخام أو الأونيكس أو الترافرتين من ساحة St\u00A0Werkz في Karachi. صندوق عيّنات يأتي قبل الحاوية. ليست عملية شراء عبر الإنترنت.',
   howTo: [
     {
       number: '01',
       name: 'سمِّ الحجر والميناء',
-      text: 'اكتب العائلة التي تحتاجها — رخام مزخرف أو أونيكس أو ترافرتين — والتشطيب وميناء الوصول. Syed Rashid Ali يأخذ الملاحظة.',
+      text: 'اكتب العائلة التي تحتاجها — رخام مزخرف أو أونيكس أو ترافرتين — والتشطيب وميناء الوصول. Syed\u00A0Rashid\u00A0Ali يتلقّى رسالتك.',
     },
     {
       number: '02',
@@ -1049,9 +1049,9 @@ const arDesk: ExportDesk = {
   faqs: [
     {
       id: 'what-is-export-desk',
-      question: 'هل هذا مثل شراء طاولة من St Werkz؟',
+      question: 'هل هذا مثل شراء طاولة من St\u00A0Werkz؟',
       answer:
-        'لا. المجموعة معرض لأثاث وأغراض وقطع معمارية تُعرض بالمعاينة. مكتب التصدير لدفعات مصوّرة من الرخام والأونيكس والترافرتين كحجر يمكن أن يسافر. الحديثان يذهبان إلى Syed Rashid Ali.',
+        'لا. المجموعة معرض لأثاث وأغراض وقطع معمارية تُعرض بالمعاينة. مكتب التصدير لدفعات مصوّرة من الرخام والأونيكس والترافرتين كحجر يمكن أن يسافر. الحديثان يذهبان إلى Syed\u00A0Rashid\u00A0Ali.',
     },
     {
       id: 'do-you-publish-stock',
@@ -1063,11 +1063,11 @@ const arDesk: ExportDesk = {
       id: 'how-to-start-lot',
       question: 'كيف أبدأ حديث تصدير؟',
       answer:
-        'اكتب stoneworks014@gmail.com أو استخدم النموذج في هذه الصفحة. سمِّ عائلة الحجر والتشطيب وميناء الوصول. يرد Syed Rashid Ali بوجوه مصوّرة أو ملاحظة صادقة إن لم يكن الحجر في اليد. صندوق عيّنات يأتي قبل الحاوية.',
+        'اكتب stoneworks014@gmail.com أو استخدم النموذج في هذه الصفحة. سمِّ عائلة الحجر والتشطيب وميناء الوصول. يرد Syed\u00A0Rashid\u00A0Ali بوجوه مصوّرة أو ملاحظة صادقة إن لم يكن الحجر في اليد. صندوق عيّنات يأتي قبل الحاوية.',
     },
     {
       id: 'fob-karachi',
-      question: 'ما شروط الشحن التي يستخدمها St Werkz؟',
+      question: 'ما شروط الشحن التي يستخدمها St\u00A0Werkz؟',
       answer:
         'تبدأ المحادثات FOB Karachi ما لم يُتفق كتابةً على شرط آخر. الاستوديو في North Nazimabad, Karachi. الشحن والتأمين والرسوم بعد الميناء تُسمَّى منفصلة. لا سعر شحن منشوراً على هذا الموقع.',
     },
@@ -1076,9 +1076,9 @@ const arDesk: ExportDesk = {
   contactTitleBefore: 'سمِّ الحجر',
   contactTitleEm: 'والميناء.',
   contactBody:
-    'الشركة والوجهة والعائلة والتشطيب. Syed Rashid Ali يأخذ الملاحظة. يبقى هذا حديثاً — لا سلة، ولا وعداً بكمية كبيرة في الرسالة الأولى.',
+    'الشركة والوجهة والعائلة والتشطيب. Syed\u00A0Rashid\u00A0Ali يتلقّى رسالتك. يبقى هذا حديثاً — لا سلة، ولا وعداً بكمية كبيرة في الرسالة الأولى.',
   successTitle: 'ملاحظتك على المكتب.',
-  successBody: 'افتحها في البريد لتصل إلى Syed Rashid Ali، أو اكتب إلى الاستوديو مباشرة.',
+  successBody: 'افتحها في البريد لتصل إلى Syed\u00A0Rashid\u00A0Ali، أو اكتب إلى الاستوديو مباشرة.',
   openEmail: 'افتح في البريد',
   fieldName: 'اسمك',
   fieldCompany: 'الشركة',
@@ -1109,7 +1109,7 @@ const arStones: StonesIndex = {
   pageTitle: 'المواد',
   titleBefore: 'رخام وأونيكس ',
   titleEm: 'باسم.',
-  body: 'هذه أسماء تجارية في السوق الباكستاني، وأسعار مادة إرشادية بالروبية للقدم المربع — من الأرضيات إلى سماكة سطح المطبخ، سبتمبر 2026. ليست أسماء مختبر، ولا عرض سعر St Werkz، ولا ثمن طاولة منتهية. الدرجة والسماكة والصقل والهدر واللوح بعينه ما زالت تحرّك الرقم. معاينة في Karachi تؤكد الحجر.',
+  body: 'هذه أسماء تجارية في السوق الباكستاني، وأسعار مادة إرشادية بالروبية للقدم المربع — من الأرضيات إلى سماكة سطح المطبخ، سبتمبر 2026. ليست أسماء مختبر، ولا عرض سعر St\u00A0Werkz، ولا ثمن طاولة منتهية. الدرجة والسماكة والصقل والهدر واللوح بعينه ما زالت تحرّك الرقم. معاينة في Karachi تؤكد الحجر.',
   ratesLine: (date, marbles, onyx, total) =>
     `الأسعار حتى ${date} · ${marbles} رخامات · ${onyx} ألوان أونيكس · ${total} أسماء`,
   filterAria: 'تصفية حسب عائلة الحجر',
@@ -1122,7 +1122,7 @@ const arStones: StonesIndex = {
   swatchKind: 'سطح الحجر',
   projectKind: 'مشروع بعد التركيب',
   emptyCategory: 'لا توجد صور أصلية لهذه الفئة بعد.',
-  projectAlt: (name) => `${name} — مشروع St Werkz، كراتشي`,
+  projectAlt: (name) => `${name} — مشروع St\u00A0Werkz، كراتشي`,
   srTitle: 'أسماء رخام وأونيكس باكستانية بنطاقات الأسعار الحالية',
   colName: 'الاسم',
   colOrigin: 'الأصل',
@@ -1130,7 +1130,7 @@ const arStones: StonesIndex = {
   colRate: 'السعر / قدم²',
   also: 'أيضاً',
   patternNote:
-    'لكل اسم صورة نمط عالية الدقة للتعرّف. هذه وجوه مرجعية، وليست صور دفعة St Werkz معيّنة — معاينة في Karachi تؤكد اللوح.',
+    'لكل اسم صورة نمط عالية الدقة للتعرّف. هذه وجوه مرجعية، وليست صور دفعة St\u00A0Werkz معيّنة — معاينة في Karachi تؤكد اللوح.',
   imageAlt: (name, colour) => `نمط ${name} — ${colour}، لوح مصقول للتعرّف`,
   openPattern: 'افتح النمط',
   closePattern: 'أغلق النمط',
@@ -1159,31 +1159,31 @@ const arStones: StonesIndex = {
 const urDesk: ExportDesk = {
   keywords:
     'کراچی ماربل سلیب برآمد، پاکستانی اونیکس FOB، ٹریورٹائن FOB کراچی، فگرڈ ماربل پاکستان، ماربل لاٹ کراچی، St Werkz ایکسپورٹ، Syed Rashid Ali',
-  navAria: 'برآمدی ڈیسک نیویگیشن',
-  yardInGallery: 'گیلری میں صحن',
+  navAria: 'برآمدی شعبے کی نیویگیشن',
+  yardInGallery: 'گیلری میں یارڈ',
   namedStones: 'نام والے پتھر',
   slabBook: 'سلیب کتاب',
   requestLot: 'لاٹ کی درخواست',
   enquire: 'استفسار',
-  heroKicker: 'ST WERKZ / برآمدی ڈیسک · KARACHI',
+  heroKicker: 'ST\u00A0WERKZ / برآمدی شعبہ · KARACHI',
   heroTitleBefore: 'عکس بند لاٹ،',
-  heroTitleEm: 'پھر کریٹ.',
+  heroTitleEm: 'پھر کریٹ۔',
   heroCta: 'بندرگاہ کا نام لیں',
   heroBook: 'سلیب کتاب پڑھیں',
-  heroAlt: 'سفید کیلسائٹ رگوں والی اونچی پالش کالی سنگ مرمر سلیبیں، St Werkz صحن، Karachi',
+  heroAlt: 'سفید کیلسائٹ رگوں والی اونچی پالش کالی سنگ مرمر سلیبیں، St\u00A0Werkz یارڈ، کراچی',
   separateKicker: 'گیلری سے الگ',
   separateTitleBefore: 'مقدار، مگر ',
-  separateTitleEm: 'کموڈیٹی نہیں.',
+  separateTitleEm: 'عام مال نہیں۔',
   principles: [
     {
       number: '01',
-      title: 'یہ ڈیسک گیلری نہیں',
-      body: 'میزیں، اشیاء اور بستیاں مجموعے کی دیوار پر رہتی ہیں۔ یہ صفحہ عکس بند لاٹ، نمونہ کریٹ اور اس پتھر کی گفتگو کے لیے ہے جو سفر کر سکتا ہے۔',
+      title: 'یہ شعبہ گیلری نہیں',
+      body: 'میزیں، اشیاء اور ہال مجموعے کا حصہ ہیں۔ یہ صفحہ عکس بند لاٹ، نمونہ کریٹ اور اس پتھر کی گفتگو کے لیے ہے جو سفر کر سکتا ہے۔',
     },
     {
       number: '02',
-      title: 'جو چہرہ آپ دیکھتے ہیں وہی ہم مراد لیتے ہیں',
-      body: 'لاٹ صحن کی پہلی ہاتھ تصاویر سے درج ہوتے ہیں۔ اسٹاک تصاویر اور گھڑے ہوئے کان کے نام استعمال نہیں ہوتے۔',
+      title: 'جو سطح آپ دیکھتے ہیں، وہی ملتی ہے',
+      body: 'لاٹ یارڈ میں خود لی گئی تصاویر سے درج ہوتے ہیں۔ اسٹاک تصاویر اور گھڑے ہوئے کان کے نام استعمال نہیں ہوتے۔',
     },
     {
       number: '03',
@@ -1191,15 +1191,15 @@ const urDesk: ExportDesk = {
       body: 'نمونہ کریٹ، پھر پہلا ادا شدہ لاٹ۔ حجم رنگ اور فنش کی تکرار کے بعد آتا ہے — عنوان میں وعدہ نہیں۔',
     },
   ],
-  bookKicker: 'سلیب کتاب / V1 · صحن کا ثبوت',
-  bookTitleBefore: 'چہرے',
-  bookTitleEm: 'کراچی کے صحن سے.',
+  bookKicker: 'سلیب کتاب / V1 · یارڈ کی تصاویر',
+  bookTitleBefore: 'سطحیں، ',
+  bookTitleEm: 'کراچی کے یارڈ سے۔',
   legend:
-    'یہ چہرے کراچی صحن کی پہلی ہاتھ تصاویر ہیں۔ دکھاتے ہیں St Werkz لاٹ کیسے درج کرتا ہے۔ دستیابی، موٹائی، گنتی اور فنش تحریری تصدیق ہوتے ہیں — یہ صفحہ اسٹاک فہرست نہیں اور قیمت نامہ نہیں۔',
+    'یہ سطحیں کراچی کے یارڈ میں خود لی گئی تصاویر ہیں، جو دکھاتی ہیں کہ St\u00A0Werkz لاٹ کیسے درج کرتا ہے۔ دستیابی، موٹائی، گنتی اور فنش تحریری تصدیق ہوتے ہیں — یہ صفحہ نہ اسٹاک فہرست ہے نہ قیمت نامہ۔',
   openGallery: 'گیلری میں کھولیں',
   lotFamilyFigured: 'نقش دار سنگ مرمر',
-  lotStatusEvidence: 'صحن کا ثبوت / مجموعہ',
-  lotAlt: (title, material) => `${title}، ${material}، کراچی صحن میں تصویر`,
+  lotStatusEvidence: 'یارڈ کی تصویر / مجموعہ',
+  lotAlt: (title, material) => `${title}، ${material}، کراچی کے یارڈ میں تصویر`,
   lotFamilies: [
     {
       name: 'نقش دار سنگ مرمر',
@@ -1207,7 +1207,7 @@ const urDesk: ExportDesk = {
     },
     {
       name: 'اونیکس',
-      text: 'شفاف، بینڈڈ پتھر۔ بیک لائٹ ان سلیبوں کے لیے محفوظ ہے جو اجازت دیں۔ لاٹ پہلے چہروں کے طور پر، پھر روشنی کے طور پر بات کیے جاتے ہیں۔',
+      text: 'شفاف، بینڈڈ پتھر۔ بیک لائٹ ان سلیبوں کے لیے محفوظ ہے جو اجازت دیں۔ لاٹ پر پہلے سطح کے طور پر، پھر روشنی کے طور پر بات ہوتی ہے۔',
     },
     {
       name: 'ٹریورٹائن',
@@ -1218,25 +1218,25 @@ const urDesk: ExportDesk = {
   citationLine: 'حوالے کے لیے پورا خاکہ:',
   howKicker: 'پہلا لاٹ کیسے شروع ہوتا ہے',
   howTitleBefore: 'چار قدم، پھر ',
-  howTitleEm: 'کریٹ.',
-  howToName: 'Karachi سے St Werkz برآمدی لاٹ کی درخواست کیسے کریں',
+  howTitleEm: 'کریٹ۔',
+  howToName: 'کراچی سے St\u00A0Werkz برآمدی لاٹ کی درخواست کیسے کریں',
   howToDescription:
-    'Karachi میں St Werkz صحن سے سنگ مرمر، اونیکس یا ٹریورٹائن کے عکس بند لاٹ کی درخواست کریں۔ نمونہ کریٹ کنٹینر سے پہلے آتا ہے۔ آن لائن چیک آؤٹ نہیں۔',
+    'کراچی میں St\u00A0Werkz یارڈ سے سنگ مرمر، اونیکس یا ٹریورٹائن کے عکس بند لاٹ کی درخواست کریں۔ نمونہ کریٹ کنٹینر سے پہلے آتا ہے۔ آن لائن چیک آؤٹ نہیں۔',
   howTo: [
     {
       number: '01',
       name: 'پتھر اور بندرگاہ کا نام لیں',
-      text: 'لکھیں کون سا خاندان چاہیے — نقش دار سنگ مرمر، اونیکس یا ٹریورٹائن — فنش، اور منزل کی بندرگاہ۔ Syed Rashid Ali نوٹ لیتے ہیں۔',
+      text: 'لکھیں کون سا خاندان چاہیے — نقش دار سنگ مرمر، اونیکس یا ٹریورٹائن — فنش، اور منزل کی بندرگاہ۔ Syed\u00A0Rashid\u00A0Ali نوٹ لیتے ہیں۔',
     },
     {
       number: '02',
       name: 'عکس بند لاٹ پڑھیں',
-      text: 'استوڈیو صحن کے چہروں سے جواب دیتا ہے، عام کیٹلاگ سے نہیں۔ اگر پتھر ہاتھ میں نہیں تو صاف کہا جاتا ہے۔',
+      text: 'اسٹوڈیو یارڈ کی سطحوں سے جواب دیتا ہے، عام کیٹلاگ سے نہیں۔ اگر پتھر ہاتھ میں نہیں تو صاف کہا جاتا ہے۔',
     },
     {
       number: '03',
       name: 'نمونہ کریٹ بھیجیں',
-      text: 'طے شدہ چہروں کا چھوٹا کریٹ پہلے سفر کرتا ہے۔ رنگ اور فنش پر رائے کنٹینر کو تکرار کے طور پر بات کرنے سے پہلے جمع ہوتی ہے۔',
+      text: 'طے شدہ سطحوں کا چھوٹا کریٹ پہلے بھیجا جاتا ہے۔ رنگ اور فنش پر رائے کنٹینر کو تکرار کے طور پر بات کرنے سے پہلے جمع ہوتی ہے۔',
     },
     {
       number: '04',
@@ -1246,7 +1246,7 @@ const urDesk: ExportDesk = {
   ],
   termsKicker: 'شرائط جن کے پیچھے ہم واقعی کھڑے ہیں',
   termsTitleBefore: 'FOB Karachi. کوئی ',
-  termsTitleEm: 'قیمت کی دیوار نہیں.',
+  termsTitleEm: 'قیمتوں کی فہرست نہیں۔',
   terms: [
     {
       title: 'انکوٹرمز',
@@ -1254,7 +1254,7 @@ const urDesk: ExportDesk = {
     },
     {
       title: 'قیمت',
-      body: 'شائع شدہ قیمت نامہ نہیں اور چیک آؤٹ نہیں۔ نامزد لاٹ کے لیے حد دی جا سکتی ہے۔ یہ انوائس نہیں اور بینک کوٹ نہیں۔',
+      body: 'شائع شدہ قیمت نامہ نہیں اور چیک آؤٹ نہیں۔ نامزد لاٹ کے لیے حد دی جا سکتی ہے۔ یہ انوائس نہیں اور بینک کا ریٹ نہیں۔',
     },
     {
       title: 'مقدار',
@@ -1267,11 +1267,11 @@ const urDesk: ExportDesk = {
   ],
   qcKicker: 'پیکنگ سے پہلے',
   qcTitleBefore: 'چیک لسٹ، ',
-  qcTitleEm: 'یکساں ہونے کا وعدہ نہیں.',
+  qcTitleEm: 'یکسانیت کا وعدہ نہیں۔',
   qc: [
     {
       title: 'رنگ کی لاٹنگ',
-      body: 'جو چہرے ساتھ سفر کریں گے انہیں صحن کی تصاویر سے آنکھ سے گروپ کیا جاتا ہے، پھر پیکنگ سے پہلے تصدیق۔',
+      body: 'جو سطحیں ساتھ سفر کریں گی انہیں یارڈ کی تصاویر دیکھ کر گروپ کیا جاتا ہے، پھر پیکنگ سے پہلے تصدیق ہوتی ہے۔',
     },
     {
       title: 'فنش',
@@ -1287,7 +1287,7 @@ const urDesk: ExportDesk = {
     },
     {
       title: 'پیکنگ',
-      body: 'کنارے کی حفاظت، کریٹ کا طریقہ اور لوڈنگ سنجیدہ خریدار کے لیے صحن سے فلمائی جا سکتی ہے۔ فلم اسی گفتگو کے لیے بنتی ہے؛ اسٹاک کلپ نہیں۔',
+      body: 'کنارے کی حفاظت، کریٹ کا طریقہ اور لوڈنگ سنجیدہ خریدار کے لیے یارڈ سے فلمائی جا سکتی ہے۔ فلم اسی گفتگو کے لیے بنتی ہے؛ اسٹاک کلپ نہیں۔',
     },
     {
       title: 'انکار',
@@ -1295,41 +1295,41 @@ const urDesk: ExportDesk = {
     },
   ],
   faqKicker: 'سوالات / صاف جواب',
-  faqTitleBefore: 'خریدار ڈیسک سے ',
+  faqTitleBefore: 'خریدار برآمدی شعبے سے ',
   faqTitleEm: 'کیا پوچھتے ہیں۔',
   faqs: [
     {
       id: 'what-is-export-desk',
-      question: 'کیا یہ St Werkz سے میز خریدنے جیسا ہے؟',
+      question: 'کیا یہ St\u00A0Werkz سے میز خریدنے جیسا ہے؟',
       answer:
-        'نہیں۔ مجموعہ فرنیچر، اشیاء اور معماری ٹکڑوں کی گیلری ہے، معائنہ سے دکھائی جاتی ہے۔ برآمدی ڈیسک سنگ مرمر، اونیکس اور ٹریورٹائن کے عکس بند لاٹ کے لیے ہے جو سفر کر سکتے ہیں۔ دونوں گفتگو Syed Rashid Ali کے پاس جاتی ہیں۔',
+        'نہیں۔ مجموعہ فرنیچر، اشیاء اور معماری ٹکڑوں کی گیلری ہے، معائنہ سے دکھائی جاتی ہے۔ برآمدی شعبہ سنگ مرمر، اونیکس اور ٹریورٹائن کے عکس بند لاٹ کے لیے ہے جو سفر کر سکتے ہیں۔ دونوں گفتگو Syed\u00A0Rashid\u00A0Ali کے پاس جاتی ہیں۔',
     },
     {
       id: 'do-you-publish-stock',
       question: 'کیا آپ زندہ اسٹاک فہرست شائع کرتے ہیں؟',
       answer:
-        'نہیں۔ اس صفحے کی سلیب کتاب دکھاتی ہے لاٹ کیسے درج ہوتے ہیں، صحن کی پہلی ہاتھ تصاویر سے جو پہلے سے مجموعے میں ہیں۔ موجودہ چہرے، موٹائی اور گنتی پوچھنے والے خریدار کو تحریری تصدیق ہوتے ہیں۔ گودام کا ڈھیر نہیں اور قیمت نامہ نہیں۔',
+        'نہیں۔ اس صفحے کی سلیب کتاب دکھاتی ہے لاٹ کیسے درج ہوتے ہیں، یارڈ میں خود لی گئی ان تصاویر سے جو پہلے سے مجموعے میں ہیں۔ موجودہ سطحیں، موٹائی اور گنتی پوچھنے والے خریدار کو تحریری تصدیق ہوتے ہیں۔ گودام کا ڈھیر نہیں اور قیمت نامہ نہیں۔',
     },
     {
       id: 'how-to-start-lot',
       question: 'برآمدی گفتگو کیسے شروع کروں؟',
       answer:
-        'stoneworks014@gmail.com لکھیں یا اس صفحے کا فارم استعمال کریں۔ پتھر کا خاندان، فنش اور منزل کی بندرگاہ نام لیں۔ Syed Rashid Ali عکس بند چہروں سے جواب دیتے ہیں یا ایماندار نوٹ اگر پتھر ہاتھ میں نہیں۔ نمونہ کریٹ کنٹینر سے پہلے آتا ہے۔',
+        'stoneworks014@gmail.com لکھیں یا اس صفحے کا فارم استعمال کریں۔ پتھر کا خاندان، فنش اور منزل کی بندرگاہ نام لیں۔ Syed\u00A0Rashid\u00A0Ali عکس بند سطحوں سے جواب دیتے ہیں یا ایماندار نوٹ اگر پتھر ہاتھ میں نہیں۔ نمونہ کریٹ کنٹینر سے پہلے آتا ہے۔',
     },
     {
       id: 'fob-karachi',
-      question: 'St Werkz کون سی شپنگ شرائط استعمال کرتا ہے؟',
+      question: 'St\u00A0Werkz کون سی شپنگ شرائط استعمال کرتا ہے؟',
       answer:
-        'گفتگو FOB Karachi سے شروع ہوتی ہے جب تک تحریری طور پر دوسری شرائط طے نہ ہوں۔ استوڈیو North Nazimabad, Karachi میں ہے۔ مال برداری، بیمہ اور بندرگاہ کے بعد کے چارج الگ نام لیے جاتے ہیں۔ اس سائٹ پر شائع شدہ فریٹ ریٹ نہیں۔',
+        'گفتگو FOB Karachi سے شروع ہوتی ہے جب تک تحریری طور پر دوسری شرائط طے نہ ہوں۔ اسٹوڈیو North Nazimabad, Karachi میں ہے۔ مال برداری، بیمہ اور بندرگاہ کے بعد کے چارج الگ نام لیے جاتے ہیں۔ اس سائٹ پر شائع شدہ فریٹ ریٹ نہیں۔',
     },
   ],
   contactKicker: 'سیدھی لائن / KARACHI',
   contactTitleBefore: 'پتھر کا نام لیں',
-  contactTitleEm: 'اور بندرگاہ کا.',
+  contactTitleEm: 'اور بندرگاہ کا۔',
   contactBody:
-    'کمپنی، منزل، خاندان اور فنش۔ Syed Rashid Ali نوٹ لیتے ہیں۔ یہ گفتگو ہی رہتی ہے — کارٹ نہیں، اور پہلے خط میں بڑی مقدار کا وعدہ نہیں۔',
-  successTitle: 'آپ کا نوٹ میز پر ہے۔',
-  successBody: 'ای میل میں کھولیں تاکہ Syed Rashid Ali تک پہنچے، یا استوڈیو کو براہ راست لکھیں۔',
+    'کمپنی، منزل، خاندان اور فنش۔ Syed\u00A0Rashid\u00A0Ali نوٹ لیتے ہیں۔ یہ گفتگو ہی رہتی ہے — کارٹ نہیں، اور پہلے خط میں بڑی مقدار کا وعدہ نہیں۔',
+  successTitle: 'آپ کا نوٹ تیار ہے۔',
+  successBody: 'ای میل میں کھولیں تاکہ Syed\u00A0Rashid\u00A0Ali تک پہنچے، یا اسٹوڈیو کو براہ راست لکھیں۔',
   openEmail: 'ای میل میں کھولیں',
   fieldName: 'آپ کا نام',
   fieldCompany: 'کمپنی',
@@ -1345,10 +1345,10 @@ const urDesk: ExportDesk = {
   fieldNeed: 'آپ کو کیا چاہیے',
   needPlaceholder: 'فنش، قریبی حجم، اور کیا یہ نمونہ کریٹ سے شروع ہوتا ہے۔',
   send: 'نوٹ بھیجیں',
-  calcKicker: 'لاٹ کی حد / اشاریہ مواد',
+  calcKicker: 'لاٹ کی حد / اشارتی مواد',
   calcTitleBefore: 'پہلی رقم ',
   calcTitleEm: 'کریٹ سے پہلے۔',
-  calcBody: 'نام زدہ پتھر، رقبہ، موٹائی اور ضیاع — بریفنگ کے لیے منزل کی بندرگاہ سمیت۔ فریٹ یہاں قیمت نہیں۔',
+  calcBody: 'نام زدہ پتھر، رقبہ، موٹائی اور ضیاع — تفصیل کے لیے منزل کی بندرگاہ سمیت۔ فریٹ یہاں قیمت نہیں۔',
   footerTag: 'کراچی سے عکس بند لاٹ۔',
   collection: 'مجموعہ',
   architects: 'معمار',
@@ -1358,9 +1358,9 @@ const urDesk: ExportDesk = {
 const urStones: StonesIndex = {
   kicker: 'پاکستان / نام والے پتھر',
   pageTitle: 'مواد',
-  titleBefore: 'سنگ مرمر اور اونیکس جن کا ',
-  titleEm: 'نام ہے۔',
-  body: 'یہ پاکستانی تجارت میں استعمال ہونے والے تجارتی نام ہیں، اور ستمبر 2026 میں PKR فی مربع فٹ کی اشارتی مادی شرحیں — فرش سے کچن ٹاپ موٹائی تک۔ یہ لیبارٹری نام نہیں، St Werkz کا کوٹ نہیں، اور تیار میز کی قیمت نہیں۔ گریڈ، موٹائی، پالش، ضیاع اور اصل سلیب اب بھی عدد ہلاتے ہیں۔ Karachi میں معائنہ پتھر کی تصدیق کرتا ہے۔',
+  titleBefore: 'نام بہ نام: ',
+  titleEm: 'سنگ مرمر اور اونیکس۔',
+  body: 'یہ پاکستانی تجارت میں استعمال ہونے والے تجارتی نام ہیں، اور ستمبر 2026 میں PKR فی مربع فٹ کی اشارتی شرحیں (صرف مواد) — فرش سے باورچی خانے کے ٹاپ کی موٹائی تک۔ یہ لیبارٹری نام نہیں، St\u00A0Werkz کی کوٹیشن نہیں، اور تیار میز کی قیمت نہیں۔ گریڈ، موٹائی، پالش، ضیاع اور اصل سلیب اب بھی عدد ہلاتے ہیں۔ کراچی میں معائنہ پتھر کی تصدیق کرتا ہے۔',
   ratesLine: (date, marbles, onyx, total) =>
     `${date} تک شرحیں · ${marbles} سنگ مرمر · ${onyx} اونیکس رنگ · ${total} نام`,
   filterAria: 'پتھر کے خاندان سے فلٹر کریں',
@@ -1369,11 +1369,11 @@ const urStones: StonesIndex = {
   filterNatural: 'قدرتی پتھر',
   filterGranite: 'گرینائٹ',
   filterOnyx: 'اونیکس',
-  filterTravertine: 'ٹراورٹین',
+  filterTravertine: 'ٹریورٹائن',
   swatchKind: 'پتھر کی سطح',
   projectKind: 'نصب شدہ منصوبہ',
   emptyCategory: 'اس زمرے کی اصل تصاویر ابھی دستیاب نہیں۔',
-  projectAlt: (name) => `${name} — St Werkz کا منصوبہ، کراچی`,
+  projectAlt: (name) => `${name} — St\u00A0Werkz کا منصوبہ، کراچی`,
   srTitle: 'موجودہ شرحی حدود کے ساتھ پاکستانی سنگ مرمر اور اونیکس کے نام',
   colName: 'نام',
   colOrigin: 'اصل',
@@ -1381,22 +1381,22 @@ const urStones: StonesIndex = {
   colRate: 'شرح / مربع فٹ',
   also: 'بھی',
   patternNote:
-    'ہر نام کے ساتھ شناخت کے لیے ہائی ریزولوشن پیٹرن تصویر ہے۔ یہ حوالہ چہرے ہیں، کسی مخصوص St Werkz لاٹ کی تصاویر نہیں — Karachi میں معائنہ سلیب کی تصدیق کرتا ہے۔',
+    'ہر نام کے ساتھ شناخت کے لیے ہائی ریزولوشن پیٹرن تصویر ہے۔ یہ حوالہ جاتی سطحیں ہیں، کسی مخصوص St\u00A0Werkz لاٹ کی تصاویر نہیں — کراچی میں معائنہ سلیب کی تصدیق کرتا ہے۔',
   imageAlt: (name, colour) => `${name} کا پیٹرن — ${colour}، شناخت کے لیے پالش سلیب`,
   openPattern: 'پیٹرن کھولیں',
   closePattern: 'پیٹرن بند کریں',
   identify: 'شناخت',
   afterKicker: 'نام کے بعد',
   afterTitleBefore: 'شرح ',
-  afterTitleEm: 'ٹکڑا نہیں.',
+  afterTitleEm: 'ٹکڑا نہیں۔',
   afterBody:
-    'یہ پٹیاں پتھر بطور مادہ کے لیے ہیں۔ ڈائننگ ٹیبل، بیک لٹ کاؤنٹر یا تراشی ہوئی شے اب بھی استوڈیو تخمینے پر چلتی ہے — ناپ، فنش، ضیاع اور ہاتھ میں سلیب۔ نام کو چہرے سے ملانے کے لیے معائنہ کی درخواست کریں۔',
-  estimateCta: 'استوڈیو تخمینہ',
-  exportCta: 'برآمدی ڈیسک — لاٹ، میزیں نہیں',
+    'یہ پٹیاں صرف پتھر بطور مواد کے لیے ہیں۔ ڈائننگ ٹیبل، بیک لٹ کاؤنٹر یا تراشی ہوئی شے اب بھی اسٹوڈیو تخمینے پر چلتی ہے — ناپ، فنش، ضیاع اور ہاتھ میں سلیب۔ نام کو سطح سے ملانے کے لیے معائنہ کی درخواست کریں۔',
+  estimateCta: 'اسٹوڈیو تخمینہ',
+  exportCta: 'برآمدی شعبہ — لاٹ، میزیں نہیں',
   enquireCta: 'معائنہ کی درخواست',
   listName: 'پاکستانی سنگ مرمر اور اونیکس کے نام',
   rateDescribe: (colour, origin, rate) =>
-    `${colour}۔ ${origin}۔ اشارتی مادی شرح ${rate} فی مربع فٹ۔`,
+    `${colour}۔ ${origin}۔ اشارتی شرح (صرف مواد) ${rate} فی مربع فٹ۔`,
   grades: {
     budget: 'بجٹ',
     standard: 'اسٹینڈرڈ',
@@ -1404,253 +1404,253 @@ const urStones: StonesIndex = {
     luxury: 'لگژری',
     rare: 'نایاب',
   },
-  families: { marble: 'سنگ مرمر', onyx: 'اونیکس', natural: 'قدرتی پتھر', granite: 'گرینائٹ', travertine: 'ٹراورٹین' },
+  families: { marble: 'سنگ مرمر', onyx: 'اونیکس', natural: 'قدرتی پتھر', granite: 'گرینائٹ', travertine: 'ٹریورٹائن' },
 };
 
 const ruDesk: ExportDesk = {
   keywords:
     'экспорт мраморных слэбов Карачи, пакистанский оникс FOB, травертин FOB Карачи, фигурный мрамор Пакистан, партии мрамора Карачи, экспорт St Werkz, Syed Rashid Ali',
-  navAria: 'Навигация экспортного стола',
-  yardInGallery: 'Двор в галерее',
-  namedStones: 'Камни с именами',
-  slabBook: 'Книга слэбов',
-  requestLot: 'Запросить лот',
+  navAria: 'Навигация экспортного отдела',
+  yardInGallery: 'Склад в галерее',
+  namedStones: 'Камни по названиям',
+  slabBook: 'Каталог слэбов',
+  requestLot: 'Запросить партию',
   enquire: 'Запрос',
-  heroKicker: 'ST WERKZ / ЭКСПОРТНЫЙ СТОЛ · KARACHI',
-  heroTitleBefore: 'Сфотографированные лоты,',
-  heroTitleEm: 'затем ящик.',
-  heroCta: 'Назовите порт',
-  heroBook: 'Читать книгу слэбов',
+  heroKicker: 'ST WERKZ / ЭКСПОРТНЫЙ ОТДЕЛ · КАРАЧИ',
+  heroTitleBefore: 'Сначала фото партии,',
+  heroTitleEm: 'затем ящик образцов.',
+  heroCta: 'Укажите порт',
+  heroBook: 'Открыть каталог слэбов',
   heroAlt:
-    'Высокие полированные чёрные мраморные слэбы с белыми кальцитовыми жилами во дворе St Werkz, Karachi',
+    'Высокие полированные слэбы чёрного мрамора с белыми кальцитовыми прожилками на складе St Werkz, Карачи',
   separateKicker: 'ОТДЕЛЬНО ОТ ГАЛЕРЕИ',
-  separateTitleBefore: 'Количество без превращения в ',
-  separateTitleEm: 'commodity.',
+  separateTitleBefore: 'Большие объёмы — без превращения в ',
+  separateTitleEm: 'ширпотреб.',
   principles: [
     {
       number: '01',
-      title: 'Этот стол — не галерея',
-      body: 'Столы, объекты и залы остаются на стене коллекции. Эта страница — для сфотографированных лотов, ящиков образцов и разговора о камне, который может ехать.',
+      title: 'Экспортный отдел — не галерея',
+      body: 'Столы, предметы интерьера и залы остаются в коллекции. Эта страница — для партий камня с фотографиями, ящиков образцов и переговоров о поставках.',
     },
     {
       number: '02',
-      title: 'Лицо, которое вы видите, — то, что мы имеем в виду',
-      body: 'Лоты фиксируются первоисточными фотографиями двора. Стоковые снимки и выдуманные имена карьеров не используются.',
+      title: 'Вы получаете тот камень, который видите',
+      body: 'Каждая партия снята на нашем складе. Мы не используем стоковые фотографии и не придумываем названия карьеров.',
     },
     {
       number: '03',
-      title: 'Ящик раньше контейнера',
-      body: 'Ящик образцов, затем первый оплаченный лот. Объём следует за повтором тона и отделки — его не обещают в заголовке.',
+      title: 'Сначала ящик, потом контейнер',
+      body: 'Сначала ящик образцов, затем первая оплаченная партия. Объёмы растут, когда тон и отделка подтверждаются от поставки к поставке, — заранее мы их не обещаем.',
     },
   ],
-  bookKicker: 'КНИГА СЛЭБОВ / V1 · СВИДЕТЕЛЬСТВО ДВОРА',
-  bookTitleBefore: 'Лица с',
-  bookTitleEm: 'двора Карачи.',
+  bookKicker: 'КАТАЛОГ СЛЭБОВ / V1 · СНИМКИ СО СКЛАДА',
+  bookTitleBefore: 'Слэбы со',
+  bookTitleEm: 'склада в Карачи.',
   legend:
-    'Эти лица — первоисточные фотографии двора в Karachi. Они показывают, как St Werkz фиксирует лот. Наличие, толщина, счёт и отделка подтверждаются письменно: эта страница не складской список и не прайс.',
+    'Это наши собственные фотографии со склада в Карачи. Они показывают, как St Werkz документирует партию. Наличие, толщина, количество и отделка подтверждаются письменно: эта страница — не складской перечень и не прайс-лист.',
   openGallery: 'Открыть в галерее',
-  lotFamilyFigured: 'Рисунчатый мрамор',
-  lotStatusEvidence: 'Свидетельство двора / коллекция',
-  lotAlt: (title, material) => `${title} из материала «${material}», снято во дворе Karachi`,
+  lotFamilyFigured: 'Мрамор с рисунком',
+  lotStatusEvidence: 'Снимок со склада / коллекция',
+  lotAlt: (title, material) => `${title} (${material}), снимок на складе в Карачи`,
   lotFamilies: [
     {
-      name: 'Рисунчатый мрамор',
-      text: 'Высокополированный камень, читаемый по жиле и контрасту — включая нуар-золото и белый кальцит типа Nero. Называется рисунчатым мрамором, не иностранным карьером.',
+      name: 'Мрамор с рисунком',
+      text: 'Камень с глянцевой полировкой, ценный рисунком прожилок и контрастом, — в том числе чёрный с золотом и Nero с белым кальцитом. Мы называем его мрамором с рисунком и не приписываем иностранному карьеру.',
     },
     {
       name: 'Оникс',
-      text: 'Просвечивающий полосчатый камень. Подсветка сохранена для слэбов, которые её допускают. Лоты обсуждаются сначала как лица, потом как свет.',
+      text: 'Полупрозрачный полосчатый камень. Подсветка — только для слэбов, которые её допускают. Партии сначала оценивают по рисунку, затем — по тому, как они пропускают свет.',
     },
     {
       name: 'Травертин',
-      text: 'Обычно задаётся хонингованным, с природными ямами, оставленными открытыми, а не залитыми до стекла. Линейная слоистость для столешниц, плит и архитектурных кромок.',
+      text: 'Обычно хонингованный, с открытыми природными порами, не заполненными до стеклянной гладкости. Линейная слоистость — для столешниц, слэбов и архитектурных кромок.',
     },
   ],
-  namedStonesLine: 'Именованные пакистанские камни и ориентировочные ставки:',
-  citationLine: 'Полный конспект для цитирования:',
-  howKicker: 'КАК НАЧИНАЕТСЯ ПЕРВЫЙ ЛОТ',
-  howTitleBefore: 'Четыре шага, затем ',
-  howTitleEm: 'ящик.',
-  howToName: 'Как запросить экспортный лот St Werkz из Karachi',
+  namedStonesLine: 'Пакистанские камни по названиям и ориентировочные цены:',
+  citationLine: 'Полная справка для цитирования:',
+  howKicker: 'КАК НАЧИНАЕТСЯ ПЕРВАЯ ПАРТИЯ',
+  howTitleBefore: 'Четыре шага — и ',
+  howTitleEm: 'ящик в пути.',
+  howToName: 'Как заказать экспортную партию St Werkz из Карачи',
   howToDescription:
-    'Запросите сфотографированные лоты мрамора, оникса или травертина со двора St Werkz в Karachi. Ящик образцов идёт раньше контейнера. Это не онлайн-оформление заказа.',
+    'Запросите фотографии партий мрамора, оникса или травертина со склада St Werkz в Карачи. Сначала ящик образцов, затем контейнер. Это не онлайн-заказ.',
   howTo: [
     {
       number: '01',
       name: 'Назовите камень и порт',
-      text: 'Напишите, какое семейство нужно — рисунчатый мрамор, оникс или травертин — отделку и порт назначения. Syed Rashid Ali принимает записку.',
+      text: 'Напишите, какой камень нужен — мрамор с рисунком, оникс или травертин, — а также отделку и порт назначения. Ваш запрос получит Syed Rashid Ali.',
     },
     {
       number: '02',
-      name: 'Прочитайте сфотографированный лот',
-      text: 'Студия отвечает лицами со двора, не общим каталогом. Если камня нет в руках, это говорится прямо.',
+      name: 'Изучите фотографии партии',
+      text: 'Студия присылает снимки слэбов со склада, а не общий каталог. Если нужного камня нет в наличии, мы скажем об этом прямо.',
     },
     {
       number: '03',
       name: 'Отправьте ящик образцов',
-      text: 'Малый ящик согласованных лиц едет первым. Отзыв о тоне и отделке собирается до разговора о контейнере как повторе.',
+      text: 'Первым отправляется небольшой ящик с согласованными образцами. Мы собираем ваш отзыв о тоне и отделке, прежде чем обсуждать регулярные контейнерные поставки.',
     },
     {
       number: '04',
-      name: 'Затем первый лот',
-      text: 'Первый оплаченный лот обычно обсуждается как смешанная двадцатифутовая загрузка сфотографированных слэбов, FOB Karachi. Больший ритм ждёт этого прибытия.',
+      name: 'Затем первая партия',
+      text: 'Первая оплаченная партия — обычно сборный 20-футовый контейнер слэбов, отобранных по фотографиям, FOB Карачи. О больших объёмах говорим после её прибытия.',
     },
   ],
-  termsKicker: 'УСЛОВИЯ, ЗА КОТОРЫМИ МЫ СТОИМ',
-  termsTitleBefore: 'FOB Karachi. Без ',
-  termsTitleEm: 'стены цен.',
+  termsKicker: 'УСЛОВИЯ, КОТОРЫХ МЫ ПРИДЕРЖИВАЕМСЯ',
+  termsTitleBefore: 'FOB Карачи. Без ',
+  termsTitleEm: 'публичного прайса.',
   terms: [
     {
       title: 'Инкотермс',
-      body: 'Разговоры начинаются FOB Karachi, если иное не согласовано письменно. Фрахт, страховка и сборы в пункте назначения называются отдельно.',
+      body: 'По умолчанию — FOB Карачи, если иное не согласовано письменно. Фрахт, страховка и сборы в пункте назначения рассчитываются отдельно.',
     },
     {
       title: 'Цена',
-      body: 'Нет опубликованного прайса и нет оформления заказа. Диапазон может быть дан для названного лота. Это не счёт и не банковская котировка.',
+      body: 'Публичного прайс-листа и онлайн-заказа нет. Для конкретной партии мы можем назвать ориентировочный диапазон. Это не счёт и не окончательный расчёт.',
     },
     {
       title: 'Количество',
-      body: 'Ящик образцов идёт первым. Смешанная двадцатифутовая загрузка — типичный первый разговор, не минимум, объявленный в интернете.',
+      body: 'Сначала — ящик образцов. Сборный 20-футовый контейнер — типичная первая поставка, а не минимальный объём заказа.',
     },
     {
-      title: 'Чего мы не заявим',
-      body: 'Итальянское происхождение, награды, идентичный цвет следующего контейнера без лоттинга или объём, который мы ещё не отгружали вместе.',
+      title: 'Чего мы не обещаем',
+      body: 'Итальянского происхождения, наград, идентичного цвета в следующем контейнере без подбора по партиям или объёмов, которые мы ещё не отгружали вместе.',
     },
   ],
   qcKicker: 'ДО УПАКОВКИ',
-  qcTitleBefore: 'Чек-лист, не ',
-  qcTitleEm: 'обещание идентичного.',
+  qcTitleBefore: 'Чек-лист, а не ',
+  qcTitleEm: 'обещание идентичности.',
   qc: [
     {
-      title: 'Лоттинг тона',
-      body: 'Лица, которые поедут вместе, группируются на глаз по дворовым фотографиям, затем подтверждаются до упаковки.',
+      title: 'Подбор по тону',
+      body: 'Слэбы одной поставки подбираются по тону на глаз по снимкам со склада и ещё раз проверяются перед упаковкой.',
     },
     {
       title: 'Отделка',
-      body: 'Хонингованная, полированная или подсветка только на ониксе. Отделка называется на лоте, не предполагается с мудборда.',
+      body: 'Хонингованная, полированная или — только для оникса — подсветка. Отделка указывается для каждой партии, а не угадывается по мудборду.',
     },
     {
-      title: 'Мера',
-      body: 'Толщина, калибровка и счёт указываются по лоту письменно. Они не печатаются как постоянный каталог.',
+      title: 'Размеры',
+      body: 'Толщина, калибровка и количество указываются письменно для каждой партии, а не публикуются как постоянный каталог.',
     },
     {
-      title: 'Заполнение и смола',
-      body: 'Что заполнено и что оставлено открытым — особенно на травертине — говорится до того, как ящик уедет.',
+      title: 'Заполнение пор и смола',
+      body: 'Что заполнено, а что оставлено открытым, — особенно на травертине, — мы сообщаем до отправки ящика.',
     },
     {
       title: 'Упаковка',
-      body: 'Защита кромок, метод ящика и погрузка могут сниматься со двора для серьёзного покупателя. Фильм делается для этого разговора; это не стоковый ролик.',
+      body: 'Для заинтересованного покупателя мы можем снять на складе защиту кромок, упаковку в ящики и погрузку. Видео снимается специально для вас — это не стоковый ролик.',
     },
     {
-      title: 'Отказ',
-      body: 'Не будут предложены безымянные смешанные лоты как один тон, имена карьеров, за которыми мы не стоим, и камень, который мы не снимали.',
+      title: 'Чего мы не делаем',
+      body: 'Мы не выдаём смешанные партии без названия за однотонные, не используем названия карьеров, за которые не можем поручиться, и не предлагаем камень, который не фотографировали.',
     },
   ],
-  faqKicker: 'ВОПРОСЫ / ПРЯМЫЕ ОТВЕТЫ',
+  faqKicker: 'ВОПРОСЫ И ОТВЕТЫ',
   faqTitleBefore: 'Что спрашивают у ',
-  faqTitleEm: 'стола.',
+  faqTitleEm: 'экспортного отдела.',
   faqs: [
     {
       id: 'what-is-export-desk',
-      question: 'Это то же самое, что купить стол у St Werkz?',
+      question: 'Это то же самое, что купить мебель у St Werkz?',
       answer:
-        'Нет. Коллекция — галерея мебели, объектов и архитектурных вещей, показанная на просмотре. Экспортный стол — для сфотографированных лотов мрамора, оникса и травертина как камня, который может ехать. Оба разговора идут к Syed Rashid Ali.',
+        'Нет. Коллекция — это галерея мебели, предметов интерьера и архитектурных изделий, доступная для осмотра по записи. Экспортный отдел занимается поставками партий мрамора, оникса и травертина по фотографиям. В обоих случаях вопросы решает Syed Rashid Ali.',
     },
     {
       id: 'do-you-publish-stock',
-      question: 'Публикуете ли вы живой складской список?',
+      question: 'Публикуете ли вы актуальные складские остатки?',
       answer:
-        'Нет. Книга слэбов на этой странице показывает, как фиксируются лоты, первоисточными дворовыми фотографиями, уже входящими в коллекцию. Текущие лица, толщина и счёт подтверждаются письменно покупателю, который спрашивает. Это не выгрузка склада и не прайс.',
+        'Нет. Каталог слэбов на этой странице на наших собственных снимках со склада показывает, как документируются партии. Актуальные слэбы, толщина и количество подтверждаются письменно по запросу покупателя. Это не складская выгрузка и не прайс-лист.',
     },
     {
       id: 'how-to-start-lot',
-      question: 'Как начать экспортный разговор?',
+      question: 'Как начать переговоры об экспорте?',
       answer:
-        'Напишите stoneworks014@gmail.com или воспользуйтесь формой на этой странице. Назовите семейство камня, отделку и порт назначения. Syed Rashid Ali отвечает сфотографированными лицами или честной запиской, если камня нет в руках. Ящик образцов идёт раньше контейнера.',
+        'Напишите на stoneworks014@gmail.com или воспользуйтесь формой на этой странице. Укажите тип камня, отделку и порт назначения. Syed Rashid Ali пришлёт фотографии слэбов или честно сообщит, если нужного камня нет в наличии. Сначала — ящик образцов, затем контейнер.',
     },
     {
       id: 'fob-karachi',
       question: 'Какие условия поставки использует St Werkz?',
       answer:
-        'Разговоры начинаются FOB Karachi, если иное не согласовано письменно. Студия в North Nazimabad, Karachi. Фрахт, страховка и сборы после порта называются отдельно. Опубликованной ставки фрахта на этом сайте нет.',
+        'По умолчанию — FOB Карачи, если иное не согласовано письменно. Студия находится в районе Норт-Назимабад, Карачи. Фрахт, страховка и сборы после порта рассчитываются отдельно. Публичных тарифов на фрахт на сайте нет.',
     },
   ],
-  contactKicker: 'ПРЯМАЯ ЛИНИЯ / KARACHI',
+  contactKicker: 'ПРЯМАЯ СВЯЗЬ / КАРАЧИ',
   contactTitleBefore: 'Назовите камень',
   contactTitleEm: 'и порт.',
   contactBody:
-    'Компания, пункт назначения, семейство и отделка. Syed Rashid Ali принимает записку. Это по-прежнему разговор — не корзина и не обещание большого объёма в первом письме.',
-  successTitle: 'Ваша записка на столе.',
-  successBody: 'Откройте её в почте, чтобы она дошла до Syed Rashid Ali, или напишите студии напрямую.',
+    'Компания, пункт назначения, тип камня и отделка. Ваш запрос получит Syed Rashid Ali. Это личные переговоры, а не корзина и не обещание больших объёмов в первом же письме.',
+  successTitle: 'Ваш запрос готов.',
+  successBody: 'Откройте его в почтовом приложении, чтобы отправить Syed Rashid Ali, или напишите в студию напрямую.',
   openEmail: 'Открыть в почте',
   fieldName: 'Ваше имя',
   fieldCompany: 'Компания',
   fieldEmail: 'Эл. почта',
   fieldPort: 'Порт назначения',
   portPlaceholder: 'Джебель-Али, Шанхай, Генуя…',
-  fieldStone: 'Семейство камня',
-  chooseStone: 'Выберите одно',
-  stoneFigured: 'Рисунчатый мрамор',
+  fieldStone: 'Тип камня',
+  chooseStone: 'Выберите вариант',
+  stoneFigured: 'Мрамор с рисунком',
   stoneOnyx: 'Оникс',
   stoneTravertine: 'Травертин',
-  stoneMixed: 'Смешанный лот',
+  stoneMixed: 'Сборная партия',
   fieldNeed: 'Что вам нужно',
-  needPlaceholder: 'Отделка, примерный объём и начинается ли это с ящика образцов.',
-  send: 'Отправить записку',
-  calcKicker: 'ДИАПАЗОН ЛОТА / ОРИЕНТИРОВОЧНЫЙ МАТЕРИАЛ',
+  needPlaceholder: 'Отделка, примерный объём и нужен ли сначала ящик образцов.',
+  send: 'Отправить запрос',
+  calcKicker: 'ДИАПАЗОН ПО ПАРТИИ / ОРИЕНТИР ПО МАТЕРИАЛУ',
   calcTitleBefore: 'Первая цифра ',
-  calcTitleEm: 'до ящика.',
-  calcBody: 'Именованный камень, площадь, толщина и отход — плюс порт назначения для брифа. Фрахт здесь не оценивается.',
-  footerTag: 'Сфотографированные лоты из Karachi.',
+  calcTitleEm: 'ещё до ящика образцов.',
+  calcBody: 'Камень, площадь, толщина и отходы — плюс порт назначения для задания. Фрахт здесь не рассчитывается.',
+  footerTag: 'Партии камня из Карачи — с фотографиями.',
   collection: 'Коллекция',
   architects: 'Архитекторам',
   backToTop: 'Наверх',
 };
 
 const ruStones: StonesIndex = {
-  kicker: 'Пакистан / камни с именами',
+  kicker: 'Пакистан / камни по названиям',
   pageTitle: 'Материалы',
-  titleBefore: 'Мрамор и оникс с ',
-  titleEm: 'именем.',
-  body: 'Это торговые названия пакистанского рынка и ориентировочные ставки на материал в PKR за квадратный фут — от пола до толщины кухонной столешницы, сентябрь 2026. Это не лабораторные имена, не котировка St Werkz и не цена готового стола. Сорт, толщина, полировка, отход и конкретный слэб по-прежнему двигают цифру. Просмотр в Karachi подтверждает камень.',
+  titleBefore: 'Мрамор и оникс ',
+  titleEm: 'по названиям.',
+  body: 'Это торговые названия пакистанского рынка и ориентировочные цены на материал в PKR за квадратный фут — от напольной толщины до толщины кухонной столешницы, на сентябрь 2026 года. Это не геологические названия, не расчёт стоимости St Werkz и не цена готового стола. На цену по-прежнему влияют сорт, толщина, полировка, отходы и конкретный слэб. Камень подтверждается на просмотре в Карачи.',
   ratesLine: (date, marbles, onyx, total) =>
-    `Ставки на ${date} · ${marbles} мраморов · ${onyx} цветов оникса · ${total} имён`,
-  filterAria: 'Фильтр по семейству камня',
-  filterAll: 'Все имена',
+    `Цены на ${date} · мрамор: ${marbles} · оникс: ${onyx} · всего названий: ${total}`,
+  filterAria: 'Фильтр по типу камня',
+  filterAll: 'Все названия',
   filterMarble: 'Мрамор',
   filterNatural: 'Природный камень',
   filterGranite: 'Гранит',
   filterOnyx: 'Оникс',
   filterTravertine: 'Травертин',
-  swatchKind: 'Поверхность камня',
+  swatchKind: 'Образец камня',
   projectKind: 'Установленный проект',
   emptyCategory: 'Собственных фотографий этой категории пока нет.',
   projectAlt: (name) => `${name} — проект St Werkz, Карачи`,
-  srTitle: 'Пакистанские имена мрамора и оникса с текущими диапазонами ставок',
-  colName: 'Имя',
+  srTitle: 'Пакистанский мрамор и оникс: названия и текущие ценовые диапазоны',
+  colName: 'Название',
   colOrigin: 'Происхождение',
   colGrade: 'Сорт',
-  colRate: 'Ставка / кв. фут',
+  colRate: 'Цена / кв. фут',
   also: 'Также',
   patternNote:
-    'У каждого имени есть фотография рисунка в высоком разрешении для опознания. Это справочные лица, а не снимки конкретного лота St Werkz — просмотр в Karachi подтверждает слэб.',
-  imageAlt: (name, colour) => `Рисунок ${name} — ${colour.toLowerCase()}, полированный слэб для опознания`,
+    'Для каждого названия есть фотография рисунка в высоком разрешении для идентификации. Это эталонные образцы, а не снимки конкретной партии St Werkz: слэб подтверждается на просмотре в Карачи.',
+  imageAlt: (name, colour) => `Рисунок ${name} — ${colour.toLowerCase()}, полированный слэб для идентификации`,
   openPattern: 'Открыть рисунок',
   closePattern: 'Закрыть рисунок',
-  identify: 'Опознать',
-  afterKicker: 'После имени',
-  afterTitleBefore: 'Ставка — не ',
-  afterTitleEm: 'изделие.',
+  identify: 'Определить',
+  afterKicker: 'После выбора камня',
+  afterTitleBefore: 'Цена камня — не ',
+  afterTitleEm: 'цена изделия.',
   afterBody:
-    'Эти полосы — для камня как материала. Обеденный стол, подсвеченный прилавок или резной объект по-прежнему следуют студийной оценке — размер, отделка, отход и слэб в руках. Запросите просмотр, чтобы связать имя с лицом.',
+    'Эти диапазоны — цена камня как материала. Стоимость обеденного стола, стойки с подсветкой или резного предмета определяет студийная оценка: размер, отделка, отходы и конкретный слэб в наличии. Запишитесь на просмотр, чтобы увидеть камень вживую.',
   estimateCta: 'Студийная оценка',
-  exportCta: 'Экспортный стол — лоты, не столы',
+  exportCta: 'Экспортный отдел — партии камня, не мебель',
   enquireCta: 'Запросить просмотр',
-  listName: 'Пакистанские имена мрамора и оникса',
+  listName: 'Пакистанский мрамор и оникс по названиям',
   rateDescribe: (colour, origin, rate) =>
-    `${colour}. ${origin}. Ориентировочная ставка на материал ${rate} за кв. фут.`,
+    `${colour}. ${origin}. Ориентировочная цена материала: ${rate} за кв. фут.`,
   grades: {
-    budget: 'Бюджет',
+    budget: 'Эконом',
     standard: 'Стандарт',
     premium: 'Премиум',
     luxury: 'Люкс',

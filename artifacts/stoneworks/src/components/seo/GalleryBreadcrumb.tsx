@@ -19,7 +19,7 @@ export function GalleryBreadcrumb({ items }: { items: Crumb[] }) {
                   {item.label}
                 </span>
               ) : (
-                <Link href={item.href} className="inline-flex min-h-6 items-center hover:underline">
+                <Link href={item.href} className="inline-flex min-h-6 min-w-6 items-center justify-center hover:underline">
                   {item.label}
                 </Link>
               )}

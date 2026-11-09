@@ -1,6 +1,8 @@
 import type { Catalog } from '../types';
 import { homeDesignCopy } from './home-design';
 import { withCatalogFallback } from './fallback';
+import { midSentence, sentenceStart } from '@/lib/phrase';
+import { itFill } from './fills/it';
 import { desks, stoneIndexes } from './desks';
 import { shippingCopy } from './shipping';
 
@@ -23,7 +25,7 @@ export const it: Catalog = withCatalogFallback({
       collection: {
         title: 'La collezione — St Werkz, Karachi',
         description:
-          'Cinque sale di pietra St Werkz — pranzo, soggiorno, accenti, interni e lastre — allestite come una galleria a Karachi. Nessun prezzo a parete; richieda una visita.',
+          'Cinque sale di pietra St Werkz — marmo, onice, pietra calcarea, lastre e artigianato — allestite come una galleria a Karachi. Nessun prezzo esposto; richieda una visita.',
       },
       atelier: {
         title: 'Atelier — St Werkz, Karachi',
@@ -33,7 +35,7 @@ export const it: Catalog = withCatalogFallback({
       enquire: {
         title: 'Richiedere una visita — St Werkz, Karachi',
         description:
-          'Richieda una visita St Werkz a Karachi. Scriva a stoneworks014@gmail.com o chiami il +92 304 7689678. Nomini un’opera o la sala: conversazione di studio, non un carrello.',
+          'Richieda una visita St Werkz a Karachi. Scriva a stoneworks014@gmail.com o chiami il +92 304 7689678. Indichi un’opera o la sala: una conversazione con lo studio, non un carrello.',
       },
       estimate: {
         title: 'Preventivo di studio — St Werkz, Karachi',
@@ -43,15 +45,15 @@ export const it: Catalog = withCatalogFallback({
       retailers: {
         title: 'Per i rivenditori — St Werkz, Karachi',
         description:
-          'Una selezione St Werkz di oggetti in marmo, onice e travertino per i rivenditori. Conversazione commerciale con lo studio di Karachi: scaffali composti, non un magazzino.',
+          'Una selezione St Werkz di oggetti in marmo, onice e travertino per i rivenditori. Conversazione commerciale con lo studio di Karachi: scaffali pensati, non un magazzino.',
       },
       retail: {
         title: 'Negozio — St Werkz, Karachi',
         description:
-          'Oggetti in onice e marmo fatti a mano per la casa da St Werkz, Karachi — ciotole, urne e tavoli, mostrati come galleria. Percorra le sale, poi richieda una visita.',
+          'Oggetti in onice e marmo fatti a mano per la casa da St Werkz, Karachi — ciotole, urne e tavoli, esposti come in una galleria. Percorra le sale, poi richieda una visita.',
       },
       architects: {
-        title: 'Architetto — St Werkz, Karachi',
+        title: 'Architetti — St Werkz, Karachi',
         description:
           'Supporto di materia St Werkz per architetti a Karachi: campioni, mobili in pietra, lastre e superfici specificati con intenzione.',
       },
@@ -61,11 +63,11 @@ export const it: Catalog = withCatalogFallback({
           'Oggetti e lastre per interior designer da St Werkz, Karachi — pezzi fatti a mano e superfici architettoniche per stanze arredate.',
       },
       export: {
-        title: 'Banco export — St Werkz, Karachi',
+        title: 'Ufficio export — St Werkz, Karachi',
         description:
-          'Lotti fotografati di marmo, onice e travertino dal cantiere St Werkz a Karachi. Una cassa di campioni prima di un container. FOB Karachi; nessun listino pubblicato.',
+          'Lotti fotografati di marmo, onice e travertino dal deposito St Werkz di Karachi. Una cassa di campioni prima di un container. FOB Karachi; nessun listino pubblicato.',
         keywords:
-          'esportazione lastre di marmo Karachi, lotti di onice pakistano, lastre di travertino FOB Karachi, marmo figurato Pakistan, cantiere St Werkz Karachi, esportare marmo dal Pakistan, Syed Rashid Ali',
+          'esportazione lastre di marmo Karachi, lotti di onice pakistano, lastre di travertino FOB Karachi, marmo figurato Pakistan, deposito St Werkz Karachi, esportare marmo dal Pakistan, Syed Rashid Ali',
       },
       stones: {
         title: 'Marmo e onice del Pakistan — St Werkz, Karachi',
@@ -90,24 +92,24 @@ export const it: Catalog = withCatalogFallback({
     },
     pieceCite: (title, form, material, evidence, dimensions) => {
       const dim = dimensions ? ` Dimensioni: ${dimensions}.` : '';
-      return `${title} è ${form} in ${material}, realizzato da St Werkz sotto la guida di Syed Rashid Ali a Karachi.${dim} Evidenza: ${evidence.toLowerCase()}.`;
+      return `${title}: ${midSentence(form)}, in ${midSentence(material)}. Realizzato da St Werkz sotto la guida di Syed Rashid Ali a Karachi.${dim} Immagine: ${evidence.toLowerCase()}.`;
     },
   },
   chrome: {
-    skip: 'Vai alla collezione',
+    skip: 'Alla collezione',
     collection: 'Collezione',
     atelier: 'Atelier',
     about: 'Chi siamo',
     estimate: 'Preventivo',
     enquire: 'Richiesta',
     requestViewing: 'Richiedere una visita',
-    openMenu: 'Apri il menu',
-    closeMenu: 'Chiudi il menu',
+    openMenu: 'Aprire il menu',
+    closeMenu: 'Chiudere il menu',
     forRetailers: 'Per i rivenditori',
     forArchitects: 'Per gli architetti',
-    forExport: 'Banco export',
+    forExport: 'Ufficio export',
     retailStore: 'Negozio',
-    architect: 'Architetto',
+    architect: 'Architetti',
     interiorDesign: 'Interior design',
     wholesalers: 'Grossisti',
     footerBrand: 'St Werkz / Karachi',
@@ -123,47 +125,47 @@ export const it: Catalog = withCatalogFallback({
     footerNav: 'Navigazione del piè di pagina',
   },
   hint: {
-    message: 'St Werkz è scritto anche nella tua lingua.',
-    action: 'Continua in {language}',
-    dismiss: 'Resta in inglese',
+    message: 'St Werkz è disponibile anche nella sua lingua.',
+    action: 'Continui in {language}',
+    dismiss: 'Resti in inglese',
   },
   definitions: {
     studio:
-      'St Werkz è uno studio di pietra a Karachi diretto da Syed Rashid Ali. Realizza mobili, oggetti, interni e lastre in travertino, onice e marmo. La collezione è allestita in cinque sale e si mostra con visita, non si vende da un carrello. Non ci sono prezzi a parete.',
+      'St Werkz è uno studio di pietra a Karachi diretto da Syed Rashid Ali. Realizza mobili, oggetti, interni e lastre in travertino, onice e marmo. La collezione è allestita in cinque sale e si visita su appuntamento; non si vende online. Non ci sono prezzi esposti.',
     estimate:
       'Un preventivo di studio St Werkz è una forchetta indicativa in PKR basata su misura, pietra e forma. Non è un prezzo, un preventivo chiuso né un acquisto. Ogni lastra è unica. Una visita allo studio di Karachi conferma la pietra prima che l’incarico proceda.',
     collection:
-      'La collezione St Werkz sono cinque sale di pietra — pranzo, soggiorno, accenti, interni e superfici — mostrate a Karachi come una galleria. Ogni sala ha un testo a parete e opere allestite con aria intorno. Richieda una visita per vedere un pezzo di persona.',
+      'La collezione St Werkz è composta da cinque sale di pietra — marmo, onice, pietra calcarea, lastre e artigianato — esposte a Karachi come in una galleria. Ogni sala ha un testo a parete e opere allestite con aria intorno. Richieda una visita per vedere un pezzo di persona.',
     retailer:
       'St Werkz fornisce i rivenditori con una selezione ponderata di oggetti in marmo, onice e travertino dal suo studio di Karachi. Le collezioni di apertura si costruiscono con il negozio, non si scaricano da un magazzino. Le conversazioni commerciali iniziano con Syed Rashid Ali.',
     retailStore:
-      'Il negozio St Werkz è la galleria di Karachi di oggetti in onice e marmo fatti a mano per la casa — ciotole, urne, tavoli — mostrati su visita, non venduti da un carrello.',
+      'Il negozio St Werkz è la galleria di Karachi di oggetti in onice e marmo fatti a mano per la casa — ciotole, urne, tavoli — visibili su appuntamento, non venduti online.',
     architect:
-      'St Werkz aiuta gli architetti a specificare travertino, onice e marmo da Karachi. Il supporto va dal primo campione alla stanza finita. Porti un brief o una domanda di materia a Syed Rashid Ali.',
+      'St Werkz aiuta gli architetti a specificare travertino, onice e marmo da Karachi. Il supporto va dal primo campione alla stanza finita. Sottoponga un progetto o una domanda sui materiali a Syed Rashid Ali.',
     interiorDesigner:
       'St Werkz lavora con gli interior designer su oggetti fatti a mano e lastre per stanze arredate. Specifichi un tavolo, un’urna, un banco o un muro dallo stesso studio di Karachi.',
     export:
-      'St Werkz discute lotti di marmo, onice e travertino dal cantiere di Karachi con importatori e laboratori. Un lotto fotografato e una cassa di campioni arrivano prima di un container. Non c’è un listino pubblicato. Syed Rashid Ali prende la conversazione. I mobili restano in galleria.',
+      'St Werkz discute lotti di marmo, onice e travertino dal deposito di Karachi con importatori e laboratori. Un lotto fotografato e una cassa di campioni arrivano prima di un container. Non c’è un listino pubblicato. Syed Rashid Ali segue personalmente la conversazione. I mobili restano in galleria.',
     origin:
       'St Werkz affonda in una famiglia di Bandha, ad Allahabad, Uttar Pradesh. Generazioni di migrazione hanno portato musica, pittura, colore e mestiere; quel rapporto ereditato con il fare prende ora forma in marmo, onice e travertino a Karachi.',
     piece: (title, material, form, roomTitle) =>
-      `${title} è un’opera St Werkz in ${material}, della sala ${roomTitle} a Karachi. ${form}.`,
-    room: (title, wallText) => `${title} è una sala della collezione St Werkz a Karachi. ${wallText}`,
+      `${title} è un’opera St Werkz in ${midSentence(material)}, esposta nella sala «${roomTitle}» a Karachi. ${sentenceStart(form)}.`,
+    room: (title, wallText) => `${title}: una sala della collezione St Werkz a Karachi. ${wallText}`,
   },
   home: {
     heroKicker: 'Karachi / uno studio di materia',
-    heroTitle: 'Pietra a grande scala. Scolpita per uno.',
+    heroTitle: 'Pietra scelta in quantità. Lavorata pezzo per pezzo.',
     heroBody:
       'Da oggetti singolari fatti a mano per la casa alla fornitura all’ingrosso di marmo e alle superfici architettoniche in volume.',
-    enterCollection: 'Entra nella collezione',
+    enterCollection: 'Entri nella collezione',
     studioEstimate: 'Preventivo di studio',
     requestViewing: 'Richiedere una visita',
-    walkIn: 'Entra',
+    walkIn: 'Entri',
     onView: (count) => `In sala / ${count} opere`,
     roomsHeadingBefore: 'Cinque sale di pietra, allestite come una ',
     roomsHeadingEm: 'galleria.',
     questionsLink: 'Domande, risposte chiare',
-    featuredCaption: 'Plinto in onice luminoso / Soggiorno e luce',
+    featuredCaption: 'Tavolo da pranzo a pillola in travertino / Collezione Pietra calcarea',
     studioKicker: 'Lo studio',
     studioBody: (name) =>
       `St Werkz è diretto da ${name} dallo studio di Karachi. Per un primo incontro con un tavolo, un lavabo o una lastra, richieda una visita — non un pagamento in rete.`,
@@ -173,32 +175,32 @@ export const it: Catalog = withCatalogFallback({
     works: (count) => `${count} opere`,
     heroAlt: 'Artigianato in pietra pakistana in onice ambrato, marmo nero e marmo venato d’oro, St Werkz Karachi',
     secondStillAlt: 'Tavolino in onice bianco retroilluminato che brilla in un soggiorno, St Werkz Karachi',
-    journeysKicker: 'Chi siete / dove andare',
+    journeysKicker: 'Chi è / dove andare',
     journeysTitleBefore: 'Tre percorsi nello ',
     journeysTitleEm: 'studio.',
     journeysBody:
-      'Vedete come collezionisti, architetti e partner all’ingrosso entrano in St Werkz — poi scegliete la porta che vi riguarda.',
+      'Veda come collezionisti, architetti e partner all’ingrosso entrano in St Werkz — poi scelga la porta che fa per lei.',
     journeysVideoLabel: 'Percorsi St Werkz: tre ingressi nello studio di Karachi',
     journeysCaptionsLabel: 'Sottotitoli in inglese',
     journeysCollectorName: 'Il collezionista',
-    journeysCollectorBody: 'Un pezzo singolare per la casa. Oggetti fatti a mano, mostrati come galleria.',
-    journeysCollectorCta: 'Entra nella collezione',
+    journeysCollectorBody: 'Un pezzo unico per la casa. Oggetti fatti a mano, esposti come in una galleria.',
+    journeysCollectorCta: 'Entri nella collezione',
     journeysVisionaryName: 'Il visionario',
     journeysVisionaryBody: 'Oggetti e lastre per grandi spazi — architetti e interior designer.',
     journeysVisionaryCta: 'Per gli architetti',
     journeysStrategistName: 'Lo stratega',
-    journeysStrategistBody: 'Fornitura all’ingrosso e logistica — lastre, volume e il desk export.',
-    journeysStrategistCta: 'Desk export',
-    aboutCta: 'Scopri lo studio',
+    journeysStrategistBody: 'Fornitura all’ingrosso e logistica — lastre, volumi e l’ufficio export.',
+    journeysStrategistCta: 'Ufficio export',
+    aboutCta: 'Scopra lo studio',
   },
   collection: {
     kicker: 'La collezione / cinque sale',
     titleBefore: 'Percorra le ',
     titleEm: 'sale.',
     roomLine: (roman, count) => `Sala ${roman} / ${count} opere`,
-    enterRoom: 'Entra in questa sala',
+    enterRoom: 'Entri in questa sala',
     roomNotHung: 'Questa sala non è allestita.',
-    returnCollection: 'Torna alla collezione',
+    returnCollection: 'Torni alla collezione',
     workNotOnView: 'Questa opera non è in sala.',
     stone: 'Pietra',
     form: 'Forma',
@@ -207,13 +209,13 @@ export const it: Catalog = withCatalogFallback({
     otherWorks: 'Altre opere',
     requestViewing: 'Richiedere una visita',
     estimateSimilar: 'Preventivare un pezzo simile',
-    citeWork: 'Cita quest’opera',
+    citeWork: 'Citi quest’opera',
     maker: 'Autore',
     studio: 'Studio',
     stoneFamily: 'Famiglia di pietra',
     finish: 'Finitura',
-    evidence: 'Evidenza',
-    reviewed: 'Revisionato',
+    evidence: 'Immagine',
+    reviewed: 'Verificato',
     studioCity: 'St Werkz, Karachi',
   },
   atelier: {
@@ -229,7 +231,7 @@ export const it: Catalog = withCatalogFallback({
     materialsKicker: 'Le pietre che lavoriamo',
     materialsTitleBefore: 'Travertino, onice e ',
     materialsTitleEm: 'marmo.',
-    namedStonesKicker: 'Pakistan / pietre nominate',
+    namedStonesKicker: 'Pakistan / pietre con nome',
     namedStonesBody:
       'Nomi commerciali da Buner, Mohmand, Swat, Lasbela e dalla fascia di onice di Chagai, con tariffe indicative della materia del settembre 2026. Non è un preventivo per un pezzo finito.',
     namedStonesCta: 'Tutti i nomi e le tariffe',
@@ -271,37 +273,37 @@ export const it: Catalog = withCatalogFallback({
     kickerFromEstimate: 'Richiedere questo preventivo',
     titleBefore: 'Si comincia da ',
     titleEm: 'una domanda.',
-    body: 'Ci dica quale opera vorrebbe vedere, o descriva la stanza. Syed Rashid Ali prenderà la nota. È una conversazione di studio — non un carrello.',
+    body: 'Ci dica quale opera vorrebbe vedere, o descriva la stanza. Syed Rashid Ali leggerà personalmente il suo messaggio. È una conversazione con lo studio — non un carrello.',
     bodyFromEstimate:
-      'Il brief del suo preventivo di studio è sulla scrivania. Syed Rashid Ali prenderà la nota: resta una conversazione, non un carrello.',
+      'I dati del suo preventivo di studio sono già allegati. Syed Rashid Ali leggerà personalmente il suo messaggio: resta una conversazione, non un carrello.',
     rangeNoted: (range) => `Forchetta indicativa annotata: ${range}. `,
     viewingConfirms: 'Una visita conferma ancora la pietra.',
     reviseEstimate: 'Rivedere il preventivo',
     currentlyAsking: (title) => `In questo momento si chiede di ${title}`,
-    viewWork: 'Vedi l’opera',
+    viewWork: 'Veda l’opera',
     name: 'Il suo nome',
     namePlaceholder: 'Come dobbiamo rivolgerci a lei?',
     email: 'Indirizzo e-mail',
     emailPlaceholder: 'Dove possiamo rispondere?',
     whatToSee: 'Cosa vorrebbe vedere?',
-    briefing: 'Il brief',
+    briefing: 'Dettagli del progetto',
     messagePlaceholder: 'Un tavolo, una stanza, una lastra — o semplicemente un orario per visitare.',
     viewingOf: (title) => `Vorrei richiedere una visita di ${title}.`,
-    send: 'Invia la richiesta',
-    successTitle: 'La sua nota è sulla scrivania.',
+    send: 'Invii la richiesta',
+    successTitle: 'Abbiamo ricevuto il suo messaggio.',
     successBody: 'Grazie. Per una risposta più rapida, può anche scrivere direttamente allo studio.',
-    emailStudio: 'Scrivi allo studio',
+    emailStudio: 'Scriva allo studio',
     howKicker: 'Come richiedere una visita',
     howTitleBefore: 'Quattro passi, poi la ',
     howTitleEm: 'pietra.',
     howToName: 'Come richiedere una visita da St Werkz',
     howToDescription:
-      'Richieda una visita di mobili, oggetti o lastre in pietra allo studio St Werkz di Karachi. È una conversazione di studio, non un acquisto in rete.',
+      'Richieda una visita allo studio St Werkz di Karachi per vedere mobili, oggetti o lastre in pietra. È una conversazione con lo studio, non un acquisto online.',
     steps: [
       {
         number: '01',
         name: 'Scelga un’opera, o descriva la stanza',
-        text: 'Percorra la collezione e nomini il pezzo che vuole vedere, o racconti allo studio la stanza, la luce e la superficie di cui ha bisogno.',
+        text: 'Percorra la collezione e indichi il pezzo che vuole vedere, o racconti allo studio la stanza, la luce e la superficie di cui ha bisogno.',
       },
       {
         number: '02',
@@ -322,9 +324,9 @@ export const it: Catalog = withCatalogFallback({
   },
   offices: {
     heading: 'Uffici',
-    headingLong: 'Desk internazionali',
+    headingLong: 'Uffici internazionali',
     intro:
-      'Lo studio è a Karachi. Desk a New York, Barcellona, Kuala Lumpur e Dubai — scriva alla casa e la indirizzeremo alla conversazione più vicina.',
+      'Lo studio è a Karachi, con uffici a New York, Barcellona, Kuala Lumpur e Dubai. Scriva alla sede e la metteremo in contatto con l’ufficio più vicino.',
     studioLabel: 'Studio',
     places: {
       karachi: {
@@ -344,7 +346,7 @@ export const it: Catalog = withCatalogFallback({
     titleBefore: 'Una prima forchetta, prima della ',
     titleEm: 'lastra.',
     takingAsStart: (title) => `Prendendo ${title} come punto di partenza.`,
-    viewWork: 'Vedi l’opera',
+    viewWork: 'Veda l’opera',
     whatCommissioning: '01 / Cosa sta commissionando?',
     stoneFamily: '02 / Famiglia di pietra',
     finish: '03 / Finitura',
@@ -408,7 +410,7 @@ export const it: Catalog = withCatalogFallback({
     leads: {
       onyx:
         'Si realizza in base alla disponibilità della lastra — di solito da quattordici a venti settimane dopo aver riservato la pietra. L’abbinamento delle vene e l’illuminazione danno il ritmo.',
-      slab: 'Le lastre di cantiere si possono riservare prima; taglio e finitura seguono la faccia scelta — spesso da quattro a otto settimane.',
+      slab: 'Le lastre in deposito si possono riservare prima; taglio e finitura seguono la faccia scelta — spesso da quattro a otto settimane.',
       object: 'Le opere più piccole seguono il blocco in mano — di solito da quattro a dieci settimane dopo aver concordato la pietra.',
       counter:
         'I pezzi architettonici attendono la lastra e il cantiere — spesso da dieci a sedici settimane dopo la conferma di pietra e disegni.',
@@ -440,7 +442,7 @@ export const it: Catalog = withCatalogFallback({
       {
         number: '03',
         title: 'Una relazione che si ripete',
-        body: 'Resti vicino allo studio mentre i suoi clienti le dicono cosa vogliono dopo.',
+        body: 'Resti in contatto con lo studio mentre i suoi clienti le dicono che cosa desiderano dopo.',
       },
     ],
     editKicker: 'UNA SELEZIONE PRONTA PER IL NEGOZIO / 04 PUNTI DI PARTENZA',
@@ -452,13 +454,13 @@ export const it: Catalog = withCatalogFallback({
     contactTitleBefore: 'Costruiamo uno ',
     contactTitleEm: 'scaffale migliore.',
     contactBody: 'Ci parli del suo negozio, del cliente che serve e del tipo di collezione che vuole mettere davanti a loro.',
-    contactCard: 'CONTATTA ST WERKZ',
-    emailStudio: 'Scrivi allo studio',
-    startConversation: 'Inizia una conversazione',
-    enquire: 'Richiedi',
-    productEnquire: 'Richiedi',
+    contactCard: 'CONTATTI ST WERKZ',
+    emailStudio: 'Scriva allo studio',
+    startConversation: 'Inizi una conversazione',
+    enquire: 'Richiesta',
+    productEnquire: 'Richiesta',
     footerTag: 'Superfici con un punto di vista.',
-    backToTop: 'Torna in cima',
+    backToTop: 'Inizio pagina',
     products: [
       { slug: 'coral-canister', name: 'Barattolo in travertino con coperchio di corallo', note: 'Accenti scultorei' },
       { slug: 'travertine-bath', name: 'Set da bagno in travertino', note: 'Lusso quotidiano e quieto' },
@@ -484,8 +486,8 @@ export const it: Catalog = withCatalogFallback({
       },
       {
         number: '02',
-        title: 'Campioni che muovono il brief',
-        body: 'Porti una domanda di materia. La aiutiamo a passare da una sensazione a qualcosa da mettere davanti a un cliente.',
+        title: 'Campioni che fanno avanzare il progetto',
+        body: 'Ci porti una domanda sui materiali. La aiutiamo a passare da un’intuizione a qualcosa da presentare a un cliente.',
       },
       {
         number: '03',
@@ -493,17 +495,17 @@ export const it: Catalog = withCatalogFallback({
         body: 'Nessuno strato tra la domanda e chi la aiuta a trovare il pezzo giusto.',
       },
     ],
-    editKicker: 'DIREZIONI DI MATERIA / PER IL SUO PROSSIMO BRIEF',
+    editKicker: 'DIREZIONI DI MATERIALE / PER IL SUO PROSSIMO PROGETTO',
     editTitleBefore: 'Si parte dalla ',
     editTitleEm: 'superficie.',
     editBody: 'Lavabo, oggetto o accento architettonico: ogni direzione inizia da ciò che il materiale sta cercando di dire.',
     samples: 'Campioni e conversazioni di progetto benvenuti',
-    bringBrief: 'Porti un brief',
+    bringBrief: 'Ci presenti un progetto',
     contactKicker: 'UNA LINEA DIRETTA / KARACHI',
     contactTitleBefore: 'Specifichiamo qualcosa che ',
     contactTitleEm: 'resti.',
     contactBody:
-      'Ci parli della stanza, del brief o della domanda di materia. Partiremo dalla conversazione giusta, non da un dump di catalogo.',
+      'Ci parli della stanza, del progetto o della sua domanda sui materiali. Partiremo dalla conversazione giusta, non da un catalogo generico.',
     products: [
       { slug: 'vessel-sink', name: 'Lavabo da appoggio noir e oro', note: 'Piano / bagno' },
       { slug: 'onyx-waterfall', name: 'Cascata in onice retroilluminato', note: 'Un primo dettaglio forte' },
@@ -523,41 +525,41 @@ export const it: Catalog = withCatalogFallback({
     pointTitleEm: 'oggetto e superficie.',
     steps: [
       { number: '01', title: 'Oggetti che tengono lo schema', body: 'Urne, ciotole, tavoli e lavabi — i pezzi con cui il cliente vive, specificati con la stessa cura dell’architettura.' },
-      { number: '02', title: 'Lastre alla scala della stanza', body: 'Banchi, bordi a cascata e pareti dal cantiere di Karachi, accordati con gli oggetti già nel brief.' },
-      { number: '03', title: 'Una sola conversazione di studio', body: 'Artigianato e superfici in volume dallo stesso banco. Porti un’atmosfera, un disegno o una domanda di materia.' },
+      { number: '02', title: 'Lastre alla scala della stanza', body: 'Banchi, bordi a cascata e pareti dal deposito di Karachi, abbinati agli oggetti già previsti nel progetto.' },
+      { number: '03', title: 'Una sola conversazione di studio', body: 'Artigianato e superfici in volume dallo stesso ufficio. Ci porti un’atmosfera, un disegno o una domanda sui materiali.' },
     ],
     editKicker: 'DIREZIONI / OGGETTI + SUPERFICI',
-    editTitleBefore: 'Arredare la ',
+    editTitleBefore: 'Arredare con la ',
     editTitleEm: 'pietra.',
     editBody: 'Si parta da un pezzo che la stanza terrà, o da una superficie intorno a cui si costruisce. Entrambi appartengono alla stessa conversazione.',
     samples: 'Campioni, oggetti e conversazioni di progetto benvenuti',
-    bringBrief: 'Porti un brief d’interno',
+    bringBrief: 'Ci presenti un progetto d’interni',
     contactKicker: 'UNA LINEA DIRETTA / KARACHI',
     contactTitleBefore: 'Arrediamo la stanza ',
     contactTitleEm: 'in pietra.',
-    contactBody: 'Ci parli dell’interno — gli oggetti, le lastre, la luce. Partiremo dalla conversazione giusta, non da un dump di catalogo.',
+    contactBody: 'Ci parli dell’interno — gli oggetti, le lastre, la luce. Partiremo dalla conversazione giusta, non da un catalogo generico.',
     products: [
       { slug: 'onyx-urns', name: 'Coppia di urne in onice', note: 'Oggetto / accento' },
       { slug: 'luminous-onyx', name: 'Plinto in onice luminoso', note: 'Soggiorno / luce' },
       { slug: 'onyx-waterfall', name: 'Cascata in onice retroilluminato', note: 'Superficie / pezzo' },
       { slug: 'hotel-reception', name: 'Reception in travertino', note: 'Pietra a scala di stanza' },
     ],
-    navArchitects: 'Architetto',
+    navArchitects: 'Architetti',
   },
   retailStore: {
     kicker: 'Negozio / Karachi',
-    titleBefore: 'Un pezzo singolare ',
+    titleBefore: 'Un pezzo unico ',
     titleEm: 'per la casa.',
-    body: 'Oggetti in onice e marmo fatti a mano — ciotole, urne, tavoli — allestiti come una galleria. Percorra le sale, poi richieda una visita. È una conversazione di studio, non un carrello.',
-    enterCollection: 'Entra nella collezione',
+    body: 'Oggetti in onice e marmo fatti a mano — ciotole, urne, tavoli — esposti come in una galleria. Percorra le sale, poi richieda una visita. È una conversazione con lo studio, non un carrello.',
+    enterCollection: 'Entri nella collezione',
     requestViewing: 'Richiedere una visita',
     pathKicker: 'Come un pezzo lascia lo studio',
     pathTitleBefore: 'Scoprire, percorrere, ',
     pathTitleEm: 'poi vederlo.',
     steps: [
-      { number: '01', title: 'Scoprire', body: 'Percorra le cinque sale — pranzo, soggiorno, accenti, interni e lastre — come una galleria quieta.' },
-      { number: '02', title: 'Percorrere le sale', body: 'Apri un’opera, leggi la pietra e resti con la forma prima di chiedere un orario.' },
-      { number: '03', title: 'Richiedere una visita', body: 'Nomini il pezzo o la sala. Syed Rashid Ali prende la nota e conferma la pietra a Karachi.' },
+      { number: '01', title: 'Scoprire', body: 'Percorra le cinque sale — marmo, onice, pietra calcarea, lastre e artigianato — come una galleria silenziosa.' },
+      { number: '02', title: 'Percorrere le sale', body: 'Apra un’opera, legga la scheda della pietra e si soffermi sulla forma prima di fissare un appuntamento.' },
+      { number: '03', title: 'Richiedere una visita', body: 'Indichi il pezzo o la sala. Syed Rashid Ali riceve la richiesta e conferma la pietra a Karachi.' },
     ],
     featuredKicker: 'In sala',
     featuredTitleBefore: 'Opere con cui si ',
@@ -577,7 +579,7 @@ export const it: Catalog = withCatalogFallback({
       id: 'what-stoneworks-makes',
       question: 'Cosa realizza St Werkz?',
       answer:
-        'St Werkz realizza mobili, oggetti, interni e lastre in pietra a Karachi. La collezione comprende tavoli da pranzo, tavolini, accenti scultorei, banchi architettonici e lastre di cantiere, tagliati in travertino, onice e marmo. Le opere si mostrano come galleria. Richieda una visita per vedere un pezzo di persona.',
+        'St Werkz realizza mobili, oggetti, interni e lastre in pietra a Karachi. La collezione comprende tavoli da pranzo, tavolini, accenti scultorei, banchi architettonici e lastre dal deposito, tagliati in travertino, onice e marmo. Le opere sono esposte come in una galleria. Richieda una visita per vedere un pezzo di persona.',
     },
     {
       id: 'where-located',
@@ -595,13 +597,13 @@ export const it: Catalog = withCatalogFallback({
       id: 'custom-or-collection',
       question: 'St Werkz realizza pezzi su misura o solo la collezione?',
       answer:
-        'St Werkz mostra una collezione di opere finite e accetta anche commissioni. Le cinque sale — pranzo, soggiorno, accenti, interni e superfici — sono pezzi che può chiedere di vedere. Se le serve un tavolo, un lavabo o una lastra simile, inizi da un preventivo di studio. Una visita conferma ancora la pietra.',
+        'St Werkz mostra una collezione di opere finite e accetta anche commissioni. Le cinque sale — marmo, onice, pietra calcarea, lastre e artigianato — raccolgono pezzi che può chiedere di vedere. Se le serve un tavolo, un lavabo o una lastra simile, inizi da un preventivo di studio. Una visita conferma ancora la pietra.',
     },
     {
       id: 'how-to-view',
       question: 'Come si richiede una visita da St Werkz?',
       answer:
-        'Per richiedere una visita da St Werkz, apra la pagina di richiesta, nomini un’opera o descriva la stanza, e invii una nota. Syed Rashid Ali riceve il messaggio. Può anche scrivere a stoneworks014@gmail.com o chiamare il +92 304 7689678. È una conversazione di studio, non un acquisto in rete.',
+        'Per richiedere una visita da St Werkz, apra la pagina di richiesta, indichi un’opera o descriva la stanza, e invii un messaggio. Syed Rashid Ali riceve il messaggio. Può anche scrivere a stoneworks014@gmail.com o chiamare il +92 304 7689678. È una conversazione di studio, non un acquisto in rete.',
     },
     {
       id: 'materials',
@@ -631,7 +633,7 @@ export const it: Catalog = withCatalogFallback({
       id: 'prices',
       question: 'St Werkz pubblica i prezzi in rete?',
       answer:
-        'St Werkz non pubblica prezzi sulla parete della collezione né in rete. Un preventivo di studio dà una forchetta indicativa da misura, pietra e forma — mai un prezzo finale. Dopo il preventivo, richieda una visita perché la pietra sia confermata di persona. Contatti Syed Rashid Ali per continuare.',
+        'St Werkz non espone prezzi nella collezione né li pubblica online. Un preventivo di studio dà una forchetta indicativa da misura, pietra e forma — mai un prezzo finale. Dopo il preventivo, richieda una visita perché la pietra sia confermata di persona. Contatti Syed Rashid Ali per continuare.',
     },
     {
       id: 'pakistan-stones',
@@ -649,33 +651,33 @@ export const it: Catalog = withCatalogFallback({
       id: 'architects',
       question: 'St Werkz lavora con architetti e interior designer?',
       answer:
-        'Sì. St Werkz aiuta architetti e interior designer a specificare travertino, onice e marmo da Karachi. Il supporto va dal primo campione alla stanza finita. Porti un brief o una domanda di materia a Syed Rashid Ali. Campioni e conversazioni di progetto sono benvenuti.',
+        'Sì. St Werkz aiuta architetti e interior designer a specificare travertino, onice e marmo da Karachi. Il supporto va dal primo campione alla stanza finita. Sottoponga un progetto o una domanda sui materiali a Syed Rashid Ali. Campioni e conversazioni di progetto sono benvenuti.',
     },
   ],
   rooms: {
     marble: {
-      title: 'Tavola e convivio',
-      kicker: 'Tavoli che tengono una conversazione',
+      title: 'Collezione Marmo',
+      kicker: 'Superfici e arredi in marmo pregiato',
       wallText:
-        'Travertino ovale, pietra nera con movimento d’oro, onice salvia: superfici abbastanza grandi da riunirsi intorno. Questi pezzi si specificano come il centro quieto di una stanza, non come un set da catalogo.',
+        'Scopra la nostra raffinata gamma di prodotti in marmo, lavorati per eleganza e durata. Ideali per interni di lusso e progetti architettonici.',
       description:
-        'Tavoli da pranzo in travertino, onice e marmo di St Werkz, Karachi — pedane ovali, noir e oro, e pezzi di convivio in salvia, mostrati come una sala di galleria.',
+        'Superfici e arredi in marmo pregiato di St Werkz, Karachi — tavoli da pranzo lavorati con cura, superfici architettoniche e accessori.',
     },
     onyx: {
-      title: 'Soggiorno e luce',
-      kicker: 'Tavolini bassi, d’appoggio, bagliore',
+      title: 'Collezione Onice',
+      kicker: 'Onice traslucido e suggestivo',
       wallText:
-        'Tavolini da salotto e d’appoggio in onice, travertino e marmo. Alcuni sono retroilluminati. Altri poggiano su gabbie di ottone o steli a tulipano. Tutti sono fatti per stare nella luce e cambiare con essa.',
+        'Scopra la bellezza unica dell’onice retroilluminato. Ideale per pareti d’impatto, tavoli protagonisti e accenti di grande effetto.',
       description:
-        'Tavolini da salotto, d’appoggio e onice retroilluminato di St Werkz, Karachi — Soggiorno e luce, una sala di tavoli bassi, gabbie di ottone e steli a tulipano.',
+        'Onice traslucido e suggestivo di St Werkz, Karachi — lastre retroilluminate, tavoli protagonisti e accenti di grande effetto.',
     },
     limestone: {
-      title: 'Accenti scultorei',
-      kicker: 'Oggetti per lo scaffale e il bagno',
+      title: 'Collezione Pietra calcarea',
+      kicker: 'Pietra calcarea naturale e senza tempo',
       wallText:
-        'Ciotole, vasi, vassoi, candelieri e un lavabo da appoggio: opere più piccole dalle stesse pietre. Ognuna è finita come pezzo a sé, non come un dopo-pensiero del mobile.',
+        'Esplori la nostra versatile selezione di pietra calcarea: un’estetica calda e organica per progetti moderni e classici.',
       description:
-        'Oggetti scultorei in pietra di St Werkz, Karachi — ciotole, vassoi, lavabi da appoggio, candelieri e pezzi da bagno in travertino, onice e marmo.',
+        'Pietra calcarea naturale e senza tempo di St Werkz, Karachi — un’estetica calda e organica per progetti moderni e classici, con oggetti in travertino.',
     },
     interiors: {
       title: 'Interni e atmosfere',
@@ -686,26 +688,25 @@ export const it: Catalog = withCatalogFallback({
         'Pietra architettonica di St Werkz, Karachi — banchi reception, plinti con luce dal basso e bordi a cascata in onice retroilluminato alla scala di una hall o di una stanza.',
     },
     slabs: {
-      title: 'Superfici e lastre',
-      kicker: 'Il materiale prima della stanza',
+      title: 'Lastre di pietra',
+      kicker: 'Lastre di pietra naturale di grande formato',
       wallText:
-        'Lastre e piani in cantiere: marmo nero con vene di fulmine bianco, un disco circolare a figura d’oro. Questa è la pietra prima di diventare tavolo — il taglio da cui si trae il resto della collezione.',
+        'La nostra selezione di lastre pregiate, pronte a diventare elementi architettonici e piani su misura.',
       description:
-        'Lastre e piani dal cantiere St Werkz a Karachi — marmo nero con vene di fulmine e dischi circolari a figura d’oro prima che diventino tavoli.',
+        'Lastre di pietra naturale di grande formato dal deposito St Werkz di Karachi — pronte a diventare elementi architettonici e piani su misura.',
     },
-      handicrafts: {
-      title: 'Superfici e lastre',
-      kicker: 'Il materiale prima della stanza',
+    handicrafts: {
+      title: 'Artigianato in pietra',
+      kicker: 'Accenti in pietra fatti a mano',
       wallText:
-        'Lastre e piani in cantiere: marmo nero con vene di fulmine bianco, un disco circolare a figura d’oro. Questa è la pietra prima di diventare tavolo — il taglio da cui si trae il resto della collezione.',
+        'Oggetti in pietra lavorati con cura, dai vasi e dalle ciotole ai raffinati set da bagno, per un tocco di lusso nella vita di tutti i giorni.',
       description:
-        'Lastre e piani dal cantiere St Werkz a Karachi — marmo nero con vene di fulmine e dischi circolari a figura d’oro prima che diventino tavoli.',
+        'Artigianato e accenti in pietra di St Werkz, Karachi — vasi, ciotole e raffinati set da bagno in marmo e onice.',
     },
-    
   },
   pieces: {
     'oval-travertine-pedestal': {
-      title: 'Tavolo a pedana ovale in travertino',
+      title: 'Tavolo ovale in travertino con base a colonna',
       material: 'Travertino beige levigato',
       form: 'piano da pranzo ellittico su un peduccio conico in pietra',
       note: 'Un ovale lungo di travertino a vena lineare, abbastanza spesso da leggersi come architettura, su un solo piede conico. Fotografato con sedie miste in un appartamento di città: la pietra tiene la stanza senza chiedere ornamento.',
@@ -713,8 +714,8 @@ export const it: Catalog = withCatalogFallback({
     'oval-travertine-assemblage': {
       title: 'Assemblaggio ovale in travertino',
       material: 'Travertino crema levigato',
-      form: 'piano ovale su pedane in pietra a X che si intersecano',
-      note: 'Visto in laboratorio, ancora su tavola di protezione. Due cavalletti pesanti in pietra — uno incrociato, uno planare — portano un ovale a bordo arrotondato. Uno studio di come le lastre diventano gambe.',
+      form: 'piano ovale su basi in pietra a X che si intersecano',
+      note: 'Visto in laboratorio, ancora su tavola di protezione. Due cavalletti pesanti in pietra — uno incrociato, uno piano — sostengono un ovale a bordo arrotondato. Uno studio di come le lastre diventano gambe.',
     },
     'noir-gold-dining': {
       title: 'Tavolo da pranzo noir e oro',
@@ -743,14 +744,14 @@ export const it: Catalog = withCatalogFallback({
     'sage-onyx-organza': {
       title: 'Tavolo organza in onice salvia',
       material: 'Onice verde traslucido lucidato',
-      form: 'ovale a rene su due pedane esagonali sfaccettate',
+      form: 'ovale a rene su due basi esagonali sfaccettate',
       note: 'Un pezzo monumentale di laboratorio: pietra verde morbida con venature ruggine e ocra, il piano organicamente strozzato, le gambe tagliate come colonne esagonali gemelle. Ancora su compensato, già un’opera finita.',
     },
     'travertine-round-dining': {
       title: 'Tavolo da pranzo tondo in travertino',
       material: 'Travertino crema levigato',
       form: 'piano circolare su un peduccio conico rastremato',
-      note: 'Lo stesso linguaggio della pedana ovale, ridotto a un cerchio. Sedie imbottite, un muro terracotta, un piccolo vaso in pietra di fiori secchi. Il pranzo come interno fermo.',
+      note: 'Lo stesso linguaggio del tavolo ovale su colonna, ridotto a un cerchio. Sedie imbottite, un muro terracotta, un piccolo vaso in pietra di fiori secchi. Il pranzo come interno fermo.',
     },
     'luminous-onyx-plinth': {
       title: 'Plinto in onice luminoso',
@@ -766,21 +767,21 @@ export const it: Catalog = withCatalogFallback({
     },
     'sage-tulip-table': {
       title: 'Tavolino tulipano salvia',
-      material: 'Onice verde lucidato, pedana in metallo spazzolato',
+      material: 'Onice verde lucidato, base in metallo spazzolato',
       form: 'tavolino d’accento tondo su uno stelo a tulipano',
       note: 'La stessa famiglia di onice verde, questa volta su un piede metallico di metà secolo. Salvia, crema e terracotta nella pietra; un solo stelo sotto. Un accento che può stare da solo.',
     },
     'cream-companion-tables': {
       title: 'Tavolini compagni in crema',
       material: 'Pietra crema lucidata, ottone satinato',
-      form: 'coppia: pedana monolitica e tavolino a stelo in ottone',
+      form: 'coppia: base monolitica e tavolino a stelo in ottone',
       note: 'Due piani circolari dalla stessa pietra pallida. Uno su un tamburo rastremato in pietra; l’altro su uno stelo sottile in ottone e un disco. Una coppia pensata per essere letta insieme, come due note.',
     },
     'travertine-cone-table': {
       title: 'Tavolino cono in travertino',
       material: 'Travertino chiaro levigato',
       form: 'piano circolare su una base conica rastremata',
-      note: 'Un piccolo tavolo a pedana nello showroom, con fasce orizzontali che girano intorno al cono. Altri tavoli in pietra aspettano dietro. Forma ridotta a cerchio e tronco di cono.',
+      note: 'Un piccolo tavolo su base nello showroom, con fasce orizzontali che girano intorno al cono. Altri tavoli in pietra aspettano dietro. Forma ridotta a cerchio e tronco di cono.',
     },
     'notched-joinery-tables': {
       title: 'Tavolini in travertino a incastro',
@@ -791,7 +792,7 @@ export const it: Catalog = withCatalogFallback({
     'travertine-cross-table': {
       title: 'Tavolino in travertino a base a croce',
       material: 'Travertino beige levigato',
-      form: 'piano tondo su una pedana di lastre che si intersecano',
+      form: 'piano tondo su una base di lastre che si intersecano',
       note: 'Quattro lastre verticali in pietra si incontrano a croce e ricevono un piano circolare. Una candela sulla superficie, un divano crema accanto. Prima la geometria, poi i pori della pietra.',
     },
     'rust-cage-table': {
@@ -813,7 +814,7 @@ export const it: Catalog = withCatalogFallback({
       note: 'Due dischi neri, uno un poco più alto, bordi in metallo scuro. Stanno insieme su un tappeto come pietre in un fiume: vicini, non identici.',
     },
     'hex-pedestal-table': {
-      title: 'Tavolino a pedana esagonale',
+      title: 'Tavolino con base esagonale',
       material: 'Travertino crema levigato',
       form: 'piano circolare su un tamburo esagonale in pietra',
       note: 'Il tondo contro sei lati. Le fasce del travertino corrono come strati intorno al tamburo. Un tavolino con un vaso di rose: domestico, ma ancora un solido.',
@@ -832,14 +833,14 @@ export const it: Catalog = withCatalogFallback({
     },
     'amber-showroom-table': {
       title: 'Tavolo da showroom a vena ambra',
-      material: 'Onice o marmo crema lucidato con venature ambra, pedana scura',
+      material: 'Onice o marmo crema lucidato con venature ambra, base scura',
       form: 'piano rettangolare spesso su un plinto nero',
       note: 'Scattato in studio tra rastrelliere di campioni. Movimento arancio-oro su un fondo crema, una base scura a specchio, una piccola ciotola come segno di scala. Un tavolo che potrebbe anche essere un banco.',
     },
     'ochre-pedestal-table': {
-      title: 'Pedana ocra e carbone',
+      title: 'Tavolino ocra e carbone su colonna',
       material: 'Marmo figurato lucidato con venature oro e bianco',
-      form: 'piano circolare su una pedana curva e sottile',
+      form: 'piano circolare su una base curva e sottile',
       note: 'Un piccolo tavolo di dichiarazione: carbone, ocra, bianco spezzato. Un solo stelo, un’alta lucidatura. Pensato per un angolo, per essergli passato accanto piano.',
     },
     'vessel-sink': {
@@ -861,7 +862,7 @@ export const it: Catalog = withCatalogFallback({
       note: 'Due altezze, un solo linguaggio: un cono rastremato, una coppa spessa in pietra. Una candela a colonna nel più alto. Poroso, opaco e deliberatamente non lucidato.',
     },
     'pedestal-bowl': {
-      title: 'Ciotola a pedana in travertino',
+      title: 'Ciotola su piede in travertino',
       material: 'Travertino naturale',
       form: 'ciotola bassa su piede',
       note: 'Dodici pollici di diametro, cinque di altezza. Una ciotola larga dal bordo spesso su un piede corto a gradini: frutta, oggetti, o vuota. I pori della pietra restano aperti.',
@@ -929,7 +930,7 @@ export const it: Catalog = withCatalogFallback({
     'onyx-urns': {
       title: 'Coppia di urne in onice',
       material: 'Onice a bande lucidato in salvia, crema e ruggine',
-      form: 'urne classiche con bordo svasato e piede a pedana',
+      form: 'urne classiche con bordo svasato, su piede',
       note: 'Due vasi gemelli, traslucidi e a strati, il verde che cede al terracotta nella pietra stessa. Oggetti da mensola con un disegno geologico più che decorativo.',
     },
     'onyx-sphere-bowl': {
@@ -989,13 +990,13 @@ export const it: Catalog = withCatalogFallback({
     'noir-gold-disc': {
       title: 'Piano circolare noir e oro',
       material: 'Marmo nero lucidato con venature oro e bianco',
-      form: 'piano circolare, fotografato in cantiere',
+      form: 'piano circolare, fotografato al deposito',
       note: 'Un disco finito prima di essere tavolo: fiumi d’ocra e fili bianchi su un fondo nero, disteso sul pavimento del laboratorio. Il taglio da cui si immaginano i pezzi da pranzo.',
     },
     'nero-marquina-slabs': {
       title: 'Lastre Nero a vena',
       material: 'Marmo nero lucidato con venature di calcite bianca',
-      form: 'lastre verticali di grande formato in cantiere',
+      form: 'lastre verticali di grande formato al deposito',
       note: 'Due viste di lastre nere alte, venate come brina sul vetro. Muro, isola o tavolo ancora da decidere. L’inventario come allestimento.',
     },
   },
@@ -1033,8 +1034,8 @@ export const it: Catalog = withCatalogFallback({
   },
   evidence: {
     workshop: 'Fotografia di laboratorio / showroom',
-    interior: 'Interno installato',
-    'still-life': 'Natura morta dell’oggetto',
-    yard: 'Cantiere / lastra',
+    interior: 'Fotografia d’interno',
+    'still-life': 'Still life del prodotto',
+    yard: 'Fotografia al deposito / lastra',
   },
-});
+}, itFill);

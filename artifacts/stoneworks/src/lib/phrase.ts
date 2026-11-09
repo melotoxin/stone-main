@@ -10,6 +10,11 @@ export function midSentence(label: string): string {
   return label.charAt(0).toLowerCase() + label.slice(1);
 }
 
+/** "bandeja, dosificador…" -> "Bandeja, dosificador…" when a label starts a sentence. */
+export function sentenceStart(label: string): string {
+  return label.charAt(0).toLocaleUpperCase() + label.slice(1);
+}
+
 /** Indefinite article for a noun phrase: "an oval table", "an L-shaped desk", "a round tray". */
 export function withArticle(phrase: string): string {
   return `${/^(?:[aeiou]|l-)/i.test(phrase) ? 'an' : 'a'} ${phrase}`;

@@ -1,6 +1,8 @@
 import type { Catalog } from '../types';
 import { homeDesignCopy } from './home-design';
 import { withCatalogFallback } from './fallback';
+import { midSentence, sentenceStart } from '@/lib/phrase';
+import { esFill } from './fills/es';
 import { desks, stoneIndexes } from './desks';
 import { shippingCopy } from './shipping';
 import { projectCalcs } from './project-calc';
@@ -12,7 +14,7 @@ export const es: Catalog = withCatalogFallback({
       'mesa de mármol, mesa de comedor de travertino, mesa de centro de ónix, ónix retroiluminado, losas de mármol, muebles de mármol a medida, estudio de piedra Karachi, St Werkz Karachi, Syed Rashid Ali, travertino Pakistán, ónix Karachi',
     tagline: 'Un estudio de piedra en Karachi',
     description:
-      'St Werkz es un estudio de piedra en Karachi que realiza mesas, objetos y superficies arquitectónicas en travertino, ónix y mármol. La colección se muestra como galería; las visitas se conciertan a petición.',
+      'St Werkz es un estudio de piedra en Karachi que realiza mesas, objetos y superficies arquitectónicas en travertino, ónix y mármol. La colección se expone como en una galería y se visita con cita previa.',
     ogImageAlt:
       'Mostrador de recepción de travertino con canto en bruto en un vestíbulo de hotel silencioso, St Werkz Karachi',
     pages: {
@@ -24,17 +26,17 @@ export const es: Catalog = withCatalogFallback({
       collection: {
         title: 'La colección — St Werkz, Karachi',
         description:
-          'Cinco salas de piedra St Werkz — comedor, estar, acentos, interiores y losas — colgadas como una galería en Karachi. Sin precios en la pared; pida una visita.',
+          'Cinco salas de piedra St Werkz — mármol, ónix, piedra caliza, losas y artesanía — expuestas como en una galería en Karachi. Sin precios a la vista; pida una visita.',
       },
       atelier: {
         title: 'Taller — St Werkz, Karachi',
         description:
-          'St Werkz es un estudio de material en Karachi dirigido por Syed Rashid Ali. Muebles de travertino, ónix y mármol, de la primera conversación a una superficie que permanece.',
+          'St Werkz es un estudio de material en Karachi dirigido por Syed Rashid Ali. Muebles de travertino, ónix y mármol, desde la primera conversación hasta una superficie que perdura.',
       },
       enquire: {
         title: 'Pedir una visita — St Werkz, Karachi',
         description:
-          'Pida una visita a St Werkz en Karachi. Escriba a stoneworks014@gmail.com o llame al +92 304 7689678. Nombre una obra o la sala: conversación de estudio, no un carrito.',
+          'Pida una visita a St Werkz en Karachi. Escriba a stoneworks014@gmail.com o llame al +92 304 7689678. Indique una obra o describa el espacio: es una conversación con el estudio, no una compra en línea.',
       },
       estimate: {
         title: 'Estimado de estudio — St Werkz, Karachi',
@@ -44,15 +46,15 @@ export const es: Catalog = withCatalogFallback({
       retailers: {
         title: 'Para comercios — St Werkz, Karachi',
         description:
-          'Una selección St Werkz de objetos de mármol, ónix y travertino para comercios. Conversación comercial con el estudio de Karachi: estantes compuestos, no un almacén.',
+          'Una selección St Werkz de objetos de mármol, ónix y travertino para comercios. Una conversación comercial con el estudio de Karachi: una selección pensada para su tienda, no un excedente de almacén.',
       },
       retail: {
         title: 'Tienda — St Werkz, Karachi',
         description:
-          'Objetos de ónix y mármol hechos a mano para el hogar en St Werkz, Karachi — cuencos, urnas y mesas, mostrados como galería. Recorra las salas y pida una visita.',
+          'Objetos de ónix y mármol hechos a mano para el hogar en St Werkz, Karachi — cuencos, urnas y mesas, expuestos como en una galería. Recorra las salas y pida una visita.',
       },
       architects: {
-        title: 'Arquitecto — St Werkz, Karachi',
+        title: 'Arquitectos — St Werkz, Karachi',
         description:
           'Acompañamiento de material de St Werkz para arquitectos en Karachi: muestras, muebles de piedra, losas y superficies especificadas con intención.',
       },
@@ -62,11 +64,11 @@ export const es: Catalog = withCatalogFallback({
           'Objetos y losas para interioristas desde St Werkz, Karachi — piezas hechas a mano y superficies arquitectónicas para salas amuebladas.',
       },
       export: {
-        title: 'Escritorio de exportación — St Werkz, Karachi',
+        title: 'Departamento de exportación — St Werkz, Karachi',
         description:
-          'Lotes fotografiados de mármol, ónix y travertino desde el patio de St Werkz en Karachi. Un cajón de muestras antes de un contenedor. FOB Karachi; sin lista de precios publicada.',
+          'Lotes fotografiados de mármol, ónix y travertino desde el almacén de St Werkz en Karachi. Un cajón de muestras antes de un contenedor. FOB Karachi; sin lista de precios publicada.',
         keywords:
-          'exportación de losas de mármol Karachi, lotes de ónix pakistaní, losas de travertino FOB Karachi, mármol figurado Pakistán, patio St Werkz Karachi, exportar mármol de Pakistán, Syed Rashid Ali',
+          'exportación de losas de mármol Karachi, lotes de ónix pakistaní, losas de travertino FOB Karachi, mármol figurado Pakistán, almacén de piedra St Werkz Karachi, exportar mármol de Pakistán, Syed Rashid Ali',
       },
       stones: {
         title: 'Mármol y ónix de Pakistán — St Werkz, Karachi',
@@ -78,7 +80,7 @@ export const es: Catalog = withCatalogFallback({
       notFound: {
         title: 'Página no encontrada — St Werkz, Karachi',
         description:
-          'Esta página de St Werkz no está en sala. Vuelva a la colección de Karachi de mesas, objetos y superficies de piedra, o pida una visita.',
+          'Esta página de St Werkz no está disponible. Vuelva a la colección de Karachi de mesas, objetos y superficies de piedra, o pida una visita.',
       },
     },
     pieceTitle: (title) => `${title} — St Werkz, Karachi`,
@@ -91,7 +93,7 @@ export const es: Catalog = withCatalogFallback({
     },
     pieceCite: (title, form, material, evidence, dimensions) => {
       const dim = dimensions ? ` Dimensiones: ${dimensions}.` : '';
-      return `${title} es ${form} en ${material}, realizado por St Werkz bajo la dirección de Syed Rashid Ali en Karachi.${dim} Evidencia: ${evidence.toLowerCase()}.`;
+      return `${title}: ${midSentence(form)}, en ${midSentence(material)}. Realizado por St Werkz bajo la dirección de Syed Rashid Ali en Karachi.${dim} Imagen: ${evidence.toLowerCase()}.`;
     },
   },
   chrome: {
@@ -106,9 +108,9 @@ export const es: Catalog = withCatalogFallback({
     closeMenu: 'Cerrar menú',
     forRetailers: 'Para comercios',
     forArchitects: 'Para arquitectos',
-    forExport: 'Escritorio de exportación',
+    forExport: 'Departamento de exportación',
     retailStore: 'Tienda',
-    architect: 'Arquitecto',
+    architect: 'Arquitectos',
     interiorDesign: 'Diseño de interiores',
     wholesalers: 'Mayoristas',
     footerBrand: 'St Werkz / Karachi',
@@ -124,47 +126,47 @@ export const es: Catalog = withCatalogFallback({
     footerNav: 'Navegación del pie de página',
   },
   hint: {
-    message: 'St Werkz también está escrito en tu idioma.',
+    message: 'St Werkz también está disponible en su idioma.',
     action: 'Continuar en {language}',
     dismiss: 'Seguir en inglés',
   },
   definitions: {
     studio:
-      'St Werkz es un estudio de piedra en Karachi dirigido por Syed Rashid Ali. Realiza muebles, objetos, interiores y losas en travertino, ónix y mármol. La colección se cuelga en cinco salas y se muestra con visita, no se vende desde un carrito. No hay precios en la pared.',
+      'St Werkz es un estudio de piedra en Karachi dirigido por Syed Rashid Ali. Realiza muebles, objetos, interiores y losas en travertino, ónix y mármol. La colección se expone en cinco salas y se visita con cita previa; no se vende en línea. No hay precios a la vista.',
     estimate:
       'Un estimado de estudio St Werkz es un rango indicativo en PKR según tamaño, piedra y forma. No es un precio, ni un presupuesto cerrado, ni una compra. Cada losa es única. Una visita en el estudio de Karachi confirma la piedra antes de seguir con el encargo.',
     collection:
-      'La colección St Werkz son cinco salas de piedra — comedor, estar, acentos, interiores y superficies — mostradas en Karachi como una galería. Cada sala tiene texto de pared y obras colgadas con aire alrededor. Pida una visita para ver una pieza en persona.',
+      'La colección St Werkz consta de cinco salas de piedra — mármol, ónix, piedra caliza, losas y artesanía —, expuestas en Karachi como en una galería. Cada sala tiene su propio texto de presentación, y las obras se muestran con espacio para respirar. Pida una visita para ver una pieza en persona.',
     retailer:
-      'St Werkz abastece a comercios con una selección pensada de objetos de mármol, ónix y travertino desde su estudio de Karachi. Las colecciones de apertura se arman con la tienda, no se vuelcan desde un almacén. Las conversaciones comerciales empiezan con Syed Rashid Ali.',
+      'St Werkz abastece a comercios con una selección pensada de objetos de mármol, ónix y travertino desde su estudio de Karachi. La primera selección se compone junto con la tienda, no se saca a granel de un almacén. Las conversaciones comerciales empiezan con Syed Rashid Ali.',
     retailStore:
-      'La tienda St Werkz es la galería de Karachi de objetos de ónix y mármol hechos a mano para el hogar — cuencos, urnas, mesas — mostrados con visita, no vendidos desde un carrito.',
+      'La tienda St Werkz es la galería de Karachi de objetos de ónix y mármol hechos a mano para el hogar — cuencos, urnas, mesas — que se visitan con cita previa y no se venden en línea.',
     architect:
-      'St Werkz ayuda a arquitectos a especificar travertino, ónix y mármol desde Karachi. El acompañamiento va de la primera muestra a la sala terminada. Lleve un briefing o una pregunta de material a Syed Rashid Ali.',
+      'St Werkz ayuda a arquitectos a especificar travertino, ónix y mármol desde Karachi. El acompañamiento va de la primera muestra a la sala terminada. Traiga su proyecto o una pregunta de material a Syed Rashid Ali.',
     interiorDesigner:
       'St Werkz trabaja con interioristas en objetos hechos a mano y en losas para salas amuebladas. Especifique una mesa, una urna, un mostrador o un muro desde el mismo estudio de Karachi.',
     export:
-      'St Werkz conversa con importadores y talleres sobre lotes de mármol, ónix y travertino desde su patio en Karachi. Un lote fotografiado y un cajón de muestras van antes de un contenedor. No hay lista de precios publicada. Syed Rashid Ali toma la conversación. Los muebles permanecen en la galería.',
+      'St Werkz conversa con importadores y talleres sobre lotes de mármol, ónix y travertino desde su almacén en Karachi. Un lote fotografiado y un cajón de muestras van antes de un contenedor. No hay lista de precios publicada. Syed Rashid Ali atiende personalmente cada consulta. Los muebles permanecen en la galería.',
     origin:
       'St Werkz nace de una familia de Bandha, en Allahabad, Uttar Pradesh. Generaciones de migración llevaron música, pintura, color y oficio; esa relación heredada con el hacer toma ahora forma en mármol, ónix y travertino en Karachi.',
     piece: (title, material, form, roomTitle) =>
-      `${title} es una obra de St Werkz en ${material}, de la sala ${roomTitle} en Karachi. ${form}.`,
+      `${title} es una obra de St Werkz en ${midSentence(material)}, de la sala ${roomTitle} en Karachi. ${sentenceStart(form)}.`,
     room: (title, wallText) => `${title} es una sala de la colección St Werkz en Karachi. ${wallText}`,
   },
   home: {
     heroKicker: 'Karachi / un estudio de material',
-    heroTitle: 'Piedra a escala. Esculpida para uno.',
+    heroTitle: 'Piedra a gran escala. Esculpida a medida.',
     heroBody:
       'De objetos singulares hechos a mano para el hogar al mármol al por mayor y a las superficies arquitectónicas a granel.',
     enterCollection: 'Entrar en la colección',
     studioEstimate: 'Estimado de estudio',
     requestViewing: 'Pedir una visita',
     walkIn: 'Entrar',
-    onView: (count) => `En sala / ${count} obras`,
-    roomsHeadingBefore: 'Cinco salas de piedra, colgadas como una ',
+    onView: (count) => `Expuestas / ${count} obras`,
+    roomsHeadingBefore: 'Cinco salas de piedra, expuestas como en una ',
     roomsHeadingEm: 'galería.',
     questionsLink: 'Preguntas, respondidas con claridad',
-    featuredCaption: 'Plinto de ónix luminoso / Estar y luz',
+    featuredCaption: 'Mesa de comedor píldora de travertino / Colección de piedra caliza',
     studioKicker: 'El estudio',
     studioBody: (name) =>
       `St Werkz lo dirige ${name} desde el estudio de Karachi. Para un primer encuentro con una mesa, un lavabo o una losa, pida una visita — no un pago en línea.`,
@@ -188,8 +190,8 @@ export const es: Catalog = withCatalogFallback({
     journeysVisionaryBody: 'Objetos y losas para grandes espacios — arquitectos e interioristas.',
     journeysVisionaryCta: 'Para arquitectos',
     journeysStrategistName: 'El estratega',
-    journeysStrategistBody: 'Suministro mayorista y logística — losas, volumen y el escritorio de exportación.',
-    journeysStrategistCta: 'Escritorio de exportación',
+    journeysStrategistBody: 'Suministro mayorista y logística — losas, volumen y el departamento de exportación.',
+    journeysStrategistCta: 'Departamento de exportación',
     aboutCta: 'Conozca el estudio',
   },
   collection: {
@@ -198,9 +200,9 @@ export const es: Catalog = withCatalogFallback({
     titleEm: 'salas.',
     roomLine: (roman, count) => `Sala ${roman} / ${count} obras`,
     enterRoom: 'Entrar en esta sala',
-    roomNotHung: 'Esta sala no está colgada.',
+    roomNotHung: 'Esta sala no está expuesta.',
     returnCollection: 'Volver a la colección',
-    workNotOnView: 'Esta obra no está en sala.',
+    workNotOnView: 'Esta obra no está expuesta.',
     stone: 'Piedra',
     form: 'Forma',
     dimensions: 'Dimensiones',
@@ -213,7 +215,7 @@ export const es: Catalog = withCatalogFallback({
     studio: 'Estudio',
     stoneFamily: 'Familia de piedra',
     finish: 'Acabado',
-    evidence: 'Evidencia',
+    evidence: 'Imagen',
     reviewed: 'Revisado',
     studioCity: 'St Werkz, Karachi',
   },
@@ -232,13 +234,13 @@ export const es: Catalog = withCatalogFallback({
     materialsTitleEm: 'mármol.',
     namedStonesKicker: 'Pakistán / piedras con nombre',
     namedStonesBody:
-      'Nombres comerciales de Buner, Mohmand, Swat, Lasbela y el cinturón de ónix de Chagai, con tarifas indicativas de material de septiembre de 2026. No es un presupuesto de una pieza terminada.',
+      'Nombres comerciales de Buner, Mohmand, Swat, Lasbela y los yacimientos de ónix de Chagai, con tarifas indicativas de material de septiembre de 2026. No es un presupuesto de una pieza terminada.',
     namedStonesCta: 'Todos los nombres y tarifas',
     personKicker: 'La persona detrás del estudio',
     personTitleBefore: 'Una línea directa con ',
     personTitleEm: 'el origen.',
     personBody: (name) =>
-      `St Werkz lo dirige ${name}. Para preguntas de material, conversaciones de proyecto o un primer encuentro con una obra de la colección, es a quien hay que llamar.`,
+      `St Werkz lo dirige ${name}. Para preguntas de material, consultas sobre proyectos o un primer encuentro con una obra de la colección, él es su interlocutor directo.`,
     studioEstimate: 'Estimado de estudio',
     requestViewing: 'Pedir una visita',
     process: [
@@ -272,9 +274,9 @@ export const es: Catalog = withCatalogFallback({
     kickerFromEstimate: 'Pedir este estimado',
     titleBefore: 'Empiece por ',
     titleEm: 'una pregunta.',
-    body: 'Díganos qué obra quiere ver, o describa la sala. Syed Rashid Ali tomará la nota. Es una conversación de estudio — no un carrito.',
+    body: 'Díganos qué obra desea ver o describa el espacio. Syed Rashid Ali atenderá su consulta personalmente. Es una conversación con el estudio, no una compra en línea.',
     bodyFromEstimate:
-      'El briefing de su estimado de estudio está sobre la mesa. Syed Rashid Ali tomará la nota: sigue siendo una conversación, no un carrito.',
+      'Los datos de su estimado de estudio ya están incluidos. Syed Rashid Ali atenderá su consulta: sigue siendo una conversación, no una compra en línea.',
     rangeNoted: (range) => `Rango indicativo anotado: ${range}. `,
     viewingConfirms: 'Una visita sigue confirmando la piedra.',
     reviseEstimate: 'Revisar el estimado',
@@ -285,11 +287,11 @@ export const es: Catalog = withCatalogFallback({
     email: 'Correo electrónico',
     emailPlaceholder: '¿Dónde podemos responder?',
     whatToSee: '¿Qué le gustaría ver?',
-    briefing: 'El briefing',
+    briefing: 'Su proyecto',
     messagePlaceholder: 'Una mesa, una sala, una losa — o simplemente una hora para visitar.',
     viewingOf: (title) => `Quisiera pedir una visita de ${title}.`,
     send: 'Enviar la consulta',
-    successTitle: 'Su nota está sobre la mesa.',
+    successTitle: 'Su mensaje está listo.',
     successBody: 'Gracias. Para una respuesta más rápida, también puede escribir al estudio directamente.',
     emailStudio: 'Escribir al estudio',
     howKicker: 'Cómo pedir una visita',
@@ -297,7 +299,7 @@ export const es: Catalog = withCatalogFallback({
     howTitleEm: 'piedra.',
     howToName: 'Cómo pedir una visita en St Werkz',
     howToDescription:
-      'Pida una visita de muebles, objetos o losas de piedra en el estudio St Werkz de Karachi. Es una conversación de estudio, no una compra en línea.',
+      'Pida una visita para ver muebles, objetos o losas de piedra en el estudio St Werkz de Karachi. Es una conversación con el estudio, no una compra en línea.',
     steps: [
       {
         number: '01',
@@ -323,9 +325,9 @@ export const es: Catalog = withCatalogFallback({
   },
   offices: {
     heading: 'Oficinas',
-    headingLong: 'Escritorios internacionales',
+    headingLong: 'Oficinas internacionales',
     intro:
-      'El estudio está en Karachi. Escritorios en Nueva York, Barcelona, Kuala Lumpur y Dubái: escriba a la casa y le indicaremos la conversación más cercana.',
+      'El estudio está en Karachi, con oficinas en Nueva York, Barcelona, Kuala Lumpur y Dubái. Escríbanos y le pondremos en contacto con la más cercana.',
     studioLabel: 'Estudio',
     places: {
       karachi: {
@@ -369,14 +371,14 @@ export const es: Catalog = withCatalogFallback({
     stoneArea: 'Área de piedra',
     lead: 'Plazo',
     notFinal:
-      'Esto no es un precio final. Bases, iluminación, entrega y la losa concreta pueden mover la cifra — a veces mucho.',
+      'Esto no es un precio final. Bases, iluminación, entrega y la losa concreta influyen en el precio, a veces de forma notable.',
     requestThis: 'Pedir este estimado',
     howKicker: 'Cómo estimamos',
     howTitle: 'Bandas transparentes, no un catálogo.',
     howP1:
       'No hay una lista oficial de SKU en este sitio. El rango es una banda de estudio según la clase de piedra y el área (y, en lavabos y objetos, una parte del volumen de envolvente), luego se abre por merma de corte, acabado y cuánto pide de oficio la pieza.',
     howP2: (rate) =>
-      `El travertino queda por debajo del mármol; el ónix, sobre todo retroiluminado, por encima. Las plantas redondas y ovaladas asumen más merma que un rectángulo. Un espesor por encima de un tablero simple añade manejo. El PKR es la cifra nativa. El USD se muestra a ${rate} PKR por dólar — un tipo de conversación, no una cotización bancaria.`,
+      `El travertino queda por debajo del mármol; el ónix, sobre todo retroiluminado, por encima. Las plantas redondas y ovaladas asumen más merma que un rectángulo. Un espesor por encima de un tablero simple añade manejo. El PKR es la cifra nativa. El USD se muestra a ${rate} PKR por dólar — un tipo de cambio orientativo, no el de un banco.`,
     howP3: 'El número es una primera conversación. Syed Rashid Ali confirma la piedra en persona.',
     writeWithoutRange: 'O escribir sin un rango',
     indicative: 'Indicativo',
@@ -409,7 +411,7 @@ export const es: Catalog = withCatalogFallback({
     leads: {
       onyx:
         'Se hace según disponibilidad de losa — suele ser de catorce a veinte semanas después de reservar la piedra. El empalme de vetas y la iluminación marcan el ritmo.',
-      slab: 'Las losas de patio se pueden reservar antes; el corte y el acabado siguen la cara elegida — a menudo de cuatro a ocho semanas.',
+      slab: 'Las losas en almacén se pueden reservar antes; el corte y el acabado siguen la cara elegida — a menudo de cuatro a ocho semanas.',
       object: 'Las obras menores siguen el bloque a mano — de cuatro a diez semanas después de acordar la piedra.',
       counter:
         'Las piezas arquitectónicas esperan la losa y la obra — a menudo de diez a dieciséis semanas después de confirmar piedra y dibujos.',
@@ -431,7 +433,7 @@ export const es: Catalog = withCatalogFallback({
       {
         number: '01',
         title: 'Una primera selección pensada',
-        body: 'Empiece por un grupo coherente de objetos, no por un almacén de dudas.',
+        body: 'Empiece por un grupo coherente de objetos, no por un surtido al azar.',
       },
       {
         number: '02',
@@ -485,7 +487,7 @@ export const es: Catalog = withCatalogFallback({
       },
       {
         number: '02',
-        title: 'Muestras que mueven el briefing',
+        title: 'Muestras que hacen avanzar el proyecto',
         body: 'Traiga una pregunta de material. Le ayudamos a pasar de una sensación a algo que pueda poner delante de un cliente.',
       },
       {
@@ -494,27 +496,27 @@ export const es: Catalog = withCatalogFallback({
         body: 'Sin capas entre la pregunta y quien le ayuda a encontrar la pieza justa.',
       },
     ],
-    editKicker: 'DIRECCIONES DE MATERIAL / PARA SU PRÓXIMO BRIEFING',
+    editKicker: 'DIRECCIONES DE MATERIAL / PARA SU PRÓXIMO PROYECTO',
     editTitleBefore: 'Empiece por ',
     editTitleEm: 'la superficie.',
     editBody: 'Lavabo, objeto o acento arquitectónico: cada dirección empieza por lo que el material intenta decir.',
-    samples: 'Muestras y conversaciones de proyecto bienvenidas',
-    bringBrief: 'Traiga un briefing',
+    samples: 'Aceptamos muestras y consultas de proyecto',
+    bringBrief: 'Traiga su proyecto',
     contactKicker: 'UNA LÍNEA DIRECTA / KARACHI',
     contactTitleBefore: 'Especifiquemos algo que ',
     contactTitleEm: 'dure.',
     contactBody:
-      'Cuéntenos de la sala, del briefing o de la pregunta de material. Empezaremos por la conversación justa, no por un volcado de catálogo.',
+      'Cuéntenos sobre el espacio, el proyecto o su pregunta de material. Empezaremos por la conversación adecuada, no por un catálogo.',
     products: [
       { slug: 'vessel-sink', name: 'Lavabo de sobreponer noir y oro', note: 'Encimera / baño' },
       { slug: 'onyx-waterfall', name: 'Cascada de ónix retroiluminado', note: 'Un primer detalle fuerte' },
       { slug: 'emerald-cage-table', name: 'Mesa jaula esmeralda', note: 'Mobiliario / pieza protagonista' },
       { slug: 'onyx-urns', name: 'Par de urnas de ónix', note: 'Objeto / acento' },
     ],
-    objectsKicker: 'OBRAS ARTESANALES / PARA EL BRIEFING',
+    objectsKicker: 'OBRAS ARTESANALES / PARA SU PROYECTO',
     objectsTitleBefore: 'Piezas que caben ',
     objectsTitleEm: 'en el plano.',
-    objectsBody: 'Mesas, mostradores y objetos de la colección — como evidencia de proyecto, no como SKU de catálogo.',
+    objectsBody: 'Mesas, mostradores y objetos de la colección — como referencia para su proyecto, no como artículos de catálogo.',
     slabsKicker: 'PIEDRA EN CANTIDAD',
     slabsTitleBefore: 'Losas con nombre, ',
     slabsTitleEm: 'por pie cuadrado.',
@@ -538,19 +540,19 @@ export const es: Catalog = withCatalogFallback({
     pointTitleEm: 'objeto y superficie.',
     steps: [
       { number: '01', title: 'Objetos que sostienen el esquema', body: 'Urnas, cuencos, mesas y lavabos — las piezas con las que vive el cliente, especificadas con el mismo cuidado que la arquitectura.' },
-      { number: '02', title: 'Losas a escala de la sala', body: 'Mostradores, cantos en cascada y paramentos del patio de Karachi, acordados con los objetos ya en el briefing.' },
-      { number: '03', title: 'Una sola conversación de estudio', body: 'Artesanía y superficies a granel desde el mismo escritorio. Traiga un ambiente, un dibujo o una pregunta de material.' },
+      { number: '02', title: 'Losas a escala de la sala', body: 'Mostradores, cantos en cascada y revestimientos del almacén de Karachi, coordinados con los objetos ya previstos en el proyecto.' },
+      { number: '03', title: 'Una sola conversación de estudio', body: 'Artesanía y superficies a granel desde el mismo estudio. Traiga un ambiente, un dibujo o una pregunta de material.' },
     ],
     editKicker: 'DIRECCIONES / OBJETOS + SUPERFICIES',
-    editTitleBefore: 'Amueble la ',
+    editTitleBefore: 'Amueble con ',
     editTitleEm: 'piedra.',
     editBody: 'Empiece por una pieza que la sala guardará, o por una superficie en torno a la cual se construye. Ambas caben en la misma conversación.',
-    samples: 'Muestras, objetos y conversaciones de proyecto bienvenidas',
-    bringBrief: 'Traiga un briefing de interior',
+    samples: 'Aceptamos muestras, objetos y consultas de proyecto',
+    bringBrief: 'Traiga su proyecto',
     contactKicker: 'UNA LÍNEA DIRECTA / KARACHI',
     contactTitleBefore: 'Amueblemos la sala ',
     contactTitleEm: 'en piedra.',
-    contactBody: 'Cuéntenos del interior — los objetos, las losas, la luz. Empezaremos por la conversación justa, no por un volcado de catálogo.',
+    contactBody: 'Cuéntenos sobre el interior: los objetos, las losas, la luz. Empezaremos por la conversación adecuada, no por un catálogo.',
     products: [
       { slug: 'onyx-urns', name: 'Par de urnas de ónix', note: 'Objeto / acento' },
       { slug: 'luminous-onyx', name: 'Plinto de ónix luminoso', note: 'Estar / luz' },
@@ -563,7 +565,7 @@ export const es: Catalog = withCatalogFallback({
     objectsBody: 'Obras de comedor, estar y escultura, de las mismas piedras que las superficies — para una sala amueblada.',
     slabsKicker: 'SUPERFICIES A ESCALA DE SALA',
     slabsTitleBefore: 'Muros, mostradores ',
-    slabsTitleEm: 'y el patio.',
+    slabsTitleEm: 'y losas en almacén.',
     slabsBody: 'Interiores a escala de sala y piedras pakistaníes con nombre en cantidad. La calculadora es solo material.',
     calcKicker: 'RANGO DE SALA / INDICATIVO',
     calcTitleBefore: 'Objeto y superficie, ',
@@ -571,24 +573,24 @@ export const es: Catalog = withCatalogFallback({
     calcBody: 'Estime piedra para una sala amueblada — suelos, encimeras, muros — según las bandas publicadas.',
     openCollection: 'Recorrer las salas',
     openStones: 'Piedras con nombre y tarifas',
-    navArchitects: 'Arquitecto',
+    navArchitects: 'Arquitectos',
   },
   retailStore: {
     kicker: 'Tienda / Karachi',
     titleBefore: 'Una pieza singular ',
     titleEm: 'para casa.',
-    body: 'Objetos de ónix y mármol hechos a mano — cuencos, urnas, mesas — colgados como una galería. Recorra las salas y pida una visita. Es una conversación de estudio, no un carrito.',
+    body: 'Objetos de ónix y mármol hechos a mano — cuencos, urnas, mesas — expuestos como en una galería. Recorra las salas y pida una visita. Es una conversación con el estudio, no una compra en línea.',
     enterCollection: 'Entrar en la colección',
     requestViewing: 'Pedir una visita',
     pathKicker: 'Cómo sale una pieza del estudio',
     pathTitleBefore: 'Descubrir, recorrer, ',
     pathTitleEm: 'luego verla.',
     steps: [
-      { number: '01', title: 'Descubrir', body: 'Recorra las cinco salas — comedor, estar, acentos, interiores y losas — como una galería quieta.' },
+      { number: '01', title: 'Descubrir', body: 'Recorra las cinco salas — mármol, ónix, piedra caliza, losas y artesanía — como una galería tranquila.' },
       { number: '02', title: 'Recorrer las salas', body: 'Abra una obra, lea la piedra y quédese con la forma antes de pedir una hora.' },
-      { number: '03', title: 'Pedir una visita', body: 'Nombre la pieza o la sala. Syed Rashid Ali toma la nota y confirma la piedra en Karachi.' },
+      { number: '03', title: 'Pedir una visita', body: 'Indique la pieza o la sala. Syed Rashid Ali atiende su consulta y confirma la piedra en Karachi.' },
     ],
-    featuredKicker: 'En sala',
+    featuredKicker: 'Expuestas',
     featuredTitleBefore: 'Obras con las que se ',
     featuredTitleEm: 'vive.',
     featuredBody: 'Una primera mirada a objetos y mesas de la colección. Abra una pieza y pida una visita.',
@@ -600,8 +602,8 @@ export const es: Catalog = withCatalogFallback({
     filterAccents: 'Acentos',
     storeKicker: 'La tienda',
     storeTitleBefore: 'Obras artesanales ',
-    storeTitleEm: 'en sala.',
-    storeBody: 'Objetos, mesas y acentos de la colección. Filtre una sala, abra una pieza y pida una visita. No hay carrito.',
+    storeTitleEm: 'expuestas.',
+    storeBody: 'Objetos, mesas y acentos de la colección. Filtre por sala, abra una pieza y pida una visita. No se vende en línea.',
     countLine: (count) => `${count} obras`,
     pieceEnquire: 'Pedir una visita',
   },
@@ -609,7 +611,7 @@ export const es: Catalog = withCatalogFallback({
   exportDesk: desks.es,
   stonesIndex: stoneIndexes.es,
   notFound: {
-    title: 'Esta página no está en sala.',
+    title: 'Esta página no está disponible.',
     body: 'Vuelva a la colección St Werkz de mármol, travertino y ónix en Karachi, o pida una visita.',
     cta: 'Recorrer las salas',
   },
@@ -618,7 +620,7 @@ export const es: Catalog = withCatalogFallback({
       id: 'what-stoneworks-makes',
       question: '¿Qué hace St Werkz?',
       answer:
-        'St Werkz realiza muebles, objetos, interiores y losas de piedra en Karachi. La colección incluye mesas de comedor, mesas de centro, acentos escultóricos, mostradores arquitectónicos y losas de patio, cortados en travertino, ónix y mármol. Las obras se muestran como galería. Pida una visita para ver una pieza en persona.',
+        'St Werkz realiza muebles, objetos, interiores y losas de piedra en Karachi. La colección incluye mesas de comedor, mesas de centro, acentos escultóricos, mostradores arquitectónicos y losas en almacén, cortados en travertino, ónix y mármol. Las obras se exponen como en una galería. Pida una visita para ver una pieza en persona.',
     },
     {
       id: 'where-located',
@@ -630,13 +632,13 @@ export const es: Catalog = withCatalogFallback({
       id: 'who-leads',
       question: '¿Quién dirige St Werkz?',
       answer:
-        'Syed Rashid Ali dirige St Werkz, el estudio de piedra de Karachi. Atiende preguntas de material, conversaciones de proyecto y solicitudes de visita. Llame al +92 304 7689678 o escriba a stoneworks014@gmail.com. El estudio está en Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.',
+        'Syed Rashid Ali dirige St Werkz, el estudio de piedra de Karachi. Atiende preguntas de material, consultas sobre proyectos y solicitudes de visita. Llame al +92 304 7689678 o escriba a stoneworks014@gmail.com. El estudio está en Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.',
     },
     {
       id: 'custom-or-collection',
       question: '¿St Werkz hace piezas a medida o solo la colección?',
       answer:
-        'St Werkz muestra una colección de obras terminadas y también acepta encargos. Las cinco salas — comedor, estar, acentos, interiores y superficies — son piezas que puede pedir ver. Si necesita una mesa, un lavabo o una losa similar, empiece por un estimado de estudio. Una visita sigue confirmando la piedra.',
+        'St Werkz muestra una colección de obras terminadas y también acepta encargos. Las cinco salas — mármol, ónix, piedra caliza, losas y artesanía — reúnen piezas que puede pedir ver. Si necesita una mesa, un lavabo o una losa similar, empiece por un estimado de estudio. Una visita sigue confirmando la piedra.',
     },
     {
       id: 'how-to-view',
@@ -684,39 +686,39 @@ export const es: Catalog = withCatalogFallback({
       id: 'retailers',
       question: '¿St Werkz trabaja con comercios?',
       answer:
-        'Sí. St Werkz abastece a comercios con una selección pensada de objetos de mármol, ónix y travertino desde su estudio de Karachi. Las colecciones de apertura se arman con la tienda, no se vuelcan desde un almacén. Las conversaciones comerciales empiezan con Syed Rashid Ali en el estudio de North Nazimabad.',
+        'Sí. St Werkz abastece a comercios con una selección pensada de objetos de mármol, ónix y travertino desde su estudio de Karachi. La primera selección se compone junto con la tienda, no se saca a granel de un almacén. Las conversaciones comerciales empiezan con Syed Rashid Ali en el estudio de North Nazimabad.',
     },
     {
       id: 'architects',
       question: '¿St Werkz trabaja con arquitectos e interioristas?',
       answer:
-        'Sí. St Werkz ayuda a arquitectos e interioristas a especificar travertino, ónix y mármol desde Karachi. El acompañamiento va de la primera muestra a la sala terminada. Lleve un briefing o una pregunta de material a Syed Rashid Ali. Las muestras y las conversaciones de proyecto son bienvenidas.',
+        'Sí. St Werkz ayuda a arquitectos e interioristas a especificar travertino, ónix y mármol desde Karachi. El acompañamiento va de la primera muestra a la sala terminada. Traiga su proyecto o una pregunta de material a Syed Rashid Ali. Aceptamos muestras y consultas de proyecto.',
     },
   ],
   rooms: {
     marble: {
-      title: 'Comedor y reunión',
-      kicker: 'Mesas que sostienen una conversación',
+      title: 'Colección de mármol',
+      kicker: 'Superficies y mobiliario de mármol prémium',
       wallText:
-        'Travertino ovalado, piedra negra con movimiento de oro, ónix salvia: superficies lo bastante grandes para reunirse. Estas piezas se especifican como el centro quieto de una sala, no como un juego de catálogo.',
+        'Descubra nuestra exquisita selección de piezas de mármol, realizadas con elegancia y pensadas para durar. Idóneas para interiores de lujo y proyectos arquitectónicos.',
       description:
-        'Mesas de comedor en travertino, ónix y mármol de St Werkz, Karachi — pedestales ovalados, noir y oro, y piezas de reunión en salvia, mostradas como una sala de galería.',
+        'Superficies y mobiliario de mármol prémium de St Werkz, Karachi: mesas de comedor de cuidada factura, superficies arquitectónicas y accesorios.',
     },
     onyx: {
-      title: 'Estar y luz',
-      kicker: 'Mesas bajas, auxiliares, resplandor',
+      title: 'Colección de ónix',
+      kicker: 'Ónix translúcido y cautivador',
       wallText:
-        'Mesas de centro y auxiliares en ónix, travertino y mármol. Algunas van retroiluminadas. Otras descansan sobre jaulas de latón o tallos tulipán. Todas están hechas para sentarse a la luz y cambiar con ella.',
+        'Descubra la belleza singular del ónix retroiluminado. Ideal para paredes protagonistas, mesas con carácter y detalles deslumbrantes.',
       description:
-        'Mesas de centro, auxiliares y ónix retroiluminado de St Werkz, Karachi — Estar y luz, una sala de mesas bajas, jaulas de latón y tallos tulipán.',
+        'Ónix translúcido y cautivador de St Werkz, Karachi: losas retroiluminadas, mesas con carácter y detalles deslumbrantes.',
     },
     limestone: {
-      title: 'Acentos escultóricos',
-      kicker: 'Objetos para el estante y el baño',
+      title: 'Colección de piedra caliza',
+      kicker: 'Piedra caliza natural y atemporal',
       wallText:
-        'Cuencos, recipientes, bandejas, candeleros y un lavabo de sobreponer: obras menores de las mismas piedras. Cada una se acaba como pieza por derecho propio, no como un añadido al mobiliario.',
+        'Explore nuestra versátil selección de piedra caliza, de estética cálida y orgánica, tanto para diseños modernos como clásicos.',
       description:
-        'Objetos escultóricos de piedra de St Werkz, Karachi — cuencos, bandejas, lavabos de sobreponer, candeleros y piezas de baño en travertino, ónix y mármol.',
+        'Piedra caliza natural y atemporal de St Werkz, Karachi: una estética cálida y orgánica para diseños modernos y clásicos, con objetos de travertino incluidos.',
     },
     interiors: {
       title: 'Interiores y atmósferas',
@@ -727,22 +729,21 @@ export const es: Catalog = withCatalogFallback({
         'Piedra arquitectónica de St Werkz, Karachi — mostradores de recepción, plintos con luz inferior y cantos en cascada de ónix retroiluminado a escala de vestíbulo o de sala.',
     },
     slabs: {
-      title: 'Superficies y losas',
-      kicker: 'El material antes de la sala',
+      title: 'Losas de piedra',
+      kicker: 'Losas de piedra natural de gran formato',
       wallText:
-        'Losas y tableros en el patio: mármol negro con vetas de relámpago blanco, un disco circular de figura dorada. Esta es la piedra antes de ser mesa — el corte del que se dibuja el resto de la colección.',
+        'Nuestra selección de losas prémium, lista para convertirse en elementos arquitectónicos y encimeras a medida.',
       description:
-        'Losas y tableros del patio St Werkz en Karachi — mármol negro con vetas de relámpago y discos circulares de figura dorada antes de convertirse en mesas.',
+        'Losas de piedra natural de gran formato del almacén de St Werkz en Karachi, listas para convertirse en elementos arquitectónicos y encimeras a medida.',
     },
-      handicrafts: {
-      title: 'Superficies y losas',
-      kicker: 'El material antes de la sala',
+    handicrafts: {
+      title: 'Artesanía en piedra',
+      kicker: 'Detalles artesanales en piedra',
       wallText:
-        'Losas y tableros en el patio: mármol negro con vetas de relámpago blanco, un disco circular de figura dorada. Esta es la piedra antes de ser mesa — el corte del que se dibuja el resto de la colección.',
+        'Objetos de piedra de cuidada factura, desde jarrones y cuencos hasta elaborados juegos de baño, que aportan un toque de lujo a la vida cotidiana.',
       description:
-        'Losas y tableros del patio St Werkz en Karachi — mármol negro con vetas de relámpago y discos circulares de figura dorada antes de convertirse en mesas.',
+        'Artesanía y detalles en piedra de St Werkz, Karachi: jarrones, cuencos y elaborados juegos de baño en mármol y ónix.',
     },
-    
   },
   pieces: {
     'oval-travertine-pedestal': {
@@ -773,12 +774,12 @@ export const es: Catalog = withCatalogFallback({
       title: 'Mesa de reunión en piedra crema',
       material: 'Mármol o ónix crema pulido con movimiento arenoso',
       form: 'rectángulo largo redondeado con sillas mixtas de terracota y crema',
-      note: 'Un tablero pálido y arremolinado que se lee cálido más que blanco. Las sillas se parten en terracota y crema: un comedor compuesto como naturaleza muerta, no como un juego a juego.',
+      note: 'Un tablero pálido y arremolinado que se lee cálido más que blanco. Las sillas se parten en terracota y crema: un comedor compuesto como un bodegón, no como un juego a juego.',
     },
     'sage-round-table': {
       title: 'Mesa redonda salvia',
       material: 'Ónix o mármol salvia pulido',
-      form: 'tablero circular de comedor o café, naturaleza muerta de estilo de vida',
+      form: 'tablero circular de comedor o café, bodegón de estilo de vida',
       note: 'Vista desde arriba, con una silla de terracota metida bajo el canto. Vidrio, una sola hoja, un cuenco crema. La piedra es un verde apagado, finamente veteado: una mesa para dos, o para mirar.',
     },
     'sage-onyx-organza': {
@@ -1030,13 +1031,13 @@ export const es: Catalog = withCatalogFallback({
     'noir-gold-disc': {
       title: 'Tablero circular noir y oro',
       material: 'Mármol negro pulido con vetas de oro y blanco',
-      form: 'tablero circular, fotografiado en el patio',
+      form: 'tablero circular, fotografiado en el almacén',
       note: 'Un disco terminado antes de ser mesa: ríos de ocre e hilos blancos sobre un fondo negro, tendido en el suelo del taller. El corte del que se imaginan las piezas de comedor.',
     },
     'nero-marquina-slabs': {
       title: 'Losas Nero de veta',
       material: 'Mármol negro pulido con vetas de calcita blanca',
-      form: 'losas verticales de gran formato en el patio',
+      form: 'losas verticales de gran formato en el almacén',
       note: 'Dos vistas de losas negras altas, veteadas como escarcha sobre vidrio. Muro, isla o mesa aún por decidir. El inventario como exposición.',
     },
   },
@@ -1073,9 +1074,9 @@ export const es: Catalog = withCatalogFallback({
     },
   },
   evidence: {
-    workshop: 'Fotografía de taller / showroom',
+    workshop: 'Taller / sala de exposición',
     interior: 'Interior instalado',
-    'still-life': 'Naturaleza muerta del objeto',
-    yard: 'Patio / losa',
+    'still-life': 'Bodegón del objeto',
+    yard: 'Almacén de piedra / losa',
   },
-});
+}, esFill);

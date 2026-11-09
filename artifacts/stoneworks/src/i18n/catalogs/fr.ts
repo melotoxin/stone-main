@@ -1,6 +1,8 @@
 import type { Catalog } from '../types';
 import { homeDesignCopy } from './home-design';
 import { withCatalogFallback } from './fallback';
+import { midSentence, sentenceStart } from '@/lib/phrase';
+import { frFill } from './fills/fr';
 import { desks, stoneIndexes } from './desks';
 import { shippingCopy } from './shipping';
 
@@ -23,7 +25,7 @@ export const fr: Catalog = withCatalogFallback({
       collection: {
         title: 'La collection — St Werkz, Karachi',
         description:
-          'Cinq salles de pierre St Werkz — salle à manger, salon, accents, intérieurs et dalles — accrochées comme une galerie à Karachi. Pas de prix au mur ; demandez une visite.',
+          'Cinq salles de pierre St Werkz — marbre, onyx, calcaire, dalles et artisanat — accrochées comme une galerie à Karachi. Pas de prix au mur ; demandez une visite.',
       },
       atelier: {
         title: 'Atelier — St Werkz, Karachi',
@@ -33,7 +35,7 @@ export const fr: Catalog = withCatalogFallback({
       enquire: {
         title: 'Demander une visite — St Werkz, Karachi',
         description:
-          'Demandez une visite St Werkz à Karachi. Écrivez à stoneworks014@gmail.com ou appelez le +92 304 7689678. Nommez une œuvre ou la salle : conversation d’atelier, pas un panier.',
+          'Demandez une visite St Werkz à Karachi. Écrivez à stoneworks014@gmail.com ou appelez le +92 304 7689678. Nommez une œuvre ou la salle : une conversation avec l’atelier, pas un achat en ligne.',
       },
       estimate: {
         title: 'Estimation d’atelier — St Werkz, Karachi',
@@ -51,7 +53,7 @@ export const fr: Catalog = withCatalogFallback({
           'Objets en onyx et marbre faits main pour la maison chez St Werkz, Karachi — bols, urnes et tables, montrés comme une galerie. Parcourez les salles, puis demandez une visite.',
       },
       architects: {
-        title: 'Architecte — St Werkz, Karachi',
+        title: 'Architectes — St Werkz, Karachi',
         description:
           'Accompagnement matière de St Werkz pour architectes à Karachi : échantillons, mobilier en pierre, dalles et surfaces spécifiés avec intention.',
       },
@@ -63,9 +65,9 @@ export const fr: Catalog = withCatalogFallback({
       export: {
         title: 'Bureau export — St Werkz, Karachi',
         description:
-          'Lots photographiés de marbre, d’onyx et de travertin depuis la cour St Werkz à Karachi. Une caisse d’échantillons avant un conteneur. FOB Karachi ; pas de tarif affiché.',
+          'Lots photographiés de marbre, d’onyx et de travertin depuis le dépôt St Werkz à Karachi. Une caisse d’échantillons avant un conteneur. FOB Karachi ; pas de tarif affiché.',
         keywords:
-          'export dalles de marbre Karachi, lots d’onyx pakistanais, dalles de travertin FOB Karachi, marbre figuré Pakistan, cour St Werkz Karachi, exporter du marbre du Pakistan, Syed Rashid Ali',
+          'export dalles de marbre Karachi, lots d’onyx pakistanais, dalles de travertin FOB Karachi, marbre figuré Pakistan, dépôt St Werkz Karachi, exporter du marbre du Pakistan, Syed Rashid Ali',
       },
       stones: {
         title: 'Marbre et onyx du Pakistan — St Werkz, Karachi',
@@ -90,7 +92,7 @@ export const fr: Catalog = withCatalogFallback({
     },
     pieceCite: (title, form, material, evidence, dimensions) => {
       const dim = dimensions ? ` Dimensions : ${dimensions}.` : '';
-      return `${title} est ${form} en ${material}, réalisé par St Werkz sous la direction de Syed Rashid Ali à Karachi.${dim} Preuve : ${evidence.toLowerCase()}.`;
+      return `${title} : ${midSentence(form)}, en ${midSentence(material)}. Réalisé par St Werkz sous la direction de Syed Rashid Ali à Karachi.${dim} Image : ${evidence.toLowerCase()}.`;
     },
   },
   chrome: {
@@ -107,7 +109,7 @@ export const fr: Catalog = withCatalogFallback({
     forArchitects: 'Pour les architectes',
     forExport: 'Bureau export',
     retailStore: 'Boutique',
-    architect: 'Architecte',
+    architect: 'Architectes',
     interiorDesign: 'Design d’intérieur',
     wholesalers: 'Grossistes',
     footerBrand: 'St Werkz / Karachi',
@@ -129,30 +131,30 @@ export const fr: Catalog = withCatalogFallback({
   },
   definitions: {
     studio:
-      'St Werkz est un atelier de pierre à Karachi dirigé par Syed Rashid Ali. Il réalise meubles, objets, intérieurs et dalles en travertin, onyx et marbre. La collection est accrochée en cinq salles et se montre sur visite, elle ne se vend pas depuis un panier. Il n’y a pas de prix au mur.',
+      'St Werkz est un atelier de pierre à Karachi dirigé par Syed Rashid Ali. Il réalise meubles, objets, intérieurs et dalles en travertin, onyx et marbre. La collection est accrochée en cinq salles et se visite sur rendez-vous ; elle ne se vend pas en ligne. Il n’y a pas de prix au mur.',
     estimate:
       'Une estimation d’atelier St Werkz est une fourchette indicative en PKR selon la taille, la pierre et la forme. Ce n’est ni un prix, ni un devis fermé, ni un achat. Chaque dalle est unique. Une visite à l’atelier de Karachi confirme la pierre avant que la commande n’aille plus loin.',
     collection:
-      'La collection St Werkz, ce sont cinq salles de pierre — salle à manger, salon, accents, intérieurs et surfaces — montrées à Karachi comme une galerie. Chaque salle a un texte de mur et des œuvres accrochées avec de l’air autour. Demandez une visite pour voir une pièce en personne.',
+      'La collection St Werkz, ce sont cinq salles de pierre — marbre, onyx, calcaire, dalles et artisanat — présentées à Karachi comme une galerie. Chaque salle a son cartel, et les œuvres y sont accrochées avec de l’espace autour d’elles. Demandez une visite pour voir une pièce en personne.',
     retailer:
       'St Werkz fournit les revendeurs d’une sélection pensée d’objets en marbre, onyx et travertin depuis son atelier de Karachi. Les collections d’ouverture se construisent avec le magasin, elles ne se déversent pas d’un entrepôt. Les conversations commerciales commencent avec Syed Rashid Ali.',
     retailStore:
-      'La boutique St Werkz est la galerie de Karachi d’objets en onyx et marbre faits main pour la maison — bols, urnes, tables — montrés sur rendez-vous, non vendus depuis un panier.',
+      'La boutique St Werkz est la galerie de Karachi d’objets en onyx et marbre faits main pour la maison — bols, urnes, tables — présentés sur rendez-vous, non vendus en ligne.',
     architect:
-      'St Werkz aide les architectes à spécifier travertin, onyx et marbre depuis Karachi. L’accompagnement va du premier échantillon à la pièce terminée. Apportez un brief ou une question de matière à Syed Rashid Ali.',
+      'St Werkz aide les architectes à spécifier travertin, onyx et marbre depuis Karachi. L’accompagnement va du premier échantillon à la pièce terminée. Apportez votre cahier des charges ou une question de matière à Syed Rashid Ali.',
     interiorDesigner:
       'St Werkz travaille avec les décorateurs sur des objets faits main et des dalles pour des pièces habitées. Spécifiez une table, une urne, un comptoir ou un mur depuis le même atelier de Karachi.',
     export:
-      'St Werkz discute lots de marbre, d’onyx et de travertin depuis sa cour à Karachi avec importateurs et ateliers. Un lot photographié et une caisse d’échantillons précèdent un conteneur. Il n’y a pas de tarif publié. Syed Rashid Ali prend la conversation. Le mobilier reste dans la galerie.',
+      'St Werkz discute de lots de marbre, d’onyx et de travertin depuis son dépôt de Karachi avec importateurs et ateliers. Un lot photographié et une caisse d’échantillons précèdent un conteneur. Il n’y a pas de tarif publié. Syed Rashid Ali mène la conversation. Le mobilier reste dans la galerie.',
     origin:
       'St Werkz s’enracine dans une famille de Bandha, à Allahabad, Uttar Pradesh. Des générations de migration ont porté musique, peinture, couleur et métier ; ce rapport hérité au faire prend aujourd’hui forme en marbre, onyx et travertin à Karachi.',
     piece: (title, material, form, roomTitle) =>
-      `${title} est une œuvre St Werkz en ${material}, de la salle ${roomTitle} à Karachi. ${form}.`,
-    room: (title, wallText) => `${title} est une salle de la collection St Werkz à Karachi. ${wallText}`,
+      `${title} est une œuvre St Werkz en ${midSentence(material)}, présentée dans la salle « ${roomTitle} » à Karachi. ${sentenceStart(form)}.`,
+    room: (title, wallText) => `La salle « ${title} » fait partie de la collection St Werkz à Karachi. ${wallText}`,
   },
   home: {
     heroKicker: 'Karachi / un atelier de matière',
-    heroTitle: 'Pierre à l’échelle. Sculptée pour un.',
+    heroTitle: 'Pierre sélectionnée en volume. Sculptée pour chacun.',
     heroBody:
       'Des objets singuliers faits main pour la maison à l’approvisionnement en marbre de gros et aux surfaces architecturales en volume.',
     enterCollection: 'Entrer dans la collection',
@@ -163,7 +165,7 @@ export const fr: Catalog = withCatalogFallback({
     roomsHeadingBefore: 'Cinq salles de pierre, accrochées comme une ',
     roomsHeadingEm: 'galerie.',
     questionsLink: 'Questions, réponses claires',
-    featuredCaption: 'Socle d’onyx lumineux / Salon et lumière',
+    featuredCaption: 'Table à manger gélule en travertin / Collection Calcaire',
     studioKicker: 'L’atelier',
     studioBody: (name) =>
       `St Werkz est dirigé par ${name} depuis l’atelier de Karachi. Pour un premier regard sur une table, un lavabo ou une dalle, demandez une visite — pas un paiement en ligne.`,
@@ -212,7 +214,7 @@ export const fr: Catalog = withCatalogFallback({
     studio: 'Atelier',
     stoneFamily: 'Famille de pierre',
     finish: 'Finition',
-    evidence: 'Preuve',
+    evidence: 'Visuel',
     reviewed: 'Relu',
     studioCity: 'St Werkz, Karachi',
   },
@@ -231,7 +233,7 @@ export const fr: Catalog = withCatalogFallback({
     materialsTitleEm: 'marbre.',
     namedStonesKicker: 'Pakistan / pierres nommées',
     namedStonesBody:
-      'Noms commerciaux de Buner, Mohmand, Swat, Lasbela et de la ceinture d’onyx de Chagai, avec des tarifs matière indicatifs de septembre 2026. Ce n’est pas un devis pour une pièce finie.',
+      'Noms commerciaux de Buner, Mohmand, Swat, Lasbela et des gisements d’onyx de Chagai, avec des tarifs matière indicatifs de septembre 2026. Ce n’est pas un devis pour une pièce finie.',
     namedStonesCta: 'Tous les noms et tarifs',
     personKicker: 'La personne derrière l’atelier',
     personTitleBefore: 'Une ligne directe vers ',
@@ -271,9 +273,9 @@ export const fr: Catalog = withCatalogFallback({
     kickerFromEstimate: 'Demander cette estimation',
     titleBefore: 'Tout commence par ',
     titleEm: 'une question.',
-    body: 'Dites-nous quelle œuvre vous aimeriez voir, ou décrivez la pièce. Syed Rashid Ali prendra la note. C’est une conversation d’atelier — pas un panier.',
+    body: 'Dites-nous quelle œuvre vous aimeriez voir, ou décrivez la pièce. Syed Rashid Ali recevra votre demande. C’est une conversation avec l’atelier — pas un achat en ligne.',
     bodyFromEstimate:
-      'Le brief de votre estimation d’atelier est sur le bureau. Syed Rashid Ali prendra la note : cela reste une conversation, pas un panier.',
+      'Le récapitulatif de votre estimation d’atelier nous est bien parvenu. Syed Rashid Ali recevra votre demande : cela reste une conversation, pas un achat en ligne.',
     rangeNoted: (range) => `Fourchette indicative notée : ${range}. `,
     viewingConfirms: 'Une visite confirme encore la pierre.',
     reviseEstimate: 'Revoir l’estimation',
@@ -284,11 +286,11 @@ export const fr: Catalog = withCatalogFallback({
     email: 'Adresse e-mail',
     emailPlaceholder: 'Où pouvons-nous répondre ?',
     whatToSee: 'Que souhaiteriez-vous voir ?',
-    briefing: 'Le brief',
+    briefing: 'Votre projet',
     messagePlaceholder: 'Une table, une pièce, une dalle — ou simplement une heure de visite.',
     viewingOf: (title) => `Je souhaiterais demander une visite de ${title}.`,
     send: 'Envoyer la demande',
-    successTitle: 'Votre note est sur le bureau.',
+    successTitle: 'Votre message nous est bien parvenu.',
     successBody: 'Merci. Pour une réponse plus rapide, vous pouvez aussi écrire directement à l’atelier.',
     emailStudio: 'Écrire à l’atelier',
     howKicker: 'Comment demander une visite',
@@ -368,7 +370,7 @@ export const fr: Catalog = withCatalogFallback({
     stoneArea: 'Surface de pierre',
     lead: 'Délai',
     notFinal:
-      'Ceci n’est pas un prix final. Socles, éclairage, livraison et la dalle particulière peuvent déplacer le chiffre — parfois beaucoup.',
+      'Ceci n’est pas un prix final. Socles, éclairage, livraison et la dalle elle-même peuvent faire varier le prix — parfois beaucoup.',
     requestThis: 'Demander cette estimation',
     howKicker: 'Comment nous estimons',
     howTitle: 'Des bandes transparentes, pas un catalogue.',
@@ -382,7 +384,7 @@ export const fr: Catalog = withCatalogFallback({
     commissions: {
       'dining-table': { label: 'Table à manger', note: 'Un plateau pour se réunir' },
       'coffee-table': { label: 'Table basse', note: 'Basse, pour le salon' },
-      'side-table': { label: 'Guéridon', note: 'Accent ou compagnon' },
+      'side-table': { label: 'Guéridon', note: 'D’appoint, près du canapé' },
       counter: { label: 'Comptoir / socle', note: 'Accueil ou bar' },
       slab: { label: 'Dalle / plateau', note: 'La coupe avant la pièce' },
       sink: { label: 'Vasque à poser', note: 'Un bassin comme sculpture' },
@@ -408,7 +410,7 @@ export const fr: Catalog = withCatalogFallback({
     leads: {
       onyx:
         'Réalisé selon la disponibilité de la dalle — en général de quatorze à vingt semaines après réservation de la pierre. L’appariement des veines et l’éclairage donnent le rythme.',
-      slab: 'Les dalles de cour se réservent plus tôt ; coupe et finition suivent la face choisie — souvent de quatre à huit semaines.',
+      slab: 'Les dalles du dépôt se réservent plus tôt ; coupe et finition suivent la face choisie — souvent de quatre à huit semaines.',
       object: 'Les œuvres plus petites suivent le bloc en main — en général de quatre à dix semaines après accord sur la pierre.',
       counter:
         'Les pièces architecturales attendent la dalle et le chantier — souvent de dix à seize semaines après confirmation de la pierre et des dessins.',
@@ -460,7 +462,7 @@ export const fr: Catalog = withCatalogFallback({
     footerTag: 'Des surfaces avec un point de vue.',
     backToTop: 'Retour en haut',
     products: [
-      { slug: 'coral-canister', name: 'Boîte en travertin au couvercle de corail', note: 'Accents sculpturaux' },
+      { slug: 'coral-canister', name: 'Boîte en travertin au couvercle de corail', note: 'Objets sculpturaux' },
       { slug: 'travertine-bath', name: 'Ensemble de bain en travertin', note: 'Luxe quotidien et calme' },
       { slug: 'portoro-bookends', name: 'Serre-livres Portoro', note: 'Bureau et salon' },
       { slug: 'desk-suite', name: 'Ensemble de bureau en marbre de minuit', note: 'Utile, élevé' },
@@ -484,7 +486,7 @@ export const fr: Catalog = withCatalogFallback({
       },
       {
         number: '02',
-        title: 'Des échantillons qui font avancer le brief',
+        title: 'Des échantillons qui font avancer le projet',
         body: 'Apportez une question de matière. Nous vous aidons à passer d’une sensation à quelque chose à mettre devant un client.',
       },
       {
@@ -493,22 +495,22 @@ export const fr: Catalog = withCatalogFallback({
         body: 'Pas de couches entre la question et la personne qui vous aide à trouver la bonne pièce.',
       },
     ],
-    editKicker: 'DIRECTIONS DE MATIÈRE / POUR VOTRE PROCHAIN BRIEF',
+    editKicker: 'DIRECTIONS DE MATIÈRE / POUR VOTRE PROCHAIN PROJET',
     editTitleBefore: 'On commence par ',
     editTitleEm: 'la surface.',
-    editBody: 'Vasque, objet ou accent architectural : chaque direction commence par ce que le matériau essaie de dire.',
+    editBody: 'Vasque, objet ou détail architectural : chaque direction commence par ce que le matériau essaie de dire.',
     samples: 'Échantillons et conversations de projet bienvenus',
-    bringBrief: 'Apportez un brief',
+    bringBrief: 'Apportez votre cahier des charges',
     contactKicker: 'UNE LIGNE DIRECTE / KARACHI',
     contactTitleBefore: 'Spécifions quelque chose qui ',
     contactTitleEm: 'dure.',
     contactBody:
-      'Parlez-nous de la pièce, du brief ou de la question de matière. Nous commencerons par la conversation juste, pas par un déversement de catalogue.',
+      'Parlez-nous de la pièce, du cahier des charges ou de la question de matière. Nous commencerons par la bonne conversation, pas par une avalanche de catalogues.',
     products: [
       { slug: 'vessel-sink', name: 'Vasque à poser noir et or', note: 'Plan / bain' },
       { slug: 'onyx-waterfall', name: 'Cascade d’onyx rétroéclairé', note: 'Un premier détail fort' },
       { slug: 'emerald-cage-table', name: 'Guéridon cage émeraude', note: 'Mobilier / pièce forte' },
-      { slug: 'onyx-urns', name: 'Paire d’urnes en onyx', note: 'Objet / accent' },
+      { slug: 'onyx-urns', name: 'Paire d’urnes en onyx', note: 'Objet / décor' },
     ],
     navRetailers: 'Revendeurs',
   },
@@ -523,41 +525,41 @@ export const fr: Catalog = withCatalogFallback({
     pointTitleEm: 'd’objet et de surface.',
     steps: [
       { number: '01', title: 'Des objets qui portent le schéma', body: 'Urnes, bols, tables et vasques — les pièces avec lesquelles le client vit, spécifiées avec le même soin que l’architecture.' },
-      { number: '02', title: 'Des dalles à l’échelle de la pièce', body: 'Comptoirs, chants en cascade et parois depuis la cour de Karachi, accordés aux objets déjà dans le brief.' },
+      { number: '02', title: 'Des dalles à l’échelle de la pièce', body: 'Comptoirs, chants en cascade et parois depuis le dépôt de Karachi, accordés aux objets déjà prévus au cahier des charges.' },
       { number: '03', title: 'Une seule conversation d’atelier', body: 'Artisanat et surfaces en volume depuis le même bureau. Apportez une ambiance, un dessin ou une question de matière.' },
     ],
     editKicker: 'DIRECTIONS / OBJETS + SURFACES',
-    editTitleBefore: 'Meubler la ',
-    editTitleEm: 'pierre.',
+    editTitleBefore: 'Meubler ',
+    editTitleEm: 'en pierre.',
     editBody: 'Commencez par une pièce que la salle gardera, ou par une surface autour de laquelle elle se construit. Les deux appartiennent à la même conversation.',
     samples: 'Échantillons, objets et conversations de projet bienvenus',
-    bringBrief: 'Apportez un brief d’intérieur',
+    bringBrief: 'Apportez votre cahier des charges',
     contactKicker: 'UNE LIGNE DIRECTE / KARACHI',
     contactTitleBefore: 'Meublons la pièce ',
     contactTitleEm: 'en pierre.',
-    contactBody: 'Parlez-nous de l’intérieur — les objets, les dalles, la lumière. Nous commencerons par la conversation juste, pas par un déversement de catalogue.',
+    contactBody: 'Parlez-nous de l’intérieur — les objets, les dalles, la lumière. Nous commencerons par la bonne conversation, pas par une avalanche de catalogues.',
     products: [
-      { slug: 'onyx-urns', name: 'Paire d’urnes en onyx', note: 'Objet / accent' },
+      { slug: 'onyx-urns', name: 'Paire d’urnes en onyx', note: 'Objet / décor' },
       { slug: 'luminous-onyx', name: 'Socle d’onyx lumineux', note: 'Salon / lumière' },
       { slug: 'onyx-waterfall', name: 'Cascade d’onyx rétroéclairé', note: 'Surface / pièce forte' },
       { slug: 'hotel-reception', name: 'Réception en travertin', note: 'Pierre à l’échelle de la pièce' },
     ],
-    navArchitects: 'Architecte',
+    navArchitects: 'Architectes',
   },
   retailStore: {
     kicker: 'Boutique / Karachi',
     titleBefore: 'Une pièce singulière ',
     titleEm: 'pour la maison.',
-    body: 'Objets en onyx et marbre faits main — bols, urnes, tables — accrochés comme une galerie. Parcourez les salles, puis demandez une visite. C’est une conversation d’atelier, pas un panier.',
+    body: 'Objets en onyx et marbre faits main — bols, urnes, tables — accrochés comme une galerie. Parcourez les salles, puis demandez une visite. C’est une conversation avec l’atelier, pas un achat en ligne.',
     enterCollection: 'Entrer dans la collection',
     requestViewing: 'Demander une visite',
     pathKicker: 'Comment une pièce quitte l’atelier',
     pathTitleBefore: 'Découvrir, parcourir, ',
     pathTitleEm: 'puis la voir.',
     steps: [
-      { number: '01', title: 'Découvrir', body: 'Parcourez les cinq salles — salle à manger, salon, accents, intérieurs et dalles — comme une galerie calme.' },
+      { number: '01', title: 'Découvrir', body: 'Parcourez les cinq salles — marbre, onyx, calcaire, dalles et artisanat — comme une galerie calme.' },
       { number: '02', title: 'Parcourir les salles', body: 'Ouvrez une œuvre, lisez la pierre, et restez avec la forme avant de demander une heure.' },
-      { number: '03', title: 'Demander une visite', body: 'Nommez la pièce ou la salle. Syed Rashid Ali prend la note et confirme la pierre à Karachi.' },
+      { number: '03', title: 'Demander une visite', body: 'Nommez la pièce ou la salle. Syed Rashid Ali reçoit votre demande et confirme la pierre à Karachi.' },
     ],
     featuredKicker: 'En salle',
     featuredTitleBefore: 'Des œuvres avec lesquelles ',
@@ -577,7 +579,7 @@ export const fr: Catalog = withCatalogFallback({
       id: 'what-stoneworks-makes',
       question: 'Que réalise St Werkz ?',
       answer:
-        'St Werkz réalise meubles, objets, intérieurs et dalles en pierre à Karachi. La collection comprend tables à manger, tables basses, accents sculpturaux, comptoirs architecturaux et dalles de cour, taillés dans le travertin, l’onyx et le marbre. Les œuvres se montrent comme une galerie. Demandez une visite pour voir une pièce en personne.',
+        'St Werkz réalise meubles, objets, intérieurs et dalles en pierre à Karachi. La collection comprend tables à manger, tables basses, objets sculpturaux, comptoirs architecturaux et dalles du dépôt, taillés dans le travertin, l’onyx et le marbre. Les œuvres se montrent comme une galerie. Demandez une visite pour voir une pièce en personne.',
     },
     {
       id: 'where-located',
@@ -595,7 +597,7 @@ export const fr: Catalog = withCatalogFallback({
       id: 'custom-or-collection',
       question: 'St Werkz réalise-t-il des pièces sur mesure ou seulement la collection ?',
       answer:
-        'St Werkz montre une collection d’œuvres achevées et accepte aussi des commandes. Les cinq salles — salle à manger, salon, accents, intérieurs et surfaces — sont des pièces que vous pouvez demander à voir. S’il vous faut une table, un lavabo ou une dalle semblable, commencez par une estimation d’atelier. Une visite confirme encore la pierre.',
+        'St Werkz montre une collection d’œuvres achevées et accepte aussi des commandes. Les cinq salles — marbre, onyx, calcaire, dalles et artisanat — réunissent des pièces que vous pouvez demander à voir. S’il vous faut une table, un lavabo ou une dalle semblable, commencez par une estimation d’atelier. Une visite confirme encore la pierre.',
     },
     {
       id: 'how-to-view',
@@ -649,33 +651,33 @@ export const fr: Catalog = withCatalogFallback({
       id: 'architects',
       question: 'St Werkz travaille-t-il avec architectes et décorateurs ?',
       answer:
-        'Oui. St Werkz aide architectes et décorateurs à spécifier travertin, onyx et marbre depuis Karachi. L’accompagnement va du premier échantillon à la pièce terminée. Apportez un brief ou une question de matière à Syed Rashid Ali. Échantillons et conversations de projet sont bienvenus.',
+        'Oui. St Werkz aide architectes et décorateurs à spécifier travertin, onyx et marbre depuis Karachi. L’accompagnement va du premier échantillon à la pièce terminée. Apportez votre cahier des charges ou une question de matière à Syed Rashid Ali. Échantillons et conversations de projet sont bienvenus.',
     },
   ],
   rooms: {
     marble: {
-      title: 'Table et convivialité',
-      kicker: 'Des tables qui tiennent une conversation',
+      title: 'Collection Marbre',
+      kicker: 'Surfaces et mobilier en marbre d’exception',
       wallText:
-        'Travertin ovale, pierre noire au mouvement d’or, onyx sauge : des surfaces assez grandes pour s’y réunir. Ces pièces se spécifient comme le centre calme d’une pièce, non comme un ensemble de catalogue.',
+        'Découvrez notre gamme raffinée de pièces en marbre, façonnées pour l’élégance et la durée. Idéales pour les intérieurs de prestige comme pour les projets d’architecture.',
       description:
-        'Tables à manger en travertin, onyx et marbre de St Werkz, Karachi — piédestaux ovales, noir et or, et pièces de convivialité en sauge, montrées comme une salle de galerie.',
+        'Surfaces et mobilier en marbre d’exception signés St Werkz, Karachi — tables à manger finement façonnées, surfaces architecturales et accessoires.',
     },
     onyx: {
-      title: 'Salon et lumière',
-      kicker: 'Tables basses, guéridons, lueur',
+      title: 'Collection Onyx',
+      kicker: 'Un onyx translucide et envoûtant',
       wallText:
-        'Tables basses et guéridons en onyx, travertin et marbre. Certains sont rétroéclairés. D’autres reposent sur des cages de laiton ou des tiges tulipe. Tous sont faits pour s’asseoir dans la lumière et changer avec elle.',
+        'Découvrez la beauté singulière de l’onyx rétroéclairé. Idéal pour un mur d’exception, une table qui s’impose ou des détails à couper le souffle.',
       description:
-        'Tables basses, guéridons et onyx rétroéclairé de St Werkz, Karachi — Salon et lumière, une salle de tables basses, cages de laiton et tiges tulipe.',
+        'Un onyx translucide et envoûtant signé St Werkz, Karachi — dalles rétroéclairées, tables d’exception et détails à couper le souffle.',
     },
     limestone: {
-      title: 'Accents sculpturaux',
-      kicker: 'Objets pour l’étagère et le bain',
+      title: 'Collection Calcaire',
+      kicker: 'Un calcaire naturel et intemporel',
       wallText:
-        'Bols, vases, plateaux, bougeoirs et une vasque à poser : des œuvres plus petites dans les mêmes pierres. Chacune est finie comme une pièce à part entière, non comme un après-coup du mobilier.',
+        'Explorez notre sélection de calcaires aux multiples usages : une esthétique chaleureuse et organique, pour les intérieurs contemporains comme classiques.',
       description:
-        'Objets sculpturaux en pierre de St Werkz, Karachi — bols, plateaux, vasques à poser, bougeoirs et pièces de bain en travertin, onyx et marbre.',
+        'Un calcaire naturel et intemporel signé St Werkz, Karachi — une esthétique chaleureuse et organique pour les intérieurs contemporains et classiques, objets en travertin compris.',
     },
     interiors: {
       title: 'Intérieurs et atmosphères',
@@ -686,22 +688,21 @@ export const fr: Catalog = withCatalogFallback({
         'Pierre architecturale de St Werkz, Karachi — comptoirs d’accueil, socles à lumière en sous-face et chants en cascade d’onyx rétroéclairé à l’échelle d’un hall ou d’une pièce.',
     },
     slabs: {
-      title: 'Surfaces et dalles',
-      kicker: 'Le matériau avant la pièce',
+      title: 'Dalles de pierre',
+      kicker: 'Dalles de pierre naturelle grand format',
       wallText:
-        'Dalles et plateaux dans la cour : marbre noir aux veines d’éclair blanc, un disque circulaire à figure d’or. C’est la pierre avant qu’elle ne soit table — la coupe dont se tire le reste de la collection.',
+        'Notre sélection de dalles d’exception, prêtes à devenir des éléments d’architecture et des plans de travail sur mesure.',
       description:
-        'Dalles et plateaux de la cour St Werkz à Karachi — marbre noir aux veines d’éclair et disques circulaires à figure d’or avant qu’ils ne deviennent tables.',
+        'Dalles de pierre naturelle grand format du dépôt St Werkz à Karachi — prêtes à devenir des éléments d’architecture et des plans de travail sur mesure.',
     },
-      handicrafts: {
-      title: 'Surfaces et dalles',
-      kicker: 'Le matériau avant la pièce',
+    handicrafts: {
+      title: 'Artisanat de pierre',
+      kicker: 'Objets de pierre faits main',
       wallText:
-        'Dalles et plateaux dans la cour : marbre noir aux veines d’éclair blanc, un disque circulaire à figure d’or. C’est la pierre avant qu’elle ne soit table — la coupe dont se tire le reste de la collection.',
+        'Des objets de pierre façonnés avec soin, des vases et coupes jusqu’aux ensembles de bain ouvragés, pour une touche de luxe au quotidien.',
       description:
-        'Dalles et plateaux de la cour St Werkz à Karachi — marbre noir aux veines d’éclair et disques circulaires à figure d’or avant qu’ils ne deviennent tables.',
+        'Artisanat et objets de pierre faits main par St Werkz, Karachi — vases, coupes et ensembles de bain ouvragés en marbre et en onyx.',
     },
-    
   },
   pieces: {
     'oval-travertine-pedestal': {
@@ -767,8 +768,8 @@ export const fr: Catalog = withCatalogFallback({
     'sage-tulip-table': {
       title: 'Guéridon tulipe sauge',
       material: 'Onyx vert poli, piédestal en métal brossé',
-      form: 'guéridon d’accent rond sur une tige tulipe',
-      note: 'La même famille d’onyx vert, cette fois sur un pied de métal de milieu de siècle. Sauge, crème et terracotta dans la pierre ; une seule tige dessous. Un accent qui peut tenir seul.',
+      form: 'guéridon d’appoint rond sur un pied tulipe',
+      note: 'La même famille d’onyx vert, cette fois sur un pied de métal de milieu de siècle. Sauge, crème et terracotta dans la pierre ; un seul pied dessous. Une pièce qui se suffit à elle-même.',
     },
     'cream-companion-tables': {
       title: 'Tables compagnes en crème',
@@ -928,7 +929,7 @@ export const fr: Catalog = withCatalogFallback({
     },
     'onyx-urns': {
       title: 'Paire d’urnes en onyx',
-      material: 'Onyx bandé poli en sauge, crème et rouille',
+      material: 'Onyx rubané poli en sauge, crème et rouille',
       form: 'urnes classiques à bord évasé et pied de piédestal',
       note: 'Deux vases jumeaux, translucides et en couches, le vert cédant au terracotta dans la pierre elle-même. Objets de cheminée à dessin géologique plutôt que décoratif.',
     },
@@ -989,13 +990,13 @@ export const fr: Catalog = withCatalogFallback({
     'noir-gold-disc': {
       title: 'Plateau circulaire noir et or',
       material: 'Marbre noir poli aux veines d’or et de blanc',
-      form: 'plateau circulaire, photographié dans la cour',
+      form: 'plateau circulaire, photographié au dépôt',
       note: 'Un disque fini avant d’être table : rivières d’ocre et fils blancs sur un fond noir, couché sur le sol de l’atelier. La coupe dont s’imaginent les pièces de salle à manger.',
     },
     'nero-marquina-slabs': {
       title: 'Dalles Nero à veine',
       material: 'Marbre noir poli aux veines de calcite blanche',
-      form: 'dalles verticales grand format dans la cour',
+      form: 'dalles verticales grand format au dépôt',
       note: 'Deux vues de hautes dalles noires, veinées comme du givre sur verre. Mur, îlot ou table encore à décider. L’inventaire comme exposition.',
     },
   },
@@ -1010,7 +1011,7 @@ export const fr: Catalog = withCatalogFallback({
     },
     onyx: {
       label: 'Onyx',
-      cite: 'L’onyx dans cet atelier est une pierre translucide et bandée. Là où la dalle le permet, St Werkz l’éclaire de l’intérieur pour que la veine soit la lumière de la pièce.',
+      cite: 'L’onyx dans cet atelier est une pierre translucide et rubanée. Là où la dalle le permet, St Werkz l’éclaire de l’intérieur pour que la veine soit la lumière de la pièce.',
     },
     mixed: {
       label: 'Matériaux mixtes',
@@ -1032,9 +1033,9 @@ export const fr: Catalog = withCatalogFallback({
     },
   },
   evidence: {
-    workshop: 'Photographie d’atelier / showroom',
+    workshop: 'Atelier / showroom',
     interior: 'Intérieur installé',
-    'still-life': 'Nature morte de l’objet',
-    yard: 'Cour / dalle',
+    'still-life': 'Nature morte',
+    yard: 'Dépôt / dalle',
   },
-});
+}, frFill);

@@ -7,7 +7,7 @@ import { StoneBenefitIcon } from "@/components/ui/StoneBenefitIcon";
 import { pieces, studio } from "@/data/gallery";
 import { editorialMedia } from "@/data/editorial-media";
 import { pakistanStones, stonePatternSrc } from "@/data/pakistan-stones";
-import { localizedPiece, useI18n } from "@/i18n";
+import { localizedPiece, localizedStone, useI18n } from "@/i18n";
 import "@/styles/home-refinements.css";
 import { getB2BCopy, SHOW_PRICING, quoteHref } from "@/data/b2b";
 
@@ -26,23 +26,23 @@ const productsCopy = {
     descriptions: ["Bowls and trays for the rituals of the table.", "Stone objects for a quieter daily ritual.", "Sculptural vessels and accents for rooms that feel like home."],
   },
   es: {
-    label: "Productos", title: "Un mundo de piedra. Hecho para vivir.", cta: "Entra al mundo de la piedra",
-    categories: ["Accesorios de cocina", "Accesorios de baño", "Accesorios y decoración para el hogar"],
+    label: "Productos", title: "Un mundo de piedra. Hecho para vivir.", cta: "Entre en el mundo de la piedra",
+    categories: ["Accesorios de cocina", "Accesorios de baño", "Decoración del hogar"],
     descriptions: ["Cuencos y bandejas para los rituales de la mesa.", "Objetos de piedra para un ritual cotidiano sereno.", "Recipientes escultóricos y detalles para espacios que se sienten como hogar."],
   },
   it: {
-    label: "Prodotti", title: "Un mondo di pietra. Da vivere.", cta: "Entra nel mondo della pietra",
+    label: "Prodotti", title: "Un mondo di pietra da vivere.", cta: "Entri nel mondo della pietra",
     categories: ["Accessori per la cucina", "Accessori per il bagno", "Accessori e decorazioni per la casa"],
     descriptions: ["Ciotole e vassoi per i rituali della tavola.", "Oggetti in pietra per un rituale quotidiano più sereno.", "Vasi scultorei e dettagli per ambienti che sanno di casa."],
   },
   fr: {
     label: "Produits", title: "Un monde de pierre. Pour la vie.", cta: "Entrez dans le monde de la pierre",
     categories: ["Accessoires de cuisine", "Accessoires de salle de bain", "Accessoires et décoration pour la maison"],
-    descriptions: ["Bols et plateaux pour les rituels de la table.", "Des objets en pierre pour un quotidien plus serein.", "Des vases sculpturaux et des accents pour des pièces où l’on se sent chez soi."],
+    descriptions: ["Bols et plateaux pour les rituels de la table.", "Des objets en pierre pour un quotidien plus serein.", "Des vases sculpturaux et des objets décoratifs pour des pièces où l’on se sent chez soi."],
   },
   ar: {
-    label: "المنتجات", title: "عالم من الحجر. صُنع للحياة.", cta: "ادخل عالم الحجر",
-    categories: ["إكسسوارات المطبخ", "إكسسوارات الحمام", "إكسسوارات الغرف والديكور المنزلي"],
+    label: "المنتجات", title: "عالم من الحجر. صُنع\u00A0للحياة.", cta: "ادخل عالم الحجر",
+    categories: ["إكسسوارات المطبخ", "إكسسوارات الحمام", "إكسسوارات ديكور المنزل"],
     descriptions: ["أوعية وصوانٍ لطقوس المائدة.", "قطع حجرية لطقوس يومية أكثر هدوءاً.", "أوعية منحوتة ولمسات تضفي على الغرف دفء المنزل."],
   },
   ur: {
@@ -67,7 +67,7 @@ export function HomePage() {
   const teaser = productTeasers[selectedSpace];
   const featured = localizedPiece(pieces.find(piece => piece.slug === teaser.slug)!, locale);
   const living = localizedPiece(pieces.find(piece => piece.slug === "travertine-walnut-coffee")!, locale);
-  const stone = homeStones[selectedStone];
+  const stone = localizedStone(homeStones[selectedStone], locale);
   const sampleHref = `/enquire?${new URLSearchParams({ intent: "sample", brief: copy.sampleBrief })}`;
 
   return (

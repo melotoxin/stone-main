@@ -200,7 +200,7 @@ export const claims: CitableClaim[] = [
     id: 'claim-travertine-honed',
     statement: stoneFamilies.find((entry) => entry.id === 'travertine')!.cite,
     pillars: ['expertise'],
-    evidence: 'Collection material lines and honed travertine works in dining, living, accents, and interiors.',
+    evidence: 'Collection material lines and honed travertine works in the limestone collection.',
     about: 'material:travertine',
   },
   {

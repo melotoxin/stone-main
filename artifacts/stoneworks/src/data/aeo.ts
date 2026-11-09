@@ -12,7 +12,7 @@ export const estimateDefinition =
   'A St Werkz studio estimate is an indicative range in PKR based on size, stone and form. It is not a price, a quote or a checkout. Every slab is unique. A viewing at the Karachi studio confirms the stone before a commission proceeds.';
 
 export const collectionDefinition =
-  'The St Werkz collection is five rooms of stone — dining, living, accents, interiors and surfaces — shown in Karachi as a gallery. Each room has wall text and works hung with space around them. Request a viewing to see a piece in person.';
+  'The St Werkz collection is five rooms of stone — marble, onyx, limestone, slabs and handicrafts — shown in Karachi as a gallery. Each room has wall text and works hung with space around them. Request a viewing to see a piece in person.';
 
 export const retailerDefinition =
   'St Werkz supplies retailers with a considered edit of marble, onyx and travertine objects from its Karachi studio. Opening collections are shaped with the store, not dumped from a warehouse. Trade conversations start with Syed Rashid Ali.';

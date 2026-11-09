@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import './styles/homepage.css';
@@ -125,25 +125,47 @@
     background: #111111;
     color: #f6f3ec;
   }
-  html[lang='ar'] {
-    --app-font-sans: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
-    --app-font-serif: 'Noto Naskh Arabic', 'Instrument Serif', serif;
-    --app-font-mono: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
-  }
-  html[lang='ur'],
-  html[lang='ur-PK'] {
-    --app-font-sans: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', sans-serif;
-    --app-font-serif: 'Noto Nastaliq Urdu', 'Instrument Serif', serif;
-    --app-font-mono: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
-  }
-  html[dir='rtl'] .font-monoish {
-    letter-spacing: 0.04em;
-  }
-  html[lang='ur'] .font-display,
-  html[lang='ur-PK'] .font-display {
-    line-height: 1.35;
-  }
 }
+
+/* Arabic and Urdu typography. Deliberately unlayered: the font variables on
+   :root above are unlayered, and a rule inside @layer can never override an
+   unlayered one, so these overrides used to be silently ignored and both
+   scripts fell back to whatever system font the device had. */
+html[lang^='ar'] {
+  --app-font-sans: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
+  --app-font-serif: 'Noto Naskh Arabic', 'Instrument Serif', serif;
+  --app-font-mono: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
+}
+/* Russian: DM Sans has no Cyrillic, so body text fell back to Arial. Noto Sans
+   carries the Cyrillic glyphs; Google Fonts serves it only for that script range. */
+html[lang^='ru'] {
+  --app-font-sans: 'DM Sans', 'Noto Sans', sans-serif;
+  --app-font-mono: 'DM Sans', 'Noto Sans', sans-serif;
+}
+html[lang^='ur'] {
+  --app-font-sans: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', sans-serif;
+  --app-font-serif: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+  --app-font-mono: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
+}
+/* Joined scripts must not be letter-spaced: tracking pulls the letters apart.
+   The Latin brand wordmark keeps its spacing. */
+html[lang^='ar'] body *:not(.font-mark, .font-mark *),
+html[lang^='ur'] body *:not(.font-mark, .font-mark *) {
+  letter-spacing: 0 !important;
+}
+/* Browsers fake italics for Arabic script by slanting it; the gold colour
+   already marks the emphasised half of a heading. */
+html[lang^='ar'] :is(em, i), html[lang^='ur'] :is(em, i) { font-style: normal; }
+/* Naskh and especially Nastaliq need far more line height than the Latin
+   display faces' tight 0.8–1.05, or stacked lines collide. */
+html[lang^='ar'] :is(h1, h2, h3, h4, .font-display) { line-height: 1.4 !important; }
+html[lang^='ur'] :is(h1, h2, h3, h4, .font-display) { line-height: 1.75 !important; }
+html[lang^='ur'] :is(p, li, dd, address) { line-height: 2; }
+/* Nastaliq descenders reach below the line box: keep them off divider rules and
+   the subtitle under each homepage feature title. */
+html[lang^='ur'] :is(.product-accessory__body, .product-object__text, .retail-object__copy, .gallery-label) > p:last-of-type { padding-bottom: 0.4em; }
+html[lang^='ur'] .luxury-benefit__title { line-height: 1.8; }
+html[lang^='ur'] .luxury-benefit__subtitle { margin-top: 10px; }
 
 @layer utilities {
   .font-display { font-family: var(--app-font-serif); }
@@ -346,13 +368,20 @@ html.is-zoomed .site-header {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
 
-/* Phone legibility and tap-size floor.
-   The desktop's 7–9px tracked labels are unreadable on a phone. These are the
-   elements a 375px scan found below 10px; each gets a floor, never a reduction.
-   !important is needed because page stylesheets set these sizes in their own
-   phone media queries with higher specificity. */
+/* Touch-screen legibility and tap-size floor.
+   The desktop's 6–9px tracked labels are unreadable on phones and tablets.
+   Each list below is what a scan found under 10px at those sizes; each rule is
+   a floor, never a reduction. !important is needed for the named classes because
+   page stylesheets set their sizes in media queries with higher specificity. */
+@media (max-width: 767px), (pointer: coarse) {
+  /* Tailwind 7–9px utilities: zero specificity and no !important, so this beats
+     the utility layer but never a page stylesheet that already sets a size (for
+     example the enquiry form's 12px labels), nor a responsive sm:/md:/lg: size. */
+  :where(.text-\[7px\], .text-\[8px\], .text-\[9px\]):where(:not([class*="sm:text-"], [class*="md:text-"], [class*="lg:text-"])) {
+    font-size: 10px;
+  }
+}
 @media (max-width: 767px) {
-  .text-\[7px\], .text-\[8px\], .text-\[9px\],
   .luxury-eyebrow, .luxury-benefit__subtitle, .collection-eyebrow, .product-eyebrow,
   .home-lookbook__number, .home-lookbook__photo-label,
   .home-material-desk__selection > span, .home-material-desk__swatches button span,
@@ -365,10 +394,28 @@ html.is-zoomed .site-header {
   .home-material-desk__actions .marble-button, .product-enquiry .marble-button {
     font-size: 11px !important;
   }
-  /* Standalone small links (back to top, bring a brief, phone/email cards) get a
-     comfortable touch height without changing their look. */
+}
+/* Tablets and other touch screens at desktop-like widths. */
+@media (min-width: 768px) and (pointer: coarse) {
+  .gallery-label__code, .piece-photographs__position, .collection-eyebrow, .product-eyebrow, .retail-eyebrow,
+  .retail-object__code, .retail-object__dimensions, .retail-intro__count, .retail-inventory__status span,
+  .home-lookbook__photo-label, .home-material-desk__selection > span, .luxury-benefit__subtitle,
+  .product-category-tabs__count, .product-category-tabs__count span,
+  .material-intro__sample figcaption, .material-study__photograph figcaption,
+  .home-material-desk__swatches button span, .home-studio-note__photo figcaption span,
+  .collection-space-links nav a > span, .retail-filters button > span, .retail-process li > span {
+    font-size: 10px !important;
+  }
+  .collection-link, .gallery-room__nav a, .retail-object__enquire, .retail-text-link,
+  .retail-object__copy p, .gallery-label__material, .gallery-label__dimensions, .piece-photographs__caption, .editorial-link {
+    font-size: 11px !important;
+  }
+}
+/* Standalone small links (back to top, bring a brief, phone/email cards) get a
+   comfortable touch size on any touch screen, without changing their look. */
+@media (max-width: 767px), (pointer: coarse) {
   a.line-link:not(p a, li a), a[href^="tel:"], a[href^="mailto:"] {
     min-height: 32px;
   }
-  a.line-link:not(p a, li a) { display: inline-flex; align-items: center; }
+  a.line-link:not(p a, li a) { display: inline-flex; align-items: center; min-width: 24px; }
 }

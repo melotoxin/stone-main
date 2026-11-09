@@ -75,6 +75,12 @@ html[dir="rtl"] a[href^="tel:"] { flex-direction: row-reverse; text-align: right
   .site-shell[data-page="interior"] .site-search-affordance .luxury-search-trigger svg { width: 18px; }
 }
 @media (max-width: 1199px) { .site-footer__main { grid-template-columns: 1fr 1.3fr; gap: 36px; } .site-footer__main > a { grid-column: 1 / -1; } }
+/* Tablet widths: give the two addresses the full row (they wrapped to five lines
+   and broke the email mid-word in a third of the width), links on the row below. */
+@media (min-width: 640px) and (max-width: 1199px) {
+  .site-footer__contacts, .site-footer__nav { grid-column: 1 / -1; }
+  .site-footer__nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 @media (max-width: 639px) {
   .studio-menu { padding: 28px 22px; }
   .studio-menu__primary a { min-height: 55px; font-size: 28px; }

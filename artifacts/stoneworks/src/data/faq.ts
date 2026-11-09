@@ -47,7 +47,7 @@ export const studioFaqs: StudioFaq[] = [
     id: 'custom-or-collection',
     question: 'Does St Werkz make custom pieces or only the collection?',
     answer:
-      'St Werkz shows a collection of finished works and also takes commissions. The five rooms — dining, living, accents, interiors and surfaces — are pieces you can request to see. If you need a similar table, sink or slab, start with a studio estimate. A viewing still confirms the stone.',
+      'St Werkz shows a collection of finished works and also takes commissions. The five rooms — marble, onyx, limestone, slabs and handicrafts — hold pieces you can request to see. If you need a similar table, sink or slab, start with a studio estimate. A viewing still confirms the stone.',
   },
   {
     id: 'how-to-view',

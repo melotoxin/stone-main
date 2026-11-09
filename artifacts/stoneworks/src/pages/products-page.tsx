@@ -9,7 +9,7 @@ import { CataloguePhoto } from '@/components/products/CataloguePhoto';
 import { productChapters, productChapterFromHash, type ProductChapter } from '@/data/products';
 import { productAccessories, productItemCount } from '@/data/product-accessories';
 import { quoteHref } from '@/data/b2b';
-import { localizedPiece, useI18n, type LocaleCode } from '@/i18n';
+import { localizedAccessory, localizedChapter, localizedPiece, useI18n, type LocaleCode } from '@/i18n';
 import '@/styles/products.css';
 import '@/styles/product-cards.css';
 
@@ -18,7 +18,7 @@ const labels: Record<LocaleCode, readonly [string, string, string]> = {
   es: ['Cocina', 'Baño', 'Decoración del hogar'],
   it: ['Cucina', 'Bagno', 'Decorazioni per la casa'],
   fr: ['Cuisine', 'Salle de bain', 'Décoration de la maison'],
-  ar: ['المطبخ', 'الحمام', 'ديكور الغرف والمنزل'],
+  ar: ['المطبخ', 'الحمام', 'ديكور المنزل'],
   ur: ['باورچی خانہ', 'غسل خانہ', 'کمرے اور گھر کی سجاوٹ'],
   ru: ['Кухня', 'Ванная', 'Декор для дома'],
 };
@@ -30,8 +30,8 @@ const compactLabels: Record<LocaleCode, string> = {
 
 const searchCopy = {
   en: { label: 'Find an object in this category', placeholder: 'Name, stone or product code', clear: 'Clear search', empty: 'No matching objects in this category.', reset: 'Show all objects', featured: 'In the featured object above' },
-  es: { label: 'Busca un objeto en esta categoría', placeholder: 'Nombre, piedra o código', clear: 'Borrar búsqueda', empty: 'No hay objetos que coincidan en esta categoría.', reset: 'Ver todos los objetos', featured: 'El objeto destacado arriba' },
-  it: { label: 'Cerca un oggetto in questa categoria', placeholder: 'Nome, pietra o codice', clear: 'Cancella ricerca', empty: 'Nessun oggetto corrispondente in questa categoria.', reset: 'Mostra tutti gli oggetti', featured: 'L’oggetto in primo piano sopra' },
+  es: { label: 'Busque un objeto en esta categoría', placeholder: 'Nombre, piedra o código', clear: 'Borrar búsqueda', empty: 'No hay objetos que coincidan en esta categoría.', reset: 'Ver todos los objetos', featured: 'El objeto destacado arriba' },
+  it: { label: 'Cerchi un oggetto in questa categoria', placeholder: 'Nome, pietra o codice', clear: 'Cancella ricerca', empty: 'Nessun oggetto corrispondente in questa categoria.', reset: 'Mostra tutti gli oggetti', featured: 'L’oggetto in primo piano sopra' },
   fr: { label: 'Cherchez un objet dans cette catégorie', placeholder: 'Nom, pierre ou référence', clear: 'Effacer la recherche', empty: 'Aucun objet correspondant dans cette catégorie.', reset: 'Voir tous les objets', featured: 'L’objet présenté ci-dessus' },
   ar: { label: 'ابحث عن قطعة في هذه الفئة', placeholder: 'الاسم أو الحجر أو رمز المنتج', clear: 'مسح البحث', empty: 'لا توجد قطع مطابقة في هذه الفئة.', reset: 'عرض جميع القطع', featured: 'القطعة المميزة أعلاه' },
   ur: { label: 'اس زمرے میں شے تلاش کریں', placeholder: 'نام، پتھر یا پروڈکٹ کوڈ', clear: 'تلاش صاف کریں', empty: 'اس زمرے میں کوئی شے نہیں ملی۔', reset: 'تمام اشیا دکھائیں', featured: 'اوپر دکھائی گئی خاص شے' },
@@ -40,16 +40,16 @@ const searchCopy = {
 
 const normalizeSearch = (value: string) => value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase().trim();
 const additionsLabel: Record<LocaleCode, string> = {
-  en: 'Explore the new additions', es: 'Explora las novedades', it: 'Scopri le novità',
+  en: 'Explore the new additions', es: 'Explore las novedades', it: 'Scopra le novità',
   fr: 'Découvrez les nouveautés', ar: 'استكشف الإضافات الجديدة', ur: 'نئی اشیا دیکھیں', ru: 'Посмотреть новые предметы',
 };
 
 const copy = {
   en: { eyebrow: 'ST WERKZ / THE OBJECT EDIT', title: 'Everyday objects.', emphasis: 'Extraordinary stone.', intro: 'Useful, sculptural pieces for the table, the vanity and the spaces you call home.', objects: 'objects', browse: 'Explore the objects', featured: 'The featured object', discover: 'View the piece', shelf: 'The rest of the edit', all: 'Explore all collections', close: 'Found something you love?', closeBody: 'Ask about a piece, a stone or a custom finish. Our Karachi studio will help you find the right fit.', enquiry: 'Talk to our stone experts', selected: 'Selected category' },
-  es: { eyebrow: 'ST WERKZ / SELECCIÓN DE OBJETOS', title: 'Objetos cotidianos.', emphasis: 'Piedra extraordinaria.', intro: 'Piezas útiles y escultóricas para la mesa, el baño y tu hogar.', objects: 'objetos', browse: 'Explora los objetos', featured: 'El objeto destacado', discover: 'Ver la pieza', shelf: 'El resto de la selección', all: 'Explora todas las colecciones', close: '¿Encontraste algo que te encanta?', closeBody: 'Pregunta por una pieza, una piedra o un acabado a medida. Nuestro estudio de Karachi te ayudará a elegir.', enquiry: 'Habla con nuestros expertos', selected: 'Categoría seleccionada' },
-  it: { eyebrow: 'ST WERKZ / SELEZIONE DI OGGETTI', title: 'Oggetti quotidiani.', emphasis: 'Pietra straordinaria.', intro: 'Pezzi utili e scultorei per la tavola, il bagno e gli spazi di casa.', objects: 'oggetti', browse: 'Esplora gli oggetti', featured: 'L’oggetto in primo piano', discover: 'Scopri il pezzo', shelf: 'Il resto della selezione', all: 'Esplora tutte le collezioni', close: 'Hai trovato qualcosa che ami?', closeBody: 'Chiedici di un pezzo, una pietra o una finitura su misura. Il nostro studio di Karachi ti aiuterà a scegliere.', enquiry: 'Parla con i nostri esperti', selected: 'Categoria selezionata' },
-  fr: { eyebrow: 'ST WERKZ / SÉLECTION D’OBJETS', title: 'Objets du quotidien.', emphasis: 'Pierre extraordinaire.', intro: 'Des pièces utiles et sculpturales pour la table, la salle de bain et votre maison.', objects: 'objets', browse: 'Explorez les objets', featured: 'L’objet à découvrir', discover: 'Voir la pièce', shelf: 'Le reste de la sélection', all: 'Explorez toutes les collections', close: 'Un objet vous plaît ?', closeBody: 'Parlons d’une pièce, d’une pierre ou d’une finition sur mesure. Notre studio de Karachi vous aidera à choisir.', enquiry: 'Parlez à nos experts', selected: 'Catégorie sélectionnée' },
-  ar: { eyebrow: 'ST WERKZ / مجموعة القطع', title: 'قطع للحياة اليومية.', emphasis: 'حجر استثنائي.', intro: 'قطع عملية ومنحوتة للمائدة والحمام والمساحات التي تسميها منزلك.', objects: 'قطع', browse: 'استكشف القطع', featured: 'القطعة المميزة', discover: 'عرض القطعة', shelf: 'بقية المجموعة', all: 'استكشف كل المجموعات', close: 'هل وجدت قطعة أعجبتك؟', closeBody: 'اسأل عن قطعة أو حجر أو تشطيب مخصص. سيساعدك فريق الاستوديو في كراتشي على الاختيار.', enquiry: 'تحدث مع خبراء الحجر', selected: 'الفئة المختارة' },
+  es: { eyebrow: 'ST WERKZ / SELECCIÓN DE OBJETOS', title: 'Objetos cotidianos.', emphasis: 'Piedra extraordinaria.', intro: 'Piezas útiles y escultóricas para la mesa, el baño y su hogar.', objects: 'objetos', browse: 'Explore los objetos', featured: 'El objeto destacado', discover: 'Ver la pieza', shelf: 'El resto de la selección', all: 'Explore todas las colecciones', close: '¿Ha encontrado algo que le guste?', closeBody: 'Pregunte por una pieza, una piedra o un acabado a medida. Nuestro estudio de Karachi le ayudará a elegir.', enquiry: 'Hable con nuestros expertos', selected: 'Categoría seleccionada' },
+  it: { eyebrow: 'ST WERKZ / SELEZIONE DI OGGETTI', title: 'Oggetti quotidiani.', emphasis: 'Pietra straordinaria.', intro: 'Pezzi utili e scultorei per la tavola, il bagno e gli spazi di casa.', objects: 'oggetti', browse: 'Esplori gli oggetti', featured: 'L’oggetto in primo piano', discover: 'Scopra il pezzo', shelf: 'Il resto della selezione', all: 'Esplori tutte le collezioni', close: 'Ha trovato qualcosa che ama?', closeBody: 'Ci chieda di un pezzo, una pietra o una finitura su misura. Il nostro studio di Karachi la aiuterà a scegliere.', enquiry: 'Parli con i nostri esperti', selected: 'Categoria selezionata' },
+  fr: { eyebrow: 'ST WERKZ / SÉLECTION D’OBJETS', title: 'Objets du quotidien.', emphasis: 'Pierre extraordinaire.', intro: 'Des pièces utiles et sculpturales pour la table, la salle de bain et votre maison.', objects: 'objets', browse: 'Explorez les objets', featured: 'L’objet à découvrir', discover: 'Voir la pièce', shelf: 'Le reste de la sélection', all: 'Explorez toutes les collections', close: 'Un objet vous plaît ?', closeBody: 'Parlons d’une pièce, d’une pierre ou d’une finition sur mesure. Notre atelier de Karachi vous aidera à choisir.', enquiry: 'Parlez à nos experts', selected: 'Catégorie sélectionnée' },
+  ar: { eyebrow: 'ST WERKZ / مجموعة القطع', title: 'قطع للحياة اليومية.', emphasis: 'حجر استثنائي.', intro: 'قطع عملية ومنحوتة للمائدة والحمام وكل ركن في بيتك.', objects: 'قطعة', browse: 'استكشف القطع', featured: 'القطعة المميزة', discover: 'عرض القطعة', shelf: 'بقية المجموعة', all: 'استكشف كل المجموعات', close: 'هل وجدت قطعة أعجبتك؟', closeBody: 'اسأل عن قطعة أو حجر أو تشطيب مخصص. سيساعدك فريق الاستوديو في كراتشي على الاختيار.', enquiry: 'تحدث مع خبراء الحجر', selected: 'الفئة المختارة' },
   ur: { eyebrow: 'ST WERKZ / منتخب اشیا', title: 'روزمرہ کی اشیا۔', emphasis: 'غیر معمولی پتھر۔', intro: 'میز، غسل خانے اور گھر کے لیے کارآمد اور نفیس تراشی ہوئی اشیا۔', objects: 'اشیا', browse: 'اشیا دیکھیں', featured: 'خاص منتخب شے', discover: 'شے دیکھیں', shelf: 'مجموعے کی مزید اشیا', all: 'تمام مجموعے دیکھیں', close: 'کیا کوئی شے پسند آئی؟', closeBody: 'کسی شے، پتھر یا خاص فنش کے بارے میں پوچھیں۔ ہمارا کراچی اسٹوڈیو آپ کو موزوں انتخاب میں مدد دے گا۔', enquiry: 'ہمارے ماہرین سے بات کریں', selected: 'منتخب زمرہ' },
   ru: { eyebrow: 'ST WERKZ / ПОДБОРКА ПРЕДМЕТОВ', title: 'Повседневные предметы.', emphasis: 'Необыкновенный камень.', intro: 'Полезные скульптурные изделия для стола, ванной и вашего дома.', objects: 'предметов', browse: 'Посмотреть предметы', featured: 'Избранный предмет', discover: 'Посмотреть изделие', shelf: 'Другие предметы подборки', all: 'Все коллекции', close: 'Нашли то, что вам нравится?', closeBody: 'Спросите об изделии, камне или индивидуальной отделке. Наша студия в Карачи поможет подобрать подходящий вариант.', enquiry: 'Поговорите с нашими экспертами', selected: 'Выбранная категория' },
 } as const;
@@ -71,20 +71,22 @@ function FeaturedObject({ chapter, index, onBrowse }: { chapter: ProductChapter;
   const text = copy[locale];
   const featured = chapter.pieces.find(piece => piece.slug === chapter.featuredSlug)!;
   const product = localizedPiece(featured, locale);
+  const shown = localizedChapter(chapter, locale);
+  const enLang = shown.translated ? undefined : 'en';
   const path = '/collection/' + featured.room + '/' + featured.slug;
   return (
     <article className={'product-feature product-feature--' + chapter.mood} data-world={chapter.id}>
       <figure className="product-feature__photograph">
         <Link href={path} aria-label={text.discover + ': ' + product.title} data-testid={'link-world-' + chapter.id}>
-          <CataloguePhoto source={chapter.heroImage} alt={chapter.heroAlt} priority />
+          <CataloguePhoto source={chapter.heroImage} alt={shown.heroAlt} priority />
           <span className="product-feature__photo-link"><ArrowUpRight size={23} strokeWidth={1.5} aria-hidden="true" /></span>
         </Link>
         <figcaption><span>{featured.code}</span><span>{text.featured}</span></figcaption>
       </figure>
       <div className="product-feature__copy">
         <p className="product-eyebrow"><span>{chapter.number}</span> / {labels[locale][index]}</p>
-        <h2 id="product-feature-title" lang="en">{chapter.title}</h2>
-        <p className="product-feature__description" lang="en">{chapter.description}</p>
+        <h2 id="product-feature-title" lang={enLang}>{shown.title}</h2>
+        <p className="product-feature__description" lang={enLang}>{shown.description}</p>
         <div className="product-feature__object">
           <span className="product-eyebrow">{text.featured}</span>
           <h3><Link href={path}>{product.title}</Link></h3>
@@ -111,7 +113,7 @@ export function ProductsPage() {
   const shelf = useRef<HTMLElement>(null);
   const searchInput = useRef<HTMLInputElement>(null);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
-  const chapter = productChapters[selected];
+  const chapter = localizedChapter(productChapters[selected], locale);
   const objects = chapter.pieces.filter(piece => piece.slug !== chapter.featuredSlug);
   const total = productChapters.reduce((sum, item) => sum + productItemCount(item), 0);
   const searchText = searchCopy[locale];
@@ -122,8 +124,10 @@ export function ProductsPage() {
   });
   const visibleObjects = normalizedQuery ? matches.filter(piece => piece.slug !== chapter.featuredSlug) : objects;
   const featuredMatch = normalizedQuery ? matches.find(piece => piece.slug === chapter.featuredSlug) : undefined;
-  const accessoryMatches = productAccessories[chapter.id].filter(accessory =>
-    normalizeSearch([accessory.title, accessory.material, accessory.description].join(' ')).includes(normalizedQuery));
+  const accessoryMatches = productAccessories[chapter.id].filter(accessory => {
+    const local = localizedAccessory(accessory, locale);
+    return normalizeSearch([local.title, local.material, local.description, accessory.title, accessory.material].join(' ')).includes(normalizedQuery);
+  });
   const itemCount = productItemCount(chapter);
   const matchCount = matches.length + accessoryMatches.length;
 

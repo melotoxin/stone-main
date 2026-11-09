@@ -35,6 +35,28 @@ export function localizedRooms(rooms: Room[], locale: LocaleCode) {
   return rooms.map((room) => localizedRoom(room, locale));
 }
 
+/** Overlays translated stone text (colour, origin, use) from the catalogue; English data is the fallback. */
+export function localizedStone<T extends { id: string; colour: string; origin: string; use: string }>(stone: T, locale: LocaleCode): T & { translated: boolean } {
+  const copy = catalogs[locale].dataText.stones[stone.id];
+  return copy ? { ...stone, ...definedOnly(copy), translated: true } : { ...stone, translated: locale === 'en' };
+}
+
+/** Overlays translated product-chapter text; `translated` is false when English is still showing. */
+export function localizedChapter<T extends { id: string; title: string; subtitle: string; description: string; material: string; heroAlt: string }>(chapter: T, locale: LocaleCode): T & { translated: boolean } {
+  const copy = catalogs[locale].dataText.chapters[chapter.id];
+  return copy ? { ...chapter, ...definedOnly(copy), translated: true } : { ...chapter, translated: locale === 'en' };
+}
+
+/** Overlays translated accessory text; `translated` is false when English is still showing. */
+export function localizedAccessory<T extends { id: string; title: string; material: string; description: string; alt: string }>(accessory: T, locale: LocaleCode): T & { translated: boolean } {
+  const copy = catalogs[locale].dataText.accessories[accessory.id];
+  return copy ? { ...accessory, ...definedOnly(copy), translated: true } : { ...accessory, translated: locale === 'en' };
+}
+
+function definedOnly<T extends object>(value: T): Partial<T> {
+  return Object.fromEntries(Object.entries(value).filter(([, v]) => v !== undefined && v !== '')) as Partial<T>;
+}
+
 export function localizedPieces(pieces: Piece[], locale: LocaleCode) {
   return pieces.map((piece) => localizedPiece(piece, locale));
 }

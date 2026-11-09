@@ -21,7 +21,7 @@
 .product-opening__aside > span { display: inline-block; border-top: 1px solid var(--product-line); padding-top: 12px; font-size: 9px; text-transform: uppercase; letter-spacing: .18em; }
 .product-opening__browse { display: inline-flex; align-items: center; gap: 10px; margin-inline-start: 24px; padding-block: 8px; font-size: 9px; color: #765932; border-bottom: 1px solid #b39c7e; }
 
-.product-category-bar { position: sticky; top: var(--product-header-height); z-index: 12; padding-inline: 6vw; background: #f4f1e9f5; backdrop-filter: blur(14px); border-block: 1px solid var(--product-line); }
+.product-category-bar { position: sticky; top: var(--product-header-height); z-index: 12; padding-inline: 6vw; background: #f4f1e9f5; -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-block: 1px solid var(--product-line); }
 .product-category-tabs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 35px; }
 .product-category-tabs button { min-width: 0; min-height: 75px; display: flex; align-items: center; gap: 15px; text-align: start; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: border-color .25s,color .25s; color: var(--product-muted); }
 .product-category-tabs button[aria-selected='true'] { border-color: #957549; color: #28251e; }

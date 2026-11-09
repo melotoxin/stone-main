@@ -8,7 +8,8 @@ import {
   DialogDescription,
   DialogTitle,
 } from '@/components/ui/dialog';
-import { useI18n } from '@/i18n';
+import { localizedPiece, localizedStone, useI18n } from '@/i18n';
+import { pieces } from '@/data/gallery';
 import {
   categoryForStoneId,
   materialHref,
@@ -38,14 +39,25 @@ export function StonesPage() {
   const [filter, setFilter] = useState<Filter>('all');
   const [query, setQuery] = useState('');
   const [openId, setOpenId] = useState<string | null>(null);
+  // Stone and card text in the reader's language; English data is the fallback.
+  const localStones = useMemo(() => new Map(pakistanStones.map((stone) => [stone.id, localizedStone(stone, locale)])), [locale]);
   const rows = useMemo(() => {
     const term = query.trim().toLocaleLowerCase(locale);
+    const localizeCard = (card: MaterialsCard): MaterialsCard => {
+      if (card.stoneId) { const stone = localStones.get(card.stoneId); return stone ? { ...card, colour: stone.colour } : card; }
+      const piece = card.pieceSlug ? pieces.find((entry) => entry.slug === card.pieceSlug) : undefined;
+      if (piece) { const local = localizedPiece(piece, locale); return { ...card, name: local.title, colour: local.material }; }
+      const sameColour = pakistanStones.find((stone) => stone.colour === card.colour);
+      return sameColour ? { ...card, colour: localStones.get(sameColour.id)?.colour ?? card.colour } : card;
+    };
     return cardsForFilter(filter).filter(card => {
       const stone = pakistanStones.find(entry => entry.id === card.stoneId);
-      return !term || `${card.name} ${card.colour ?? ''} ${stone?.origin ?? ''} ${stone?.alsoKnownAs.join(' ') ?? ''}`.toLocaleLowerCase(locale).includes(term);
-    });
-  }, [filter, query, locale]);
-  const openStone = openId ? pakistanStones.find((stone) => stone.id === openId) : undefined;
+      const local = card.stoneId ? localStones.get(card.stoneId) : undefined;
+      // Match the translated text and the English trade text, so either finds a stone.
+      return !term || `${card.name} ${card.colour ?? ''} ${stone?.origin ?? ''} ${stone?.alsoKnownAs.join(' ') ?? ''} ${local?.colour ?? ''} ${local?.origin ?? ''} ${local?.use ?? ''}`.toLocaleLowerCase(locale).includes(term);
+    }).map(localizeCard);
+  }, [filter, query, locale, localStones]);
+  const openStone = openId ? localStones.get(openId) : undefined;
   const filters: { id: Filter; label: string }[] = [
     { id: 'all', label: s.filterAll },
     { id: 'marble', label: s.filterMarble },
@@ -133,7 +145,7 @@ export function StonesPage() {
           ) : (
             <ol className="grid gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
               {rows.map((card, index) => {
-                const stone = card.stoneId ? pakistanStones.find((entry) => entry.id === card.stoneId) : undefined;
+                const stone = card.stoneId ? localStones.get(card.stoneId) : undefined;
                 return (
                   <li key={card.id} id={card.stoneId ?? card.id} data-testid={`stone-${card.stoneId ?? card.id}`}>
                     {card.kind === 'project' ? (

@@ -1,4 +1,4 @@
-.service-header { position: fixed; inset-inline: 0; top: 0; z-index: 50; padding-top: env(safe-area-inset-top); background: #141410f5; border-bottom: 1px solid #d8bf9024; backdrop-filter: blur(14px); }
+.service-header { position: fixed; inset-inline: 0; top: 0; z-index: 50; padding-top: env(safe-area-inset-top); background: #141410f5; border-bottom: 1px solid #d8bf9024; -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
 .service-header__nav { display: flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 76px; max-width: 1510px; margin-inline: auto; padding-inline: clamp(24px, 3vw, 48px); color: #f3eee5; }
 .service-header__brand { display: inline-flex; align-items: center; flex-shrink: 0; min-height: 44px; }
 .service-header__brand .font-mark { font-size: 14px; letter-spacing: .19em; white-space: nowrap; }

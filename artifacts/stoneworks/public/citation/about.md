@@ -64,7 +64,7 @@ Material questions, project conversations, and first looks at works in the colle
 Travertine is a porous sedimentary limestone. At St Werkz it is usually specified honed, with natural pits left open rather than filled to a glass face.
 
 - Pillars: expertise
-- Evidence: Collection material lines and honed travertine works in dining, living, accents, and interiors.
+- Evidence: Collection material lines and honed travertine works in the limestone collection.
 
 ### claim-onyx-backlit
 
