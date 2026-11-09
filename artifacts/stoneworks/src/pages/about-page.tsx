@@ -80,7 +80,7 @@ export function AboutPage() {
           <p className="studio-kicker">{copy.officesKicker}</p>
           <h2 id="about-offices-title">{copy.officesTitleBefore}<em>{copy.officesTitleEm}</em></h2>
           <p className="studio-body">{copy.officesBody}</p>
-          <OfficesList variant="page" />
+          <OfficesList variant="page" labelledBy="about-offices-title" />
         </section>
 
         <section className="studio-paper" aria-labelledby="about-visit-title">

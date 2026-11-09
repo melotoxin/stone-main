@@ -1,6 +1,6 @@
 # Backlit Onyx Waterfall Counter
 
-> Backlit Onyx Waterfall Counter is a L-shaped counter with a vein-matched waterfall edge in Translucent honey onyx, internal LED, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Backlit Onyx Waterfall Counter is an l-shaped counter with a vein-matched waterfall edge in translucent honey onyx, internal LED, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

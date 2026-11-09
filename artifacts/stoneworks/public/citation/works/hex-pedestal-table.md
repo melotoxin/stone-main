@@ -1,6 +1,6 @@
 # Hexagonal Pedestal Table
 
-> Hexagonal Pedestal Table is a Circular top on a hexagonal stone drum in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Hexagonal Pedestal Table is a circular top on a hexagonal stone drum in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

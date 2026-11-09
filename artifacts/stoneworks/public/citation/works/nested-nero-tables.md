@@ -1,6 +1,6 @@
 # Nested Nero Tables
 
-> Nested Nero Tables is a Pair of circular nesting coffee tables in Polished black marble with white veining, dark metal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Nested Nero Tables is a pair of circular nesting coffee tables in polished black marble with white veining, dark metal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

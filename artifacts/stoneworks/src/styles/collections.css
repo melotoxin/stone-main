@@ -188,7 +188,10 @@
   .gallery-label__form { font-size: 9px; line-height: 1.65; }
   .gallery-room__empty { padding: 30px 24px; }
   .gallery-room__empty h2 { font-size: 32px; }
-  .piece-photographs__main { min-height: 300px; height: min(58svh,560px); padding: 16px 21px; }
+  /* Fit the frame to the photograph on phones: a fixed tall frame left landscape
+     photos floating in mostly empty space. Tall photos are capped at 70svh. */
+  .piece-photographs__main { min-height: 240px; height: auto; max-height: none; padding: 16px 21px; }
+  .piece-photographs__main > img { height: auto; max-height: 70svh; }
   .piece-photographs__thumbnails { gap: 10px; }
   .piece-photographs__thumbnails button { width: 62px; height: 62px; }
   .piece-photographs__position { font-size: 6px; bottom: 12px; left: 12px; }
@@ -203,7 +206,13 @@
   .material-intro__description, .material-study__copy > p:not(.collection-eyebrow), .collection-space-links p:not(.collection-eyebrow), .gallery-room__heading > p { font-size: 14px; line-height: 1.8; }
   .collection-experience .collection-link { font-size: 12px; line-height: 1.5; min-height: 44px; letter-spacing: .05em; }
   .material-index a { font-size: 12px; line-height: 1.5; min-height: 52px; }
+  /* Keep each room name beside its numeral; only the arrow goes to the end. With
+     space-between the label floated to the middle of wider cells (IV, V). */
+  .material-index a { justify-content: flex-start; }
+  .material-index svg { margin-inline-start: auto; }
   .material-intro__sample figcaption, .material-study__photograph figcaption { font-size: 10px; line-height: 1.5; letter-spacing: .05em; }
+  /* The amber card overlaps the white card's lower edge on phones; caption the white one at the top. */
+  .material-intro__sample--white figcaption { top: 12px; bottom: auto; }
   .gallery-room__nav { gap: 4px 18px; }
   .gallery-room__nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 12px; line-height: 1.5; }
   .gallery-label__code { font-size: 11px; line-height: 1.5; }

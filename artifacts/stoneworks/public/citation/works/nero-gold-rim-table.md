@@ -1,6 +1,6 @@
 # Nero Gold-Rim Table
 
-> Nero Gold-Rim Table is a Round coffee table with gold open frame in Polished black marble, polished brass rim and base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Nero Gold-Rim Table is a round coffee table with gold open frame in polished black marble, polished brass rim and base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

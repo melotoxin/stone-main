@@ -216,6 +216,8 @@ export function ProductsPage() {
           <div className="product-opening__aside"><p>{text.intro}</p><span>{String(total).padStart(2, '0')} {text.objects}</span><button type="button" className="product-opening__browse" onClick={browseObjects} data-testid="button-browse-all-products">{text.browse}<ArrowDown size={14} aria-hidden="true" /></button></div>
         </header>
 
+        {/* Bounds the sticky category bar so it releases before the closing section. */}
+        <div className="product-browse">
         <div ref={categoryBar} className="product-category-bar">
           <div className="product-category-tabs" role="tablist" aria-label={text.selected}>
             {productChapters.map((item, index) => (
@@ -238,7 +240,7 @@ export function ProductsPage() {
               <label htmlFor="product-search">{searchText.label}</label>
               <div className="product-finder__row">
                 <div className="product-finder__field"><Search size={18} aria-hidden="true" /><input ref={searchInput} id="product-search" type="search" value={query} onChange={event => updateQuery(event.target.value)} placeholder={searchText.placeholder} autoComplete="off" data-testid="input-product-search" />{query && <button type="button" aria-label={searchText.clear} onClick={() => { updateQuery(''); searchInput.current?.focus(); }} data-testid="button-clear-product-search"><X size={18} aria-hidden="true" /></button>}</div>
-                <p role="status" aria-live="polite" aria-atomic="true" data-testid="product-search-count">{normalizedQuery ? matchCount + ' / ' + itemCount : itemCount} {text.objects}</p>
+                <p role="status" aria-live="polite" aria-atomic="true" data-testid="product-search-count">{normalizedQuery ? `${matchCount} / ${itemCount} ${text.objects}` : ''}</p>
               </div>
               {!normalizedQuery && accessoryMatches.length > 0 && <button type="button" className="product-text-link product-finder__additions" onClick={() => main.current?.querySelector('.product-accessories')?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' })} data-testid="button-browse-product-additions">{additionsLabel[locale]}<span>{accessoryMatches.length}</span><ArrowDown size={16} aria-hidden="true" /></button>}
             </div>
@@ -250,6 +252,8 @@ export function ProductsPage() {
             <AccessoryEdit category={chapter.id} accessories={accessoryMatches} />
             <Link href="/collection" className="product-text-link product-shelf__all">{text.all}<ArrowUpRight size={18} aria-hidden="true" /></Link>
           </section>
+        </div>
+
         </div>
 
         <section className="product-enquiry" aria-labelledby="product-enquiry-title">

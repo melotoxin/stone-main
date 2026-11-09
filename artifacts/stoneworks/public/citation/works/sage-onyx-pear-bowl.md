@@ -1,6 +1,6 @@
 # Sage Onyx Sphere-Foot Bowl
 
-> Sage Onyx Sphere-Foot Bowl is a Shallow bowl on three stone spheres in Polished sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Onyx Sphere-Foot Bowl is a shallow bowl on three stone spheres in polished sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Travertine Compote
 
-> Travertine Compote is a Wide pedestal bowl on a hemispherical foot in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Compote is a wide pedestal bowl on a hemispherical foot in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

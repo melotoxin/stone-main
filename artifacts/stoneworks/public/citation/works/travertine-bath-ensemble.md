@@ -1,6 +1,6 @@
 # Travertine Bath Ensemble
 
-> Travertine Bath Ensemble is a Tray, pump, canisters and glass toothbrush cup in Honed travertine, brushed metal and glass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Bath Ensemble is a tray, pump, canisters and glass toothbrush cup in honed travertine, brushed metal and glass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

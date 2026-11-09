@@ -1,6 +1,6 @@
 # Round Travertine Dining Table
 
-> Round Travertine Dining Table is a Circular top on a tapered conical pedestal in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Round Travertine Dining Table is a circular top on a tapered conical pedestal in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

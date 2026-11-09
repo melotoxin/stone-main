@@ -1,6 +1,6 @@
 # Notched Travertine Tables
 
-> Notched Travertine Tables is a Round tops with flush wood-leg joinery in Honed travertine, light oak, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Notched Travertine Tables is a round tops with flush wood-leg joinery in honed travertine, light oak, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

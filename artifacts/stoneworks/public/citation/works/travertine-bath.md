@@ -1,6 +1,6 @@
 # Travertine Bath Suite
 
-> Travertine Bath Suite is a Tissue cover, dispenser and vessels on dark stone in Honed unfilled beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Bath Suite is a tissue cover, dispenser and vessels on dark stone in honed unfilled beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

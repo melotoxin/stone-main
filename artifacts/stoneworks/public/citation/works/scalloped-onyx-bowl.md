@@ -1,6 +1,6 @@
 # Scalloped Onyx Bowl
 
-> Scalloped Onyx Bowl is a Fluted circular bowl in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Scalloped Onyx Bowl is a fluted circular bowl in polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Oval Travertine Pedestal Table
 
-> Oval Travertine Pedestal Table is a Elliptical dining top on a tapered stone pedestal in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Oval Travertine Pedestal Table is an elliptical dining top on a tapered stone pedestal in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

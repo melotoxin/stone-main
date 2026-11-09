@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Link } from "wouter";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import { StoneworksMark } from "@/components/brand/StoneworksMark";
@@ -49,6 +49,25 @@ export function SiteChrome({
     return () => window.removeEventListener("scroll", update);
   }, []);
   useEffect(() => setMenuOpen(false), [barePath, locale]);
+  // Publish the header's real height so sticky bars below it (Stones filters,
+  // Products tabs) sit flush at every breakpoint instead of guessing a number.
+  const headerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header || typeof ResizeObserver === "undefined") return;
+    const publish = () =>
+      document.documentElement.style.setProperty(
+        "--site-header-h",
+        `${Math.round(header.getBoundingClientRect().height)}px`,
+      );
+    publish();
+    const observer = new ResizeObserver(publish);
+    observer.observe(header);
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty("--site-header-h");
+    };
+  }, []);
   const closeMenu = () => setMenuOpen(false);
   const audienceNav = audienceItems(t.chrome);
   const studioNav = [
@@ -79,6 +98,7 @@ export function SiteChrome({
         {t.chrome.skip}
       </a>
       <header
+        ref={headerRef}
         className={`site-header luxury-header ${scrolled || barePath !== "/" ? "luxury-header--solid" : ""}`}
       >
         <nav className="luxury-nav" aria-label={t.chrome.primaryNav}>
@@ -286,7 +306,7 @@ export function SiteChrome({
               </a>
             </address>
           </div>
-          <nav className="site-footer__nav" aria-label={t.chrome.primaryNav}>
+          <nav className="site-footer__nav" aria-label={t.chrome.footerNav}>
             <Link
               href="/about"
               className="line-link"

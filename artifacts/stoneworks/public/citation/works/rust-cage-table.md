@@ -1,6 +1,6 @@
 # Rust Vein Cage Table
 
-> Rust Vein Cage Table is a Round side table on an angular brass cage in Polished black marble with rust veining, gold geometric base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Rust Vein Cage Table is a round side table on an angular brass cage in polished black marble with rust veining, gold geometric base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

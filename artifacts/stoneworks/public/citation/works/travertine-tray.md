@@ -1,6 +1,6 @@
 # Travertine Rectangular Tray
 
-> Travertine Rectangular Tray is a Shallow rectangular platter with raised rim in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Rectangular Tray is a shallow rectangular platter with raised rim in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

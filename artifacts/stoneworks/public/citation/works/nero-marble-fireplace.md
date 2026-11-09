@@ -1,6 +1,6 @@
 # Nero Marble Fireplace
 
-> Nero Marble Fireplace is a Classic panelled mantel and hearth in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Nero Marble Fireplace is a classic panelled mantel and hearth in polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

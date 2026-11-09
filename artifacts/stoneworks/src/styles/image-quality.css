@@ -16,6 +16,10 @@ img:not(.catalogue-photo):is([src='/gallery/accents-travertine-bath.jpg'],[src='
 :is(.product-object__image,.product-feature__photograph>a,.retail-object__photograph,.gallery-room__photo,.gallery-piece__related-photo,.trade-product__photo):has(>img:is([src='/gallery/accents-travertine-bath.jpg'],[src='/gallery/living-rust-cage.jpg'],[src='/gallery/st-werkz/portoro-cylinder-cup.jpg'],[src='/gallery/clean/accents-round-tray.svg'])) {
   display: grid;
   place-items: center;
+  /* Without a fixed track the image's natural height grows the stage past its
+     aspect ratio, making this card taller than its row-mates. */
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  min-height: 0;
 }
 .piece-photographs__main:has(>img[src='/gallery/accents-travertine-bath.jpg']) {
   min-height: 300px;

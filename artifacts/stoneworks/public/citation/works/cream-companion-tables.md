@@ -1,6 +1,6 @@
 # Cream Companion Tables
 
-> Cream Companion Tables is a Pair: monolithic pedestal and brass-stem side table in Polished cream stone, satin brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Cream Companion Tables is a pair: monolithic pedestal and brass-stem side table in polished cream stone, satin brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

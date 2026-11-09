@@ -1,6 +1,6 @@
 # Travertine Monolith Reception
 
-> Travertine Monolith Reception is a Long hospitality desk on a recessed dark plinth in Honed travertine with a raw-hewn feature edge, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Travertine Monolith Reception is a long hospitality desk on a recessed dark plinth in honed travertine with a raw-hewn feature edge, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

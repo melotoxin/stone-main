@@ -96,6 +96,7 @@ export const ru: Catalog = withCatalogFallback({
     skip: 'К коллекции',
     collection: 'Коллекция',
     atelier: 'Ателье',
+    about: 'О нас',
     estimate: 'Оценка',
     enquire: 'Запрос',
     requestViewing: 'Запросить просмотр',
@@ -118,6 +119,7 @@ export const ru: Catalog = withCatalogFallback({
     languages: 'Языки',
     homeAria: 'Главная St Werkz',
     primaryNav: 'Основная навигация',
+    footerNav: 'Навигация в подвале сайта',
   },
   hint: {
     message: 'St Werkz также написан на вашем языке.',
@@ -186,6 +188,7 @@ export const ru: Catalog = withCatalogFallback({
     journeysStrategistName: 'Стратег',
     journeysStrategistBody: 'Оптовая поставка и логистика — слэбы, объём и экспортный стол.',
     journeysStrategistCta: 'Экспортный стол',
+    aboutCta: 'О студии',
   },
   collection: {
     kicker: 'Коллекция / пять залов',

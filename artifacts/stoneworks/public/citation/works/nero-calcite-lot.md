@@ -1,6 +1,6 @@
 # Nero Calcite Lot
 
-> Nero Calcite Lot is a Two faces from the same black-and-white lot in Polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Nero Calcite Lot is a two faces from the same black-and-white lot in polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

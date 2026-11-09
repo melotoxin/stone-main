@@ -1,6 +1,6 @@
 # Travertine Square-Pedestal Table
 
-> Travertine Square-Pedestal Table is a Circular top on a square stone plinth in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Square-Pedestal Table is a circular top on a square stone plinth in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

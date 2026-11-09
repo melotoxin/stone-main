@@ -1,6 +1,6 @@
 # Stepped Travertine Table
 
-> Stepped Travertine Table is a Two-tier coffee table on a crossed slab base in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Stepped Travertine Table is a two-tier coffee table on a crossed slab base in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

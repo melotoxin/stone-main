@@ -1,6 +1,6 @@
 # Travertine Disc Tray
 
-> Travertine Disc Tray is a Shallow circular tray with a straight rim in Honed porous travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Disc Tray is a shallow circular tray with a straight rim in honed porous travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

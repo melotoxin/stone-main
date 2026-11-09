@@ -1,6 +1,6 @@
 # Travertine Cube Table
 
-> Travertine Cube Table is a Cubic pedestal on a recessed plinth in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Cube Table is a cubic pedestal on a recessed plinth in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

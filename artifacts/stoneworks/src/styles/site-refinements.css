@@ -47,6 +47,20 @@
 .site-footer__desks section { padding: 6px 0 28px; }
 .site-footer__desks section > p { color: #9d9385; }
 .site-footer__bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px 32px; padding-top: 22px; }
+/* Arabic and Urdu: negative heading tracking collapses word spaces in joined
+   scripts ("طاولةنيرو"), so headings use the font's own spacing there. */
+html[lang^="ar"] :is(h1, h2, h3, h4, h5, h6, .font-display),
+html[lang^="ur"] :is(h1, h2, h3, h4, h5, h6, .font-display) { letter-spacing: normal; }
+/* Phone numbers are left-to-right tokens; isolate them so an RTL page doesn't
+   reorder "+92 304 7689678" into "7689678 304 92+". In RTL, reverse flex links
+   so their icon stays on the reading side despite the LTR direction. */
+a[href^="tel:"] { unicode-bidi: isolate; direction: ltr; }
+html[dir="rtl"] a[href^="tel:"] { flex-direction: row-reverse; text-align: right; }
+/* The estimate page's fixed bottom action bar (phones/tablets) would otherwise
+   cover the last ~88px of the footer; reserve that space while it's shown. */
+@media (max-width: 1023px) {
+  .site-shell:has(.estimate-mobile-bar) { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+}
 @media (min-width: 1200px) {
   .site-shell[data-page="interior"] .luxury-nav { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: clamp(24px, 3vw, 50px); }
   .site-shell[data-page="interior"] .luxury-nav__links { position: static; justify-content: center; gap: clamp(18px, 1.6vw, 32px); margin: 0; }

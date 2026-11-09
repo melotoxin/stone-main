@@ -1,6 +1,6 @@
 # Noir Gold Circular Top
 
-> Noir Gold Circular Top is a Circular tabletop, photographed in the yard in Polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Noir Gold Circular Top is a circular tabletop, photographed in the yard in polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

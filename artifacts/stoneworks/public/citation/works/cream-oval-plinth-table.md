@@ -1,6 +1,6 @@
 # Cream Oval Plinth Table
 
-> Cream Oval Plinth Table is a Oval coffee table on an offset slab base in Polished cream marble or onyx with tan veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Cream Oval Plinth Table is an oval coffee table on an offset slab base in polished cream marble or onyx with tan veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Nero X-Frame Dining Table
 
-> Nero X-Frame Dining Table is a Rounded-rectangle top on an X-frame in Polished black marble with white veining, black metal trestle, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Nero X-Frame Dining Table is a rounded-rectangle top on an X-frame in polished black marble with white veining, black metal trestle, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

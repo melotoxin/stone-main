@@ -1,4 +1,5 @@
 import { pieces, rooms, studio, pieceHref, type Piece, type RoomSlug } from './gallery';
+import { midSentence, withArticle } from '../lib/phrase';
 import {
   evidenceKinds,
   finishes,
@@ -283,7 +284,7 @@ export function getWorkStructure(slug: string): WorkStructure {
 
 export function citeStatement(piece: Piece, structure: WorkStructure) {
   const dim = piece.dimensions ? ` Dimensions: ${piece.dimensions}.` : '';
-  return `${piece.title} is a ${piece.form} in ${piece.material}, made by St Werkz under ${principal.name} in Karachi.${dim} Evidence: ${evidenceLabel(structure.evidence).toLowerCase()}.`;
+  return `${piece.title} is ${withArticle(midSentence(piece.form))} in ${midSentence(piece.material)}, made by St Werkz under ${principal.name} in Karachi.${dim} Evidence: ${evidenceLabel(structure.evidence).toLowerCase()}.`;
 }
 
 export function howToCite(piece: Piece) {

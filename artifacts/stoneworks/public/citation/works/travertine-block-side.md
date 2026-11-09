@@ -1,6 +1,6 @@
 # Travertine Block Side Table
 
-> Travertine Block Side Table is a Thick rectangular top on a solid upright in Honed unfilled travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Block Side Table is a thick rectangular top on a solid upright in honed unfilled travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

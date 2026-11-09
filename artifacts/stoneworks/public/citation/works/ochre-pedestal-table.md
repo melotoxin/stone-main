@@ -1,6 +1,6 @@
 # Ochre & Charcoal Pedestal
 
-> Ochre & Charcoal Pedestal is a Circular top on a slender curved pedestal in Polished figured marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Ochre & Charcoal Pedestal is a circular top on a slender curved pedestal in polished figured marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

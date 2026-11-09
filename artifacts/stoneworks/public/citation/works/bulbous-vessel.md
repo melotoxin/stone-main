@@ -1,6 +1,6 @@
 # Travertine Sculptural Vessel
 
-> Travertine Sculptural Vessel is a Spherical body with a wide cylindrical neck in Hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 7" × 7" × 9". Evidence: object still.
+> Travertine Sculptural Vessel is a spherical body with a wide cylindrical neck in hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 7" × 7" × 9". Evidence: object still.
 
 | Field | Value |
 | --- | --- |

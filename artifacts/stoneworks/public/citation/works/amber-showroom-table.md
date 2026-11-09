@@ -1,6 +1,6 @@
 # Amber Vein Showroom Table
 
-> Amber Vein Showroom Table is a Thick rectangular top on a black plinth in Polished cream onyx or marble with amber veining, dark pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Amber Vein Showroom Table is a thick rectangular top on a black plinth in polished cream onyx or marble with amber veining, dark pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

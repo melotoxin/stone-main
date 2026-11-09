@@ -3,19 +3,27 @@ import { useI18n } from '@/i18n';
 
 type OfficesVariant = 'footer' | 'page' | 'home';
 
-export function OfficesList({ variant }: { variant: OfficesVariant }) {
+/**
+ * `labelledBy`: id of a heading the host page already shows. When given, the
+ * list skips its own eyebrow and intro so the page doesn't repeat them.
+ */
+export function OfficesList({ variant, labelledBy }: { variant: OfficesVariant; labelledBy?: string }) {
   const { t } = useI18n();
-  const headingId = `offices-heading-${variant}`;
+  const headingId = labelledBy ?? `offices-heading-${variant}`;
   const compact = variant === 'footer';
 
   return (
     <section aria-labelledby={headingId} data-testid={`section-offices-${variant}`}>
-      <p id={headingId} className="font-monoish text-[10px] uppercase tracking-[.16em] text-[#f6f3ec]/50">
-        {t.offices.heading} / {t.offices.headingLong}
-      </p>
-      {variant !== 'footer' ? (
-        <p className="mt-3 max-w-xl text-sm leading-6 text-[#f6f3ec]/65">{t.offices.intro}</p>
-      ) : null}
+      {labelledBy ? null : (
+        <>
+          <p id={headingId} className="font-monoish text-[10px] uppercase tracking-[.16em] text-[#f6f3ec]/50">
+            {t.offices.heading} / {t.offices.headingLong}
+          </p>
+          {variant !== 'footer' ? (
+            <p className="mt-3 max-w-xl text-sm leading-6 text-[#f6f3ec]/65">{t.offices.intro}</p>
+          ) : null}
+        </>
+      )}
       <ul
         className={
           compact

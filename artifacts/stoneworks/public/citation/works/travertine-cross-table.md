@@ -1,6 +1,6 @@
 # Travertine Cross-Base Table
 
-> Travertine Cross-Base Table is a Round top on an intersecting slab pedestal in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Travertine Cross-Base Table is a round top on an intersecting slab pedestal in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

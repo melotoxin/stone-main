@@ -1,6 +1,6 @@
 # Live-Edge Onyx Vessel
 
-> Live-Edge Onyx Vessel is a Shallow elongated bowl with a raw rim in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Live-Edge Onyx Vessel is a shallow elongated bowl with a raw rim in polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

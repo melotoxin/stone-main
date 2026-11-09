@@ -1,6 +1,6 @@
 # Portoro Gold Lot
 
-> Portoro Gold Lot is a Slab face and a book-matched inlay panel in Polished black marble with honey-gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Portoro Gold Lot is a slab face and a book-matched inlay panel in polished black marble with honey-gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

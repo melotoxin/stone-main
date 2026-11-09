@@ -1,6 +1,6 @@
 # Portoro Baluster Vase
 
-> Portoro Baluster Vase is a Classical urn with a ringed neck and pedestal foot in Polished black marble with white and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Portoro Baluster Vase is a classical urn with a ringed neck and pedestal foot in polished black marble with white and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

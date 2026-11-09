@@ -1,6 +1,6 @@
 # Travertine Candle Holders
 
-> Travertine Candle Holders is a Graduated pair, conical base and cylindrical cup in Honed natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Candle Holders is a graduated pair, conical base and cylindrical cup in honed natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

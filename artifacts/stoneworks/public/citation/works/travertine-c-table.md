@@ -1,6 +1,6 @@
 # Travertine C-Table
 
-> Travertine C-Table is a Cantilevered C-shaped side table in Honed banded travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine C-Table is a cantilevered C-shaped side table in honed banded travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

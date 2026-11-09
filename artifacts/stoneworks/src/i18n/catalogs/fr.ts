@@ -97,6 +97,7 @@ export const fr: Catalog = withCatalogFallback({
     skip: 'Aller à la collection',
     collection: 'Collection',
     atelier: 'Atelier',
+    about: 'À propos',
     estimate: 'Estimation',
     enquire: 'Demande',
     requestViewing: 'Demander une visite',
@@ -119,6 +120,7 @@ export const fr: Catalog = withCatalogFallback({
     languages: 'Langues',
     homeAria: 'Accueil St Werkz',
     primaryNav: 'Navigation principale',
+    footerNav: 'Navigation du pied de page',
   },
   hint: {
     message: 'St Werkz est aussi rédigé dans votre langue.',
@@ -187,6 +189,7 @@ export const fr: Catalog = withCatalogFallback({
     journeysStrategistName: 'Le stratège',
     journeysStrategistBody: 'Approvisionnement de gros et logistique — dalles, volume et le bureau export.',
     journeysStrategistCta: 'Bureau export',
+    aboutCta: 'Découvrir l’atelier',
   },
   collection: {
     kicker: 'La collection / cinq salles',

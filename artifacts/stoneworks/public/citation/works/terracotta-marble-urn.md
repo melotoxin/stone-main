@@ -1,6 +1,6 @@
 # Terracotta Marble Urn
 
-> Terracotta Marble Urn is a Footed urn on a square plinth in Polished charcoal marble with terracotta and cream figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Terracotta Marble Urn is a footed urn on a square plinth in polished charcoal marble with terracotta and cream figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

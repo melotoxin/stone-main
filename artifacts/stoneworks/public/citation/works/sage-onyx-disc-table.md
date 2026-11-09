@@ -1,6 +1,6 @@
 # Sage Onyx Disc Table
 
-> Sage Onyx Disc Table is a Circular coffee or side table in Polished sage onyx, brushed metal rim, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Onyx Disc Table is a circular coffee or side table in polished sage onyx, brushed metal rim, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

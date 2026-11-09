@@ -1,6 +1,6 @@
 # Travertine Cone Pedestal Table
 
-> Travertine Cone Pedestal Table is a Circular top on a tapered conical base in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Cone Pedestal Table is a circular top on a tapered conical base in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

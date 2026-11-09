@@ -1,6 +1,6 @@
 # Banded Onyx Vase
 
-> Banded Onyx Vase is a Shouldered vessel with a flared rim in Polished banded onyx in rust, amber and cream, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Banded Onyx Vase is a shouldered vessel with a flared rim in polished banded onyx in rust, amber and cream, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

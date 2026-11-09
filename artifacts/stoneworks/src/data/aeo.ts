@@ -1,4 +1,5 @@
 import { studioFaqs } from './faq';
+import { midSentence } from '../lib/phrase';
 import { studio } from './gallery';
 
 export { studioFaqs };
@@ -20,7 +21,7 @@ export const architectDefinition =
   'St Werkz helps architects and interior designers specify travertine, onyx and marble from Karachi. Support runs from the first sample to the finished room. Bring a brief or a material question to Syed Rashid Ali.';
 
 export function pieceDefinition(title: string, material: string, form: string, roomTitle: string) {
-  return `${title} is a St Werkz work in ${material}, from the ${roomTitle} room in Karachi. ${form}.`;
+  return `${title} is a St Werkz work in ${midSentence(material)}, from the ${roomTitle} room in Karachi. ${form}.`;
 }
 
 export function roomDefinition(title: string, wallText: string) {

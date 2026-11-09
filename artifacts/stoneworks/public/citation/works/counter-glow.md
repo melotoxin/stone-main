@@ -1,6 +1,6 @@
 # Travertine Counter with Underglow
 
-> Travertine Counter with Underglow is a Monolithic display or reception counter in Linear-veined travertine, recessed lit plinth, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Travertine Counter with Underglow is a monolithic display or reception counter in linear-veined travertine, recessed lit plinth, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

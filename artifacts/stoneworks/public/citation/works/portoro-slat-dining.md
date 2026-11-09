@@ -1,6 +1,6 @@
 # Portoro Slat Dining Table
 
-> Portoro Slat Dining Table is a Rectangular top on a fan of gold vertical slats in Polished noir marble with amber veining, brushed gold base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Portoro Slat Dining Table is a rectangular top on a fan of gold vertical slats in polished noir marble with amber veining, brushed gold base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

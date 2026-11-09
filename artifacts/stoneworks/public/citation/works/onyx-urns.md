@@ -1,6 +1,6 @@
 # Pair of Onyx Urns
 
-> Pair of Onyx Urns is a Classical urns with flared rims and pedestal feet in Polished banded onyx in sage, cream and rust, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Pair of Onyx Urns is a classical urns with flared rims and pedestal feet in polished banded onyx in sage, cream and rust, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

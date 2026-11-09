@@ -100,6 +100,8 @@ export function StonesPage() {
           <p className="mt-4 max-w-xl text-xs leading-6 text-[#f6f3ec]/50">{s.patternNote}</p>
         </section>
 
+        {/* Wrapper bounds the sticky filter bar so it releases when the grid ends. */}
+        <div className="stone-browser__browse">
         <section className="stone-browser__tools mx-auto max-w-[1440px] px-6 pb-10 sm:px-10 lg:px-16" aria-label={s.filterAria}>
           <div className="stone-browser__search"><label htmlFor="stone-search"><Search size={18} aria-hidden="true" /><span>{t.luxuryHome.search}</span></label><input id="stone-search" type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label={t.luxuryHome.search} placeholder={s.identify} data-testid="input-stone-search" /><span aria-live="polite">{rows.length}</span></div>
           <div className="flex flex-wrap gap-2">
@@ -149,6 +151,7 @@ export function StonesPage() {
             </ol>
           )}
         </section>
+        </div>
 
         <section className="border-t border-white/10 px-6 py-24 sm:px-10 sm:py-32 lg:px-16">
           <div className="mx-auto max-w-[1440px]">
@@ -170,14 +173,14 @@ export function StonesPage() {
               )}
               <Link
                 href="/export"
-                className="group inline-flex items-center gap-4 text-[10px] font-semibold uppercase tracking-[.18em] text-[#f6f3ec]/55"
+                className="group inline-flex min-h-8 items-center gap-4 text-[10px] font-semibold uppercase tracking-[.18em] text-[#f6f3ec]/55"
                 data-testid="link-stones-export"
               >
                 {s.exportCta} <ArrowRight size={15} strokeWidth={1.4} className="transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 href="/enquire"
-                className="group inline-flex items-center gap-4 text-[10px] font-semibold uppercase tracking-[.18em] text-[#f6f3ec]/55"
+                className="group inline-flex min-h-8 items-center gap-4 text-[10px] font-semibold uppercase tracking-[.18em] text-[#f6f3ec]/55"
                 data-testid="link-stones-enquire"
               >
                 {s.enquireCta} <ArrowRight size={15} strokeWidth={1.4} className="transition-transform group-hover:translate-x-1" />

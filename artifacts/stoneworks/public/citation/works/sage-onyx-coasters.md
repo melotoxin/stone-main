@@ -1,6 +1,6 @@
 # Sage Onyx Coaster Set
 
-> Sage Onyx Coaster Set is a Circular discs in a U-cut cylindrical holder in Polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Onyx Coaster Set is a circular discs in a U-cut cylindrical holder in polished banded sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

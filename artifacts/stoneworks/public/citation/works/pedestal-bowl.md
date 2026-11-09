@@ -1,6 +1,6 @@
 # Travertine Pedestal Bowl
 
-> Travertine Pedestal Bowl is a Shallow raised bowl in Natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 12" × 5". Evidence: object still.
+> Travertine Pedestal Bowl is a shallow raised bowl in natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 12" × 5". Evidence: object still.
 
 | Field | Value |
 | --- | --- |

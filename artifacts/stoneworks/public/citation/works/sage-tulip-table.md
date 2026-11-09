@@ -1,6 +1,6 @@
 # Sage Tulip Table
 
-> Sage Tulip Table is a Round accent table on a tulip stem in Polished green onyx, brushed metal pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Tulip Table is a round accent table on a tulip stem in polished green onyx, brushed metal pedestal, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -33,7 +33,7 @@ export const ar: Catalog = withCatalogFallback({
       enquire: {
         title: 'طلب معاينة — St Werkz, Karachi',
         description:
-          'اطلب معاينة في St Werkz Karachi. اكتب stoneworks014@gmail.com أو اتصل +92 304 7689678. سمِّ عملاً أو الغرفة — حديث استوديو لا سلة شراء.',
+          'اطلب معاينة في St Werkz Karachi. اكتب stoneworks014@gmail.com أو اتصل ⁦+92 304 7689678⁩. سمِّ عملاً أو الغرفة — حديث استوديو لا سلة شراء.',
       },
       estimate: {
         title: 'تقدير الاستوديو — St Werkz, Karachi',
@@ -96,6 +96,7 @@ export const ar: Catalog = withCatalogFallback({
     skip: 'انتقل إلى المجموعة',
     collection: 'المجموعة',
     atelier: 'الورشة',
+    about: 'من نحن',
     estimate: 'التقدير',
     enquire: 'الاستفسار',
     requestViewing: 'اطلب معاينة',
@@ -118,6 +119,7 @@ export const ar: Catalog = withCatalogFallback({
     languages: 'اللغات',
     homeAria: 'الصفحة الرئيسية لـ St Werkz',
     primaryNav: 'التنقّل الرئيسي',
+    footerNav: 'روابط تذييل الصفحة',
   },
   hint: {
     message: 'موقع St Werkz مكتوب أيضاً بلغتك.',
@@ -185,6 +187,7 @@ export const ar: Catalog = withCatalogFallback({
     journeysStrategistName: 'الاستراتيجي',
     journeysStrategistBody: 'توريد بالجملة ولوجستيات — ألواح وكميات ومكتب التصدير.',
     journeysStrategistCta: 'مكتب التصدير',
+    aboutCta: 'اقرأ عن الاستوديو',
   },
   collection: {
     kicker: 'المجموعة / خمس قاعات',
@@ -305,7 +308,7 @@ export const ar: Catalog = withCatalogFallback({
       {
         number: '03',
         name: 'أرسل ملاحظة إلى الاستوديو',
-        text: 'استخدم نموذج الاستفسار، أو اكتب stoneworks014@gmail.com، أو اتصل +92 304 7689678. Syed Rashid Ali يأخذ الرسالة.',
+        text: 'استخدم نموذج الاستفسار، أو اكتب stoneworks014@gmail.com، أو اتصل ⁦+92 304 7689678⁩. Syed Rashid Ali يأخذ الرسالة.',
       },
       {
         number: '04',
@@ -573,13 +576,13 @@ export const ar: Catalog = withCatalogFallback({
       id: 'where-located',
       question: 'أين يقع St Werkz؟',
       answer:
-        'يقع St Werkz في Karachi, Pakistan، في Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi. يقود Syed Rashid Ali الاستوديو. اكتب stoneworks014@gmail.com أو اتصل +92 304 7689678 لطلب معاينة أو مناقشة مشروع. الاستوديو نقطة الانطلاق للأسر والمهندسين وتجار التجزئة.',
+        'يقع St Werkz في Karachi, Pakistan، في Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi. يقود Syed Rashid Ali الاستوديو. اكتب stoneworks014@gmail.com أو اتصل ⁦+92 304 7689678⁩ لطلب معاينة أو مناقشة مشروع. الاستوديو نقطة الانطلاق للأسر والمهندسين وتجار التجزئة.',
     },
     {
       id: 'who-leads',
       question: 'من يقود St Werkz؟',
       answer:
-        'يقود Syed Rashid Ali استوديو حجر كراتشي. يأخذ أسئلة المادة وأحاديث المشروع وطلبات المعاينة. اتصل +92 304 7689678 أو اكتب stoneworks014@gmail.com. الاستوديو في Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.',
+        'يقود Syed Rashid Ali استوديو حجر كراتشي. يأخذ أسئلة المادة وأحاديث المشروع وطلبات المعاينة. اتصل ⁦+92 304 7689678⁩ أو اكتب stoneworks014@gmail.com. الاستوديو في Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi.',
     },
     {
       id: 'custom-or-collection',
@@ -591,7 +594,7 @@ export const ar: Catalog = withCatalogFallback({
       id: 'how-to-view',
       question: 'كيف أطلب معاينة في St Werkz؟',
       answer:
-        'لطلب معاينة في St Werkz افتح صفحة الاستفسار، سمِّ عملاً أو صف الغرفة، وأرسل ملاحظة. Syed Rashid Ali يأخذ الرسالة. يمكنك أيضاً مراسلة stoneworks014@gmail.com أو الاتصال +92 304 7689678. هذا حديث استوديو لا عملية شراء عبر الإنترنت.',
+        'لطلب معاينة في St Werkz افتح صفحة الاستفسار، سمِّ عملاً أو صف الغرفة، وأرسل ملاحظة. Syed Rashid Ali يأخذ الرسالة. يمكنك أيضاً مراسلة stoneworks014@gmail.com أو الاتصال ⁦+92 304 7689678⁩. هذا حديث استوديو لا عملية شراء عبر الإنترنت.',
     },
     {
       id: 'materials',

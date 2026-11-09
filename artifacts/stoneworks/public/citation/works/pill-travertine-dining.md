@@ -1,6 +1,6 @@
 # Pill Travertine Dining Table
 
-> Pill Travertine Dining Table is a Rounded-rectangle top on a cylindrical stone pedestal in Honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Pill Travertine Dining Table is a rounded-rectangle top on a cylindrical stone pedestal in honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

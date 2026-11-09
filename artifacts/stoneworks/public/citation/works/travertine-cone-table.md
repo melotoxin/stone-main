@@ -1,6 +1,6 @@
 # Travertine Cone Table
 
-> Travertine Cone Table is a Circular top on a tapered conical base in Honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Travertine Cone Table is a circular top on a tapered conical base in honed light travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Travertine Hemisphere Candle
 
-> Travertine Hemisphere Candle is a Stone dome, brass stem and tray, pillar candle in Porous cream travertine, brushed brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Hemisphere Candle is a stone dome, brass stem and tray, pillar candle in porous cream travertine, brushed brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

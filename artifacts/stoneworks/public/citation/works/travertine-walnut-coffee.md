@@ -1,6 +1,6 @@
 # Travertine Walnut Coffee Table
 
-> Travertine Walnut Coffee Table is a Circular stone top in a four-leg wood apron in Honed travertine, dark walnut frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Walnut Coffee Table is a circular stone top in a four-leg wood apron in honed travertine, dark walnut frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

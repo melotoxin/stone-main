@@ -1,6 +1,6 @@
 # Tapered Travertine Vessel
 
-> Tapered Travertine Vessel is a Shouldered cylinder with a rolled rim in Hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 5" × 5" × 10". Evidence: object still.
+> Tapered Travertine Vessel is a shouldered cylinder with a rolled rim in hand-finished natural travertine, made by St Werkz under Syed Rashid Ali in Karachi. Dimensions: 5" × 5" × 10". Evidence: object still.
 
 | Field | Value |
 | --- | --- |

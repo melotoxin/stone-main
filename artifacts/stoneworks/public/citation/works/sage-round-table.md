@@ -1,6 +1,6 @@
 # Sage Round Table
 
-> Sage Round Table is a Circular dining or café top, lifestyle still in Polished sage onyx or marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Round Table is a circular dining or café top, lifestyle still in polished sage onyx or marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

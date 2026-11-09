@@ -1,6 +1,6 @@
 # Scalloped Travertine Valet
 
-> Scalloped Travertine Valet is a Rectangular dish with notched corners in Honed pitted travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Scalloped Travertine Valet is a rectangular dish with notched corners in honed pitted travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

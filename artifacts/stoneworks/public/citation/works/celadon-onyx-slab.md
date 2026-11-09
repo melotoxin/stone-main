@@ -1,6 +1,6 @@
 # Celadon Onyx Slab
 
-> Celadon Onyx Slab is a Vertical onyx face in Polished translucent sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Celadon Onyx Slab is a vertical onyx face in polished translucent sage onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

@@ -121,6 +121,7 @@ export type Catalog = {
     languages: string;
     homeAria: string;
     primaryNav: string;
+    footerNav: string;
   };
   offices: {
     heading: string;

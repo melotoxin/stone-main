@@ -46,8 +46,8 @@ export function LanguageSwitcher({
         tap === 'hero'
           ? 'inline-flex min-h-11 items-center sm:min-h-0'
           : tap === 'menu'
-            ? 'inline-flex min-h-11 items-center'
-            : 'inline-flex min-h-11 items-center py-1';
+            ? 'inline-flex min-h-11 min-w-6 items-center justify-center'
+            : 'inline-flex min-h-11 min-w-6 items-center justify-center py-1';
       return (
         <WouterLink
           key={code}

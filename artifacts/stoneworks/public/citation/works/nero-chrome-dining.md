@@ -1,6 +1,6 @@
 # Nero Chrome Dining Table
 
-> Nero Chrome Dining Table is a Rectangular dining top on a geometric metal base in Polished black marble with white veining, chrome frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Nero Chrome Dining Table is a rectangular dining top on a geometric metal base in polished black marble with white veining, chrome frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

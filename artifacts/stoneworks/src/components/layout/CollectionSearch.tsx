@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { Link } from "wouter";
+import { useMemo, useRef, useState, type KeyboardEvent } from "react";
+import { Link, useLocation } from "wouter";
 import { Search, ArrowUpRight } from "lucide-react";
 import {
   Dialog,
@@ -15,18 +15,53 @@ export function CollectionSearch() {
   const { locale, t } = useI18n();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [, navigate] = useLocation();
+  const resultsRef = useRef<HTMLDivElement>(null);
   const results = useMemo(() => {
-    const term = query.trim().toLocaleLowerCase(locale);
-    if (!term) return [];
+    // Every word must appear somewhere, so "travertine table" finds
+    // "Travertine Walnut Coffee Table" as well as exact phrases.
+    const terms = query.trim().toLocaleLowerCase(locale).split(/\s+/).filter(Boolean);
+    if (!terms.length) return [];
     return pieces
       .filter((piece) => {
         const local = localizedPiece(piece, locale);
-        return `${local.title} ${local.material} ${piece.title} ${piece.material} ${piece.code}`
-          .toLocaleLowerCase(locale)
-          .includes(term);
+        const haystack = `${local.title} ${local.material} ${piece.title} ${piece.material} ${piece.code} ${piece.room}`
+          .toLocaleLowerCase(locale);
+        return terms.every((term) => haystack.includes(term));
       })
       .slice(0, 12);
   }, [locale, query]);
+
+  const resultLinks = () =>
+    Array.from(resultsRef.current?.querySelectorAll<HTMLAnchorElement>("a[href]") ?? []);
+
+  const onInputKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter" && results[0]) {
+      event.preventDefault();
+      setOpen(false);
+      setQuery("");
+      navigate(`/collection/${results[0].room}/${results[0].slug}`);
+    } else if (event.key === "ArrowDown") {
+      const first = resultLinks()[0];
+      if (first) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  };
+
+  const onResultsKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "ArrowDown" && event.key !== "ArrowUp") return;
+    const links = resultLinks();
+    const index = links.indexOf(document.activeElement as HTMLAnchorElement);
+    if (index === -1) return;
+    event.preventDefault();
+    if (event.key === "ArrowUp" && index === 0) {
+      event.currentTarget.closest("[role=dialog]")?.querySelector<HTMLInputElement>("input")?.focus();
+      return;
+    }
+    links[Math.min(links.length - 1, Math.max(0, index + (event.key === "ArrowDown" ? 1 : -1)))]?.focus();
+  };
 
   return (
     <Dialog
@@ -56,6 +91,8 @@ export function CollectionSearch() {
           type="search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
+          onKeyDown={onInputKeyDown}
+          enterKeyHint="search"
           aria-label={t.luxuryHome.search}
           placeholder={t.luxuryHome.searchHint}
           data-testid="input-collection-search"
@@ -68,7 +105,7 @@ export function CollectionSearch() {
             : ""}
         </div>
         {query.trim() ? (
-          <div className="collection-search__results">
+          <div className="collection-search__results" ref={resultsRef} onKeyDown={onResultsKeyDown}>
             {results.length ? (
               results.map((piece) => {
                 const local = localizedPiece(piece, locale);

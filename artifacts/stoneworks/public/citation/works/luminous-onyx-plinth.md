@@ -1,6 +1,6 @@
 # Luminous Onyx Plinth
 
-> Luminous Onyx Plinth is a Square coffee table, internally lit in Backlit white onyx with amber veining, black metal frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Luminous Onyx Plinth is a square coffee table, internally lit in backlit white onyx with amber veining, black metal frame, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

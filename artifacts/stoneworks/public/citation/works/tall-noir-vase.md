@@ -1,6 +1,6 @@
 # Tall Noir Marble Vase
 
-> Tall Noir Marble Vase is a Elongated floor or pedestal vase in Polished dark marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Tall Noir Marble Vase is an elongated floor or pedestal vase in polished dark marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

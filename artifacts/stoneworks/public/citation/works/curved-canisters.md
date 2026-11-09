@@ -1,6 +1,6 @@
 # Curved Travertine Canisters
 
-> Curved Travertine Canisters is a Pair of lidded boxes with concave ends in Honed travertine, polished white marble pulls, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Curved Travertine Canisters is a pair of lidded boxes with concave ends in honed travertine, polished white marble pulls, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

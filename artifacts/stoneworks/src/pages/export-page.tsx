@@ -13,7 +13,7 @@ import { ServiceHeader } from '@/components/layout/ServiceHeader';
 import { StoneworksMark } from '@/components/brand/StoneworksMark';
 import { PoweredByCredit } from '@/components/layout/PoweredByCredit';
 import { DocumentMeta } from '@/components/seo/DocumentMeta';
-import { exportLots, exportMailto, EXPORT_OG_IMAGE } from '@/data/export';
+import { exportLots, exportMailto, EXPORT_OG_IMAGE, lotFamilies } from '@/data/export';
 import { pieces, studio } from '@/data/gallery';
 import { documentMetaForPath } from '@/lib/page-meta';
 import '@/styles/service-refinements.css';
@@ -122,6 +122,9 @@ export function ExportPage() {
               {exportLots.map((lot, index) => {
                 const source = pieces.find((piece) => piece.slug === lot.slug);
                 const local = source ? localizedPiece(source, locale) : lot;
+                // lot.family is the English family name; show the translated one in the same position.
+                const familyIndex = lotFamilies.findIndex((family) => family.name === lot.family);
+                const familyLabel = x.lotFamilies[familyIndex]?.name ?? x.lotFamilyFigured;
                 return (
                   <article key={lot.slug} className="group" data-testid={`card-export-lot-${lot.slug}`}>
                     <Link href={lot.href} className="block">
@@ -135,7 +138,7 @@ export function ExportPage() {
                         />
                       </div>
                       <p className="mt-5 font-monoish text-[9px] text-white/45">
-                        {String(index + 1).padStart(2, '0')} / {x.lotFamilyFigured} · {x.lotStatusEvidence}
+                        {String(index + 1).padStart(2, '0')} / {familyLabel} · {x.lotStatusEvidence}
                       </p>
                       <h3 className="mt-3 font-display text-4xl leading-none">{local.title}</h3>
                       <p className="mt-3 text-[10px] uppercase tracking-[.14em] text-white/45">{local.material}</p>

@@ -1,6 +1,6 @@
 # Sage Onyx Brass Table
 
-> Sage Onyx Brass Table is a Round accent table on a vertical-rod drum in Polished green onyx, brushed brass cage, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Sage Onyx Brass Table is a round accent table on a vertical-rod drum in polished green onyx, brushed brass cage, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

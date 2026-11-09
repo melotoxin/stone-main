@@ -1,6 +1,6 @@
 # Nero Disc Tray
 
-> Nero Disc Tray is a Low circular tray with an upright rim in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Nero Disc Tray is a low circular tray with an upright rim in polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

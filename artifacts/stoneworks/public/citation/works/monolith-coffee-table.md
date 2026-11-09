@@ -1,6 +1,6 @@
 # Monolithic Travertine Coffee Table
 
-> Monolithic Travertine Coffee Table is a Thick rectangular slab on twin plinth legs in Honed travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Monolithic Travertine Coffee Table is a thick rectangular slab on twin plinth legs in honed travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

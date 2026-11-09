@@ -1,6 +1,6 @@
 # Midnight Marble Desk Suite
 
-> Midnight Marble Desk Suite is a Four-piece valet: tray, memo box, pen cup, letter rack in Polished noir marble with copper veining, brass plates, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Midnight Marble Desk Suite is a four-piece valet: tray, memo box, pen cup, letter rack in polished noir marble with copper veining, brass plates, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

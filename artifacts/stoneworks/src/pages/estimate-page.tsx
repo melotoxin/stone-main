@@ -376,7 +376,7 @@ export function EstimatePage() {
                   {t.estimate.howP3}
                 </p>
               </div>
-              <Link href="/enquire" className="mt-6 inline-flex items-center gap-2 text-[10px] uppercase tracking-[.16em]" data-testid="link-estimate-enquire-plain">
+              <Link href="/enquire" className="mt-6 inline-flex min-h-8 items-center gap-2 text-[10px] uppercase tracking-[.16em]" data-testid="link-estimate-enquire-plain">
                 {t.estimate.writeWithoutRange} <ArrowUpRight size={13} strokeWidth={1.5} />
               </Link>
             </div>
@@ -384,7 +384,7 @@ export function EstimatePage() {
         </section>
 
         {result.valid ? (
-          <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/12 bg-[#151515]/95 px-4 py-3 backdrop-blur-md lg:hidden">
+          <div className="estimate-mobile-bar fixed inset-x-0 bottom-0 z-40 border-t border-white/12 bg-[#151515]/95 px-4 py-3 backdrop-blur-md lg:hidden">
             <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-4">
               <p className="min-w-0 text-[11px] leading-4 tracking-[.04em]">
                 {SHOW_PRICING && (

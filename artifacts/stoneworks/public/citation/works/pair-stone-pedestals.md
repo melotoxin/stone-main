@@ -1,6 +1,6 @@
 # Pair of Stone Pedestals
 
-> Pair of Stone Pedestals is a Matched Doric display columns in Polished dark marble with tan figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Pair of Stone Pedestals is a matched Doric display columns in polished dark marble with tan figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

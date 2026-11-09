@@ -1,6 +1,6 @@
 # Cream Stone Gathering Table
 
-> Cream Stone Gathering Table is a Long rounded rectangle with mixed terracotta and cream chairs in Polished cream marble or onyx with sandy movement, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Cream Stone Gathering Table is a long rounded rectangle with mixed terracotta and cream chairs in polished cream marble or onyx with sandy movement, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

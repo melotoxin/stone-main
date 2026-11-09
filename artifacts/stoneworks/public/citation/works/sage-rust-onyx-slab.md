@@ -1,6 +1,6 @@
 # Sage & Rust Onyx Slab
 
-> Sage & Rust Onyx Slab is a Full-frame onyx face in Polished green onyx with rust and gold figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Sage & Rust Onyx Slab is a full-frame onyx face in polished green onyx with rust and gold figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

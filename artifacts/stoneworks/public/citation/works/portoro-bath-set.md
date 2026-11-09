@@ -1,6 +1,6 @@
 # Portoro Bath Set
 
-> Portoro Bath Set is a Tissue cover, dispenser, dish, cup and lidded jar in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Portoro Bath Set is a tissue cover, dispenser, dish, cup and lidded jar in polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

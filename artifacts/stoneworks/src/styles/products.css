@@ -2,7 +2,7 @@
   --product-ink: #292720;
   --product-muted: #716b60;
   --product-line: #c9c1b3;
-  --product-header-height: 86px;
+  --product-header-height: var(--site-header-h, 86px);
   --product-tabs-height: 76px;
   --product-serif: 'Reference Editorial', var(--app-font-serif);
   color: var(--product-ink);
@@ -91,10 +91,10 @@
 .product-enquiry > div > p:last-child { max-width: 480px; color: var(--product-muted); font-size: 12px; line-height: 1.85; }
 .product-enquiry .marble-button { flex-shrink: 0; font-size: 10px; min-height: 58px; }
 
-@media (min-width:1800px) { .products-page { --product-header-height: 102px; } }
+@media (min-width:1800px) { .products-page { --product-header-height: var(--site-header-h, 102px); } }
 @media (min-width:1600px) { .product-object-grid { grid-template-columns: repeat(4,minmax(0,1fr)); } }
 @media (max-width:1100px) {
-  .products-page { --product-header-height: 76px; }
+  .products-page { --product-header-height: var(--site-header-h, 76px); }
   .product-category-tabs { gap: 24px; }
   .product-category-tabs button { gap: 10px; }
   .product-category-tabs strong { font-size: 11px; }

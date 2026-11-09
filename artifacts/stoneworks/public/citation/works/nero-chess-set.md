@@ -1,6 +1,6 @@
 # Nero Chess Set
 
-> Nero Chess Set is a Full board with carved stone pieces in Polished black and pale figured stone, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Nero Chess Set is a full board with carved stone pieces in polished black and pale figured stone, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Honey Quartzite Slab
 
-> Honey Quartzite Slab is a Large-format slab face in Polished crystalline stone with gold and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Honey Quartzite Slab is a large-format slab face in polished crystalline stone with gold and amber veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

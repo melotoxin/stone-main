@@ -1,6 +1,6 @@
 # Nero Vein Slabs
 
-> Nero Vein Slabs is a Large-format vertical slabs in the yard in Polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
+> Nero Vein Slabs is a large-format vertical slabs in the yard in polished black marble with white calcite veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: yard / slab.
 
 | Field | Value |
 | --- | --- |

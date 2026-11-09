@@ -1,6 +1,6 @@
 # Coral-Lid Travertine Canister
 
-> Coral-Lid Travertine Canister is a Cylindrical jar with sculptural lid in Honed travertine, polished brass coral finial, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Coral-Lid Travertine Canister is a cylindrical jar with sculptural lid in honed travertine, polished brass coral finial, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

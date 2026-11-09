@@ -1,6 +1,6 @@
 # Travertine Tripod Coffee Table
 
-> Travertine Tripod Coffee Table is a Circular top on three intersecting slabs in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Tripod Coffee Table is a circular top on three intersecting slabs in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

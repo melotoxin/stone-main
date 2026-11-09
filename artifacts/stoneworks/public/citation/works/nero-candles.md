@@ -1,6 +1,6 @@
 # Nero Candle Group
 
-> Nero Candle Group is a Low dish holder and tiered pillar, with taper beyond in Polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Nero Candle Group is a low dish holder and tiered pillar, with taper beyond in polished black marble with white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

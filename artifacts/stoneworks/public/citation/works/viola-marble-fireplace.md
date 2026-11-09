@@ -1,6 +1,6 @@
 # Viola Marble Fireplace
 
-> Viola Marble Fireplace is a Carved mantel, matching hearth and wall face in Polished cream marble with rust and charcoal figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Viola Marble Fireplace is a carved mantel, matching hearth and wall face in polished cream marble with rust and charcoal figure, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

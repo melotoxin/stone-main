@@ -1,6 +1,6 @@
 # Oval Travertine Assemblage
 
-> Oval Travertine Assemblage is a Oval top on intersecting X-shaped stone pedestals in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Oval Travertine Assemblage is an oval top on intersecting X-shaped stone pedestals in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

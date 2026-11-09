@@ -354,7 +354,9 @@
   z-index: 2;
   width: 38.4%;
   max-width: 860px;
-  padding: clamp(104px, 7.65vw, 150px) 0 32px 4.4vw;
+  /* Logical padding so right-to-left pages keep the margin on their reading side. */
+  padding-block: clamp(104px, 7.65vw, 150px) 32px;
+  padding-inline: 4.4vw 0;
 }
 .luxury-eyebrow {
   display: flex;
@@ -1436,6 +1438,11 @@ html[dir="rtl"] .marble-button__arrow {
 }
 html[dir="rtl"] .luxury-hero__content {
   direction: rtl;
+}
+/* Mirror the photograph and its shading so RTL copy sits on the dark side, as it does in LTR. */
+html[dir="rtl"] .luxury-hero__photograph,
+html[dir="rtl"] .luxury-hero__blend {
+  transform: scaleX(-1);
 }
 html[lang="ar"] .luxury-hero h1,
 html[lang^="ur"] .luxury-hero h1 {

@@ -1,6 +1,6 @@
 # Copper-Vein Marble Basin
 
-> Copper-Vein Marble Basin is a Shallow circular vessel or sink in Polished black marble with copper and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Copper-Vein Marble Basin is a shallow circular vessel or sink in polished black marble with copper and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

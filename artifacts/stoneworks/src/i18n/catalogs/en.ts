@@ -7,6 +7,7 @@ import {
   viewingHowTo,
 } from '@/data/aeo';
 import { exportDefinition } from '@/data/export';
+import { midSentence, withArticle } from '@/lib/phrase';
 import { commissions, finishes as estimateFinishes, shapes, stones } from '@/data/estimate';
 import { atelierSteps, studioFaqs } from '@/data/faq';
 import { pieces, rooms } from '@/data/gallery';
@@ -78,7 +79,7 @@ export const en: Catalog = {
     },
     pieceCite: (title, form, material, evidence, dimensions) => {
       const dim = dimensions ? ` Dimensions: ${dimensions}.` : '';
-      return `${title} is a ${form} in ${material}, made by St Werkz under Syed Rashid Ali in Karachi.${dim} Evidence: ${evidence.toLowerCase()}.`;
+      return `${title} is ${withArticle(midSentence(form))} in ${midSentence(material)}, made by St Werkz under Syed Rashid Ali in Karachi.${dim} Evidence: ${evidence.toLowerCase()}.`;
     },
   },
   chrome: {
@@ -108,6 +109,7 @@ export const en: Catalog = {
     languages: 'Languages',
     homeAria: 'St Werkz home',
     primaryNav: 'Primary navigation',
+    footerNav: 'Footer navigation',
   },
   offices: {
     heading: 'Offices',
@@ -146,7 +148,7 @@ export const en: Catalog = {
     export: exportDefinition,
     origin: culturalOrigin.statement,
     piece: (title, material, form, roomTitle) =>
-      `${title} is a St Werkz work in ${material}, from the ${roomTitle} room in Karachi. ${form}.`,
+      `${title} is a St Werkz work in ${midSentence(material)}, from the ${roomTitle} room in Karachi. ${form}.`,
     room: (title, wallText) => `${title} is a room in the St Werkz collection in Karachi. ${wallText}`,
   },
   home: {
@@ -370,7 +372,7 @@ export const en: Catalog = {
     finishFallback: 'Polished (backlight needs onyx)',
   },
   retailers: {
-    heroKicker: 'STONE WERKZ / FOR RETAILERS',
+    heroKicker: 'ST WERKZ / FOR RETAILERS',
     heroTitleBefore: 'Pieces customers',
     heroTitleEm: 'come back for.',
     heroCta: 'Open a trade conversation',
@@ -391,7 +393,7 @@ export const en: Catalog = {
     contactTitleBefore: 'Let’s build a',
     contactTitleEm: 'better shelf.',
     contactBody: 'Tell us about your store, the customer you serve and the kind of collection you want to put in front of them.',
-    contactCard: 'CONTACT STONE WERKZ',
+    contactCard: 'CONTACT ST WERKZ',
     emailStudio: 'Email the studio',
     startConversation: 'Start a conversation',
     enquire: 'Enquire',
@@ -407,7 +409,7 @@ export const en: Catalog = {
     navArchitects: 'Architects & designers',
   },
   architects: {
-    heroKicker: 'STONE WERKZ / FOR ARCHITECTS',
+    heroKicker: 'ST WERKZ / FOR ARCHITECTS',
     heroTitleBefore: 'Stone with',
     heroTitleEm: 'a point of view.',
     heroCta: 'Talk through a project',
@@ -455,7 +457,7 @@ export const en: Catalog = {
     navRetailers: 'Retailers',
   },
   interiors: {
-    heroKicker: 'STONE WERKZ / FOR INTERIOR DESIGNERS',
+    heroKicker: 'ST WERKZ / FOR INTERIOR DESIGNERS',
     heroTitleBefore: 'Objects and slabs',
     heroTitleEm: 'for the room.',
     heroCta: 'Talk through an interior',

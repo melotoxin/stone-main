@@ -1,6 +1,6 @@
 # Travertine Bath Seven
 
-> Travertine Bath Seven is a Seven-piece bath set with tray, brush pot and coral-lid canister in Honed travertine, chrome and coral brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Bath Seven is a seven-piece bath set with tray, brush pot and coral-lid canister in honed travertine, chrome and coral brass, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Travertine Coaster Suite
 
-> Travertine Coaster Suite is a Four discs in a U-cut cylindrical holder in Honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Coaster Suite is a four discs in a U-cut cylindrical holder in honed beige travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

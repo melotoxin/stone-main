@@ -1,6 +1,6 @@
 # Emerald Cage Table
 
-> Emerald Cage Table is a Round side table on a vertical-rod drum in Polished sage green onyx, brass cage base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Emerald Cage Table is a round side table on a vertical-rod drum in polished sage green onyx, brass cage base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

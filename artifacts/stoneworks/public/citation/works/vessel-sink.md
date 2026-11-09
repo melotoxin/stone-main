@@ -1,6 +1,6 @@
 # Noir Gold Vessel Sink
 
-> Noir Gold Vessel Sink is a Circular countertop basin in Polished dark marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Noir Gold Vessel Sink is a circular countertop basin in polished dark marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

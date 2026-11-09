@@ -1,6 +1,6 @@
 # Nero Cylindrical Vessel
 
-> Nero Cylindrical Vessel is a Open cylinder with a thick rounded rim in Polished Nero-type black marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Nero Cylindrical Vessel is an open cylinder with a thick rounded rim in polished Nero-type black marble, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

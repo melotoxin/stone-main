@@ -1,6 +1,6 @@
 # Travertine Drum Side Table
 
-> Travertine Drum Side Table is a Circular top on a cylindrical pedestal in Honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Travertine Drum Side Table is a circular top on a cylindrical pedestal in honed cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

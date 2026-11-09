@@ -1,6 +1,6 @@
 # Portoro Bookends
 
-> Portoro Bookends is a Pair of geometric wedges in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Portoro Bookends is a pair of geometric wedges in polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

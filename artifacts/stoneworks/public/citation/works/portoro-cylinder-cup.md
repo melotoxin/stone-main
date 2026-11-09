@@ -1,6 +1,6 @@
 # Portoro Cylinder Cup
 
-> Portoro Cylinder Cup is a Open cylinder with a thick rim in Polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Portoro Cylinder Cup is an open cylinder with a thick rim in polished black marble with gold and white veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

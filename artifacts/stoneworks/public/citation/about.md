@@ -14,7 +14,7 @@ St Werkz is a Karachi material studio making furniture, objects, and architectur
 
 ## Public about page
 
-Stone Werkz is a Karachi material studio: stone sourced for scale, sculpted for one. The work covers retail handicrafts, architects and interior designers, and wholesale export from the Karachi yard. International desks: Long Island, New York; Passeig de Gràcia, Barcelona; Kuala Lumpur; Dubai. Public URL: /about
+St Werkz is a Karachi material studio: stone sourced for scale, sculpted for one. The work covers retail handicrafts, architects and interior designers, and wholesale export from the Karachi yard. International desks: Long Island, New York; Passeig de Gràcia, Barcelona; Kuala Lumpur; Dubai. Public URL: /about
 
 ## Origin
 

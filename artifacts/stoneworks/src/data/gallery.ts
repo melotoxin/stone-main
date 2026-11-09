@@ -28,7 +28,8 @@ export type Piece = {
 /** Cover for the collection index and the homepage rooms still. */
 export const galleryCover = '/gallery/st-werkz/pill-travertine-dining.jpg';
 
-export const rooms: Room[] = [
+/** Every room the studio plans; only rooms with photographed works are published (see `rooms`). */
+const roomCatalogue: Room[] = [
   {
     slug: 'marble',
     roman: 'I',
@@ -1047,6 +1048,16 @@ export const pieces: Piece[] = [
     images: ['/gallery/st-werkz/portoro-gold-slab.jpg', '/gallery/st-werkz/portoro-gold-inlay.jpg'],
   },
 ];
+
+const ROMAN_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+/**
+ * Published rooms: a room appears once it has at least one work, so the
+ * collection never advertises "00 works". Numerals follow display order.
+ */
+export const rooms: Room[] = roomCatalogue
+  .filter((room) => pieces.some((piece) => piece.room === room.slug))
+  .map((room, index) => ({ ...room, roman: ROMAN_NUMERALS[index] ?? room.roman }));
 
 export const studio = {
   name: 'Syed Rashid Ali',

@@ -1,6 +1,6 @@
 # Nero Oval Dining Table
 
-> Nero Oval Dining Table is a Oval dining top on a tapered wood frame in Polished black marble with white veining, dark wood base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Nero Oval Dining Table is an oval dining top on a tapered wood frame in polished black marble with white veining, dark wood base, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Portoro Pedestal Dining Table
 
-> Portoro Pedestal Dining Table is a Rectangular dining top on a dark pedestal in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Portoro Pedestal Dining Table is a rectangular dining top on a dark pedestal in polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |

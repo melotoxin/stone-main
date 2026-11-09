@@ -1,6 +1,6 @@
 # Onyx Chess Casket
 
-> Onyx Chess Casket is a Travel chess set in a lined presentation box in Polished white and banded onyx, velvet case, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Onyx Chess Casket is a travel chess set in a lined presentation box in polished white and banded onyx, velvet case, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

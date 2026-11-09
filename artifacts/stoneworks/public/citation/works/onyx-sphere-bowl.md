@@ -1,6 +1,6 @@
 # Onyx Sphere Bowl
 
-> Onyx Sphere Bowl is a Shallow basin raised on three stone spheres in Polished green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Onyx Sphere Bowl is a shallow basin raised on three stone spheres in polished green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

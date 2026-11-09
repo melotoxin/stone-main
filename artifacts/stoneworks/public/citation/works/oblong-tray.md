@@ -1,6 +1,6 @@
 # Oblong Travertine Tray
 
-> Oblong Travertine Tray is a Long dish with integrated rounded handles in Hand-carved cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Oblong Travertine Tray is a long dish with integrated rounded handles in hand-carved cream travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

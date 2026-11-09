@@ -1,6 +1,6 @@
 # Sage Onyx Organza Table
 
-> Sage Onyx Organza Table is a Kidney oval on twin faceted hexagonal pedestals in Polished translucent green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Sage Onyx Organza Table is a kidney oval on twin faceted hexagonal pedestals in polished translucent green onyx, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

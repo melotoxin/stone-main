@@ -1,6 +1,6 @@
 # Travertine Vanity with Gold Pump
 
-> Travertine Vanity with Gold Pump is a Tray, dispenser, tumbler, canister and soap dish in Honed beige travertine, gilt metal pump, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Travertine Vanity with Gold Pump is a tray, dispenser, tumbler, canister and soap dish in honed beige travertine, gilt metal pump, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

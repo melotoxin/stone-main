@@ -33,7 +33,7 @@ export const ur: Catalog = withCatalogFallback({
       enquire: {
         title: 'معائنہ کی درخواست — St Werkz, Karachi',
         description:
-          'St Werkz Karachi میں معائنہ کی درخواست کریں۔ stoneworks014@gmail.com لکھیں یا +92 304 7689678 پر کال کریں۔ کام یا کمرہ بتائیں — استوڈیو کی گفتگو، کارٹ نہیں۔',
+          'St Werkz Karachi میں معائنہ کی درخواست کریں۔ stoneworks014@gmail.com لکھیں یا ⁦+92 304 7689678⁩ پر کال کریں۔ کام یا کمرہ بتائیں — استوڈیو کی گفتگو، کارٹ نہیں۔',
       },
       estimate: {
         title: 'استوڈیو تخمینہ — St Werkz, Karachi',
@@ -96,6 +96,7 @@ export const ur: Catalog = withCatalogFallback({
     skip: 'مجموعے کی طرف جائیں',
     collection: 'مجموعہ',
     atelier: 'آتیلیے',
+    about: 'ہمارے بارے میں',
     estimate: 'تخمینہ',
     enquire: 'استفسار',
     requestViewing: 'معائنہ کی درخواست',
@@ -118,6 +119,7 @@ export const ur: Catalog = withCatalogFallback({
     languages: 'زبانیں',
     homeAria: 'St Werkz ہوم',
     primaryNav: 'بنیادی نیویگیشن',
+    footerNav: 'فوٹر نیویگیشن',
   },
   hint: {
     message: 'St Werkz آپ کی زبان میں بھی لکھا گیا ہے۔',
@@ -186,6 +188,7 @@ export const ur: Catalog = withCatalogFallback({
     journeysStrategistName: 'حکمت عملی والا',
     journeysStrategistBody: 'تھوک سپلائی اور لاجسٹکس — سلیب، حجم اور برآمدی ڈیسک۔',
     journeysStrategistCta: 'برآمدی ڈیسک',
+    aboutCta: 'اسٹوڈیو کے بارے میں پڑھیں',
   },
   collection: {
     kicker: 'مجموعہ / پانچ بستیاں',
@@ -306,7 +309,7 @@ export const ur: Catalog = withCatalogFallback({
       {
         number: '03',
         name: 'استوڈیو کو نوٹ بھیجیں',
-        text: 'استفسار فارم استعمال کریں، stoneworks014@gmail.com لکھیں، یا +92 304 7689678 پر کال کریں۔ Syed Rashid Ali پیغام لیتے ہیں۔',
+        text: 'استفسار فارم استعمال کریں، stoneworks014@gmail.com لکھیں، یا ⁦+92 304 7689678⁩ پر کال کریں۔ Syed Rashid Ali پیغام لیتے ہیں۔',
       },
       {
         number: '04',
@@ -574,13 +577,13 @@ export const ur: Catalog = withCatalogFallback({
       id: 'where-located',
       question: 'St Werkz کہاں واقع ہے؟',
       answer:
-        'St Werkz Karachi, Pakistan میں ہے، Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi پر۔ Syed Rashid Ali استوڈیو کی قیادت کرتے ہیں۔ معائنہ یا منصوبے کے لیے stoneworks014@gmail.com لکھیں یا +92 304 7689678 پر کال کریں۔ استوڈیو گھرانوں، معماروں اور ریٹیلرز کا نقطہ آغاز ہے۔',
+        'St Werkz Karachi, Pakistan میں ہے، Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi پر۔ Syed Rashid Ali استوڈیو کی قیادت کرتے ہیں۔ معائنہ یا منصوبے کے لیے stoneworks014@gmail.com لکھیں یا ⁦+92 304 7689678⁩ پر کال کریں۔ استوڈیو گھرانوں، معماروں اور ریٹیلرز کا نقطہ آغاز ہے۔',
     },
     {
       id: 'who-leads',
       question: 'St Werkz کی قیادت کون کرتا ہے؟',
       answer:
-        'Syed Rashid Ali کراچی اسٹون اسٹوڈیو کی قیادت کرتے ہیں۔ وہ مادی سوالات، منصوبے کی گفتگو اور معائنہ کی درخواستیں لیتے ہیں۔ +92 304 7689678 پر کال کریں یا stoneworks014@gmail.com لکھیں۔ استوڈیو Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi پر ہے۔',
+        'Syed Rashid Ali کراچی اسٹون اسٹوڈیو کی قیادت کرتے ہیں۔ وہ مادی سوالات، منصوبے کی گفتگو اور معائنہ کی درخواستیں لیتے ہیں۔ ⁦+92 304 7689678⁩ پر کال کریں یا stoneworks014@gmail.com لکھیں۔ استوڈیو Suite A-104, First Floor, Bhayani Shopping Centre, Block-M, North Nazimabad, Karachi پر ہے۔',
     },
     {
       id: 'custom-or-collection',
@@ -592,7 +595,7 @@ export const ur: Catalog = withCatalogFallback({
       id: 'how-to-view',
       question: 'St Werkz میں معائنہ کی درخواست کیسے کروں؟',
       answer:
-        'St Werkz میں معائنہ کے لیے استفسار صفحہ کھولیں، کام کا نام لیں یا کمرہ بیان کریں، اور نوٹ بھیجیں۔ Syed Rashid Ali پیغام لیتے ہیں۔ stoneworks014@gmail.com بھی لکھ سکتے ہیں یا +92 304 7689678 پر کال کر سکتے ہیں۔ یہ استوڈیو کی گفتگو ہے، آن لائن چیک آؤٹ نہیں۔',
+        'St Werkz میں معائنہ کے لیے استفسار صفحہ کھولیں، کام کا نام لیں یا کمرہ بیان کریں، اور نوٹ بھیجیں۔ Syed Rashid Ali پیغام لیتے ہیں۔ stoneworks014@gmail.com بھی لکھ سکتے ہیں یا ⁦+92 304 7689678⁩ پر کال کر سکتے ہیں۔ یہ استوڈیو کی گفتگو ہے، آن لائن چیک آؤٹ نہیں۔',
     },
     {
       id: 'materials',

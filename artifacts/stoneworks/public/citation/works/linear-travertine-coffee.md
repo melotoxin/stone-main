@@ -1,6 +1,6 @@
 # Linear Travertine Coffee Table
 
-> Linear Travertine Coffee Table is a Rectangular slab on twin block legs in Honed vein-cut travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
+> Linear Travertine Coffee Table is a rectangular slab on twin block legs in honed vein-cut travertine, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: object still.
 
 | Field | Value |
 | --- | --- |

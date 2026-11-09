@@ -345,3 +345,30 @@ html.is-zoomed .site-header {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Phone legibility and tap-size floor.
+   The desktop's 7–9px tracked labels are unreadable on a phone. These are the
+   elements a 375px scan found below 10px; each gets a floor, never a reduction.
+   !important is needed because page stylesheets set these sizes in their own
+   phone media queries with higher specificity. */
+@media (max-width: 767px) {
+  .text-\[7px\], .text-\[8px\], .text-\[9px\],
+  .luxury-eyebrow, .luxury-benefit__subtitle, .collection-eyebrow, .product-eyebrow,
+  .home-lookbook__number, .home-lookbook__photo-label,
+  .home-material-desk__selection > span, .home-material-desk__swatches button span,
+  .home-studio-note__photo figcaption span, .collection-space-links nav a > span {
+    font-size: 10px !important;
+  }
+  /* Links, button labels and descriptive lines read slightly larger. */
+  .home-lookbook .editorial-link, .home-material-desk .editorial-link, .home-studio-note .editorial-link,
+  .home-lookbook__all-spaces a, .home-lookbook__caption p,
+  .home-material-desk__actions .marble-button, .product-enquiry .marble-button {
+    font-size: 11px !important;
+  }
+  /* Standalone small links (back to top, bring a brief, phone/email cards) get a
+     comfortable touch height without changing their look. */
+  a.line-link:not(p a, li a), a[href^="tel:"], a[href^="mailto:"] {
+    min-height: 32px;
+  }
+  a.line-link:not(p a, li a) { display: inline-flex; align-items: center; }
+}

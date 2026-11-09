@@ -24,6 +24,10 @@ import '@/styles/collections.css';
 
 type RouteParams = { room?: string; piece?: string };
 
+const NUMBER_WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+/** Follows the published rooms, so the copy stays right when a room is added or hidden. */
+const roomCountWord = NUMBER_WORDS[rooms.length] ?? String(rooms.length);
+
 const materialPhotographs: Record<RoomSlug, { image: string; alt: string; caption: string }> = {
   marble: { image: '/gallery/stone-faces/black-n-gold.jpg', alt: 'Black and Gold marble sample with dark stone and warm gold veins', caption: 'Black & Gold / Marble face' },
   onyx: { image: '/gallery/stone-faces/light-green-onyx.jpg', alt: 'Light green onyx sample with soft bands of green and cream', caption: 'Light Green Onyx / Stone face' },
@@ -57,11 +61,11 @@ export function CollectionPage() {
       <main className="collection-experience collection-library">
         <section className="material-intro" aria-labelledby="collection-title">
           <div className="material-intro__copy">
-            <GalleryBreadcrumb items={[{ href: '/', label: 'Stone Werkz' }, { label: t.chrome.collection }]} />
+            <GalleryBreadcrumb items={[{ href: '/', label: 'St Werkz' }, { label: t.chrome.collection }]} />
             <p className="collection-eyebrow">ST WERKZ / THE MATERIAL LIBRARY</p>
             <h1 id="collection-title">{locale === 'en' ? <>Nature, in<br /><em>its own handwriting.</em></> : <>{t.collection.titleBefore}<em>{t.collection.titleEm}</em></>}</h1>
             <p className="speakable material-intro__description">{locale === 'en' ? 'Follow a vein. Find a colour. Discover the character of marble, onyx and travertine, from a stone face to a finished object.' : t.definitions.collection}</p>
-            <a href="#collection-materials" className="collection-link">Explore the six collections <ArrowUpRight size={18} aria-hidden="true" /></a>
+            <a href="#collection-materials" className="collection-link">Explore the {roomCountWord} collections <ArrowUpRight size={18} aria-hidden="true" /></a>
           </div>
           <div className="material-intro__samples" aria-label="Natural stone samples">
             <figure className="material-intro__sample material-intro__sample--white"><img src="/gallery/stone-faces/ziarat-white.jpg" alt="Original Ziarat White marble face with fine diagonal grey veins" width={1536} height={1024} fetchPriority="high" decoding="async" data-testid="img-collection-cover" /><figcaption>ZIARAT WHITE / MARBLE</figcaption></figure>
@@ -75,7 +79,7 @@ export function CollectionPage() {
         </nav>
 
         <section id="collection-materials" className="material-atlas" aria-labelledby="collection-materials-title">
-          <div className="material-atlas__heading"><p className="collection-eyebrow">SIX COLLECTIONS / A CLOSER LOOK</p><h2 id="collection-materials-title">The character<br /><em>is in the detail.</em></h2><p>A material to build around.<br />An object to live with.</p></div>
+          <div className="material-atlas__heading"><p className="collection-eyebrow">{roomCountWord.toUpperCase()} COLLECTIONS / A CLOSER LOOK</p><h2 id="collection-materials-title">The character<br /><em>is in the detail.</em></h2><p>A material to build around.<br />An object to live with.</p></div>
           <div className="material-atlas__grid">
             {rooms.map(room => {
               const localRoom = localizedRoom(room, locale);
@@ -115,7 +119,7 @@ export function RoomPage({ params }: { params?: RouteParams }) {
       <SiteChrome>
         <main className="mx-auto max-w-xl px-6 py-40 text-center">
           <h1 className="font-display text-5xl">{t.collection.roomNotHung}</h1>
-          <Link href="/collection" className="mt-8 inline-block text-[10px] uppercase tracking-[.2em]">{t.collection.returnCollection}</Link>
+          <Link href="/collection" className="mt-8 inline-flex min-h-8 items-center text-[10px] uppercase tracking-[.2em]">{t.collection.returnCollection}</Link>
         </main>
       </SiteChrome>
     );
@@ -125,7 +129,7 @@ export function RoomPage({ params }: { params?: RouteParams }) {
     <SiteChrome>
       <main className="gallery-room">
         <section className="gallery-room__heading" aria-labelledby="gallery-room-title">
-          <GalleryBreadcrumb items={[{ href: '/', label: 'Stone Werkz' }, { href: '/collection', label: t.chrome.collection }, { label: localRoom.title }]} />
+          <GalleryBreadcrumb items={[{ href: '/', label: 'St Werkz' }, { href: '/collection', label: t.chrome.collection }, { label: localRoom.title }]} />
           <div><p className="collection-eyebrow">{t.collection.roomLine(localRoom.roman, String(works.length).padStart(2, '0'))}</p><h1 id="gallery-room-title">{localRoom.title}</h1></div>
           <p>{t.definitions.room(localRoom.title, localRoom.wallText)}</p>
         </section>
@@ -152,7 +156,7 @@ export function PiecePage({ params }: { params?: RouteParams }) {
       <SiteChrome>
         <main className="mx-auto max-w-xl px-6 py-40 text-center">
           <h1 className="font-display text-5xl">{t.collection.workNotOnView}</h1>
-          <Link href="/collection" className="mt-8 inline-block text-[10px] uppercase tracking-[.2em]">
+          <Link href="/collection" className="mt-8 inline-flex min-h-8 items-center text-[10px] uppercase tracking-[.2em]">
             {t.collection.returnCollection}
           </Link>
         </main>
@@ -181,7 +185,7 @@ export function PiecePage({ params }: { params?: RouteParams }) {
         <section className="mx-auto max-w-[1440px] px-6 sm:px-10 lg:px-16">
           <GalleryBreadcrumb
             items={[
-              { href: '/', label: 'Stone Werkz' },
+              { href: '/', label: 'St Werkz' },
               { href: '/collection', label: t.chrome.collection },
               { href: roomHref(piece.room), label: room.title },
               { label: piece.title },

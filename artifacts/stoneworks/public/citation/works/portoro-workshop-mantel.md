@@ -1,6 +1,6 @@
 # Portoro Workshop Mantel
 
-> Portoro Workshop Mantel is a Carved fireplace surround on the workshop floor in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
+> Portoro Workshop Mantel is a carved fireplace surround on the workshop floor in polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: workshop / showroom photograph.
 
 | Field | Value |
 | --- | --- |

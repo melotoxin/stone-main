@@ -1,6 +1,6 @@
 # Noir Gold Dining Table
 
-> Noir Gold Dining Table is a Rectangular dining top with rounded corners, upholstered chairs in Polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
+> Noir Gold Dining Table is a rectangular dining top with rounded corners, upholstered chairs in polished black marble with gold veining, made by St Werkz under Syed Rashid Ali in Karachi. Evidence: installed interior.
 
 | Field | Value |
 | --- | --- |
